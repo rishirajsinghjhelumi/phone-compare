@@ -1,4 +1,5 @@
 from flask import Blueprint, request, render_template, flash, g, session, redirect, url_for
+from flask import jsonify
 from werkzeug import check_password_hash, generate_password_hash
 
 from app import db
@@ -11,13 +12,10 @@ mod = Blueprint('users', __name__, url_prefix='/users')
 @mod.route('/me/')
 @requires_login
 def home():
-  return render_template("users/profile.html", user=g.user)
+  return jsonify(g.user.getJSON())
 
 @mod.before_request
 def before_request():
-  """
-  pull user's profile from the database before every request are treated
-  """
   g.user = None
   if 'user_id' in session:
     g.user = User.query.get(session['user_id'])

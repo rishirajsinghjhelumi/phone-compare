@@ -24,5 +24,9 @@ def forbidden_page(error):
 def server_error_page(error):
     return jsonify(status = "Server Error"), 500
 
-#from app.users.views import mod as usersModule
-#app.register_blueprint(usersModule)
+# User Views
+from app.users.views import mod as usersModule
+app.register_blueprint(usersModule)
+
+
+#Phone Views

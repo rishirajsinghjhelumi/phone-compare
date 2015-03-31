@@ -22,6 +22,13 @@ class User(db.Model):
     def getRole(self):
       return USER.ROLE[self.role]
 
+    def getJSON(self):
+      jsonDict = {}
+      jsonDict['name'] = self.name
+      jsonDict['status'] = self.status
+
+      return jsonDict
+
     def __repr__(self):
         return '<User %r>' % (self.name)
         
