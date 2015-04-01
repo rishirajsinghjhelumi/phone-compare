@@ -1,6 +1,6 @@
 import json
 
-SENTIMENT_FILE = "Amazon_Sentiment.csv"
+SENTIMENT_FILE = "ParametricAnalysis/Count/Amazon.csv"
 sentimentJSON = {}
 
 def getSentimentJSON(sentiment):
