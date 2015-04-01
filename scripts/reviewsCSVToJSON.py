@@ -1,7 +1,6 @@
 import json
 
 REVIEW_FILE = "Amazon.csv"
-
 reviewJSON = {}
 
 def getAbout(about):
