@@ -1,0 +1,52 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Xolo",
+                "Handset Color": "Black",
+                "In the Box": "1 Handset, 1 Charger, 1 Battery, 1 Earphone, 1 Quick Start Guide, 1 Safety, 1 Warranty And Legal Information, 1 Usb Cable, 1 Screen Guard, 1 Flip Cover",
+                "Model ID": "Q600s",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Primary Camera": "5 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "6 Month",
+                "Warranty Summary": "1 Year"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "960 x 540 Pixels",
+                "Size": "4.5 Inches",
+                "Type": "IPS"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "8 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android vV4.4 (KitKat)",
+                "Processor": "1.2 GHz + Bcm23550, Quad Core"
+            }
+        }
+    ]
+}

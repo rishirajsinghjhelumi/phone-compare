@@ -1,0 +1,99 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Nokia",
+                "Business Features": "Pushmail  (Mail for Exchange)",
+                "Call Features": "Speed Dialing, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Battery, Handset, User Guide, Charger, Headset",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "208",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports WAV, MIDI, MP3",
+                "Ringtone": "32 Polyphonic",
+                "Video Player": "Yes, Supports H.264, ASF, AVC, 3GPP, H.263, AVI, MP4, MPEG-4"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "",
+                "Primary Camera": "Yes, 1.3 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 320 x 240, 15 fps",
+                "Zoom": "Digital Zoom - 3x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3, Supported Profiles (HFP 1.5, HSP 1.1, A2DP 1.2, OPP 1.1, PBAP 1.0, SAP, AVRCP 1.4, GAVDP 1.2, SPP 1.0, SDAP)",
+                "EDGE": "Yes, 236.8 kbps",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Nokia Xpress",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Nokia Life, Nokia Chat, Direct Chat, Facebook, Twitter, YouTube, Location and Navigation Apps: Nokia Nearby",
+                "Phone Book Memory": "1000",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "50.9x114.2x12.8 mm",
+                "Weight": "90.6 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Other Display Features": "Brightness Control, RGB Stripe",
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "480 hrs (2G)",
+                "Talk Time": "12 hrs (2G), 4 hrs (3G)",
+                "Type": "1020 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "256",
+                "Memory": "64 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "Yes",
+                "OS": "(Series 40)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100"
+            }
+        }
+    ]
+}

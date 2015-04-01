@@ -1,0 +1,89 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Intex",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model ID": "Aqua Star",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Zoom - 8x, White Balance, Scene Mode, Flash Support",
+                "Primary Camera": "Yes, 3 Megapixel",
+                "Secondary Camera": "Yes, 1.3 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Bluetooth": "Yes, v2.1, Supported Profiles (A2DP)",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Android, WAP",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes",
+                "WAP": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Audio Recorder, Flight Mode, International Call, Games",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "GSM 900: 0.836 W/Kg, DCS 1800: 1.456 W/Kg",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Pinch-to-Zoom",
+                "Size": "4 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "67.3x121x11.8 mm",
+                "Weight": "114 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "200 hrs (2G)",
+                "Talk Time": "3 hrs (2G)",
+                "Type": "Li-Ion, 1400 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v2.3.6 (Gingerbread)",
+                "Operating Freq": "GSM - 900, 1800",
+                "Processor": "1 GHz"
+            }
+        }
+    ]
+}

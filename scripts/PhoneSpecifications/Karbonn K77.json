@@ -1,0 +1,52 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Karbonn",
+                "Handset Color": "Black",
+                "In the Box": "Mobile Handset, User Guide, Charger, Battery, Warranty Card",
+                "Model Name": "K77",
+                "SIM Size": "Full Size Sim",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Warranty": {
+                "Not Covered in Warranty": "Physical damage and water damage",
+                "Warranty Service Type": "Manufacturer Warranty",
+                "Warranty Summary": "1 Year Standard Manufacturer Warranty"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "0"
+            }
+        }
+    ]
+}

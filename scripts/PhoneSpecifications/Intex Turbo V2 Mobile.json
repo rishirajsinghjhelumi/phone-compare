@@ -1,0 +1,48 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Intex",
+                "Handset Color": "Champagne",
+                "In the Box": "Handset, Battery, Charger, Headphone, Manual",
+                "Model ID": "Turbo V2 Mobile",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "USB Connectivity": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Customer Need to Contact Nearest Service Center",
+                "Warranty Summary": "1 Year Intex Manufacturer Warranty"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "56x128x13.2 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "2.8 Inches",
+                "Type": "QVGA"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "24 KB"
+            }
+        }
+    ]
+}

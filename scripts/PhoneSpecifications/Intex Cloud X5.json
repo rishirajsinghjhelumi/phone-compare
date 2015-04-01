@@ -1,0 +1,67 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Intex",
+                "Handset Color": "Blue",
+                "In the Box": "Charger, Mobile Handset, Handsfree, Battery, USB Cable, User Manual and Warranty Card",
+                "Model Name": "Cloud X5",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Motion Sensor, G-sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "Capacitive TFT"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Only Manufacturing defect",
+                "Not Covered in Warranty": "Customer dis-satisfaction,Physical/Water damage",
+                "Warranty Service Type": "Customer should visit nearest service centre as product comes with 1 Year Standard manufacturer Warranty",
+                "Warranty Summary": "1 Year Standard Manufacturer Warranty for mobile handset and 6 months for in-box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1300 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "106 MB",
+                "Memory": "106 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2.2 (Jelly Bean)",
+                "Processor": "1.2 GHz, Dual Core"
+            }
+        }
+    ]
+}

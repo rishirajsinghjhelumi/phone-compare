@@ -1,0 +1,82 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Call Features": "Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Indigo Blue",
+                "In the Box": "Handset, Battery, Charger, User Manual, Warranty Card",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "Guru E1200",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "No",
+                "Secondary Camera": "No"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "No",
+                "Ringtone": "MP3, Polyphonic"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Bluetooth": "No",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Torch, Alarm, Mobile Tracker, Fake Call, SOS Message Service",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "1000",
+                "SAR Value": "0.873 W/kg",
+                "SMS Memory": "500"
+            }
+        },
+        {
+            "Display": {
+                "Color": "65 K",
+                "Resolution": "128 x 128 Pixels",
+                "Size": "1.5 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "45.5x108x13.5 mm",
+                "Weight": "65.1 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "720 hrs (2G)",
+                "Talk Time": "8 hrs (2G)",
+                "Type": "800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "0"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

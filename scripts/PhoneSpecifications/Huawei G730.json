@@ -1,0 +1,35 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Huawei",
+                "Handset Color": "Black",
+                "In the Box": "Mobile, Charger, Battery, Data Cable, Earphone",
+                "Model Name": "G730",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "960 x 540 Pixels",
+                "Size": "5.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2100 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "4 GB"
+            }
+        }
+    ]
+}

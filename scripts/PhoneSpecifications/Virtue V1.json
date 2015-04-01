@@ -1,0 +1,74 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Virtue",
+                "Handset Color": "Black",
+                "In the Box": "Mobile \nCharger, USB cable, Silicon case, User manual",
+                "Model ID": "V1",
+                "SIM Size": "Micro SIM::Normal SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Primary Camera": "13 Megapixel",
+                "Secondary Camera": "5 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "G-sensor, Proximity sensor, Light sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Warranty Service Type": "The customer has to call the customer care for service and repair issues. We will arrange for the pick up of the Mobile phone for service",
+                "Warranty Summary": "1 Year warranty for Mobile phone, 6 months warranty for accessories. Accessories include Headset, Charger, Battery"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "76x153x6.5 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "1280x720 Pixels",
+                "Size": "5.5 Inches",
+                "Type": "OGS IPS"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion Polymer, 2600 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "16 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Mali 450",
+                "OS": "Android v4.4 (KitKat)",
+                "Processor": "1.7 GHz + ARM Cortex 7"
+            }
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Business Features": "Document Viewer, Kingsoft Office",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Grey",
+                "Model Name": "Unite A092",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD",
+                "Other Camera Features": "Fixed Focus, Flash Support, Night Mode, Zoom Level - 4x",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 1280 x 720"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports AMR, AAC, MIDI, MP3, WAV",
+                "Video Player": "Yes, Supports 3GP, H.263, H.264, MPEG4, HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "GPRS": "Yes, Class 12",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android, Opera Mini",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "21 Pre-loaded Languages, FM Recording Format: AAC, Speaker Phone, Alarm (5 with Snooze), Calculator, Calendar, Games, Bluetooth Tethering, Flight Mode",
+                "Call Memory": "Yes",
+                "Important Apps": "Apps and Widgets, Get It, M! Live, Reverie Phonebook and Smartpad",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Head - 0.32 W/Kg; At the Body - 0.29 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "G-Sensor, Proximity Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16.7 M",
+                "Other Display Features": "Crystal Glass Covering, IPS Display",
+                "Resolution": "WVGA, 800 x 480 Pixels",
+                "Size": "4 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "140 hrs (2G)",
+                "Talk Time": "5 hrs (2G)",
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8",
+                "Memory": "1 GB RAM, 8 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.3 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800; WCDMA - 2100",
+                "Processor": "1.2 GHz + MSM8212, Quad Core"
+            }
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "HTC",
+                "Business Features": "Document Viewer, Document Editor, Pushmail  (Microsoft Exchange ActiveSync), Polaris Office 5, PDF",
+                "Call Features": "Conference Call, Speed Dialing, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Silver White",
+                "Model Name": "One Max",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.7 GHz + Qualcomm Snapdragon 600, Quad Core",
+                "User Interface": "HTC Sense, HTC BlinkFeed"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Automatic Screen Rotation",
+                "Resolution": "Full HD, 1920 x 1080 Pixels",
+                "Size": "5.9 Inches"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "BSI Sensor, Dedicated HTC ImageChip 2, Smart Flash, HTC Zoe with Sequence Shot, Smile and Object Removal, HTC Share, Continuous Shooting Mode and VideoPic, Dual Capture Mode, HTC Scribble Function, IR Sensor, Fingerprint Scanner, Sweep Panorama, Zoom, Mul, Image Editor",
+                "Primary Camera": "Yes",
+                "Secondary Camera": "Yes, 2.1 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "82.5x164.5x10.29 mm",
+                "Weight": "217 g"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "585 hrs (3G)",
+                "Talk Time": "25 hrs (3G)",
+                "Type": "Li-Polymer, 3300 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "16",
+                "Memory": "2 GB RAM"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSPA+",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (APTX)",
+                "DLNA": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "GLONASS, with Google Maps",
+                "Preinstalled Browser": "Android, Google Chrome",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 a/ac/b/g/n"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Ringtone": "MP3",
+                "Sound Enhancement": "HTC Boom Sound, Dual Frontal Stereo Speakers with Built-in Amplifiers, Sense Voice",
+                "Video Player": "Yes, Supports 3G2, WMV, MP4, AVI, 3GP, Full HD"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Play, Google Drive Integration, Widgets, Google Now, YouTube, TV App, EPG Support, Gmail, Weather Update, WPS Support, Android Market",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Head - 0.813 W/Kg, At the Body - 0.211 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Gyro Sensor, Ambient Light Sensor, Digital Compass, Proximity Sensor, Fingerprint Sensor, Accelerometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BSNL-Champion",
+                "Handset Color": "Black",
+                "In the Box": "Charger, Battery, Mobile",
+                "Model ID": "SQ241",
+                "Model Name": "SQ241",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "1280 x 720 Pixels",
+                "Size": "2.401 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "512 MB"
+            }
+        }
+    ]
+}

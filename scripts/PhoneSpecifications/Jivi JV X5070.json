@@ -1,0 +1,73 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Jivi",
+                "Handset Color": "Blue & Grey",
+                "In the Box": "Handset, Charger, Headset, Battery, Manual",
+                "Model ID": "JV X5070",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "No",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Light Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "640 x 480 Pixels",
+                "Size": "2.8 Inches",
+                "Type": "QVGA"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "57x132.7x11.7 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "1 Year warranty Against Manufacturing defect ONLY",
+                "Not Covered in Warranty": "1 Year warranty Against Manufacturing defect ONLY",
+                "Warranty Service Type": "Warranty Will Be Provided",
+                "Warranty Summary": "1 Year warranty Against Manufacturing defect ONLY"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "32 MB",
+                "Memory": "1 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "ULP GeForce",
+                "OS": "Symbian (Series 60)",
+                "Processor": "1.2 GHz + Corext A23"
+            }
+        }
+    ]
+}

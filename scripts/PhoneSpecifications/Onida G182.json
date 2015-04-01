@@ -1,0 +1,71 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Onida",
+                "Handset Color": "Black",
+                "In the Box": "Mobile, Battery, Charger, Earphone",
+                "Model Name": "G182",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "2.81 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "47.8x113.2x13.9 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Warranty Service Type": "Go To Service Center",
+                "Warranty Summary": "1 Year warranty by company service center"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "256 MB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "No",
+                "Processor": "1.2 GHz + No"
+            }
+        }
+    ]
+}

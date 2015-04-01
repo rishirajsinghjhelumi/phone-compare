@@ -1,0 +1,67 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Onida",
+                "Handset Color": "grey",
+                "In the Box": "HEANDSET BATTERY CHARGER HEAD SET DATA CBLE USER MANUAL",
+                "Model Name": "G181",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "NO"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Warranty Service Type": "On-site Service. Customer needs to call the nearby Authorized Service Center, service engineer will come to the site to get the product repaired or inspected.",
+                "Warranty Summary": "ONE YEAR INDIA WARRWATY BY COMPANY SERVICE CENTER"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "13x48x114 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320x480 Pixels",
+                "Size": "1.84 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "512 MB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "No",
+                "OS": "v0",
+                "Processor": "NO"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lemon",
+                "Handset Color": "Black",
+                "In the Box": "Handsfree, Handset, Battery, Charger, Data Cable, User Mannual, Warranty Card",
+                "Model Name": "B159",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "160 x 120 Pixels",
+                "Size": "1.8 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1year manufacturers warranty on phone and on others as per rules in user mannual"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "32 MB"
+            }
+        }
+    ]
+}

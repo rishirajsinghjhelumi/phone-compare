@@ -1,0 +1,81 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lava",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Grey",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "KKT Uno",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports MP3, WAV, MIDI",
+                "Video Player": "Yes, Supports MP4, AVI, 3GP"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Flash Support",
+                "Primary Camera": "Yes, 0.3 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Auto Call Recording With Folder, Hindi and English Language Support, Audio Recording, Alarm, Privacy Protection",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "300",
+                "SMS Memory": "100"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "12.5 mm"
+            }
+        },
+        {
+            "Display": {
+                "Color": "65 K",
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "2.4 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "0"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

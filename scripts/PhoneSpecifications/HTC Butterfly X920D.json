@@ -1,0 +1,96 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "HTC",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model Name": "Butterfly X920D",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Smart Flash, Continuous Shooting, Sightseeing Mode, Front Focus, BSI Sensor, Ultra-wide Angle, Auto Focus",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 2.1 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3, WAV",
+                "Sound Enhancement": "Beats Audio",
+                "Video Player": "Yes, Supports MP4, 3GP, 3G2, WMV, Full HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSDPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "DLNA": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, GLONASS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 a/b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Lossless Audio Streaming, Media Link HD Enabled, Dedicated Amplifier Chip, Micro SIM, HDMI Connectivity, Video Stabilization, Audio Recording, VideoPic, Slow Motion Video Capture, Voice Input, TV Out Port",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Digital Compass, Proximity Sensor, Ambient Light Sensor, Gyro Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Water Resistant, Shower Proof, Corning Gorilla Glass 2",
+                "Resolution": "Full HD, 1080 x 1920 Pixels",
+                "Size": "5 Inches",
+                "Type": "Super LCD 3"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "70.5x143x9.08 mm",
+                "Weight": "140 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Polymer, 2020 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "16",
+                "Memory": "2 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.1 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.5 GHz + Qualcomm Snapdragon S4 Pro, Quad Core",
+                "User Interface": "HTC Sense 4+"
+            }
+        }
+    ]
+}

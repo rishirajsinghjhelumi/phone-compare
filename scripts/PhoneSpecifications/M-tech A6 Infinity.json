@@ -1,0 +1,71 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "M-tech",
+                "Handset Color": "Black",
+                "In the Box": "1 Handset, Charger, Battery, Hand free user Guide, Warranty Card, Usb Cable",
+                "Model Name": "A6 Infinity",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "2 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "Internet Features": "Email",
+                "USB Connectivity": "Yes, Mini USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Important Apps": "Google Play Store, Gmail, Youtube, Google Chrome",
+                "SAR Value": "900 HEAD: 0.357 W/kg BODY: 0.495 W/kg1800 HEAD: 0.236 W/kg BODY: 0.364 W/kg",
+                "Sensors": "Gravity"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Customer Needs To Call/Visit The Nearest Service Centre",
+                "Warranty Summary": "1 Year Manufacturer Warranty For Phone And 6 Months Warranty For The Accessories In The Box"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "61.9x118.2x10.52 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "HVGA"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1300 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512 MB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2 (Jelly Bean)",
+                "Processor": "1.2 GHz + 1.2GHz Dual Core, Dual Core"
+            }
+        }
+    ]
+}

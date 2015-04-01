@@ -1,0 +1,68 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BQ",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model Name": "S36",
+                "SIM Size": "Normal SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "R Sensor, G"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 ? 480 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "HVGA"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "61.8x118.8x12.4 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Manufacturer Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1600 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "130 MB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v2.3.5 (Gingerbread)",
+                "Processor": "1 GHz + SPD6820"
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Warranty Card, Battery, Charger, User Manual",
+                "Model ID": "SCH-B229/S",
+                "Model Name": "B229",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x 128 Pixels",
+                "Size": "1.52 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Reliance India Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "450 KB"
+            }
+        }
+    ]
+}

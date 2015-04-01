@@ -1,0 +1,36 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BSNL-Champion",
+                "Handset Color": "White",
+                "In the Box": "Charger, Mobile, Battery",
+                "Model Name": "DM6513",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "1280 x 720 Pixels",
+                "Size": "6.6 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 3500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "2 GB"
+            }
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Wynncom",
+                "Handset Color": "Black",
+                "In the Box": "Charger, Manual, Handset, Battery, Headset",
+                "Model Name": "W104Plus",
+                "SIM Size": "Full Size SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Manufacturer Warrenty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "5 MB"
+            }
+        }
+    ]
+}

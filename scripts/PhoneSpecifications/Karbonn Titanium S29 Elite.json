@@ -1,0 +1,84 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Karbonn",
+                "Business Features": "Document Viewer, Document Editor, Outlook Email, Office Suite",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model Name": "Titanium S29 Elite",
+                "SIM Type": "Dual Sim, GSM + WCDMA",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Auto Focus",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 1.3 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, Supported Profiles (A2DP)",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android, WAP",
+                "Tethering": "Wi-fi Hotspot",
+                "WAP": "Yes",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "CE and RoHS Certified, Touch and Swipe Gestures, Customizable Widgets, Notification Panel, Sound Recorder",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Play and Apps, Gmail, Google Search, Google Talk",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, G-Sensor, Light Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Wide Viewing Angle",
+                "Size": "5.47 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "2600 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "1 GB RAM, 4 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat)",
+                "Operating Freq": "GSM - 900, 1800; WCDMA - 2100",
+                "Processor": "1.3 GHz, Quad Core"
+            }
+        }
+    ]
+}

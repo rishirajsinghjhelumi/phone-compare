@@ -1,0 +1,87 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Conference Call, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Keypad": "Yes, Alphanumeric",
+                "Model ID": "X329",
+                "Model Name": "X329",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports AMR, AAC, MIDI, MP3, WAV",
+                "Video Player": "Yes, Supports MP4, SMV, 3GP"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Bluetooth": "Yes, v2",
+                "Preinstalled Browser": "WAP",
+                "USB Connectivity": "Yes, micro USB",
+                "WAP": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Voice Call Recording, LED Torch, English and Hindi Language Support",
+                "Call Memory": "Yes",
+                "Important Apps": "M! Live, Sokoban, Snakes, Tekris",
+                "Phone Book Memory": "300",
+                "SAR Value": "At the Head - 0.43 W/Kg, At the Body - 0.28 W/Kg",
+                "SMS Memory": "100"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "55x134x14.7 mm",
+                "Weight": "110 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "2.8 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "300 hrs (2G)",
+                "Talk Time": "6 hrs (2G)",
+                "Type": "1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 + 8 GB"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

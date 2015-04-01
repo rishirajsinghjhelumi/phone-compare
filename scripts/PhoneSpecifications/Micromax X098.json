@@ -1,0 +1,89 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Hands Free, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Red",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "X098",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports WAV, MP3",
+                "Video Player": "Yes, Supports MP4, 3GP"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Bluetooth": "Yes, v2.1",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "WAP 2.0",
+                "USB Connectivity": "Yes",
+                "WAP": "Yes, v2",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Multi-task, Games",
+                "Call Memory": "Yes",
+                "Important Apps": "M!Live, M!Zone",
+                "Phone Book Memory": "500",
+                "SAR Value": "At the Head - 1.46 W/Kg, At the Body - 1.16 W/Kg",
+                "SMS Memory": "100"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "46x108.3x16.9 mm",
+                "Weight": "87.61 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "Others, 128 x 160 Pixels",
+                "Size": "1.76 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "480 hrs (2G)",
+                "Talk Time": "7 hrs (2G)",
+                "Type": "Li-Ion, 1750 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "85.5"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

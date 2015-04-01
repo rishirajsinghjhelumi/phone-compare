@@ -1,0 +1,87 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Conference Call, Hands Free, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model Name": "Bolt A66",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Fixed Focus, Flash Support",
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "No, 0.3 Megapixel",
+                "Video Recording": "Yes, 12 fps"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV, MIDI",
+                "Video Player": "Yes, Supports 3GP, MP4, AVI"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1, Supported Profiles (EDR)",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Android, Opera Mini",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Call Memory": "Yes",
+                "Important Apps": "Spuul, Hike Messenger, Milive, Game Hub",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Head - 0.49 W/Kg, At the Body - 0.39 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "G-Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "Others, 480 x 854 Pixels",
+                "Size": "4.5 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "116 hrs (2G)",
+                "Talk Time": "4 hrs (2G)",
+                "Type": "1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "165",
+                "Memory": "512 MB RAM, 512 MB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.1.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1 GHz + SC7710G"
+            }
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lenovo",
+                "Handset Color": "Orange",
+                "In the Box": "Headset, Handset, Charger, Data Cable, User Manual",
+                "Model Name": "K900 32 GB",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Primary Camera": "Yes, 13 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Accelerometer, Compass, Proximity Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Warranty Service Type": "Customer needs to Visit Authorized Service Center",
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories Lenovo India Warranty"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "78x157x6.9 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "1920 x 1080 Pixels",
+                "Size": "5.5 Inches",
+                "Type": "Corning Gorilla Glass 2, Multi-touch, IPS Display"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "32 GB",
+                "Memory": "2 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "PowerVR SGX544",
+                "OS": "Android v4.2 (Jelly Bean)",
+                "Processor": "2 GHz + The Intel Atom? Z2580 Dual Core processor, Dual Core"
+            }
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Josh",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Charger, Headset, Battery, Manual",
+                "Model Name": "JB007-B",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "2.6 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "0"
+            }
+        }
+    ]
+}

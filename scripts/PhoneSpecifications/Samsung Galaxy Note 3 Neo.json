@@ -1,0 +1,94 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Business Features": "Document Viewer",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Mint Green",
+                "Model Name": "Galaxy Note 3 Neo",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.3 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.7 GHz + 1.3 GHz + Hexa Core (A15 + A7)"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "5.5 Inches",
+                "Type": "Super AMOLED"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080, 30 fps"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "77.4x148.4x8.6 mm",
+                "Weight": "162.5 g"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 3100 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "16",
+                "Memory": "2 GB RAM",
+                "User Memory": "11 GB"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (LE)",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "GPS, GLONASS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Wifi": "Yes, 802.11 a/b/g/n/ac"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports AAC, AAC+, eAAC+, FLAC, AMR-NB / WB, WAV, Vorbis, MP3, WMA",
+                "Video Player": "Yes, Supports H.264, MP43, VP8, WMV8, H.263, MPEG-4, VC-1, Sorenson Spark, WMV7, Full HD"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Mobile Services: Chrome, Search, Gmail, Google Plus, Play Books, Play Movies, Play Music, Play Store, Hangouts, Voice Search, YouTube, Google Settings, Play Games, Messenger, ChatON, Samsung Apps",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Gyroscope, Compass, Light Sensor, Accelerometer, Hall Sensor, Proximity Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        }
+    ]
+}

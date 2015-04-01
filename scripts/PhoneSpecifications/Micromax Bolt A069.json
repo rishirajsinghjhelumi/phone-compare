@@ -1,0 +1,86 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Yellow",
+                "Model ID": "A069",
+                "Model Name": "Bolt A069",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Other Camera Features": "Flash Support, Fixed Focus, Night Mode, Zoom Level - 4x",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 1280 x 720"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports AMR, MIDI, MP3, AAC, WAV",
+                "Video Player": "Yes, Supports MP4, 3GP, HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "GPRS": "Yes, Class 12",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Calculator, Calendar",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "Others, 480 x 854 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "210 hrs (2G)",
+                "Talk Time": "7 hrs (2G)",
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "512 MB RAM, 4 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Operating Freq": "GSM - 900, 1800",
+                "Processor": "1.3 GHz, Dual Core"
+            }
+        }
+    ]
+}

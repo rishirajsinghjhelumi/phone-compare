@@ -1,0 +1,35 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "XElectron",
+                "Handset Color": "Black",
+                "In the Box": "Battery, Mobile with charger, User manual, Head Phone",
+                "Model Name": "M007",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "1.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 450 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "16 MB"
+            }
+        }
+    ]
+}

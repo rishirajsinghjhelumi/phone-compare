@@ -1,0 +1,84 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model Name": "Bolt A71",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Fixed Focus, Zoom Level - 7, Brightness Level - 6",
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MIDI, MP3, WAV",
+                "Video Player": "Yes, Supports MP4, 3GP, AVI"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Bluetooth": "Yes, v2.1, Supported Profiles (EDR, A2DP)",
+                "Preinstalled Browser": "Android",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "WVGA, 480 x 800 Pixels",
+                "Size": "5 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "78.6x148.9x10 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "200 hrs (2G)",
+                "Talk Time": "5 hrs (2G)",
+                "Type": "Li-Ion, 2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "165",
+                "Memory": "512 MB RAM, 512 MB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.1.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1 GHz + ARM Cortex-A5"
+            }
+        }
+    ]
+}

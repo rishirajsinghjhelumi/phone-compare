@@ -1,0 +1,97 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Karbonn",
+                "Call Features": "Hands Free, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White and Silver",
+                "In the Box": "Handset, Warranty Card, Charger, Headset, Battery, User Manual, Data Cable",
+                "Model Name": "A52 plus",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MIDI, MP3",
+                "Video Player": "Yes, Supports MP4, 3GP"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Flash Support",
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "Yes",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes",
+                "Charging Point": "Micro USB Charging",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Android, Opera Mini",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Calculator, Alarm, Calendar, Mute Mode",
+                "Call Memory": "Yes",
+                "Important Apps": "Flipkart Shopping, Flipkart Ebooks",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "0.772 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "G-Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "61.8x115.7x10.5 mm",
+                "Weight": "100 g"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "HVGA, 480 x 320 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "IPS"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "100 hrs (2G)",
+                "Type": "Li-Ion, 1300 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "512 MB RAM, 4 GB ROM",
+                "User Memory": "2.5 GB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800",
+                "Processor": "1.2 GHz + MTK, Dual Core"
+            }
+        }
+    ]
+}

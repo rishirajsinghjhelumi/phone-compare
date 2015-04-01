@@ -1,0 +1,70 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Forme",
+                "Handset Color": "Black & Silver",
+                "In the Box": "Handset, Charger, Battery, Headset, Warranty Card, User Manual",
+                "Model ID": "P10+",
+                "Model Name": "Surprise",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Proximity Sensor, G-Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "4 Inches",
+                "Type": "Capactive Touch Screen"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "63.8x12.2x119 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Authorized service centre",
+                "Warranty Summary": "1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in The Box Accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1350 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v2.3.5 (Gingerbread)"
+            }
+        }
+    ]
+}

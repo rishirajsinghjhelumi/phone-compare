@@ -1,0 +1,48 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Handset Color": "Grey",
+                "In the Box": "1 MobileCharger, Battery, Handsfree, USB Cable, User Guide, Warranty Card",
+                "Model ID": "X2410",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "0.3 Megapixel",
+                "Secondary Camera": "0.08 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 X 240 Pixels",
+                "Size": "2.4 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "6 Month",
+                "Warranty Summary": "1 Year"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "0$$MB"
+            }
+        }
+    ]
+}

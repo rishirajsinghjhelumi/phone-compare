@@ -1,0 +1,30 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Karbonn",
+                "Handset Color": "White",
+                "In the Box": "Mobile",
+                "Model ID": "A8 Star",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 320 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "1200 mAh Battery, 1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "2$$GB"
+            }
+        }
+    ]
+}

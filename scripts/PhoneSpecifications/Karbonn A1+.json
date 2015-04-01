@@ -1,0 +1,98 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Karbonn",
+                "Call Features": "Conference Call, Speed Dialing, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model Name": "A1 Plus",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Flitter Around Images",
+                "Primary Camera": "Yes, 3 Megapixel",
+                "Secondary Camera": "Yes",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, MIDI, WAV",
+                "Ringtone": "64 Polyphonic, MP3",
+                "Video Player": "Yes, Supports H.263, H.264, AVI, 3GP, MP4"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "WAP",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes",
+                "WAP": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "MMS Enabled, Games, Caller ID with Photo, Power On or Off Animation, Mobile TV, Multi Language Support, Calculator, Alarm Clock, Stopwatch, World Times, Voice Recorder, Currency Converter, Health Management, Phone Security",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Play, Android Market, Gmail, Google Search, Flickr, Twitter, Picasa, Yahoo, Google Talk, MSN, Yahoo Messenger, Facebook, NextGtv, Economic Times, TOI, WhatsApp, Bing, PayTM, Skype",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "0.663 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "G-Sensor, Proximity Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Other Display Features": "Multi-touch, Pinch-to-Zoom",
+                "Resolution": "HVGA, 320 x 480 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "60.6x114.5x13.8 mm",
+                "Weight": "130 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "240 hrs (2G)",
+                "Talk Time": "4 hrs (2G)",
+                "Type": "1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "256",
+                "Memory": "256 MB RAM",
+                "User Memory": "165 MB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v2.3 (Gingerbread)",
+                "Operating Freq": "GSM - 900, 1800, 1900",
+                "Processor": "1 GHz"
+            }
+        }
+    ]
+}

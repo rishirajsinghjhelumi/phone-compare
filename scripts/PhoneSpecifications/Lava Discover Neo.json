@@ -1,0 +1,73 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lava",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model Name": "Discover Neo",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 1.3 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports AMR, WAV, MP3",
+                "Video Player": "Yes, Supports 3GP, H.264, MP4, AVI"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Alarm, Auto Call Recording, Games",
+                "Call Memory": "Yes",
+                "Important Apps": "Facebook, Khidki, Lock D Block, Smash N Win",
+                "Phone Book Memory": "500",
+                "SMS Memory": "100"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "HVGA, 480 x 320 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "250 hrs (2G)",
+                "Talk Time": "9 hrs (2G)",
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "0"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

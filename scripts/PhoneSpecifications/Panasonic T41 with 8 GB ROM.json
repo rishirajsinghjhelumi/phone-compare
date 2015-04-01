@@ -1,0 +1,89 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Panasonic",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model ID": "T41 with 8 GB ROM",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim, GSM + WCDMA",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "Auto Focus",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Bluetooth": "Yes, v4, Supported Profiles (A2DP)",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "Wi-fi Hotspot",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Non-removable Battery, Wi-Fi Direct, Immersive Mode for Full Screen Reading",
+                "Call Memory": "Yes",
+                "Important Apps": "POP-I Player - Multi-tasking Video Application, Pop-i Mode, Drag-n-play, Smart Play, Music Cafe - Music Library Organizer",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Light Sensor, Accelerometer"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "IPS Display, Gesture Play - Draw to Unlock",
+                "Resolution": "Others, 480 x 854 Pixels",
+                "Size": "4.5 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "65.9x131x8.3 mm",
+                "Weight": "120 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Polymer, 1650 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8",
+                "Memory": "512 MB RAM, 8 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Operating Freq": "GSM - 900, 1800; WCDMA - 2100",
+                "Processor": "1.3 GHz, Quad Core"
+            }
+        }
+    ]
+}

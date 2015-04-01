@@ -1,0 +1,92 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Business Features": "Document Viewer, Kingsoft Office",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White and Gold",
+                "Model ID": "A093",
+                "Model Name": "Canvas Fire",
+                "SIM Size": "Micro SIM and Mini SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Flash Support, Resolution: 2560 x 1920",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MIDI, AMR, MP3, AAC, WAV",
+                "Sound Enhancement": "Dual Firing Front Speakers",
+                "Video Player": "Yes, Supports MP4, M4V, 3GPP, Full HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, HSPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android, Opera Mini",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Game Club, 21 Pre-loaded Languages",
+                "Call Memory": "Yes",
+                "Important Apps": "Pre-loaded Apps, M! Live, Giga Jump, Marble, MAd App, M! Insurance, M! Games, Okay Google, Google Docs, Google Drive Account, Get It, Hike, M! Security",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "G-Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Twisted Nematic Display, Vivid Display",
+                "Resolution": "WVGA, 800 x 480 Pixels",
+                "Size": "4 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "180 hrs (2G)",
+                "Talk Time": "7 hrs (2G)",
+                "Type": "1750 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "2.25",
+                "Memory": "512 MB RAM, 4 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; WCDMA - 2100",
+                "Processor": "1.3 GHz + MT6582M, Quad Core"
+            }
+        }
+    ]
+}

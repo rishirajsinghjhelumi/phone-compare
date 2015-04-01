@@ -1,0 +1,100 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Karbonn",
+                "Business Features": "Document Viewer, Pushmail",
+                "Call Features": "Conference Call, Hands Free, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model Name": "S1 Titanium",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "Auto Focus, Geo-tagging",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, MIDI, WAV",
+                "Ringtone": "MP3, WAV",
+                "Video Player": "Yes, Supports 3GP, MP4, H.264, H.263, WMV, AVI"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "WAP, Android",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "WAP": "Yes",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "MMS and EMS Enabled, Power On or Off Animation, Caller ID, Embedded Games, Mobile TV, Multi Language Support, Calculator, Alarm, Stopwatch, World Times, Voice Recorder, Voice Input",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Play, Skype",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "0.506 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Multi-touchscreen",
+                "Resolution": "qHD, 540 x 960 Pixels",
+                "Size": "4.4 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "66x134.6x9.25 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "200 hrs (2G)",
+                "Talk Time": "4 hrs (2G)",
+                "Type": "Li-Ion, 1600 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "Yes",
+                "OS": "Android v4.1 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.2 GHz, Quad Core"
+            }
+        }
+    ]
+}

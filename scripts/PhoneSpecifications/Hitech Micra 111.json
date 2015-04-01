@@ -1,0 +1,52 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Hitech",
+                "Handset Color": "Black",
+                "In the Box": "Mobile, Earphone, Battery, Charger",
+                "Model Name": "Micra 111",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "No",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x 160 Pixels",
+                "Size": "1.77 Inches",
+                "Type": "QQVGA"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Customer need to call or visit near by service center.",
+                "Warranty Service Type": "Customer needs to call the nearby Authorized Service Centre",
+                "Warranty Summary": "1 Year Hitech Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "32 MB"
+            }
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Karbonn",
+                "Call Features": "Conference Call, Speed Dialing, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black and Red",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "Symphony",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports MP3, MIDI, WAV",
+                "Ringtone": "MP3",
+                "Video Player": "Yes, Supports MP4, 3GP"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes",
+                "GPRS": "Yes",
+                "Preinstalled Browser": "WAP",
+                "USB Connectivity": "Yes",
+                "WAP": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "1000",
+                "SMS Memory": "500"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "QVGA, 240 x 320 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "48x118x12.8 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "300 hrs (2G)",
+                "Talk Time": "3 hrs (2G)",
+                "Type": "1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 4 GB",
+                "Internal": "0"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "Yes",
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

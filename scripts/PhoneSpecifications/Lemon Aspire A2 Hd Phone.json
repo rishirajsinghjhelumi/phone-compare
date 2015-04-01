@@ -1,0 +1,57 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lemon",
+                "Handset Color": "Black",
+                "In the Box": "User Mannual, Handset, Handsfree, Charger, Warranty Card, Data Cable, Battery",
+                "Model Name": "Aspire A2 Hd Phone",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1year manufacturers warranty on phone and on others as per rules in user mannual"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "1280 x 720 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "4 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2 (Jelly Bean)",
+                "Processor": "1.2 GHz, Quad Core"
+            }
+        }
+    ]
+}

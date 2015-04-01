@@ -1,0 +1,65 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Intex",
+                "Handset Color": "White",
+                "In the Box": "Charger, Handset, Warranty Card, Earphone, Battery, Flip Cover, USB Cable, User Manual",
+                "Model Name": "Cloud Z6",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes, micro USB"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Proximity Sensor, Motion Sensor, Accelerometer"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 854 Pixels",
+                "Size": "5 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "145x74x9.9 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-ion, 2100 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "4 GB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.0 (Ice Cream Sandwich)",
+                "Processor": "Dual Core"
+            }
+        }
+    ]
+}

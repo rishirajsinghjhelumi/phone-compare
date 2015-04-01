@@ -1,0 +1,96 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Data Cable, User Guide, Handset, Battery, Warranty Card, Headset, Charger",
+                "Model Name": "Bolt A62",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV",
+                "Video Player": "Yes, Supports MP4, AVI, 3GP"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Zoom Level - 7, Brightness Level - 7, Auto Focus, Night Mode, Multi-shot",
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 352 x 288"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2, Supported Profiles (FTP, A2DP)",
+                "EDGE": "Yes",
+                "GPRS": "Yes, Class 12",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Android, WAP 2.0",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes",
+                "WAP": "Yes, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "One Touch Copy / Paste, Hindi and English Language Support, MMS Enabled, Live Streaming Support, World Clock, Alarm, Calculator, Calendar, Bookmarks, Background Music During Voice Call",
+                "Call Memory": "Yes",
+                "Important Apps": "Preloaded Apps, Gmail",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Gravity Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "67.2x121.7x12.2 mm",
+                "Weight": "85 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "HVGA, 320 x 480 Pixels",
+                "Size": "3.95 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "120 hrs (2G)",
+                "Talk Time": "4 hrs (2G)",
+                "Type": "Li-Ion, 1350 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "202",
+                "Memory": "256 MB RAM, 512 MB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v2.3.5 (Gingerbread)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900",
+                "Processor": "1 GHz"
+            }
+        }
+    ]
+}

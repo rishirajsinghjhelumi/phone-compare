@@ -1,0 +1,50 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Hitech",
+                "Handset Color": "White",
+                "In the Box": "Mobile, Battery, Earphone, Battery Charger, Manual, Service Center List",
+                "Model ID": "Youth HT885",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "4 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Not Covered in Warranty": "Warranty does not cover any external accessories (such as battery, cable, carrying bag), damage caused to the product due to improper installation by customer, normal wear and tear to magnetic heads, audio, video, laser pick-ups and TV picture tubes, pane",
+                "Warranty Service Type": "Customer needs to call the nearby Authorized Service Center.",
+                "Warranty Summary": "1 Year Hitech Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "128 MB"
+            }
+        }
+    ]
+}

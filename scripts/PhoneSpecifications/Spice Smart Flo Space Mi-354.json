@@ -1,0 +1,98 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Spice",
+                "Business Features": "VOIP Support, Pushmail",
+                "Call Features": "Conference Call, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "In the Box": "Charger, Service Center List, Handset, Battery, User Manual, Headset, Data Cable",
+                "Model Name": "Smartflo Space Mi-354",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Ringtone": "MP3, WAV, MIDI",
+                "Video Player": "Yes, Supports MP4, 3GP"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Night Shot, Zoom, Panorama Shoot",
+                "Primary Camera": "Yes, 3 Megapixel",
+                "Secondary Camera": "Yes, 1.3 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "WhatsApp, Spice Cloud: 2GB with Remote Lock, Skype, Play Store, VAS Apps, Spice Gang, Google Talk, YouTube, Google",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "0.725 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "G-Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "60.8x118.2x12.35 mm"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Brightness, Auto-rotate Screen",
+                "Resolution": "HVGA, 320 x 480 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "200 hrs (2G)",
+                "Talk Time": "6 hrs (2G)",
+                "Type": "1450 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512",
+                "Memory": "256 MB RAM, 512 MB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800",
+                "Processor": "1 GHz, Dual Core"
+            }
+        }
+    ]
+}

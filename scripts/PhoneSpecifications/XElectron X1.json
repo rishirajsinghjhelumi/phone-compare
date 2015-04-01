@@ -1,0 +1,35 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "XElectron",
+                "Handset Color": "White",
+                "In the Box": "Mobile with charger, Head Phone, User manual, Battery",
+                "Model Name": "X1",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "2.2 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1700 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "48 MB"
+            }
+        }
+    ]
+}

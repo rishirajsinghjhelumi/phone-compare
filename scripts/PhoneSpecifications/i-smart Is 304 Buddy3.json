@@ -1,0 +1,58 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "i-smart",
+                "Handset Color": "Black",
+                "In the Box": "Mobile, Earphone, Charger, User Mannual, Battery, Data Cable",
+                "Model Name": "Is 304 Buddy3",
+                "SIM Size": "normal",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Not Covered in Warranty": "warranty does not cover any external accessories (such as battery, cable, carrying bag), damage caused to the product due to improper installation by customer, normal wear and tear to magnetic heads, audio, video, laser pick-ups and TV picture tubes, pane",
+                "Warranty Service Type": "on-site Service. Customer needs to call the nearby Authorized Service Center",
+                "Warranty Summary": "1 year warranty"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "66.8x125.8x10.18 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240x320 Pixels",
+                "Size": "4 Inches",
+                "Type": "WHVGA"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1400 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "128 MB"
+            }
+        }
+    ]
+}

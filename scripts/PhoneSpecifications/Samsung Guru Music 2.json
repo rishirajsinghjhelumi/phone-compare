@@ -1,0 +1,31 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Handset Color": "Blue",
+                "In the Box": "Mobile",
+                "Model ID": "SM-B310E",
+                "Model Name": "Guru Music 2",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x 160 Pixels",
+                "Size": "2 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-ion, 800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "0"
+            }
+        }
+    ]
+}

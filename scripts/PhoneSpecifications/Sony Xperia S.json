@@ -1,0 +1,108 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Sony",
+                "Business Features": "Document Viewer, Document Editor, Pushmail  (Microsoft Exchange Active Sync, Google Sync)",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Battery, Charger, Headphone, Data Cable, HDMI Cable, Leather Case, Warranty Card",
+                "Model Name": "Xperia S",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports WAV, MP3, eAAC",
+                "Ringtone": "MP3, Polyphonic",
+                "Sound Enhancement": "xLoud Audio Filter Technology, 3D Surround Sound",
+                "Video Player": "Yes, Supports MP4, 3GPP, H.263, H.264, WMV, Full HD, HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Auto Focus, 3D Sweep Panorama, Face Recognition and Smile Shutter, Image Stabilization, Geo-tagging, Red Eye Reduction",
+                "Primary Camera": "Yes, 12.1 Megapixel",
+                "Secondary Camera": "Yes, 1.3 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080, 30 fps",
+                "Zoom": "Digital Zoom - 16x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 14.4 Mbps HSDPA; 5.8 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1, Supported Profiles (EDR, A2DP 1.2, HFP 1.5, HSP 1.1, OPP 1.1, PAP 1.0)",
+                "DLNA": "Yes",
+                "EDGE": "Yes, 237 kbps",
+                "GPRS": "Yes, 86 kbps",
+                "HDMI Port": "Yes",
+                "Internet Features": "Email, Adobe Flash 11",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Android Market, Google Search, Google Voice Search, Facebook, Google Talk with Video Chat, Twitter, Google Mail, Google Calendar, Google Gallery 3D",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor, Digital Compass, Gyro Sensor, CMOS Sensor, Ambient Light Sensor, Magnetometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "64x128x10.6 mm",
+                "Weight": "144 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Scratch Resistant, Shatter Proof Sheet on Mineral Glass, Bravia Engine, Auto Rotation, Gesture Input",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "4.3 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "420 hrs (2G)",
+                "Talk Time": "8 hrs (2G)",
+                "Type": "Li-Ion, 1750 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "32",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 220",
+                "Java": "Yes",
+                "OS": "Android v2.3 (Gingerbread), Upgradable to v4.0 (Ice Cream Sandwich)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.5 GHz + Qualcomm Scorpion, Dual Core",
+                "User Interface": "Timescape"
+            }
+        }
+    ]
+}

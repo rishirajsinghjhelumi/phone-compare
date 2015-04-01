@@ -1,0 +1,48 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BlackBerry",
+                "Handset Color": "Grey",
+                "In the Box": "Handset, Charger, Battery, Manual",
+                "Model Name": "Curve 8310",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 240 Pixels",
+                "Size": "2.3 Inches",
+                "Type": "65K colors"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Repair",
+                "Warranty Summary": "3 months Seller Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1100 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 4 GB",
+                "Internal": "64 MB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Blackberry OS"
+            }
+        }
+    ]
+}

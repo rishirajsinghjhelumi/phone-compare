@@ -1,0 +1,101 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Business Features": "Document Viewer, Kingsoft Office Suite",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "In the Box": "Battery, Headset, User Guide, Handset, Warranty Card, Charger, USB Cable",
+                "Model ID": "A210",
+                "Model Name": "Canvas 4",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Flash Support, Auto Focus, 6+ Face Detection, Scene Mode, 99 Continuous (Burst) Mode, Smile Detection, Photosolid, High Dynamic Range Synthesis, 4 Direction Panorama, Effects Library, Geo-tagging, Touch Focus, Anti-Shake Technology, Sony Sensor, Photo Eff",
+                "Primary Camera": "Yes, 13 Megapixel",
+                "Secondary Camera": "Yes, 5 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080, 30 fps",
+                "Zoom": "Optical Zoom - 4x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports WAV, MP3, MIDI",
+                "Video Player": "Yes, Supports MP4, AVI, 3GP, Full HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSDPA; 11 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android, Opera Mini",
+                "USB Connectivity": "Yes, micro USB, v3",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Music Hub, GMS Support, Game Hub, NFS Support, Fruit Devil, Dark Man, Multi-task, Swipe to Control, Proximity Dial Phone, FOTA, Roving Eyes",
+                "Call Memory": "Yes",
+                "Important Apps": "Hook Up, M! Live, M! Zone+, M! Security, Spuul, Hike Messaging, Foneclay, M! Power, M! Unlock",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Light Sensor, Proximity Sensor, G-Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Vivid Display, IPS Display, Corning Gorilla Glass, Gesture Support",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "5 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "73x144.5x8.9 mm",
+                "Weight": "158 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "220 hrs (2G)",
+                "Talk Time": "8 hrs (2G)",
+                "Type": "2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "12.4",
+                "Memory": "1 GB RAM, 16 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "PowerVR SGX 544",
+                "OS": "Android v4.2.1 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.2 GHz + Cortex-A7, Quad Core"
+            }
+        }
+    ]
+}

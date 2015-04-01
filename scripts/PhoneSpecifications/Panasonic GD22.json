@@ -1,0 +1,80 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Panasonic",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "GD22",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Flash Support, Zoom Support - 4x",
+                "Primary Camera": "Yes, 1.3 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3, Supported Profiles (A2DP, EDR)",
+                "EDGE": "Yes",
+                "GPRS": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "English and Hindi Language Support, LED Torch, Mobile Tracker, Blacklist, Security Inbox, Data Protection, Auto Call Recorder",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "51x130x11 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Talk Time": "15 hrs (2G)",
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "64",
+                "Memory": "64 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

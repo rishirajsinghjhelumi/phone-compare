@@ -1,0 +1,58 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "M-tech",
+                "Handset Color": "White",
+                "In the Box": "Usermanual, Charger, USB cable, Warranty card, Earphone",
+                "Model Name": "A1 Infinity",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 320 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "1 year manufacturer warranty for Phone and 6 months warranty accessories."
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1600 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512 MB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v2.3.5 (Gingerbread)",
+                "Processor": "1 GHz"
+            }
+        }
+    ]
+}

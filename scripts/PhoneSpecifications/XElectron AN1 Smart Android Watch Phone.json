@@ -1,0 +1,30 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "XElectron",
+                "Handset Color": "Black",
+                "In the Box": "Mobile with Charger, User Manual, Head Phone, Battery",
+                "Model Name": "AN1 Smart Android Watch Phone",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 240 Pixels",
+                "Size": "2 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 900 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "4 GB"
+            }
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Gionee",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Yellow",
+                "Model ID": "E5",
+                "Model Name": "Elife E5",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Sound Enhancement": "DTS 3D Surround Sound",
+                "Video Player": "Yes, Supports MP4, AVI, H.264, 3GP, H.263, Full HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Auto Focus, Face Detection, Geo-tagging, Touch Focus, BSI II Sensor",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 5 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Bluetooth": "Yes, v4, Supported Profiles (A2DP)",
+                "EDGE": "Yes, Class 12",
+                "GPRS": "Yes, Class 12",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android, WAP 2.0",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes",
+                "WAP": "Yes, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Wireless Input Device (Keyboard and Mouse), Face Unlock, OTA, Gesture Recognition, WLAN Direct, Gionee Xender",
+                "Call Memory": "Yes",
+                "Important Apps": "Game Zone, Game Loft Live",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, eCompass, G-Sensor, Light Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "69x137x6.85 mm",
+                "Weight": "135 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16.7 M",
+                "Other Display Features": "Gorilla Glass II",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "4.8 Inches",
+                "Type": "Super AMOLED"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "16",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "PowerVR Series5XT",
+                "OS": "Android v4.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.5 GHz + Cortex-A7, Quad Core"
+            }
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Spice",
+                "Handset Color": "Black",
+                "In the Box": "Travel Charger, Corded Stereo Headset, Flip Cover, USB Data Cable",
+                "Model Name": "Stellar 507",
+                "SIM Size": "Regular",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Primary Camera": "8 Megapixel",
+                "Secondary Camera": "1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB, Mini USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Accelerometer, Ambient Light Sensor, Gyroscope, Proximity"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Phone and Accessories",
+                "Warranty Service Type": "STD",
+                "Warranty Summary": "1 Year Spice India Warranty"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "960x540 Pixels",
+                "Size": "5 Inches",
+                "Type": "FWVGA"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat)",
+                "Processor": "1.3 GHz + MTK, Quad Core"
+            }
+        }
+    ]
+}

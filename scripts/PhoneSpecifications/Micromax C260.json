@@ -1,0 +1,87 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Headset, Battery, Data Cable, Handset, Warranty Card, Charger, User Manual",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "C260",
+                "SIM Type": "Single Sim, CDMA",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes, Supports MP4, 3GP"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Bluetooth": "Yes",
+                "Preinstalled Browser": "WAP",
+                "USB Connectivity": "Yes",
+                "WAP": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Games, International Call, Auto Power On and Off, Audio Recorder, Torch, Call Restrict, Application Lock, Restore Factory Settings, Flight Mode",
+                "Call Memory": "Yes",
+                "Important Apps": "M!Live",
+                "Phone Book Memory": "500",
+                "SAR Value": "At the Head - 0.212 W/Kg, At the Body - 0.169 W/Kg",
+                "SMS Memory": "200"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "46.8x115x14.95 mm"
+            }
+        },
+        {
+            "Display": {
+                "Color": "62 K",
+                "Resolution": "Others, 176 x 220 Pixels",
+                "Size": "2.36 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "300 hrs (2G)",
+                "Talk Time": "3 hrs (2G)",
+                "Type": "1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 4 GB",
+                "Internal": "3.03"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "CDMA - 800"
+            }
+        }
+    ]
+}

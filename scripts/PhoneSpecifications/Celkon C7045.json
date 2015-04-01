@@ -1,0 +1,30 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Celkon",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model ID": "C7045",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion 1200 mAh battery, 1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "0$$MB"
+            }
+        }
+    ]
+}

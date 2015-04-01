@@ -1,0 +1,53 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Intex",
+                "Handset Color": "Silver",
+                "In the Box": "Handset, Battery, Charger, Earphone, Manual, Warranty Card",
+                "Model Name": "Crystal 3.5",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "USB Connectivity": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Customer need to contact to nearest service center",
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "61.5x117x11.4 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1250 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "250 KB"
+            }
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Videocon",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Bettery, Usb Cable, Adepter, Ear Phone, One Extra Back Panel, User Manual Book",
+                "Model ID": "X30",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "1.3 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "G Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "HVGA"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "117.9x11.1x11.1 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Videocon India Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1300 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "512 MB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v2.3.5 (Gingerbread)",
+                "Processor": "1 GHz + Core"
+            }
+        }
+    ]
+}

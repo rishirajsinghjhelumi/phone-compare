@@ -1,0 +1,54 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Earth",
+                "Handset Color": "White",
+                "In the Box": "Handset, Battery, Charger, Data Cable, Earphone, User Manual, Warranty Card",
+                "Model ID": "S22",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128x160 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "TFT Display"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "50x115x14 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to \nmanufacturing defects only",
+                "Warranty Summary": "1 Year Manufacturerwarranty For Phone\n And 6 Months Warranty For Box Accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 4 GB"
+            }
+        }
+    ]
+}

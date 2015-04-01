@@ -1,0 +1,30 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Kenxinda",
+                "Handset Color": "Blue",
+                "In the Box": "Mobile",
+                "Model ID": "M7",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x 128 Pixels",
+                "Size": "1.44 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 600 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "0$$MB"
+            }
+        }
+    ]
+}

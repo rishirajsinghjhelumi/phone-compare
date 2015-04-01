@@ -1,0 +1,48 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Intex",
+                "Handset Color": "Black & Blue",
+                "In the Box": "Handset, Battery, Charger, Earphone, Manual, Warranty Card",
+                "Model ID": "A One",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "USB Connectivity": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Customer need to contact to nearest service center",
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "48x114x11.3 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x 160 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "19 KB"
+            }
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Josh",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "In the Box": "Battery, Charger, Data Cable, Headset, 8 GB Memory Card inside the Gift Box, Leather Cover with Extra Back Panel, Screen Guard, Handset",
+                "Model Name": "Fortune HD",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, eAAC+",
+                "Sound Enhancement": "Party Shuffle Multiple Sound Effect"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Flash Support, Geo-tagging, Multi Angle View, Panorama, Auto Scene Detection Mode, Smile Shot, Burst Mode, Color Effect",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Wireless Keyboard Connectivity via Bluetooth, One Key Install Feature, Latitude and Longitude Finder, Calculator with Advanced Panel, Calendar, Voice Search",
+                "Call Memory": "Yes",
+                "Important Apps": "News and Weather",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Multi-point Touch",
+                "Resolution": "qHD, 960 x 540 Pixels",
+                "Size": "5.3 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "2400 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "2",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.0.4 (Ice Cream Sandwich)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1.2 GHz + Cortex-A9, Dual Core"
+            }
+        }
+    ]
+}

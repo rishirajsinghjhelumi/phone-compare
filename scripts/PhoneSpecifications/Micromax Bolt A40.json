@@ -1,0 +1,96 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Grey",
+                "In the Box": "Handset, Warranty Card, Headset, Data Cable, Charger, Battery, User Guide",
+                "Model Name": "Bolt A40",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Flash Support, Multi-shot, Night Mode, Zoom Level - 8x, Brightness Level",
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV, MIDI",
+                "Video Player": "Yes, Supports MP4, 3GP"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1, Supported Profiles (OPP, A2DP)",
+                "EDGE": "Yes, Class 12",
+                "GPRS": "Yes, Class 12",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Android, Opera Mini",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Improved Power Management, English and Hindi Language Support, World Clock, Alarm with 5 Snooze, Calculator, Calendar, MMS Enabled, One-touch Word Selection and Copy and Paste",
+                "Call Memory": "Yes",
+                "Important Apps": "Eye Room, Mi Live, Hike, Spuul",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "G-Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Multi-touch, Pinch-to-Zoom",
+                "Resolution": "Others, 480 x 854 Pixels",
+                "Size": "4.5 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "67x135x10 mm",
+                "Weight": "158 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "175 hrs (2G)",
+                "Talk Time": "4 hrs (2G)",
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "75",
+                "Memory": "512 MB RAM, 512 MB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v2.3.5 (Gingerbread)",
+                "Operating Freq": "GSM - 900, 1800",
+                "Processor": "1 GHz + Spreadtrum SC6820 (Cortex-A5)"
+            }
+        }
+    ]
+}

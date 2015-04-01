@@ -1,0 +1,57 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "ZTE",
+                "Handset Color": "White",
+                "In the Box": "Mobile, Battery, Travel Charger, User Guide, Earphone, Usb Cable, Warranty Card",
+                "Model Name": "Blade Buzz V815W",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "3 Megapixel",
+                "Secondary Camera": "1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Accelerometer, Light Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480x800 Pixels",
+                "Size": "4.2 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512 MB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat)",
+                "Processor": "Dual Core"
+            }
+        }
+    ]
+}

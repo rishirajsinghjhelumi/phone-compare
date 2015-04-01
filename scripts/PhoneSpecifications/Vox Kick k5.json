@@ -1,0 +1,67 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Vox",
+                "Handset Color": "White",
+                "In the Box": "Mobile, Charger& USB Cable, Earphone, User Manual",
+                "Model Name": "kick K5",
+                "SIM Size": "1 Full Size and 1 Micro Sim",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "3.2 Megapixel",
+                "Secondary Camera": "1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "800x480 Pixels",
+                "Size": "4 Inches",
+                "Type": "WVGA"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "65x125x9.2 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Warranty Service Type": "Off-site Service. Customer needs to get product to nearby Authorized Service Center or can call to Centralized service center number given on product box.",
+                "Warranty Summary": "1 Year Manufacturer Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512 MB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Processor": "1.2 GHz + ARMv7, Dual Core"
+            }
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "XOLO",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model Name": "Q1200",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports AMR-NB, MIDI, 3GPP, WAV, MP3, AAC",
+                "Sound Enhancement": "Dual Speakers, Dolby Digital Sound Technology",
+                "Video Player": "Yes, Supports H.263, H.264, MPEG-4, Full HD"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Exmor R Sensor, Dual Flash Support, Auto Focus, Scene Detection and Tuning, High Dynamic Range (HDR), Low Light Enhancement, Face Recognition (For Focussing as well as in Gallery), Vertical and Horizontal Panorama Capture, Geo-tagging, Smart Camera Features",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Micro USB 5-pin, Customized Video Player, USB OTG Support, Dual Float Window, Smart Awake, Voice Controls, Free Themes, Lock Screens, Unibody Metallic Design, Voice Input",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Magnetometer, Accelerometer, Proximity Sensor, Ambient Light Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "71.4x144.8x6.85 mm"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "IPS Display, Damage Resistant Corning Gorilla Glass 3, Gamut of Touch Free Gesture Features, Hover Support, Cold Screen Access, Gesture Control, 5 Fingers Supported, Smart Gesture Features",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "418 hrs (2G), 385 hrs (3G)",
+                "Talk Time": "15 hrs (2G), 9 hrs (3G)",
+                "Type": "Li-Polymer, 2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Mali400-MP2; 500 MHz",
+                "OS": "Android v4.2 (Jelly Bean), Upgradable to v4.4 (KitKat)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.3 GHz + MT6582, Quad Core"
+            }
+        }
+    ]
+}

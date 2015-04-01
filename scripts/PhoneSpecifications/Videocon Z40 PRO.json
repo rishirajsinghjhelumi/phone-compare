@@ -1,0 +1,74 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Videocon",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Bettery, usb cable,adepter,ear phone, user manual book, warranty card, Flip cover",
+                "Model ID": "Z40 PRO",
+                "Model Name": "Z40 PRO",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "Full HD",
+                "Primary Camera": "3.2 Megapixel",
+                "Secondary Camera": "0.5 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "G Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Not Covered in Warranty": "Liquid Damage",
+                "Warranty Summary": "1 Year VID India Manufacturerwarranty"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "64.3x124.8x10.4 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 X 800 Pixels",
+                "Size": "4 Inches",
+                "Type": "WVGA"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1450 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "info not available",
+                "OS": "Android v4.2.2 (Jelly Bean)",
+                "Processor": "1 GHz + Dual Core, Dual Core"
+            }
+        }
+    ]
+}

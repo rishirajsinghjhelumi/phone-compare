@@ -1,0 +1,79 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Spice",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "In the Box": "Handset, Battery, Headset, User Guide, Data Cable, Charger",
+                "Keypad": "Yes, Alphanumeric",
+                "Model ID": "M-5021",
+                "Model Name": "Boss",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV, MIDI",
+                "Video Player": "Yes, Supports 3GP, MP4"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Bluetooth": "Yes",
+                "GPRS": "Yes",
+                "USB Connectivity": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Weight: 52 g (Without Battery), Alarm, Clock, Calendar, Calculator, Torch, Incoming Call Guard",
+                "Call Memory": "Yes",
+                "Important Apps": "Khidki App",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "1.001 W/Kg",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "48x110.15x15.67 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "160 x 128 Pixels",
+                "Size": "1.77 Inches",
+                "Type": "TFT LCD"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Charger, Battery, User Guide, Headset, Warranty Card, Handset, USB Cable",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "X091",
+                "SIM Type": "Dual Sim, GSM + GSM"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports AMR, MP3, WAV",
+                "Ringtone": "64 Chords",
+                "Sound Enhancement": "Speaker Specification: 8 ohm",
+                "Video Player": "Yes, Supports AVI, MP4, MJPEG, 3GP"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.08 Megapixel",
+                "Video Recording": "Yes, 320 x 240"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Bluetooth": "Yes, v2.1, Supported Profiles (OPP, HFG)",
+                "USB Connectivity": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "English and Hindi Language Support, Alarm (5 with Snooze), Calculator, Calendar, Voice Call Recording, Keypad Backlight: Blue LED, Torch",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "100",
+                "SMS Memory": "200"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "44.5x108x13.8 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "Others, 128 x 160 Pixels",
+                "Size": "1.77 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "157 hrs (2G)",
+                "Talk Time": "3 hrs (2G)",
+                "Type": "800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "33",
+                "Memory": "16 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

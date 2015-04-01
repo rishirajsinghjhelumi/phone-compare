@@ -1,0 +1,66 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Digimac",
+                "Handset Color": "White",
+                "In the Box": "Handset, USB Cable, Charging Connector, Manual, Wired Handsfree",
+                "Model Name": "EXI",
+                "SIM Size": "Full Size SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "0.5 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "No, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Accelerometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "On-site Service. Customer needs to contact the nearby Authorized Service Center, service engineer will get the product repaired or inspected.",
+                "Warranty Summary": "1 Year Warranty"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 854 Pixels",
+                "Size": "4 Inches",
+                "Type": "IPS"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1350 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512 MB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.0 (Ice Cream Sandwich)",
+                "Processor": "1 GHz + Cortex A9"
+            }
+        }
+    ]
+}

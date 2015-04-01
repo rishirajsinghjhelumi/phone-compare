@@ -1,0 +1,101 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BlackBerry",
+                "Business Features": "Document Viewer, Pushmail, Super-fast Document Access and Browsing, Adobe Reader, Documents To Go",
+                "Call Features": "Hands Free, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "In the Box": "USB Cable, Handset with Inbuilt Battery, Charger, Headset, User Manual",
+                "Keypad": "Yes, QWERTY",
+                "Model Name": "Q5",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Primary Camera Features: Auto Focus, Flash Support, 4 Element F2.4 Lens, Continuous and Touch Focus, Image Stabilization, Time Shift Mode",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080",
+                "Zoom": "Digital Zoom - 5x"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports WAV, MP3",
+                "Sound Enhancement": "Dual Microphone for Noise Reduction, HD Voice",
+                "Video Player": "Yes, Supports AVI, ASF, PCM, MPEG-21, M4V, MP4, H.263, MKV, MPEG-4, 3GP, MKA, VC-1, M4A, MOV, 3GP2, VP6, WMV, H.264, WMA 9 / 10, SPARK, MPEG-4, PCM, Xvid, F4V, Full HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSPA+",
+                "Bluetooth": "Yes, v4, Supported Profiles (LE)",
+                "DLNA": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, GLONASS, Autonomous GPS, S-GPS, with BlackBerry Maps",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "100000 Apps, App and Content Ecosystem, BlackBerry Hub, BlackBerry World, Universal Search, Facebook, Twitter, LinkedIn, YouTube, Weather",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Magnetometer, Proximity Sensor, Gyroscope, Ambient Light Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Multi-touch, Intuitive Gesture Navigation, 24-bit Color Depth",
+                "Resolution": "720 x 720 Pixels",
+                "Size": "3.1 Inches",
+                "Type": "TFT LCD"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "66x120x10.5 mm",
+                "Weight": "120 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1.5 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "840 hrs (3G)",
+                "Talk Time": "12 hrs (3G)",
+                "Type": "2180 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Hot Swap Support": "Yes",
+                "Internal": "8",
+                "Memory": "2 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Blackberry OS v10.1",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.2 GHz + Qualcomm Snapdragon S4, Dual Core"
+            }
+        }
+    ]
+}

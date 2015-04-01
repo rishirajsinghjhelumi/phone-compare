@@ -1,0 +1,83 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Karbonn",
+                "Business Features": "Document Viewer, Document Editor, Outlook Emails, Office Suite",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model Name": "A1 Pro",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 3 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, Supported Profiles (A2DP)",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Android",
+                "WAP": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "MMS Enabled",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Search, Google Play Store",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "G-Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "HVGA, 320 x 480 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "200 hrs (2G)",
+                "Talk Time": "3 hrs (2G)",
+                "Type": "1100 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "0"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4 (Ice Cream Sandwich)",
+                "Operating Freq": "GSM - 900, 1800",
+                "Processor": "1 GHz"
+            }
+        }
+    ]
+}

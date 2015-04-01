@@ -1,0 +1,88 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Hands Free, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "X1i Ultra",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV",
+                "Video Player": "Yes, Supports 3GP, AVI, MP4"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Bluetooth": "Yes, v2.1",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "WAP 2.0",
+                "USB Connectivity": "Yes",
+                "WAP": "Yes, v2",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Games, Multi-task",
+                "Call Memory": "Yes",
+                "Important Apps": "M! Live, M! Zone",
+                "Phone Book Memory": "500",
+                "SMS Memory": "200"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "2.39 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "52.5x120.5x13.5 mm",
+                "Weight": "96 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "350 hrs (2G)",
+                "Talk Time": "5 hrs (2G)",
+                "Type": "1400 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "85.5"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

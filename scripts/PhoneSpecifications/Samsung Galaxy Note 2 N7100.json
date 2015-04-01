@@ -1,0 +1,103 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Business Features": "Document Viewer, Document Editor, Pushmail",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Marble White",
+                "In the Box": "Headset, Charger, Handset, Warranty Card, Battery, USB Cable, User Manual",
+                "Keypad": "No",
+                "Model ID": "N7100",
+                "Model Name": "Galaxy Note 2",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Mali-400MP",
+                "Java": "Yes",
+                "OS": "Android v4.1 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.6 GHz + Cortex-A9, Quad Core",
+                "User Interface": "TouchWiz"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "5.55 Inches",
+                "Type": "Super AMOLED"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Auto Focus, Geo-tagging, Face and Smile Detection, Touch Focus, Image Stabilization, Image Editor",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 1.9 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080, 30 fps"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "80.5x151.1x9.4 mm",
+                "Weight": "180 g"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 3100 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Memory": "2 GB RAM"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA, 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "DLNA": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, GLONASS, with Google Maps",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 a/b/g/n"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, MIDI, eACC, FLAC, WAV",
+                "Ringtone": "MP3, WAV",
+                "Video Player": "Yes, Supports MP4, WMV, AVI, XviD, H.264, MKV, WebM, DivX, FLV, H.263, Full HD"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "S Pen, Air View, Popup Note, Quick Command, Easy Clip, Handwritten Notes via Email, S Note, Micro SIM Support, Voice Input",
+                "Call Memory": "Yes",
+                "Important Apps": "Twitter, Samsung Apps",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "0.171 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Light Sensor, Barometer, Compass, Accelerometer, Geo-magnetic, Gyro Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        }
+    ]
+}

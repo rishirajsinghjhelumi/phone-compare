@@ -1,0 +1,96 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lava",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Charger Head, Earphone - 120 cm, Trans Receiver, Flip Cover, USB Data Cable - 120 cm, User Manual, Warranty Card",
+                "Model Name": "Iris X1",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, MIDI, AMR-WB, AAC, AMR-NB",
+                "Video Player": "Yes, Supports MP4, 3GP, Full HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "Dual LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Auto Focus, BSI Sensor, 1.4 m Pixel Size, 5-element F2.2 Lens",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21.1 Mbps HSDPA; 5.76 Mbps HSUPA, HSPA+",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (A2DP)",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Data Backup through Android, Wi-Fi Direct, Dedicated Dual Microphone for Noise Cancellation, OTG Support",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "G-Sensor, Ambient Light Sensor, Accelerometer, Proximity Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "66x134x9 mm"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16.7 M",
+                "Other Display Features": "IPS Display, Multi-touch",
+                "Resolution": "Others, 854 x 480 Pixels",
+                "Size": "4.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "1 GB RAM, 4 GB ROM",
+                "User Memory": "2.25 GB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1.2 GHz, Quad Core"
+            }
+        }
+    ]
+}

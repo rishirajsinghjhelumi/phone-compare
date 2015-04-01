@@ -1,0 +1,66 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Onida",
+                "Handset Color": "Black & Red",
+                "In the Box": "Handset, Battery, Charger, Datacable, Earphone, User Manual",
+                "Model Name": "G183",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB, Mini USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "No"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Warranty Service Type": "customer go to near by service center",
+                "Warranty Summary": "1 year warranty by company service center"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "45.1x107.9x14.7 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "1.5 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "256 MB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "No",
+                "Processor": "1.2 GHz + No"
+            }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "ICE",
+                "Handset Color": "Pearl White",
+                "In the Box": "Acrylic Cover, Mobile, 3 Layer Screen Protector, USB Cable, Power Adapter, Headset, User Manual, Quick Start Guide, Warranty Card",
+                "Model Name": "Xphone",
+                "SIM Size": "Full Size SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "On-site Service. Customer needs to call on our Toll Free No. 18001023131 and our Customer Service Team will help them with the Solution",
+                "Warranty Summary": "1 Year ICE Warranty"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "69x138x10.6 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 854 Pixels",
+                "Size": "4.6 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Lithium Polymer, 1600 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8 GB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.0 (Ice Cream Sandwich)",
+                "Processor": "1 GHz, Dual Core"
+            }
+        }
+    ]
+}

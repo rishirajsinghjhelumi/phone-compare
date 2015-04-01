@@ -1,0 +1,69 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Intex",
+                "Handset Color": "Blue",
+                "In the Box": "Handset, Battery, Charger, Headphone, Manual",
+                "Model Name": "Aqua Amaze",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Primary Camera": "13 Megapixel",
+                "Secondary Camera": "5 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Gravity sensor, Proximity sensor, Light sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Customer Need to Contact Nearest Service Center",
+                "Warranty Summary": "1 Year Intex Warranty For Handset & 6 Month For Accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "70x145.5x7.6 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "1280 x 720 Pixels",
+                "Size": "5 Inches",
+                "Type": "HD IPS OGS Full Lamination"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Processor": "1.4 GHz"
+            }
+        }
+    ]
+}

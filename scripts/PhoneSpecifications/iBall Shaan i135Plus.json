@@ -1,0 +1,37 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "iBall",
+                "Handset Color": "White",
+                "In the Box": "Mobile",
+                "Model Name": "Shaan i135Plus",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x 160 Pixels",
+                "Size": "1.77 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 4 GB",
+                "Internal": "0"
+            }
+        }
+    ]
+}

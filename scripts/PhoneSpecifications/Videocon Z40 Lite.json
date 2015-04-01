@@ -1,0 +1,69 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Videocon",
+                "Handset Color": "White",
+                "In the Box": "Phone, Battery, Ear Phone, Adaptor, Date Cable, User Manual.",
+                "Model ID": "Z40 Lite",
+                "Model Name": "Z40 Lite",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "3.2 Megapixel",
+                "Secondary Camera": "0.5 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "G sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Videocon India Warrinty"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "64.3x124.8x10.4 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 800 Pixels",
+                "Size": "4 Inches",
+                "Type": "WVGA"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1450 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "2 GB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat)",
+                "Processor": "1 GHz"
+            }
+        }
+    ]
+}

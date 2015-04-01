@@ -1,0 +1,82 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Hands Free, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Grey",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "X279i",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports WAV, MP3, MIDI",
+                "Video Player": "Yes, Supports 3GP, KMV, MP4"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Bluetooth": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Multi-task",
+                "Call Memory": "Yes",
+                "Important Apps": "M! Zone, M! Store, Preloaded Apps, M! SMS",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Head - 0.89 W/Kg, At the Body - 0.55 W/Kg",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Other Display Features": "IPS Screen",
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "360 hrs (2G)",
+                "Talk Time": "6 hrs (2G)",
+                "Type": "1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "122"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

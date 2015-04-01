@@ -1,0 +1,61 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lenovo",
+                "Handset Color": "Black",
+                "In the Box": "Warranty Card, User Manual, Battery, Handset, Earphone, Charger",
+                "Model Name": "A600E",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 5 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Gravitation, Proximity, Light"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 800 Pixels",
+                "Size": "4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Lenovo Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.0.4 (Ice Cream Sandwich)",
+                "Processor": "1Ghz Dual Core Processor, Dual Core"
+            }
+        }
+    ]
+}

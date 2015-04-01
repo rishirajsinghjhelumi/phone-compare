@@ -1,0 +1,35 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "iBall",
+                "Handset Color": "Yellow",
+                "In the Box": "Handset, Battery, Travel Adaptor, Stereo Headset, User Manual",
+                "Model Name": "Vogue 1.8-KK18",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "160 x 120 Pixels",
+                "Size": "1.8 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "0"
+            }
+        }
+    ]
+}

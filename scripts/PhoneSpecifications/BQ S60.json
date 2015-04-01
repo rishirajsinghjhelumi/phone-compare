@@ -1,0 +1,70 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BQ",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model Name": "S60",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "G, L, R Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "960 x 540 Pixels",
+                "Size": "5 Inches",
+                "Type": "IPS QHD"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "60x115.3x12.8 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Manufacturer Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2.2 (Jelly Bean)",
+                "Processor": "1.2 GHz + MTK6589WM, Quad Core"
+            }
+        }
+    ]
+}

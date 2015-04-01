@@ -1,0 +1,80 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Adcom",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Data Cable, Charger, Handset, Headset, Battery, User Manual",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "X12",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Sound Enhancement": "Standard Double Magnet Speakers, Anti-interference Microphone",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes",
+                "Internet Features": "Email",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Games",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "53x120x12.8 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "2.4 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "0"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

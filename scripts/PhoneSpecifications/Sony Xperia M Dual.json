@@ -1,0 +1,105 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Sony",
+                "Business Features": "Document Viewer, Pushmail  (Exchange ActiveSync), Neo Reader Barcode Scanner",
+                "Call Features": "Conference Call, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Purple",
+                "Model ID": "C2004",
+                "Model Name": "Xperia M Dual",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports eAAC+, MP3, WAV, MIDI",
+                "Sound Enhancement": "3D Surround Sound, Clear Audio+, xLOUD, Clear Bass, Clear Phase, Clear Stereo, WALKMAN Application, Noise Suppression, TrackID",
+                "Video Player": "Yes, Supports MP4, 3GPP, H.264, H.263, HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD",
+                "Other Camera Features": "Auto Focus, Geo-tagging, Touch Focus, Image Stabilization, HDR, Sweep Panorama, Exmor RS, Face Detection, Red-eye Reduction, Quick Launch, Self-timer, Send to Web, Smile Shutter, Touch Capture, Fast Capture",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 720 x 1280, 30 fps",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (OPP 1.1, A2DP 1.2, GAPC, HFP 1.6, FTP 1.1, HIDP 1.0, AVRCP 1.3, LE, HSP 1.2, PANP 1.0, DUN 1.1)",
+                "DLNA": "Yes",
+                "EDGE": "Yes, 237 kbps",
+                "GPRS": "Yes, 85.6 kbps",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android, Google Chrome",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 a/b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Play, Google Voice Search, Twitter, Google Talk, Facebook, YouTube, Multiple Instant Messaging, Bookmarks, Google, Friends Application, Video Chat, Gmail, Sony Music App, Sony LIV App",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Ambient Light Sensor, eCompass, Accelerometer, Proximity Sensor, Magnetometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "62x124x9.3 mm",
+                "Weight": "115 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Auto Rotation, Handwriting Recognition, Scratch Resistant, Backlit, 4 Points Multi-touch, Touch Panel Cover Glass, Gesture Input",
+                "Resolution": "Others, 480 x 854 Pixels",
+                "Size": "4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "498 hrs (2G), 454 hrs (3G)",
+                "Talk Time": "10 hrs (2G), 9 hrs (3G)",
+                "Type": "Li-Ion, 1700 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 305",
+                "OS": "Android v4.2 (Jelly Bean), Upgradable to v4.3 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1 GHz + Qualcomm Snapdragon S4 Pro, Dual Core"
+            }
+        }
+    ]
+}

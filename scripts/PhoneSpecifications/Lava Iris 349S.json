@@ -1,0 +1,90 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lava",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Brown",
+                "In the Box": "Free Screen Guard, User Manual, Charger, Handset, Battery, Headset, Data Cable",
+                "Model Name": "Iris 349S",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes, Supports MP4, 3GP"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Fixed Focus, Flash Support",
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Zoom": "Digital Zoom - 8x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1, Supported Profiles (A2DP)",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Android, Opera Mini",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Auto-call Recording with Folder, Black List Numbers, Back Up Applications and Data, Games, Calendar, Alarm, Calculator, Sound Recorder",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Play, Google, Google Talk, Facebook, YouTube, Twitter, Google+, Gmail, Lava Zone",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "G-Sensor, Accelerometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "HVGA, 480 x 320 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "200 hrs (2G)",
+                "Talk Time": "5 hrs (2G)",
+                "Type": "Li-Ion, 1400 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "512",
+                "Memory": "256 MB RAM, 512 MB ROM",
+                "User Memory": "113 MB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v2.3.6 (Gingerbread)",
+                "Operating Freq": "GSM - 900, 1800",
+                "Processor": "1 GHz"
+            }
+        }
+    ]
+}

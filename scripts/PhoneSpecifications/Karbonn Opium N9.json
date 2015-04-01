@@ -1,0 +1,96 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Karbonn",
+                "Business Features": "Document Viewer, Document Editor, Outlook Email, Office Suite",
+                "Call Features": "Hands Free, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Data Cable, Charger, warranty Card, Handset, User Manual, Headset",
+                "Model Name": "Opium N9",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, MIDI",
+                "Video Player": "Yes, Supports 3GP, MP4"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Auto Focus, Flash Support",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, Supported Profiles (A2DP)",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android, WAP, Opera",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes",
+                "WAP": "Yes",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Touch and Swipe Gestures, Notification Panel, Voice Search",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Play Store and Apps, Customizable Widgets",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "0.792 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Ambient Light Sensor, Accelerometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "72x139x8.6 mm",
+                "Weight": "120 g"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "IPS Display, Pinch Zoom, Multi-touch",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "5 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "1 GB RAM, 4 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.3 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800; WCDMA - 2100",
+                "Processor": "1.2 GHz + Qualcomm Snapdragon, Quad Core"
+            }
+        }
+    ]
+}

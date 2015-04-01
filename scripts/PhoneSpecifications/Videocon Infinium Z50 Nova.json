@@ -1,0 +1,97 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Videocon",
+                "Call Features": "Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "User Manual and Service Center Directory, Battery, With Additional Screen Guard Film, Handset, Charger, USB Cable, Quick Start Guide",
+                "Model ID": "Z50 Nova",
+                "Model Name": "Infinium Z50 Nova",
+                "SIM Size": "Standard SIM and Micro SIM",
+                "SIM Type": "Dual Sim, GSM + WCDMA",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Supports AMR, AAC, MP3, OGG, eAAC+, AMR-WB, MIDI, AAC+",
+                "Video Player": "Supports 3G2, WEBM, FLV, 3GP, VP8, WMV, WVC1, M4V, MOV, MPEG4, AVI, WMV3, H.263, H.264, MP4, MKV, Full HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Auto Focus, Panorama Mode, HDR Mode, Face Beauty, Self Timer, Voice Capture, Smile Shot, Sony Exmor R Sensor",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21.2 Mbps HSPA+; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (LE)",
+                "Internet Features": "Email",
+                "Navigation Technology": "GPS/A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android, Opera Mini",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Call Memory": "Yes",
+                "Important Apps": "Hungama, Gameloft (Modern Combat 4 Zero Hour, GT Racing 2), V-Safe, V-Secure",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "0.662 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, G-Sensor, 3 Axis Accelerometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "72.4x145.4x8.2 mm",
+                "Weight": "148 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16.7 M",
+                "Other Display Features": "IPS Display",
+                "Resolution": "qHD, 960 x 540 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "1900 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8",
+                "Memory": "1 GB RAM, 8 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Mali-400 MP2 500 MHz",
+                "OS": "Android v4.4.2 (KitKat)",
+                "Operating Freq": "GSM 900 MHz, 1800 Mhz; WCDMA 2100 MHz",
+                "Processor": "1.3 GHz + MT6582, Quad Core"
+            }
+        }
+    ]
+}

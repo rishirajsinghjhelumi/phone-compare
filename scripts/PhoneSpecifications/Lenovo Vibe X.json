@@ -1,0 +1,94 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lenovo",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Silver",
+                "Model Name": "Vibe X S960",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Sound Enhancement": "1 x Speaker",
+                "Video Player": "Yes, Full HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Auto Focus, 84 Deg Wide Angle Lens, BSI Sensor",
+                "Primary Camera": "Yes, 13 Megapixel",
+                "Secondary Camera": "Yes, 5 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 5.76 Mbps HSUPA; HSPA+",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3, Supported Profiles (HS)",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android, UC Browser",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Games, Motion Controls, Multi-tasking, USB On-the-go",
+                "Call Memory": "Yes",
+                "Important Apps": "Accuweather, Evernote, Facebook with Advanced Notification, Google, Route 66 Navi + Maps, Skype, Google Play Store",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Gravitation Sensor, Proximity Sensor, Light Sensor, eCompass"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "74x144x6.9 mm",
+                "Weight": "121 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Curved Toughened Glass, Gorilla Glass 3, IPS Display, Vivid Color, 20 / 20 Vision",
+                "Resolution": "Full HD, 1920 x 1080 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Polymer, 2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "16",
+                "Memory": "2 GB RAM, 16 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2 (Jelly Bean), Upgradable to v4.4 (KitKat)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.5 GHz + MediaTek 6589T, Quad Core"
+            }
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Swingtel",
+                "Handset Color": "White",
+                "In the Box": "1 Main Set SWINGTEL SUPERB, 1 Stylish Stereo Hear phone, 1 Travel Adapter, 1 USB Cable, 2 Screen Protect Film, 2 Battery 1800mAh each, Warranty Card, User Manual",
+                "Model Name": "Superb",
+                "SIM Size": "Normal Sim",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "1.9 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Light Sensor, Accelerometer, Proximity Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "1280 x 720 Pixels",
+                "Size": "4.7 Inches",
+                "Type": "HD IPS Multi Touch Super View"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "137.3x69.5x9.2 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Not Covered in Warranty": "Warranty does not cover consumables like battery, cable, earphone etc",
+                "Warranty Service Type": "Centralized Service Centre. Pick up facility in major locations",
+                "Warranty Summary": "1 Year Manufacturer warranty on Handset & 3 months warranty on accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Power VR SGX 531 MP",
+                "OS": "Android v4.1 (Jelly Bean)",
+                "Processor": "1 GHz + Cortex A9 Dual Core, Dual Core"
+            }
+        }
+    ]
+}

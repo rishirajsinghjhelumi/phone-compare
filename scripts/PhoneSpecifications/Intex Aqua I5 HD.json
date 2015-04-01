@@ -1,0 +1,68 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Intex",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Battery, Charger, Headphone, Manual",
+                "Model Name": "Aqua I5 HD",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "13 Megapixel",
+                "Secondary Camera": "5 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "G-sensor, P-sensor, L-sensor, Magnetic-sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Customer Need to Contact Nearest Service Center",
+                "Warranty Summary": "1 Year Intex Warranty For Handset & 6 Month For Accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "72.1x145x8.5 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "720 x 1280 Pixels",
+                "Size": "5 Inches",
+                "Type": "HD OGS"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Processor": "1.3 GHz, Quad Core"
+            }
+        }
+    ]
+}

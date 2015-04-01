@@ -1,0 +1,73 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Swingtel",
+                "Handset Color": "White, Red, Grey",
+                "In the Box": "1 Main Set, 1 Travel Adapter, 1 Battery, 1 Stereo Earphone, 1 USB Cable, 1 Screen Protect Film, 1 Carry Case (Cling Type), 2 Extra Back Covers, Warranty Card, User Manual",
+                "Model Name": "Tigertab",
+                "SIM Size": "Normal Sim",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "1.9 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Light Sensor, Proximity Sensor, Accelerometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Not Covered in Warranty": "Warranty does not cover consumables like battery, cable, carry case, earphone etc",
+                "Warranty Service Type": "Centralized Service Centre. Pick up facility in major locations",
+                "Warranty Summary": "1 Year Manufacturer warranty on Handset & 3 months warranty on accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "69x138x10.2 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "854 x 480 Pixels",
+                "Size": "4.7 Inches",
+                "Type": "FWVGA, Superview Capacitive"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2050 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "4 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Power VR SGX 544 MP",
+                "OS": "Android v4.2 (Jelly Bean)",
+                "Processor": "1.2 GHz + Quadcore MTK6589, A7, Quad Core"
+            }
+        }
+    ]
+}

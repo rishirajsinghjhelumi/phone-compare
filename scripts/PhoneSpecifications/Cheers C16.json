@@ -1,0 +1,71 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Cheers",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "C16",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MIDI, WAV, MP3",
+                "Video Player": "Yes, Supports 3GP"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes",
+                "Secondary Camera": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Bluetooth": "Yes",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "English and Hindi Language Support, Torch, Auto Call Recorder, Data Backup, Data Security",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "100",
+                "SMS Memory": "50"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Display": {
+                "Size": "1.8 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "0"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

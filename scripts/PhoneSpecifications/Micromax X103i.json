@@ -1,0 +1,86 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Conference Call, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "In the Box": "Handset, Charger, Headset, Battery, User Manual, Warranty Card",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "X103i",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports WAV, MIDI, MP3",
+                "Video Player": "Yes, Supports 3GP, MP4"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Bluetooth": "Yes, v2",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Data Security, Bangla Language Support, LED Torch, MMS Enabled, Alarm, Flight Mode, Call Recording, Call Swap, International Call Facility, Fixed Dialling Number",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Head - 0.534 W/Kg, At the Body - 0.687 W/Kg",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "Others, 128 x 160 Pixels",
+                "Size": "1.7 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "46x111x16 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "360 hrs (2G)",
+                "Talk Time": "7 hrs (2G)",
+                "Type": "1750 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 4 GB",
+                "Internal": "0"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "OBI",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "In the Box": "Handset, Screen Protector, Flip Case, Earphone, Data Cable, User Manual, Warranty Card, Charger",
+                "Model Name": "Leopard S502",
+                "SIM Size": "Micro SIM and Mini SIM",
+                "SIM Type": "Dual Sim, GSM + UMTS",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 5 Megapixel",
+                "Video Recording": "Yes, 720 x 1280"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Gravity Sensor, Light Sensor, Proximity Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "IPS Display",
+                "Resolution": "qHD, 960 x 540 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2100 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8",
+                "Memory": "1 GB RAM, 8 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1.3 GHz, Quad Core"
+            }
+        }
+    ]
+}

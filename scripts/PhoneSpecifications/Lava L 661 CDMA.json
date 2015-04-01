@@ -1,0 +1,59 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lava",
+                "Handset Color": "White",
+                "In the Box": "Mobile, Travel Charger, Battery, USB Cable, Service center list, Warranty card",
+                "Model ID": "L 661 CDMA",
+                "SIM Size": "Normal SIM",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x 160 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "108.8x46x14.7 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty Of The Product Is Limited To Manufacturing Defects Only",
+                "Not Covered in Warranty": "Warranty Does Not Cover Any External Accessories (Such As Battery, Cable, Carrying Bag), Damage Caused To The Product Due To Improper Installation By Customer, Normal Wear And Tear To Magnetic Heads, Audio, Video, Laser Pick-Ups And Tv Picture Tubes, Pane",
+                "Warranty Summary": "1 Year Manufacturer Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 4 GB",
+                "Internal": "16 MB",
+                "Memory": "16 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Brew",
+                "Processor": "Qualcomm QSC 1110"
+            }
+        }
+    ]
+}

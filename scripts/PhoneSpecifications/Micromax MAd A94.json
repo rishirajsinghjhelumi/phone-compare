@@ -1,0 +1,91 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Business Features": "Document Viewer, Kingsoft Office",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Grey",
+                "In the Box": "Handset, Charger, Battery, USB Cable, User Guide, Headset, Warranty Card",
+                "Model ID": "A94",
+                "Model Name": "MAd",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Other Camera Features": "Auto Focus, Flash Support",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 5 Megapixel",
+                "Video Recording": "Yes, 720 x 1280"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports WAV, MP3, MIDI",
+                "Video Player": "Yes, Supports 3GP, MP4, HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android, Opera Mini",
+                "USB Connectivity": "Yes, micro USB, v3",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Video Chat, Intuitive Text Input, Spell Check, Enhanced Applications and Power Management Features",
+                "Call Memory": "Yes",
+                "Important Apps": "MAd Call App, MAd, Spuul, Hike, Bubble X Slice, Dancing Bubbles, BBM",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, G-Sensor, Light Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16.7 M",
+                "Other Display Features": "IPS Display",
+                "Resolution": "Others, 480 x 854 Pixels",
+                "Size": "4.5 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "150 hrs (2G)",
+                "Talk Time": "5 hrs (2G)",
+                "Type": "1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "512 MB RAM, 4 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1.2 GHz, Quad Core"
+            }
+        }
+    ]
+}

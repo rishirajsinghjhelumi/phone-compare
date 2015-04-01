@@ -1,0 +1,48 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "LG",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model Name": "Optimus L7 II P713",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "8 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 X 800 Pixels",
+                "Size": "4.3 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2460 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "4 GB",
+                "Memory": "768 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.1 (Jelly Bean)",
+                "Processor": "1 GHz, Dual Core"
+            }
+        }
+    ]
+}

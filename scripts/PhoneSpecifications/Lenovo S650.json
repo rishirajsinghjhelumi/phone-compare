@@ -1,0 +1,59 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lenovo",
+                "Handset Color": "Silver",
+                "In the Box": "Handset, Charger, Headset, Battery, User Manual",
+                "Model Name": "S650",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "USB Connectivity": "micro USB"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "960 x 540 Pixels",
+                "Size": "4.7 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "138x69.8x8.77 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Manufaturer Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Po, 2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2 (Jelly Bean), Upgradable to v4.4 (KitKat)",
+                "Processor": "1.3 GHz + MTK 6582 Quad Core, Quad Core"
+            }
+        }
+    ]
+}

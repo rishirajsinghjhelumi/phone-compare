@@ -1,0 +1,81 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lava",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Grey",
+                "In the Box": "Charger, Battery, Headset, Warranty Card, Handset, Data Cable, User Manual",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "ARC 12",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports WAV, MP3",
+                "Ringtone": "WAV, MIDI, MP3",
+                "Video Player": "Yes, Supports MP4, 3GP, AVI"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes",
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Auto Call Recording with Folder, Torch, English and Hindi Language Support, Alarm, Games, Calculator, Mobile Tracker, Incoming Call Filter, Audio Recording",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "300",
+                "SMS Memory": "100"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Display": {
+                "Color": "65 K",
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "250 hrs (2G)",
+                "Talk Time": "5 hrs (2G)",
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "0"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

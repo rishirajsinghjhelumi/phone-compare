@@ -1,0 +1,85 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Hands Free, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "In the Box": "Handset, Battery, Charger, Headset, User Guide, Service Guide, Warranty Card",
+                "Model Name": "X335C",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, MIDI, WAV",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes",
+                "Secondary Camera": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Bluetooth": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "WAP",
+                "WAP": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "MMS Enabled",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "57x104x13.1 mm"
+            }
+        },
+        {
+            "Display": {
+                "Color": "65 K",
+                "Resolution": "QVGA, 240 x 320 Pixels",
+                "Size": "2.8 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "250 hrs (2G)",
+                "Talk Time": "4 hrs (2G)",
+                "Type": "Li-Ion"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 4 GB",
+                "Internal": "374"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

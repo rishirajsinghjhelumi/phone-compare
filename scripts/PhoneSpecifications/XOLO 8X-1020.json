@@ -1,0 +1,63 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "XOLO",
+                "Handset Color": "Black",
+                "In the Box": "1 Handset, 1 Earphone, 1 Quick Start Guide, 1 Safty Warranty & Legal Information, 1 Usb Cable, 1 Screen Guard, 1 Black Case, 1 Sim Card Remover",
+                "Model ID": "8X-1020",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Primary Camera": "8 Megapixel",
+                "Secondary Camera": "5 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Accelerometer, Ambient Light Sensor, Proximity Sensor, Magnetometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "6 Month",
+                "Warranty Summary": "1 Year"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "1280 x 720 Pixels",
+                "Size": "5 Inches",
+                "Type": "IPS"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Lithium-Ion, 2500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android vV4.4 (KitKat)",
+                "Processor": "1.4 GHz"
+            }
+        }
+    ]
+}

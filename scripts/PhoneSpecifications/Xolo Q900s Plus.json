@@ -1,0 +1,64 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Xolo",
+                "Handset Color": "Black",
+                "In the Box": "1 Handset, 1 Charger, 1 Battery, 1 Earphone, 1 Usb Cable, 1 Screen Guard",
+                "Model ID": "Q900s Plus",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Primary Camera": "8 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Proximity"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "6 Months",
+                "Warranty Summary": "1 Year"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "1280 X 720 Pixels",
+                "Size": "4.7 Inches",
+                "Type": "OGS"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Polymer, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat)",
+                "Processor": "1.2 GHz + MSM 8212, Quad Core"
+            }
+        }
+    ]
+}

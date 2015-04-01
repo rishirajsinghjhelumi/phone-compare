@@ -1,0 +1,90 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "MTS",
+                "Call Features": "Conference Call, Loudspeaker, Call Timer, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Charger, Warranty Card and User Manual, Earphones, USB Data Cable, Handset",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "Dual CG 131",
+                "SIM Type": "Dual Sim, CDMA + GSM, (Dual Standby)",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Zoom, Photo Effects",
+                "Primary Camera": "Yes, 0.3 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes",
+                "GPRS": "Yes",
+                "Preinstalled Browser": "Opera Mini",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Java Scheduler, World Time, Alarm, Calculator, Calendar, Stop Watch, My MTS Planet, Speaker Phone, Caller ID, Call Waiting",
+                "Call Memory": "Yes",
+                "Important Apps": "Facebook",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "QVGA, 240 x 320 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "TFT LCD"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "49.6x113.1x15.5 mm",
+                "Weight": "84 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "480 hrs (2G)",
+                "Talk Time": "9 hrs (2G)",
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "0"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "Yes",
+                "Operating Freq": "CDMA - 800; GSM - 900, 1800",
+                "Processor": "Qualcomm Brew 3.1.5"
+            }
+        }
+    ]
+}

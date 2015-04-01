@@ -1,0 +1,83 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Spice",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Blue",
+                "Model Name": "Mi-515 Coolpad",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "Auto Focus",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Sound Enhancement": "DTS Sound",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Bluetooth": "Yes, v3",
+                "EDGE": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "Wi-fi Hotspot",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Games, GMS, Wi-Fi Tethering",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "G-Sensor, Light Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "IPS Display",
+                "Resolution": "qHD, 540 x 960 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Lithium - Ion Polymer, 2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "1 GB RAM, 4 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.1 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1.2 GHz, Quad Core"
+            }
+        }
+    ]
+}

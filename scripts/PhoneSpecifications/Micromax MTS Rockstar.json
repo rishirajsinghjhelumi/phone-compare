@@ -1,0 +1,63 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Handset Color": "White",
+                "In the Box": "Mobile, USB Data cable, Warranty card, Earphones, Charger",
+                "Model ID": "C192 CDMA",
+                "Model Name": "MTS Rockstar",
+                "SIM Size": "Normal SIM",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Alarm clock, Calculator, Game, Stopwatch, Torch, Speaker phone, Call waiting, Caller ID"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x 160 Pixels",
+                "Size": "1.77 Inches",
+                "Type": "QQVGA"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "46.1x109.6x14.6 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Not Covered in Warranty": "Warranty does not cover any external accessories (such as battery, cable, carrying bag), damage caused to the product due to improper installation by customer, normal wear and tear to magnetic heads, audio, video, laser pick-ups and TV picture tubes, pane",
+                "Warranty Summary": "1 year manufacturer warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Brew"
+            }
+        }
+    ]
+}

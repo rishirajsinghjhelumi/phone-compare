@@ -1,0 +1,71 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Handset Color": "White",
+                "In the Box": "handset charger battery head set usermanual",
+                "Model Name": "X344",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "0.08 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5",
+                "HDMI Port": "Yes",
+                "USB Connectivity": "Yes, Mini USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240x380 Pixels",
+                "Size": "2.84 Inches",
+                "Type": "tft"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "55.65x11.5x127 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Warranty Service Type": "customer go to service center",
+                "Warranty Summary": "one year warranty by company service center"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1400 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "256 MB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "No",
+                "Processor": "No"
+            }
+        }
+    ]
+}

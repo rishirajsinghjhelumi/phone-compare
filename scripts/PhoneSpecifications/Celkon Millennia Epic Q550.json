@@ -1,0 +1,82 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Celkon",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model Name": "Millennia Epic Q550",
+                "SIM Type": "Dual Sim, WCDMA + WCDMA",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes, HD"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Other Camera Features": "Auto Focus, Flash Support",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 1280 x 720"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Android",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Light Sensor, Gravity Sensor, Proximity Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "8 mm"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "IPS and OGS Display",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "5.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "3500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "16",
+                "Memory": "1 GB RAM, 16 ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Operating Freq": "GSM - 900, 1800; WCDMA - 2100",
+                "Processor": "1.3 GHz, Quad Core"
+            }
+        }
+    ]
+}

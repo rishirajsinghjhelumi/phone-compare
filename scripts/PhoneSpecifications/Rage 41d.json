@@ -1,0 +1,45 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Rage",
+                "Handset Color": "Blue",
+                "In the Box": "Handset, Battery, Charger, Handsfree, Manual, Warranty Card",
+                "Model Name": "41d",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 800 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "Capacitive Touch"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Polymer, 1350 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "512 MB",
+                "User Memory": "138 MB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android",
+                "Processor": "Dual Core"
+            }
+        }
+    ]
+}

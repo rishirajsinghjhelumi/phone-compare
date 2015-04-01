@@ -1,0 +1,93 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Asus",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Red",
+                "In the Box": "Handset, User Manual, Standard USB Cable, Adaptor, Warranty Card",
+                "Model ID": "ZC451CG-1C031WW",
+                "Model Name": "Zenfone C",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Auto Focus, Flash Support, PixelMaster Technology",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080, 28 fps"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports 3GP, MP3, AAC+, AAC",
+                "Video Player": "Yes, Supports MPEG4, AVC, H.263, 3GP, H.264, Full HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Bluetooth": "Yes, v4",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, GLONASS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Wi-Fi Direct",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Body - 0.639 W/Kg, At the Head - 0.679 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Light Sensor, Proximity Sensor, G-Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Twisted Nematic Panel",
+                "Resolution": "Others, 854 x 480 Pixels",
+                "Size": "4.5 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "67x136.5x6.2 mm",
+                "Weight": "150 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "2100 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "8",
+                "Memory": "1 GB RAM, 8 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat)",
+                "Operating Freq": "GSM - 900, 1800",
+                "Processor": "1.2 GHz + Intel Atom CloverTrail Z2520",
+                "User Interface": "Asus ZenUI"
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BlackBerry",
+                "Handset Color": "Black",
+                "In the Box": "battery,charging adaptor,headset,data cable,user manual,warranty card.",
+                "Model Name": "Torch 9850",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "2592x1944 Pixels",
+                "Size": "3.7 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1230 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "4 GB"
+            }
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "LG",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Silver",
+                "In the Box": "Battery, Headset, Charger, User Manual, Handset",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "A390",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "CMOS Sensor, Fixed Focus",
+                "Primary Camera": "Yes, 1.3 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports MP3",
+                "Ringtone": "64 Polyphonic",
+                "Video Player": "Yes, Supports MPEG-4"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1, Supported Profiles (EDR)",
+                "GPRS": "Yes, Class 12",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Opera Mini, WAP 2.0",
+                "Tethering": "USB",
+                "USB Connectivity": "Yes",
+                "WAP": "Yes, v2",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "MMS Enabled, Call Conversation Recording, SMS On Call Reject, USB Charging, Themes, Secret Box, Call Blacklist, Mobile Tracker, SIM Switch Hot Key, Email Account: Upto 10,",
+                "Call Memory": "Yes",
+                "Important Apps": "LG Fun Box, Facebook, Nimbuzz, News Hunt",
+                "Phone Book Memory": "1000",
+                "SMS Memory": "450"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "2.2 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "51.8x114.4x13.15 mm",
+                "Weight": "92 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Talk Time": "24 hrs (2G)",
+                "Type": "Li-Ion, 1700 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "40"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "Yes",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900"
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Celkon",
+                "Handset Color": "White & Gold",
+                "In the Box": "Mobile",
+                "Model ID": "C8",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "2.4 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion 1100 mAh battery, 1100 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "0$$MB"
+            }
+        }
+    ]
+}

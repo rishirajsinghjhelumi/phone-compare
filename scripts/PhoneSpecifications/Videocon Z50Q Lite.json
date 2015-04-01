@@ -1,0 +1,65 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Videocon",
+                "Handset Color": "White",
+                "In the Box": "Handset, Battery, Adaptor, Data Cable, Ear phone, User Manual Book.",
+                "Model ID": "Z50Q Lite",
+                "Model Name": "Z50Q Lite",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "5 Megapixel",
+                "Secondary Camera": "0.5 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "854X480 Pixels",
+                "Size": "5 Inches",
+                "Type": "FWVGA IPS"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "73.1x9.5x143.2 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Videocon India warranty."
+            }
+        },
+        {
+            "Battery": {
+                "Type": "2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Processor": "1.2 GHz, Quad Core"
+            }
+        }
+    ]
+}

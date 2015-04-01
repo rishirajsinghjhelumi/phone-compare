@@ -1,0 +1,92 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Electric Blue",
+                "Model Name": "S5 Mini",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.4 GHz, Quad Core"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "4.5 Inches",
+                "Type": "Super AMOLED"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Auto Focus, CMOS, Flash Support",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 2.1 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "64.8x131.1x9.1 mm",
+                "Weight": "120 g"
+            }
+        },
+        {
+            "Battery": {
+                "Talk Time": "16 hrs (3G)",
+                "Type": "2100 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "16",
+                "Memory": "1.5 GB RAM, 16 GB ROM"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (HSP, PBAP, HFP, DI, A2DP, MAP, OPP, HID, PAN, AVRCP, HOGP)",
+                "Internet Features": "Email",
+                "Navigation Technology": "GLONASS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes, 802.11 a/b/g/n"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports OGA, MP3, WMA, AAC, XMF, RTX, OGG, FLAC, OTA, WAV, IMY, RTTTL, AWB, MXMF, AMR, MIDI, M4A, 3GA, MID",
+                "Video Player": "Yes, Supports M4V, 3G2, MP4, AVI, FLV, WEBM, ASF, 3GP, WMV, MKV, Full HD"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Wi-Fi Direct, S-Voice",
+                "Call Memory": "Yes",
+                "Important Apps": "PC Sync: KIES, Wearable Device Support: Gear Manager, Gear Fit Manager",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Light Sensor, Fingerprint Sensor, Hall Sensor, Gyro Sensor, Proximity Sensor, HR Sensor, Geo-magnetic Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        }
+    ]
+}

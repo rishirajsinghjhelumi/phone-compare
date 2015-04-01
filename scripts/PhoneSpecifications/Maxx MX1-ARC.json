@@ -1,0 +1,53 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Maxx",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Charger, Manual, Headset, Battery",
+                "Model Name": "MX1-ARC",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Customer Need to Contact to Nearest Service Center",
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "45.2x108x15.1 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x 160 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1050 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "1 KB"
+            }
+        }
+    ]
+}

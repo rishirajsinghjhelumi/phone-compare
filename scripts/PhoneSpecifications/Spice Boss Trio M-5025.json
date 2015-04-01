@@ -1,0 +1,76 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Spice",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Charger, Service Center List, Handset, Battery, Headset, Data Cable, User Guide",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "Boss Trio M-5025",
+                "SIM Type": "Triple Sim, GSM + GSM + GSM",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports WAV MIDI, MP3",
+                "Ringtone": "MP3, WAV MIDI",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes",
+                "Secondary Camera": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes",
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Torch, Hindi and English Language Support",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "500",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Display": {
+                "Size": "1.8 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "192 hrs (2G)",
+                "Talk Time": "5 hrs (2G)",
+                "Type": "1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "0"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

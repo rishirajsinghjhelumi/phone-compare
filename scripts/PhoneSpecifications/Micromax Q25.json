@@ -1,0 +1,84 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Battery, Warranty Card, 1 Each of Transceiver, USB Cable, Charger, Hands-free, User Guide, Screen Guard",
+                "Keypad": "Yes, QWERTY",
+                "Model Name": "Q25",
+                "SIM Type": "Dual Sim, GSM + GSM"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Resolution: 640 x 480",
+                "Primary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 240 x 320"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports WAV, AMR, MP3, AAC",
+                "Sound Enhancement": "Speaker Specification - 8 ohm",
+                "Video Player": "Yes, Supports AVI, MP4, 3GP"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Bluetooth": "Yes, v2, Supported Profiles (AVRCP, A2DP, HFP, OPP)",
+                "Preinstalled Browser": "WAP",
+                "USB Connectivity": "Yes",
+                "WAP": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Torch, White Keypad Backlight, Ringtones, English and Hindi Language Support (Hindi for Dislay), Alarm (5 with Snooze), Calculator, Calendar",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "300",
+                "SMS Memory": "200"
+            }
+        },
+        {
+            "Display": {
+                "Color": "65 K",
+                "Other Display Features": "External Screen Type",
+                "Resolution": "Others, 220 x 176 Pixels",
+                "Size": "2.2 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "60x112x11.5 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "227 hrs (2G)",
+                "Talk Time": "4 hrs (2G)",
+                "Type": "Li-Ion, 1150 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "0",
+                "Memory": "32 MB RAM, 32 MB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

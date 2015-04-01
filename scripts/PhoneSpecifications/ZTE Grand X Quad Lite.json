@@ -1,0 +1,98 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "ZTE",
+                "Business Features": "Pushmail",
+                "Call Features": "Conference Call, Speed Dialing, Hands Free, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model Name": "Grand X Quad Lite",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports FLAC, WAV, MIDI, MP3",
+                "Video Player": "Yes, Supports H.264, H.263, MPEG-4, HD"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "CMOS Sensor, Auto Focus, Flash Support, Capture Mode, EV, Scene Mode, Color Effect, Continuous Shot, Face Detection, Anti-flicker, Store Location, Picture Size Setting, White Balance, Video Mode, Exposure, Video Quality",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 30 fps",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 11.5 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (GAP, AVRCP, A2DP, SAP, HFP, HSP, OPP, PBAP)",
+                "EDGE": "Yes, Class 12",
+                "GPRS": "Yes, Class 12",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android, WAP 2.0",
+                "USB Connectivity": "Yes, micro USB",
+                "WAP": "Yes, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "MTK Android Email App, Widgets, App Icons Management, Google",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Light Sensor, Proximity Sensor, Accelerometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "70x141x9.6 mm",
+                "Weight": "170 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "IPS Display",
+                "Resolution": "qHD, 540 x 960 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "320 hrs (2G), 350 hrs (3G)",
+                "Talk Time": "6 hrs (2G), 6 hrs (3G)",
+                "Type": "2500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "1 GB RAM",
+                "User Memory": "2.5 GB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800; UMTS - 2100",
+                "Processor": "1.2 GHz, Quad Core"
+            }
+        }
+    ]
+}

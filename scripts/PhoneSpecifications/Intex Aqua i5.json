@@ -1,0 +1,59 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Intex",
+                "Handset Color": "White",
+                "In the Box": "Mobile",
+                "Model Name": "Aqua i5",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Primary Camera": "Yes, 12 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB, Mini USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "540 x 960 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2 (Jelly Bean)",
+                "Processor": "1.2 GHz + Quad Core, Quad Core"
+            }
+        }
+    ]
+}

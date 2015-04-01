@@ -1,0 +1,78 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lava",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "ARC 11i",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports MP3, WAV",
+                "Video Player": "Yes, Supports MP4, 3GP"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Auto Call Recording with Folder, Audio Recording, Alarm, Mobile Tracker",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "1000",
+                "SMS Memory": "100"
+            }
+        },
+        {
+            "Display": {
+                "Color": "65 K",
+                "Resolution": "Others, 128 x 160 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "250 hrs (2G)",
+                "Talk Time": "5 hrs (2G)",
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "0",
+                "Memory": "32 MB RAM, 32 MB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

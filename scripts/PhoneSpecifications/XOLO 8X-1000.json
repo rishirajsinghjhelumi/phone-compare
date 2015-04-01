@@ -1,0 +1,74 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "XOLO",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Handsfree, Battery, Charger, Manual",
+                "Model Name": "8X-1000",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Primary Camera": "8 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Accelerometer, Ambient light Sensor, Proximity Sensor, Hall Effect Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "1280 x 720 Pixels",
+                "Size": "5 Inches",
+                "Type": "HD IPS Damage Resistant Corning Gorilla Glass 3"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "70x140x7.9 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Not Covered in Warranty": "Warranty does not cover any external accessories (such as battery, cable, carrying bag), damage caused to the product due to improper installation by customer, normal wear and tear to magnetic heads, audio, video, laser pick-ups and TV picture tubes, pane",
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories XOLO India Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1920 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "16 GB",
+                "Memory": "2 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Mali 450-MP4",
+                "OS": "Android v4.4 (KitKat)",
+                "Processor": "1.4 GHz + Chipset MT6592M"
+            }
+        }
+    ]
+}

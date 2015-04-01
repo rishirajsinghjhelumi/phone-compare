@@ -1,0 +1,87 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "OBI",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "In the Box": "Leather Grain Finish Flip Case, User Manual, Earphone, Charger, Data Cable, Screen Protector, Handset, Warranty Card",
+                "Model ID": "S520",
+                "Model Name": "Octopus",
+                "SIM Size": "Micro SIM and Mini SIM",
+                "SIM Type": "Dual Sim, GSM + UMTS",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes, HD"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 720 x 1280"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Light Sensor, Gravity Sensor, Motion Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "75x145x8.4 mm"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "IPS Display",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "5 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8",
+                "Memory": "1 GB RAM, 8 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1.7 GHz"
+            }
+        }
+    ]
+}

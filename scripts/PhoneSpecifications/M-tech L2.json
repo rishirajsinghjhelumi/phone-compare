@@ -1,0 +1,68 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "M-tech",
+                "Handset Color": "Black & Grey",
+                "In the Box": "1 Handset, Charger, Battery, Hand free user Guide, Warranty Card, Usb Cable",
+                "Model Name": "L2",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, Mini USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Important Apps": "Whats App"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Customer needs to call/visit the nearest service centre?",
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "51.3x121.8x11.3 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "QVGA"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "32 MB",
+                "Memory": "32 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Processor": "312 MHz + ARM9"
+            }
+        }
+    ]
+}

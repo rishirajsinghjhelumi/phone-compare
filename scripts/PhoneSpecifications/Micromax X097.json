@@ -1,0 +1,82 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "X097",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Brightness Level, Pixel Size: 8W QCIF",
+                "Primary Camera": "Yes",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports MP3, WAV",
+                "Video Player": "Yes, Supports SMV, 3GP, MP4"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Bluetooth": "Yes, v2, Supported Profiles (AVRCP, A2DP, HFP, OPP)",
+                "GPRS": "Yes, Class 10",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "WAP",
+                "WAP": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Dual Memory Card Support, Call Blacklist: 20, English and Hindi Language Support, Clock, Alarm, Calculator, Calendar, Auto Power On or Off",
+                "Call Memory": "Yes",
+                "Important Apps": "M!Zone, M!Live, Sokoban, Snake, Tetris",
+                "Phone Book Memory": "500",
+                "SMS Memory": "200"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "1.77 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "240 hrs (2G)",
+                "Talk Time": "10 hrs (2G)",
+                "Type": "Li-Ion, 850 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 (8 GB Each Slot) GB",
+                "Internal": "0",
+                "Memory": "4 MB RAM, 4 MB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lava",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Dark Blue",
+                "Model Name": "3G 354",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Other Camera Features": "Panorama Mode, Burst Mode, Smile Detection, Fixed Focus",
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 1280 x 720",
+                "Zoom": "Digital Zoom - 8x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes, HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Android",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Data Backup through Android, Calendar, Alarm, Calculator, Sound Recorder",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "G-Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "HVGA, 480 x 320 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "61x118x11.8 mm",
+                "Weight": "103 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "400 hrs (2G)",
+                "Talk Time": "6 hrs (2G)",
+                "Type": "Li-Ion, 1400 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "2",
+                "Memory": "256 MB RAM, 2 GB ROM",
+                "User Memory": "1.25 GB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1 GHz, Dual Core"
+            }
+        }
+    ]
+}

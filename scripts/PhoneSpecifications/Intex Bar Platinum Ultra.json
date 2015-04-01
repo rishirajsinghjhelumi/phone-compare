@@ -1,0 +1,59 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Intex",
+                "Handset Color": "Silver",
+                "In the Box": "Handset, Charger, Battery, Headphone, Data Cable, User, Manual",
+                "Model Name": "Bar Platinum Ultra",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320x480 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "30x11x11 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Warranty Service Type": "Contact Service Center",
+                "Warranty Summary": "One Year Waranty by Company Service Center"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "256 MB"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "No"
+            }
+        }
+    ]
+}

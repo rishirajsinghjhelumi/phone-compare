@@ -1,0 +1,58 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BSNL-Champion",
+                "Handset Color": "Black",
+                "In the Box": "Mobile, Charger,Battery",
+                "Model Name": "Trendy 531",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 13 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Carry in 1 year warranty.",
+                "Warranty Summary": "1 Year warranty."
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "9.8 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "1024x768 Pixels",
+                "Size": "5.3 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 3200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB"
+            }
+        },
+        {
+            "Platform": {
+                "Processor": "1.2 GHz + Quad Core 1.2GHz, Dual Core, Quad Core"
+            }
+        }
+    ]
+}

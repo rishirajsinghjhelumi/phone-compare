@@ -1,0 +1,51 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Adcom",
+                "Handset Color": "White",
+                "In the Box": "Mobile, Charger, Earphone, Battery, Flipcover, Screen Guard",
+                "Model ID": "Smartphone A54 Quad Core",
+                "Model Name": "Kitkat A54 Quad Core SMARTPHONE (1GB RAM)",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Primary Camera": "8 Megapixel",
+                "Secondary Camera": "3.2 Megapixel"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Accelerometer, Proximity"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480x854 Pixels",
+                "Size": "5 Inches",
+                "Type": "FWVGA"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-lon, 1750 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "4 GB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2",
+                "Processor": "Quad Core"
+            }
+        }
+    ]
+}

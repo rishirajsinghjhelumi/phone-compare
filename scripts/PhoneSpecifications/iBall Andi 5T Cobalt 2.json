@@ -1,0 +1,87 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "iBall",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model Name": "Andi 5T Cobalt 2",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "Auto Focus, Voice Capture",
+                "Primary Camera": "Yes, 12 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSDPA; 11 Mbps HSUPA; HSPA+",
+                "Bluetooth": "Yes, Supported Profiles (A2DP)",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Wireless Display, Flip to Mute, Auto Call Record with Folder, Smart Answer, Dial from SMS Directly, Dial from Contact Directly, Shake to Answer, Voice Control for Phone, Camera and Alarms, OTA (Online Updating of System Software), Voice Input",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "G-Sensor, Proximity Sensor, Light Sensor, Magnetic Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "OGS Touch Panel, IPS Display",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "8.9 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "1750 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "1 GB RAM",
+                "User Memory": "600 MB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1.3 GHz + Cortex-A7, Quad Core"
+            }
+        }
+    ]
+}

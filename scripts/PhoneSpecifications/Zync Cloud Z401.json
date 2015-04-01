@@ -1,0 +1,88 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Zync",
+                "Business Features": "Document Viewer, eBook, Documents to Go, Thinkfree Office, Doc to PDF Converter",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model Name": "Cloud Z401",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "Zoom - 8x, Auto Focus, White Balance, Colour Effect, Brightness and Contrast Control, Multi-shot Mode",
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports WAV, MP3",
+                "Video Player": "Supports HQ, 3GP, MP4"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android, WAP",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes",
+                "WAP": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Wi-Fi Direct, MMS Enabled, Flash Player, Calendar, Calculator, Clock, Tethering and Portable Hotspot, Games, ES File Explorer, Dropbox-Storage, Weather Forecast, Weatherbug, Infotainment-Cricbuzz Supported",
+                "Call Memory": "Yes",
+                "Important Apps": "Google, Facebook, Messenger, WhatsApp, Zomato, Truecaller, Skype, LinkedIn, Bigflix, Bollywood Hungama, Zomato, Bookmyshow Supported",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Gravity Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Multi-touch",
+                "Resolution": "WVGA, 480 x 800 Pixels",
+                "Size": "4 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "61x122x7 mm",
+                "Weight": "141 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "128",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v2.3.4 (Gingerbread)",
+                "Operating Freq": "GSM - 900, 1800",
+                "Processor": "1 GHz"
+            }
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "RKMobile",
+                "Handset Color": "Black",
+                "In the Box": "Battery, Adopter, Headset, Datacable, Handset, Manual, Warranty Card",
+                "Model Name": "Plaudit P400",
+                "SIM Size": "Full Size SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Primary Camera": "Yes, 1.3 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "No, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 800 Pixels",
+                "Size": "4 Inches",
+                "Type": "WVGA"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "We will pickup from your doorsetp and after the service we will send back to your door step",
+                "Warranty Summary": "1 Year"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "4 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.1 (Jelly Bean)",
+                "Processor": "Dual Core"
+            }
+        }
+    ]
+}

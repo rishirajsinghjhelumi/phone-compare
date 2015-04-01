@@ -1,0 +1,106 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Business Features": "Document Viewer, Pushmail  (Microsoft Exchange), Mobile Printing",
+                "Call Features": "Conference Call, Speed Dialing, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Metallic Black",
+                "In the Box": "Handset, Battery, Charger, Headset, 2 GB microSD Card, Data Cable, User Manual",
+                "Keypad": "Yes, QWERTY",
+                "Model ID": "B5512",
+                "Model Name": "Galaxy Y Pro Duos",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV, eAAC",
+                "Ringtone": "MP3, 64 Polyphonic",
+                "Sound Enhancement": "DNSe Sound",
+                "Video Player": "Yes, Supports MP4, WMV, H.264, MPEG4, H.263"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Geo-tagging, Shot Mode, Photo Effects, White Balance, Image Editor",
+                "Primary Camera": "Yes, 3 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 24 fps",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android, WAP 2.0",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "WAP": "Yes, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Samsung Kies 2.0, Calendar Sync, Configure upto 5 Email ids, Optical Trackpad, Flight Mode, Predictive Text Input, MMS and EMS Enabled, Calendar, Clock, World Time, Alarm, Calculator, Caller ID, Mobile Tracker, Voice Input",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Talk, Facebook, Twitter, Gmail, YouTube, Android Market, Google Calendar",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "0.573 W/Kg",
+                "SMS Memory": "500",
+                "Sensors": "Accelerometer, Proximity Sensor, Digital Compass"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "63.5x110.8x11.9 mm",
+                "Weight": "112.3 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "QVGA, 240 x 320 Pixels",
+                "Size": "2.6 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "1030 hrs (2G), 750 hrs (3G)",
+                "Talk Time": "19 hrs (2G), 7 hrs (3G)",
+                "Type": "Li-Ion, 1350 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "160"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "Yes",
+                "OS": "Android v2.3 (Gingerbread)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "832 MHz",
+                "User Interface": "TouchWiz"
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Zook",
+                "Handset Color": "Silver",
+                "In the Box": "Handset, Battery, Headset, Charger, Manual",
+                "Model Name": "Cutepad",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Customer needs to call the nearby Authorized Service Center",
+                "Warranty Summary": "1 Year Manufacturing Warranty On Handset Only"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "56x121.5x10.5 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "Capacitive Touch"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "64 GB"
+            }
+        }
+    ]
+}

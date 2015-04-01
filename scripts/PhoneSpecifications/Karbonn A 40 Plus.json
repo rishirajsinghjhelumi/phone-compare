@@ -1,0 +1,30 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Karbonn",
+                "Handset Color": "White",
+                "In the Box": "Mobile",
+                "Model ID": "A 40 Plus",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 X 854 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1700 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "4 GB"
+            }
+        }
+    ]
+}

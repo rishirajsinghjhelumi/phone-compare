@@ -1,0 +1,104 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Nokia",
+                "Business Features": "Document Viewer, Document Editor, Pushmail  (Microsoft Exchange ActiveSync), Adobe Acrobat Reader, Lync, Documents and Notes, Company Hub, Excel, Word, Powerpoint, PDF, Office 365",
+                "Call Features": "Conference Call, Hands Free, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Yellow",
+                "In the Box": "Headset, Charger, Handset, Quick Guide, Battery, SIM Door Key, Data Cable",
+                "Model Name": "Lumia 1020",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, eAAC+",
+                "Ringtone": "MP3",
+                "Sound Enhancement": "Noise Cancellation, Dolby Headphone, Cloud Music Offline Playback, Graphical Equalizer",
+                "Video Player": "Yes, Supports 3G2, 3GP, MP4, M4V, WMV, AVI, MOV, Full HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "Xenon",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "",
+                "Primary Camera": "Yes, 41 Megapixel",
+                "Secondary Camera": "Yes, 1.2 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080, 30 fps"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42.2 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3, Supported Profiles (A2DP 1.2, HFP 1.5, OPP 1.1, AVRCP 1.4, PBAP 1.1)",
+                "DLNA": "Yes",
+                "EDGE": "Yes, 236.8 kbps",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, GLONASS, with HERE Maps, HERE Drive+",
+                "Preinstalled Browser": "Internet Explorer 10",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 a/b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Yahoo, Outlook Mobile, Gmail, Nokia Mail, Windows Live Messenger, Hotmail, Instant Messaging, Google Talk, Twitter, Yahoo Messenger, WhatsApp, Skype IM, Facebook, LinkedIn, Picasa, Flickr, YouTube, Music Apps",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Ambient Light Sensor, Barometer, Gyroscope, Proximity Sensor, Accelerometer, Magnetometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "71.4x130.4x10.4 mm",
+                "Weight": "158 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "High Brightness Mode, PureMotion HD+, ClearBlack Technology, Nokia Glance Screen, Brightness Control, Corning Gorilla Glass 3, Sculpted Glass, Lumia Color Profile, Super Sensitive Touch, Sunlight Readability Enhancements, Wide Viewing Angle, Refresh Rate 60 Hz, Easy to Clean",
+                "Resolution": "Others, 1280 x 768 Pixels",
+                "Size": "4.5 Inches",
+                "Type": "AMOLED"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "384 hrs (2G)",
+                "Talk Time": "19 hrs (2G), 13 hrs (3G)",
+                "Type": "2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "32",
+                "Memory": "2 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Windows v8.1",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.5 GHz + Qualcomm Snapdragon S4, Dual Core"
+            }
+        }
+    ]
+}

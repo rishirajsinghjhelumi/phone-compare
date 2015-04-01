@@ -1,0 +1,62 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Rage",
+                "Handset Color": "Yellow",
+                "In the Box": "Handset & Battery & Charger & Handsfree & Manual & Warranty Card",
+                "Model Name": "Rayon",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "Yes",
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "no"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "35x25x15 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "270x480 Pixels",
+                "Size": "4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Po, 1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "32 MB",
+                "Memory": "32 MB RAM"
+            }
+        }
+    ]
+}

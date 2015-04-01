@@ -1,0 +1,72 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "ZTE",
+                "Handset Color": "White",
+                "In the Box": "Handset, Travel Charger, Microusb Cablle, Hand Free, Waranty Card",
+                "Model ID": "Blaze4.0",
+                "Model Name": "Touch",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "3.2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "gravity sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320x480 Pixels",
+                "Size": "4 Inches",
+                "Type": "wvga"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "125.9x64.7x10.8 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Warranty Service Type": "customer go to zte service center",
+                "Warranty Summary": "one year waranty by company service center"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1400 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512 Mb",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.1.2 (Jelly Bean)",
+                "Processor": "no"
+            }
+        }
+    ]
+}

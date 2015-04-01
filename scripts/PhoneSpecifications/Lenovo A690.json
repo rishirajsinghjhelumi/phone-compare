@@ -1,0 +1,73 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lenovo",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Charger, Manual, USB Cable, Warranty Card, Headset, Repairing Block Card, Battery",
+                "Model Name": "A690",
+                "SIM Size": "Full Sim Size",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 3.1 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Accelerometer, Proximity"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 800 Pixels",
+                "Size": "4 Inches",
+                "Type": "TFT Capacitive Touchscreen"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "65x124x11 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only.",
+                "Not Covered in Warranty": "Warranty void in case of water or moisture damage, physical damage, damage caused to the product due to improper installation by customer. Damaged caused due to device opened by external technician.",
+                "Warranty Service Type": "Customer needs to call the nearby authorized service center.",
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories."
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512 MB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "PowerVR SGX531",
+                "OS": "Android v2.3 (Gingerbread)",
+                "Processor": "1 GHz + Cortex A9"
+            }
+        }
+    ]
+}

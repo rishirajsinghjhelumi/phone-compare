@@ -1,0 +1,30 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Celkon",
+                "Handset Color": "Black & White",
+                "In the Box": "Mobile",
+                "Model ID": "Charm Colours",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "6.1 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion 1000 mAh battery, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "0$$MB"
+            }
+        }
+    ]
+}

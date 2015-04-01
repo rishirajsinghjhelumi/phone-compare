@@ -1,0 +1,92 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "OPPO",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model Name": "OPPO N1",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "Dual LED",
+                "Other Camera Features": "Auto Focus, 206 Degree Rotating Camera, 8S Slow Shot Mode",
+                "Primary Camera": "Yes, 13 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3",
+                "Sound Enhancement": "Dual Mic Noise Cancellation",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSDPA; 11.5 Mbps HSUPA, HSPA+",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (LE)",
+                "DLNA": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Wi-Fi Direct, O-touch Back Control, O-Click Controller, 5 GB O-clouds Storage, OS - ColorOS v1.0.0i",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "G-Sensor, Proximity Sensor, eCompass, Light Sensor, Gyro-meter Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "IPS Display, Multi-touch",
+                "Resolution": "Full HD, 1920 x 1080 Pixels",
+                "Size": "5.9 Inches",
+                "Type": "IPS"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "82.6x170.7x9 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Polymer, 3610 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "16",
+                "Memory": "2 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; WCDMA - 2100",
+                "Processor": "1.7 GHz + Qualcomm APQ8064T, Quad Core"
+            }
+        }
+    ]
+}

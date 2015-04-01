@@ -1,0 +1,60 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BlackBerry",
+                "Handset Color": "Pink",
+                "In the Box": "Battery, Charger, User Guide, Handset, Headset, Data Cable",
+                "Model Name": "Bold 9790",
+                "SIM Size": "Full Size SIM",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 5 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 360 Pixels",
+                "Size": "2.45 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the Product is Limited to Manufacturing Defects Only",
+                "Warranty Service Type": "Customer Needs to Call the Nearby Authorized Service Center",
+                "Warranty Summary": "18 Month National Warranty for Mobile, 6 Month Warranty for in the Box Accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1230 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8 GB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Blackberry OS",
+                "Processor": "1 GHz Marvel Tavor MG1"
+            }
+        }
+    ]
+}

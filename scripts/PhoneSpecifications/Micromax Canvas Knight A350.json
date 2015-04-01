@@ -1,0 +1,91 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Business Features": "Document Viewer, Kingsoft Office",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model ID": "A350",
+                "Model Name": "Canvas Knight A350",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Auto Focus, Flash Support, CameraChip Sensor, 1.34-micron Omni BSI 2 Pixel Architecture, Electronic Image Stabilization, Cheese, Burst",
+                "Primary Camera": "Yes, 16 Megapixel",
+                "Secondary Camera": "Yes, 8 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV, MIDI",
+                "Sound Enhancement": "Yamaha Amplifier",
+                "Video Player": "Yes, Supports MP4, 3GP, AVI (MJPEG), Full HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, HSPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android, Opera",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Smoother User Interface, Games, FOTA",
+                "Call Memory": "Yes",
+                "Important Apps": "Hike, Spuul, M! Live, M! Security, M! Vault, Real Steel, Where is My Water, Where is My Perry, Getit, BBM, True Caller",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Gravity Sensor, Light Sensor, Gyroscope Sensor, Magnetic Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16.7 M",
+                "Other Display Features": "IPS Display",
+                "Resolution": "Full HD, 1920 x 1080 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "175 hrs (2G)",
+                "Talk Time": "7 hrs (2G)",
+                "Type": "2350 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "32",
+                "Memory": "2 GB RAM, 32 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.7 GHz + MT6592T"
+            }
+        }
+    ]
+}

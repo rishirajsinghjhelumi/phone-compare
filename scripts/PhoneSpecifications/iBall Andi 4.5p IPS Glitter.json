@@ -1,0 +1,56 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "iBall",
+                "Handset Color": "White & Chrome",
+                "In the Box": "HANDSET, BATTERY, TRAVEL CHARGER ADAPTOR, USB CABLE, STEREO HEADSET, USER MANUAL",
+                "Model ID": "Andi 4.5p IPS Glitter",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "8 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5MM",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "G-sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "854 X 480 Pixels",
+                "Size": "4.5 Inches",
+                "Type": "FWVGA"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1450 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat)",
+                "Processor": "1.3 GHz + CORTEX A7, Quad Core"
+            }
+        }
+    ]
+}

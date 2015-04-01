@@ -1,0 +1,102 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "LG",
+                "Business Features": "Document Viewer, Pushmail  (Microsoft Exchange)",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Battery, Charger, Headset, Data Cable, User Manual, CD",
+                "Keypad": "No",
+                "Model Name": "Optimus L3 E400",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Fixed Focus, Geo-tagging, Multi-shot mode",
+                "Primary Camera": "Yes, 3.2 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 640 x 480, 30 fps",
+                "Zoom": "Digital Zoom 4x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV, eAAC",
+                "Ringtone": "MP3",
+                "Video Player": "Yes, Supports MP4, H.264, H.263, WMV"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 3.6 Mbps HSDPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3, Supported Profiles (EDR, HSP, HFP 1.5, A2DP, AVRCP 1.0, DUN, SPP, OPP, FTP, BPP, PBAP)",
+                "EDGE": "Yes, Class 12",
+                "GPRS": "Yes, Class 12",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Remote Call, LG Smart World, Application Manager, RSS Feed, Polaris Viewer, Voice Search, Analog Clock, Calendar, PC Sync, MMS Enabled, Software Update, Alarm Clock, World Clock, Calculator, Voice Recorder, Stop Watch",
+                "Call Memory": "Yes",
+                "Important Apps": "Google, Gmail, YouTube, Google Search, Latitude, Messenger, News and Weather Phone, Yahoo, Hot Mail, AOL",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor, Digital Compass"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "QVGA, 240 x 320 Pixels",
+                "Size": "3.2 Inches",
+                "Type": "TFT LCD"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "61.6x102.6x11.85 mm",
+                "Weight": "109 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "673 hrs (2G), 640 hrs (3G)",
+                "Talk Time": "15 hrs (2G), 8 hrs (3G)",
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "1",
+                "Memory": "384 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "Yes",
+                "OS": "Android v2.3 (Gingerbread)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "800 MHz"
+            }
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Intex",
+                "Handset Color": "Grey",
+                "In the Box": "Handset, Battery, Charger, Earphone, Manual, Warranty Card",
+                "Model Name": "Aqua Style Pro",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "8 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Gravity sensor, Proximity sensor, Light sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Customer Need to Contact to Nearest Service Center",
+                "Warranty Summary": "1 Year Manufacturer Warranty For Phone & 6 Month For Accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "65x133x8.8 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 854 Pixels",
+                "Size": "4.5 Inches",
+                "Type": "FWVGA"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Processor": "1.2 GHz, Quad Core"
+            }
+        }
+    ]
+}

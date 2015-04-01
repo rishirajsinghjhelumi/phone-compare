@@ -1,0 +1,78 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Panasonic",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Silver",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "GD21",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Zoom Support - 4x",
+                "Primary Camera": "Yes, 1.3 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1, Supported Profiles (A2DP)",
+                "GPRS": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "English and Hindi Language Support through Keypad, LED Torch, Mobile Tracker, Blacklist, Security Inbox, CE Certification, FM Alarm, Privacy Data Protection, Auto Call Recorder",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "50x120x14.3 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "0",
+                "Memory": "32 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

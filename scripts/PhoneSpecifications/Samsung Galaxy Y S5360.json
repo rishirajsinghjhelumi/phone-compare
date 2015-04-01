@@ -1,0 +1,106 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Business Features": "Document Viewer, Pushmail, Mobile Printing",
+                "Call Features": "Conference Call, Speed Dialing, Loudspeaker, Call Timer, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Metallic Gray",
+                "In the Box": "Handset, Battery, Charger, Headset, USB Cable, User Manual, Warranty Card",
+                "Model ID": "S5360",
+                "Model Name": "Galaxy Y",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, eAAC, WAV",
+                "Ringtone": "MP3, Polyphonic",
+                "Sound Enhancement": "DNSe Sound",
+                "Video Player": "Yes, Supports MPEG-4, 3GPP, H.263, H.264, WMV"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Geo-tagging, Multi-shot Mode, Photo Effects, White Balance, Image Editor",
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 15 fps",
+                "Zoom": "Digital Zoom - 2x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android, WAP 2.0",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "WAP": "Yes, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Multi Touch Zoom, Calculator, DRM, Cell Broadcast, Clock, Alarm, Memo Book, Caller ID, Video Messaging, Video Streaming, Embedded Wallpaper, Flight Mode, MMS, Predictive Text Input, vCard, vCalendar, Mobile Tracker, Voice Input",
+                "Call Memory": "Yes",
+                "Important Apps": "Facebook, Orkut, YouTube, Gmail, Google Talk, Twitter, Samsung Apps",
+                "Phone Book Memory": "Practically Unlimited",
+                "SAR Value": "0.655 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor, Digital Compass"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "58x104x11.5 mm",
+                "Weight": "97.5 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "3 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "850 hrs (2G), 540 hrs (3G)",
+                "Talk Time": "17 hrs (2G), 6 hrs (3G)",
+                "Type": "Li-Ion, 1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Included Memory Card": "2 GB",
+                "Internal": "180"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "Yes",
+                "OS": "Android v2.3 (Gingerbread)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "832 MHz",
+                "User Interface": "Touchwiz"
+            }
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Hands Free, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Charger, User Guide, USB Cable, Headset, Battery, Warranty Card",
+                "Model Name": "Canvas 3D",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "Dual LED",
+                "Other Camera Features": "Auto Focus, Shoot in 3D Mode, 5x Zoom, Multi-scene Mode, Color Effect, White Balance",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 640 x 480"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MIDI, MP3, WAV",
+                "Video Player": "Yes, Supports MP4, AVI, 3GP"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "3D Video Support, 3D Games, 3D Space, Flight Mode, Audio Recorder",
+                "Call Memory": "Yes",
+                "Important Apps": "Hook Up, MiZone+, YouTube",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Head - 0.291 W/Kg and At the Body - 0.450 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Gravity Sensor, Accelerometer"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Naked Eye 3D, Pinch-to-Zoom",
+                "Resolution": "WVGA, 480 x 800 Pixels",
+                "Size": "5 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "225 hrs (2G)",
+                "Talk Time": "4 hrs (2G)",
+                "Type": "2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "0.93",
+                "Memory": "512 MB RAM, 4 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.1.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1 GHz, Dual Core"
+            }
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Sony",
+                "Business Features": "Document Viewer, Pushmail  (ActiveSync)",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Silver",
+                "In the Box": "Handset, Data Cable, Charger, User Manual, Headset",
+                "Keypad": "No",
+                "Model Name": "Xperia P",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV, MIDI, eAAC",
+                "Ringtone": "MP3",
+                "Sound Enhancement": "3D Surround Sound, xLOUD Technology",
+                "Video Player": "Yes, Supports 3GPP, MP4, WMV, H.263, H.264, Full HD, HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Geo-tagging, 3D Sweep Panorama, Face and Smile Detection, Touch Focus, Image Stabilization, Auto Focus, Red-eye Reduction, Self Timer",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 1080 x 1920, 30 fps",
+                "Zoom": "Digital Zoom - 8x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 14.4 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1, Supported Profiles (A2DP 1.2, AVRCP 1.0, OPP 1.1, EDR, HFP 1.1, HSP 1.5, PAP 1.0)",
+                "DLNA": "Yes",
+                "EDGE": "Yes, 296 kbps",
+                "GPRS": "Yes, 100 kbps",
+                "HDMI Port": "Yes",
+                "Internet Features": "Email, Adobe Flash 11",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Motion Gaming, Sony Entertainment Network, Noise Suppression, Phone Memory Storage - 16 GB (13 GB User Accessible Memory), Sound Recorder, MMS Enabled, Video Streaming, Flight Mode, Alarm Clock, Calculator, Calendar, eCompass, Stopwatch, Timer, NFC, Voice Input, TV Out Port",
+                "Call Memory": "Yes",
+                "Important Apps": "YouTube, Facebook, Google Voice Search, Google Talk with Video Chat, Gmail, Google Calender, Google Gallery 3D, Instant Messaging, GoogleSync, Picasa, Twitter, Google Lattitude, Android Market",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "0.78 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Compass, Ambient Light Sensor, Proximity Sensor, Gyro Sensor, Accelerometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "59.5x122x10.5 mm",
+                "Weight": "120 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "WhiteMagic Technology, Shatter Proof Sheet on Mineral Glass, Gesture Input, Mobile Bravia Engine, Scratch-resistant, Screenshot Capturing",
+                "Resolution": "960 x 540 Pixels",
+                "Size": "4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "470 hrs (2G), 475 hrs (3G)",
+                "Talk Time": "6 hrs (2G), 5 hrs (3G)",
+                "Type": "Li-Ion, 1305 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "16",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Mali-400",
+                "Java": "Yes",
+                "OS": "Android v2.3 (Gingerbread), Upgradable to v4.1 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1 GHz + U8500, Dual Core",
+                "User Interface": "Timescape"
+            }
+        }
+    ]
+}

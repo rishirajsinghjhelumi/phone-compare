@@ -1,0 +1,50 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Rage",
+                "Handset Color": "Black",
+                "In the Box": "Charger, Handset, Battery, Handsfree, Manual, Warranty Card",
+                "Model ID": "Silk_Blue",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "119x51x11 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1050 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "32 MB"
+            }
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Forme",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Charger, Battery, Headset, Warranty Card, User Manual",
+                "Model Name": "Fantasy F10",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "5 Pin",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Authorized service centre",
+                "Warranty Summary": "1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box Accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "49.5x17x106 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x 160 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "32 MB"
+            }
+        }
+    ]
+}

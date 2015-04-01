@@ -1,0 +1,94 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Call Features": "Loudspeaker",
+                "Form": "Flip",
+                "Handset Color": "Champagne Gold",
+                "Keypad": "Yes, Alphanumeric",
+                "Model ID": "I9230",
+                "Model Name": "Galaxy Golden I9230",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV, eAAC+, FLAC, MIDI, AC3",
+                "Video Player": "Yes, Supports XviD, WMV-8, RV, H.263, MPEG-4, WMV-7, MP4, DivX, H.264, VC-1"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Auto Focus, Flash Support",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 1.9 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Bluetooth": "Yes, v4, Supported Profiles (LE)",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, GLONASS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes, 802.11 a/b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Piezo Receiver, NFC Support, Hidden Receiver, Take Calls without Opening the Folder, Large Keypad with Bold Keys",
+                "Call Memory": "Yes",
+                "Important Apps": "Find My Mobile, All Share Play, Kies Windows and Mac Application",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Head - 0.465 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Barometer, Proximity Sensor, Digital Compass, Gyro Sensor, Luminance"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "59.5x118x15.8 mm",
+                "Weight": "179 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Both Side Touch can Perform Apps, Large Font and Icons",
+                "Resolution": "WVGA, 480 x 800 Pixels",
+                "Size": "3.7 Inches",
+                "Type": "Super AMOLED"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "1820 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "16",
+                "Memory": "1.5 GB RAM, 16 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.7 GHz + MSM8930 Pro, Dual Core",
+                "User Interface": "TouchWiz"
+            }
+        }
+    ]
+}

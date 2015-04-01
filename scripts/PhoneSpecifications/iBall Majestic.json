@@ -1,0 +1,42 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "iBall",
+                "Handset Color": "Black",
+                "In the Box": "1 HANDSET, 1 BATTERY, 1 TRAVEL ADAPTOR, 1 USB CABLE, 1 STEREO HEADSET, 1 USER MANUAL, 1 WARRANTY CARD",
+                "Model Name": "Majestic",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "6 MONTH",
+                "Warranty Summary": "1 YEAR"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "2.4 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "0"
+            }
+        }
+    ]
+}

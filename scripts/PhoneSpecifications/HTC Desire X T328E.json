@@ -1,0 +1,105 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "HTC",
+                "Business Features": "Document Viewer, Document Editor, Pushmail  (MS Exchange Active Sync)",
+                "Call Features": "Conference Call, Speed Dialing, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Prussian Blue",
+                "In the Box": "Battery, Warranty Card, Charger, User Manual, Handset, Headset, USB Cable",
+                "Model Name": "Desire X T328E",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV, eAAC",
+                "Ringtone": "MP3, WAV",
+                "Sound Enhancement": "Beats Audio",
+                "Video Player": "Yes, Supports 3GP, MP4, H.263, H.264, WMV, AVI"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "Auto Focus, BSI Sensor, F2.0 Aperture and 28mm Lens, Continuous Shot, Geo-tagging, Multi-shot, Pinch-to-Zoom, Image Editor",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 800 x 480, 30 fps"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (A2DP)",
+                "DLNA": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Predictive Text Input, Alarm, Calendar, 25 GB Dropbox, TBD Radio, MMS Enabled, Video Pic, Sleep Mode, Flight Mode, VPN, Voice Recording, World Clock, HTC Car, WAP Push Messages, Voice Input",
+                "Call Memory": "Yes",
+                "Important Apps": "YouTube, Google Talk, Google Search, Gmail, Play Store, Widgets, Facebook, Google, Weather Update, Sky Drive, People App, Internet Calls",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Head - 1.590 W/Kg, At the Body - 0.884 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Ambient Light Sensor, G-Sensor, Proximity Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "62.3x118.5x9.3 mm",
+                "Weight": "114 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Resolution": "WVGA, 800 x 480 Pixels",
+                "Size": "4 Inches",
+                "Type": "Super LCD"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "750 hrs (2G), 833 hrs (3G)",
+                "Talk Time": "20 hrs (2G), 10 hrs (3G)",
+                "Type": "Li-Ion, 1650 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "768 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 203",
+                "Java": "Yes",
+                "OS": "Android v4 (Ice Cream Sandwich)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1 GHz + ARM Cortex-A5, Dual Core",
+                "User Interface": "HTC Sense 4.0"
+            }
+        }
+    ]
+}

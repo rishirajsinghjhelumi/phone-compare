@@ -1,0 +1,80 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Blue",
+                "Model Name": "Canvas Turbo Mini A200",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Other Camera Features": "Auto Focus, Cinemagraph Object Eraser",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 5 Megapixel",
+                "Video Recording": "Yes, 720 x 1280"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes, HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Bluetooth": "Yes, v4",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Light Sensor, Gravity Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "IPS Display",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "4.69 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "180 hrs (2G)",
+                "Talk Time": "6 hrs (2G)",
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "1.61",
+                "Memory": "1 GB RAM, 4 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.3 GHz, Quad Core"
+            }
+        }
+    ]
+}

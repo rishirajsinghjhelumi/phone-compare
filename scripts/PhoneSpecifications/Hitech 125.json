@@ -1,0 +1,51 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Hitech",
+                "Handset Color": "Black",
+                "In the Box": "Mobile, Earphone, Battery, Charger, Manual, Data Cable, Service Center List",
+                "Model ID": "125",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty Of The Product Is Limited To Manufacturing Defects Only",
+                "Not Covered in Warranty": "Warranty does not cover any external accessories (such as battery, cable ), damage caused to the product due to improper installation by customer, normal wear and tear.",
+                "Warranty Service Type": "Customer needs to call the nearby authorized service center.",
+                "Warranty Summary": "1 year Hitech Warranty"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x 160 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1100 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "32 MB",
+                "Memory": "32 MB RAM"
+            }
+        }
+    ]
+}

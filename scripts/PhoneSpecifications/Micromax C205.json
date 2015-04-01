@@ -1,0 +1,72 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Handset Color": "Black",
+                "In the Box": "1 handset, 1 charger, 1 Battery, 1 handsfree, 1 USB cable, 1 User Guide, 1 Warranty Card",
+                "Model ID": "C205",
+                "SIM Size": "Full Sim",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "Yes Mini USB",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, Mini USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "No"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Not Covered in Warranty": "Warranty does not cover any external accessories (such as battery, cable, carrying bag), damage caused to the product due to improper installation by customer, normal wear and tear to magnetic heads, audio, video, laser pick-ups and TV picture tubes, pane",
+                "Warranty Service Type": "Customer needs to visit nearby Authorized Service Center.",
+                "Warranty Summary": "1 Year Warranty"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "111.5x14.2x48.3 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x160 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "128 MB",
+                "Memory": "32 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "No",
+                "Processor": "No"
+            }
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lava",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black+Blue",
+                "In the Box": "Handset, Charger, User Manual, Earphone, Battery",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "KKT 40 Power",
+                "SIM Type": "Dual Sim, GSM + GSM"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports WAV, AMR, AAC, MP3",
+                "Video Player": "Yes, Supports AVI, MP4, 3GP"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes",
+                "GPRS": "Yes",
+                "Preinstalled Browser": "WAP",
+                "WAP": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Power Bank Functionality with OTG Cable, English & Hindi Language Support, Auto Call Recording with Folder, Audio Recording, Bright LED Torch, Contact Backup on Memory Card, Blacklist Contacts, SMS Backup on Memory Card, SMS Signature, Privacy Protection, Mobile Tracker, Alarm",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "1000",
+                "SMS Memory": "200"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "51x116.7x14.5 mm"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "2.4 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Polymer, 2700 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "0"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

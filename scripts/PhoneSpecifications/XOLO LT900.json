@@ -1,0 +1,93 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "XOLO",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model Name": "LT900",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Primary Camera: BSI Sensor, Dual Flash Support, Auto Focus, Image Stabilization, Scene Detection and Tuning, HDR, Low Light Enhancement, Face Recognition (For Focussing as well as in Gallery), Vertical and Horizontal Panorama Capture, Geo-tagging",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 1 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3, MIDI, WAV",
+                "Sound Enhancement": "Noise and Echo Cancellation Support, Dual Mic",
+                "Video Player": "Yes, Supports MPEG4, DivX, MPG, H.264, H.263, MP4, Full HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Android Video Player, Video Chat, Airtel Mobile TV",
+                "Call Memory": "Yes",
+                "Important Apps": "Skype, BigFlix, Kepplr Cloud Space",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Gyroscope, Magnetometer, Accelerometer, Ambient Light Sensor, Proximity Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Synaptic Touch Controller, One Glass Solution (OGS), Corning Glass, 5 Fingers Supported, IPS Display",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "4.3 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "66x128.7x9.8 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "362 hrs (2G), 301 hrs (3G)",
+                "Talk Time": "15 hrs (2G), 14 hrs (3G)",
+                "Type": "1810 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 225, 384 MHz",
+                "OS": "Android v4.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100; 4G: TDD-LTE Band 40 - 2300 MHz",
+                "Processor": "1.5 GHz + Qualcomm MSM8960 Snapdragon S4, Dual Core"
+            }
+        }
+    ]
+}

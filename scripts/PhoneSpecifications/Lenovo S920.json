@@ -1,0 +1,72 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lenovo",
+                "Handset Color": "Blue",
+                "In the Box": "Charger, Battery, USB Cable, Handset, Headset",
+                "Model ID": "S920 (8 GB)",
+                "Model Name": "S920",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Primary Camera": "8 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Gravity Sensor, Ambient Light Sensor, eCompass, Proximity Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Not Covered in Warranty": "Physical Damage",
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "77.7x154x7.9 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "1280 x 720 Pixels",
+                "Size": "5.3 Inches",
+                "Type": "4 Points Multi-touch, IPS Display, OGS Technology"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2250 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Power VR SGX544",
+                "OS": "Android vv4.2 (Jelly Bean)",
+                "Processor": "1.2 GHz + Cortex-A7, Quad Core"
+            }
+        }
+    ]
+}

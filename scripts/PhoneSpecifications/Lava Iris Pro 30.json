@@ -1,0 +1,100 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lava",
+                "Business Features": "Document Viewer, Office Suite",
+                "Call Features": "Conference Call, Hands Free, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Grey",
+                "In the Box": "Handset, User Manual, Data Cable, Charger, Battery, Headset, USB Cable, Warranty Card, Leaflet for Smart Features",
+                "Model Name": "Iris Pro 30",
+                "SIM Size": "Mini SIM + Micro SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Sound Enhancement": "Noise Cancellation with Dual Mic",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "Dual LED",
+                "Other Camera Features": "Auto Focus, HDR",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 3 Megapixel",
+                "Zoom": "Digital Zoom"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android, Google Chrome",
+                "Tethering": "USB",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "To-do List, Language Translator, Smart Answering, Direct Calling, Flip to Mute, Call Recorder, CABC Power Saving Technology, OTG Support",
+                "Call Memory": "Yes",
+                "Important Apps": "News and Weather, Google Talk, YouTube, Gmail, Google Search, Google Play",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "66.7x138x7.5 mm",
+                "Weight": "114 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16.7 M",
+                "Other Display Features": "IPS, Full Lamination, Gorilla Glass, OGS",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "4.7 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "400 hrs (2G)",
+                "Talk Time": "7 hrs (2G), 4 hrs (3G)",
+                "Type": "Li-Polymer, 2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "1 GB RAM, 4 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2.1 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.2 GHz, Quad Core"
+            }
+        }
+    ]
+}

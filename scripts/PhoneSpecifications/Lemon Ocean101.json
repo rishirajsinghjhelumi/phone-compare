@@ -1,0 +1,68 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lemon",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model ID": "Ocean101",
+                "Model Name": "Ocean101",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "8 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5mm",
+                "USB Connectivity": "Yes, Mini USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "G-Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "854 x 480 Pixels",
+                "Size": "5 Inches",
+                "Type": "FWVGA"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "5x11x19 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year manufactured warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 3000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)"
+            }
+        }
+    ]
+}

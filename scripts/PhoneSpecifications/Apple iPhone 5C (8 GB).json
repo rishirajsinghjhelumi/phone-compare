@@ -1,0 +1,95 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Apple",
+                "Business Features": "Document Viewer, Microsoft Word, Microsoft Excel, Microsoft PowerPoint, PDF, PPT, PPTX, XLS, XLSX, TXT, DOC, DOCX",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Yellow",
+                "Model ID": "A1529",
+                "Model Name": "iPhone 5C",
+                "SIM Size": "Nano SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "iOS v7",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "A6 Chip"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Multi-touch, Wide Screen, Oleophobic Coating on Front, Retina Display, Contrast Ratio - 800:1, Finger Print Resistant, 500 cd / m2 Max Brightness",
+                "Resolution": "1136 x 640 Pixels",
+                "Size": "4 Inches"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 1.2 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080, 30 fps"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "59.2x124.4x8.97 mm",
+                "Weight": "132 g"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "250 hrs (2G)",
+                "Talk Time": "10 hrs (3G)",
+                "Type": "Li-Ion"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "8"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "Charging Point": "Charging via USB to Computer System or Power Adapter",
+                "EDGE": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, GLONASS, with Yes",
+                "Preinstalled Browser": "Safari",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes, 802.11 a/b/g/n"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3, WAV",
+                "Video Player": "Yes, Supports H.264, M4V, MOV, MP4, MPEG-4, Full HD"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Three-axis Gyro Sensor, Accelerometer, Proximity Sensor, Digital Compass, Ambient Light Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and for in the box accessories"
+            }
+        }
+    ]
+}

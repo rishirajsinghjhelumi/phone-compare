@@ -1,0 +1,30 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "i-smart",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model Name": "IS 301W",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "97.3 x 40.1 x 10.3 Pixels",
+                "Size": "1.8 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "34.5 KB"
+            }
+        }
+    ]
+}

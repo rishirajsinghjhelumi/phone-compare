@@ -1,0 +1,64 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Jivi",
+                "Handset Color": "Black",
+                "In the Box": "Charger, Earphone, Battery, Mobile Phone, User Booklet",
+                "Model Name": "JV A3",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "manufacture defect only",
+                "Not Covered in Warranty": "battery, cable",
+                "Warranty Service Type": "Customer needs to call authorized service centre of the nearby area",
+                "Warranty Summary": "1 year manufacture warratany"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "15x50x118 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-on, 900 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 4 GB",
+                "Internal": "0"
+            }
+        },
+        {
+            "Platform": {
+                "Processor": "No"
+            }
+        }
+    ]
+}

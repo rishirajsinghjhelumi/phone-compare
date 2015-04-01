@@ -1,0 +1,66 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BLU",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Battery, Charger, Usb cable, Handsfree, User Manual, warranty card",
+                "Model ID": "EON",
+                "Model Name": "Eon",
+                "SIM Size": "Micro,Regular",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Accelerometer"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "HVGA TFT"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Warranty Service Type": "Customer needs to call/visit the nearest service centre since product comes with 1 year Manufacturer warranty",
+                "Warranty Summary": "1 Year manufacturer warranty for phone, 6 months warranty for Battery & 3 months for in box Accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512 MB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2.2 (Jelly Bean)",
+                "Processor": "1 GHz"
+            }
+        }
+    ]
+}

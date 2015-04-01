@@ -1,0 +1,48 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Intex",
+                "Handset Color": "White",
+                "In the Box": "Handset, Battery, Charger, Headphone, Manual",
+                "Model ID": "Turbo S5",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Customer Need to Contact Nearest Service Center",
+                "Warranty Summary": "1 Year Intex Manufacturer Warranty"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "51x121x9.9 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "QVGA"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "34 KB"
+            }
+        }
+    ]
+}

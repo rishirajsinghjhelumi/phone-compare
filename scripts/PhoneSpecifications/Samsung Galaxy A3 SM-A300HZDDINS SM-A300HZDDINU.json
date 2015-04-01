@@ -1,0 +1,88 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Champagne Gold",
+                "Model ID": "SM-A300HZDDINS/SM-A300HZDDINU",
+                "Model Name": "Galaxy A3",
+                "SIM Size": "Nano SIM",
+                "SIM Type": "Dual Sim, GSM + UMTS",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "Auto Focus",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 5 Megapixel"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSDPA; 5.76 Mbps HSUPA, HSPA+",
+                "Bluetooth": "Yes, v4",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, GLONASS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes, 802.11 a/b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Touchwiz, Wi-Fi Direct",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Magnetic Sensor, Accelerometer, Gyroscope, Proximity Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "qHD, 960 x 540 Pixels",
+                "Size": "4.5 Inches",
+                "Type": "Super AMOLED"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "84.9x163.6x6.7 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "1900 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "16",
+                "Memory": "1 GB RAM, 16 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1.2 GHz, Quad Core"
+            }
+        }
+    ]
+}

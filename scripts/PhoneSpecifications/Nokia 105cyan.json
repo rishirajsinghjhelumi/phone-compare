@@ -1,0 +1,30 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Nokia",
+                "Handset Color": "Blue",
+                "In the Box": "Mobile",
+                "Model ID": "105cyan",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128X128 Pixels",
+                "Size": "1.4 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 850 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "32 MB"
+            }
+        }
+    ]
+}

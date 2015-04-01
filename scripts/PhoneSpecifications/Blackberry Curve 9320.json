@@ -1,0 +1,30 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BlackBerry",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model ID": "Curve 9320",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 240 Pixels",
+                "Size": "2.44 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1450 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "512 MB"
+            }
+        }
+    ]
+}

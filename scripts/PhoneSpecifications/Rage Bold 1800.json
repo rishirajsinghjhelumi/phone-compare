@@ -1,0 +1,50 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Rage",
+                "Handset Color": "Black",
+                "In the Box": "Warranty Card, Charger, Battery, Handsfree, Handset, Manual",
+                "Model Name": "Bold 1800",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "109x45.4x15.1 mm"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1050 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "32 MB"
+            }
+        }
+    ]
+}

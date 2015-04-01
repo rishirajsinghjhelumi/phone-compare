@@ -1,0 +1,67 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "i-smart",
+                "Handset Color": "White",
+                "In the Box": "Mobile, Earphone, Charger, User Mannual, Battery, Data Cable, Memory Card 8GB, Flip Cover",
+                "Model Name": "IS 55 Mercury V1",
+                "SIM Size": "Normal",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Primary Camera": "8 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Motion Sensor, G sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "720 x 1280 Pixels",
+                "Size": "5 Inches",
+                "Type": "QHD"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Not Covered in Warranty": "warranty does not cover any external accessories (such as battery, cable, carrying bag), damage caused to the product due to improper installation by customer, normal wear and tear to magnetic heads, audio, video, laser pick-ups and TV picture tubes, pane",
+                "Warranty Service Type": "On-Site Service. Customer Needs To Call The Nearby Authorized Service Center",
+                "Warranty Summary": "1 year warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2100 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "4 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Processor": "1.4 GHz + quad core, Quad Core"
+            }
+        }
+    ]
+}

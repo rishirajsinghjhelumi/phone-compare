@@ -1,0 +1,67 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "OBI",
+                "Handset Color": "White",
+                "In the Box": "Mobile",
+                "Model Name": "S500",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Primary Camera": "5 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5",
+                "HDMI Port": "Yes",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Gc5004 Cmos Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Customer Care E Mail-Id :Customer.Care@Obimobiles.Com, Website:Www.Obimobiles.Com",
+                "Warranty Summary": "1 Year"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 854 Pixels",
+                "Size": "5 Inches",
+                "Type": "Tft Ips Capacitive"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "li-ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "No",
+                "OS": "Android v4.2 (Jelly Bean)",
+                "Processor": "1.2 GHz + Mtk, Mt6572, Dual Core"
+            }
+        }
+    ]
+}

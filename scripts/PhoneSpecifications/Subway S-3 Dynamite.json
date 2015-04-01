@@ -1,0 +1,54 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Subway",
+                "Handset Color": "White",
+                "In the Box": "1 Handset, 1 Battery, 1 Charger, 1 Handsfree, 1 User manual",
+                "Model ID": "S-3 Dynamite",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, Mini USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Not Covered in Warranty": "Warranty does not cover any external accessories (such as battery, cable, carrying bag), damage caused to the product due to improper installation by customer, normal wear and tear to magnetic heads, audio, video, laser pick-ups and TV picture tubes, pane",
+                "Warranty Service Type": "Customer Needs To Visit The Nearby Authorized Service Center.",
+                "Warranty Summary": "1 Year Warranty"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "120x120 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 4 GB",
+                "Internal": "64$$KB"
+            }
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "iBall",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Keypad": "Yes",
+                "Model Name": "5.5N2 Quadro",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3",
+                "Sound Enhancement": "Dual Stereo Speakers",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "Auto Focus",
+                "Primary Camera": "Yes, 12 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSDPA; 11 Mbps HSUPA; HSPA+",
+                "Bluetooth": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes, 802.11 b/g"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Flip to Mute, USB Internet",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Light Sensor, G-Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "IPS Display",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "5.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "2500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "1 GB RAM",
+                "User Memory": "2 GB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1.2 GHz + Cortex-A7, Quad Core"
+            }
+        }
+    ]
+}

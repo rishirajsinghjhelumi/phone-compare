@@ -1,0 +1,35 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "iBall",
+                "Handset Color": "White",
+                "In the Box": "Main Handset, Travel Adapter, User Manual, Scratch Guard, Stereo Headset, Warranty Guard, Battery, USB Cable",
+                "Model Name": "Andi 5K Sparkle",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "960 x 540 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1850 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "4 GB"
+            }
+        }
+    ]
+}

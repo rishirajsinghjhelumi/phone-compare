@@ -1,0 +1,103 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Sony",
+                "Business Features": "Pushmail  (Microsoft Exchange ActiveSync)",
+                "Call Features": "Conference Call, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model ID": "D2105",
+                "Model Name": "Xperia E1 Dual",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, SMF, ADTS, iMelody, XMF, OTA, AMR, RTTTL, OGG, FLAC, RTX, WAV",
+                "Sound Enhancement": "Movies Application, Sony Entertainment Network, WALKMAN Application, 3D Surround Sound (VPT), Clear Audio+, Clear Bass, Clear Phase and Clear Stereo, TrackID Music Recognition, xLoud Experience - Audio Filter Technology from Sony, Dynamic Normaliser, Play",
+                "Video Player": "Yes, Supports 3GPP, AVI, WEBM, MP4, XviD, M4V, MKV"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Smooth Zoom - 4x, Auto Focus, Geo-tagging, Image Stabiliser, Touch Focus, Auto Scene Recognition, Smile Shutter, Send to Web, Sweep Panorama, Touch Capture, HDR for Pictures, Quick Launch, White Balance, Self-timer, Face Detection",
+                "Primary Camera": "Yes, 3 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 5.76 Mbps HSUPA; HSPA+",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (HFP 1.6, A2DP 1.2, GAPC / LE, AVRCP 1.3, HSP 1.2, PANP 1.0, OPP 1.1, PBAP, FTP v1.1)",
+                "EDGE": "Yes, 237 kbps",
+                "GPRS": "Yes, 85.6 kbps",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, GLONASS, with Google Maps with Street View and Latitude",
+                "Preinstalled Browser": "Android, Google Chrome",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "YouTube, Facebook, Twitter, Google, Xperia Link, Friends Application, Multiple Instant Messaging, Google Play, Google Voice Search, Google Talk, Sony Select, Web Browser (WebKit), Xperia Transfer, Xperia Care, Bookmarks, Hangouts, Gmail, Google Sync",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Ambient Light Sensor, eCompass, Accelerometer, Magnetometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "62.4x118x12 mm",
+                "Weight": "120 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16.7 M",
+                "Other Display Features": "Gesture Input, Senser-on-lens, Screenshot Capturing, Face Detection, Touch Gesture - 10 Fingers Multi-touch, Scratch-resistant - Touch Panel Cover Glass PMMA, Auto Rotation, Illumination Effect, Pan and Zoom, Shake Control",
+                "Resolution": "WVGA, 480 x 800 Pixels",
+                "Size": "4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "429 hrs (2G), 441 hrs (3G)",
+                "Talk Time": "9 hrs (2G), 8 hrs (3G)",
+                "Type": "1700 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "512 MB RAM",
+                "User Memory": "2 GB"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 302",
+                "OS": "Android v4.3 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.2 GHz + Qualcomm MSM8210, Dual Core"
+            }
+        }
+    ]
+}

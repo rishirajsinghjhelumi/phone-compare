@@ -1,0 +1,62 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Nokia",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model ID": "309",
+                "Model Name": "Asha",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Accelerometer"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 400 Pixels",
+                "Size": "3 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1110 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "20 MB",
+                "Memory": "64 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Nokia Asha"
+            }
+        }
+    ]
+}

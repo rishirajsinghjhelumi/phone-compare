@@ -1,0 +1,52 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Zen",
+                "Handset Color": "White",
+                "In the Box": "Handset, Battery, Charger, UserGuide, Warranty Card",
+                "Model ID": "X4 Auto Call Recorder Phone With Keychain",
+                "SIM Size": "Normal",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Acoording Zen India.",
+                "Not Covered in Warranty": "Liquid Goes & Damage Is Not Part Of Warranty",
+                "Warranty Service Type": "On Auth. Zen Service Centers.",
+                "Warranty Summary": "1 Year Zen Warranty"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320*480 Pixels",
+                "Size": "2.4 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "0$$MB"
+            }
+        }
+    ]
+}

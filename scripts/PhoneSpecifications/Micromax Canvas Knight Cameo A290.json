@@ -1,0 +1,88 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White +Gold",
+                "Model ID": "A290",
+                "Model Name": "Canvas Knight Cameo",
+                "SIM Size": "Micro SIM and Nano SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Auto Focus, Flash Support, Scene Detection, HDR, Smile Detection, Stable Shot, Front and Back, Panorama, 99 Shots, Collage Making, Refocus Images, Video Mode, Selfie",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 5 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports WAV, MP3, MIDI, AAC, AMR",
+                "Video Player": "Yes, Supports MP4, MJPEG, AVI, 3GP, Full HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android, Opera Mini",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Micro USB (5-pin), Swiftkey, True Caller, Games, Video Special Feature: Look Away to Pause",
+                "Call Memory": "Yes",
+                "Important Apps": "",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Gravity Sensor, Light Sensor, Proximity Sensor, Magnetic Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "IPS Display",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "4.7 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "180 hrs (2G)",
+                "Talk Time": "7 hrs (2G)",
+                "Type": "2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8",
+                "Memory": "1 GB RAM, 8 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.4 GHz + MT6592M"
+            }
+        }
+    ]
+}

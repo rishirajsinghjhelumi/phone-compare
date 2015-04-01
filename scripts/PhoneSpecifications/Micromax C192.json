@@ -1,0 +1,36 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model ID": "C192",
+                "Model Name": "C192",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "NO"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320x480 Pixels",
+                "Size": "1.8 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "4 MB"
+            }
+        }
+    ]
+}

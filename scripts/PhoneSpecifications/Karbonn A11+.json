@@ -1,0 +1,85 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Karbonn",
+                "Business Features": "Document Viewer, Document Editor, Outlook, Office Suite",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model Name": "A11 Plus",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Primary Camera": "Yes, 3.2 Megapixel",
+                "Secondary Camera": "Yes",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes",
+                "EDGE": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android, Opera Mini",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Multi-tasking, Rich Notification, Customizable Home Screens, Motion Gaming, Widgets, Voice Search",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Play Store, Google Talk, Gmail, Google, TOI, Karbonn Live",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "0.689 W/kg",
+                "SMS Memory": "Yes",
+                "Sensors": "G-Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Auto Rotates, Pinch-to-Zoom",
+                "Resolution": "Others, 480 x 854 Pixels",
+                "Size": "4.7 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "1450 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "512 MB RAM, 512 MB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4 (Ice Cream Sandwich)",
+                "Operating Freq": "GSM - 900, 1800",
+                "Processor": "1 GHz"
+            }
+        }
+    ]
+}

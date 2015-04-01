@@ -1,0 +1,106 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "LG",
+                "Business Features": "Document Viewer, Pushmail",
+                "Call Features": "Conference Call, Loudspeaker, Call Divert",
+                "Handset Color": "Black Titan",
+                "In the Box": "Handset, Battery, Charger, Headset, 2 GB microSD Card, Data Cable, Pouch, User Manual",
+                "Model Name": "Optimus Black P970",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD",
+                "Other Camera Features": "Geo-tagging, Red Eye Reduction, Colour Effects, White Balance, Self Timer, Image Editor",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 1280 x 720, 30 fps",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV, eAAC",
+                "Ringtone": "MP3, 72 Polyphonic",
+                "Video Player": "Yes, Supports MPEG4, H.263, H.264, DivX, XVid, WMV, HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA; 5.7 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1, Supported Profiles (EDR)",
+                "DLNA": "Yes",
+                "EDGE": "Yes, 237 kbps",
+                "GPRS": "Yes, 48 kbps",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS",
+                "Preinstalled Browser": "WAP 2.0",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "WAP": "Yes, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Stop Watch, PC Sync, Alarm, Flight Mode, Calculator, World Clock, Multitasking, Group Messaging, MMS, Calendar, Voice Recording, Pre-set Equalizer, Voice Input",
+                "Call Memory": "Practically Unlimited",
+                "Important Apps": "Facebook, Twitter, Myspace, Gmail, Google Search, YouTube, LG World, Yahoo",
+                "Phone Book Memory": "Practically Unlimited",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor, Digital Compass"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "IPS Display, NOVA Display",
+                "Resolution": "WVGA, 800 x 480 Pixels",
+                "Size": "4 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "64x122x9.2 mm",
+                "Weight": "109 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "455 hrs (2G)",
+                "Talk Time": "16 hrs (2G)",
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Included Memory Card": "2 GB",
+                "Internal": "2"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "PowerVR SGX530",
+                "Java": "Yes",
+                "OS": "Android v2.2 (Froyo), Upgradable to v4.0 Ice Cream Sandwich",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1 GHz + Cortex-A8",
+                "User Interface": "Optimus UI 2, Gesture UI 2"
+            }
+        }
+    ]
+}

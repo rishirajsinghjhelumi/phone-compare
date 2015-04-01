@@ -1,0 +1,70 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Swipe",
+                "Handset Color": "Black",
+                "In the Box": "Fablet",
+                "Model Name": "Sense",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "8 Megapixel",
+                "Secondary Camera": "3.2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, Mini USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Light Sensor, Gravity Sensor, Proximity Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year manufacturer warranty for the Tablet, 6 months manufacturer warranty for other inbox accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "78.2x7.8x155 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "540 x 960 Pixels",
+                "Size": "5.5 Inches",
+                "Type": "qHD IPS Touch Screen"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Lithium Ion, 2250 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Processor": "1.3 GHz + Quad Core, Quad Core"
+            }
+        }
+    ]
+}

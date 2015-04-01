@@ -1,0 +1,73 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Josh",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "A2700",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes",
+                "Secondary Camera": "No"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Bluetooth": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "WAP",
+                "WAP": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Dual LED Torch Light, Animated User Interface, English and Hindi Language Support, MMS Enabled, Inbuilt Puzzle Game, Calendar, Calculator, Alarm, Task, World Clock",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "100",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Size": "2.4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "850 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "0"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

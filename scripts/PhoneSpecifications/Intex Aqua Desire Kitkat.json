@@ -1,0 +1,65 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Intex",
+                "Handset Color": "Grey",
+                "In the Box": "Handset, Battery, Charger, Headphone, Manual",
+                "Model ID": "Aqua Desire Kitkat",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Primary Camera": "8 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "854 x 480 Pixels",
+                "Size": "4.5 Inches",
+                "Type": "FWVGA"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "67.9x138x8.8 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Customer Need to Contact Nearest Service Center",
+                "Warranty Summary": "1 Year Intex Manufacturer Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1700 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "1.18 GB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Processor": "1.2 GHz, Dual Core"
+            }
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Sansui",
+                "Handset Color": "Black",
+                "In the Box": "One Each of Handset, Battery, Charging Adapter, Headset, Data Cable, User Mannual, Warranty Card, Service Centre Directory",
+                "Model ID": "R12",
+                "Model Name": "R12 Beat",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "USB Connectivity": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "32 MB"
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "ZTE",
+                "Handset Color": "White",
+                "In the Box": "Mobile",
+                "Model ID": "V815",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 X 800 Pixels",
+                "Size": "4.2 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "512 MB"
+            }
+        }
+    ]
+}

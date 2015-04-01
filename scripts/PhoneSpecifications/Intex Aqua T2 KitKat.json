@@ -1,0 +1,93 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Intex",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model ID": "Aqua T2",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "Panorama Shot",
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports AMR, AAC, MP3, AAC+, WMA, MIDI",
+                "Video Player": "Yes, Supports MP4, AVI, 3GP"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Bluetooth": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android, Opera Mini, WAP",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes",
+                "WAP": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Micro USB (5-pin), Pre-loaded Games, Email Accounts Support, Auto Call Record, Bluetooth Tethering, Portable Hotspot",
+                "Call Memory": "Yes",
+                "Important Apps": "Pre-loaded Instant Messaging, Intex Zone (Pre-loaded with many Features), Google Play Store, Pre-loaded Apps (Intex Zone, Zapak, OLX, Gmail, Xender)",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Gravity Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Resolution": "HVGA, 320 x 480 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "60x113x10.6 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "180 hrs (2G)",
+                "Talk Time": "3 hrs (2G)",
+                "Type": "1100 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512",
+                "Memory": "256 MB RAM, 512 MB ROM",
+                "User Memory": "16 MB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat)",
+                "Operating Freq": "GSM - 900, 1800",
+                "Processor": "1.3 GHz + MT6571, Dual Core"
+            }
+        }
+    ]
+}

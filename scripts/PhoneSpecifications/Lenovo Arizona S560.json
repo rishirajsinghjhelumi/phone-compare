@@ -1,0 +1,101 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lenovo",
+                "Business Features": "Document Viewer, Pushmail",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Blue",
+                "Model Name": "S560",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Auto Focus, Geo-tagging, Image Editor",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports eAAC, MP3, WAV",
+                "Ringtone": "WAV, MP3",
+                "Sound Enhancement": "Dolby Digital Plus Sound",
+                "Video Player": "Yes, Supports WMV, MP4, H.264, H.263"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3, Supported Profiles (HSP, A2DP)",
+                "EDGE": "Yes, Class 12",
+                "GPRS": "Yes, Class 12",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Chrome",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Dual Speakers, Smart Music Button, Face Unlock, Lenovo Power Saving, Lenovo Note, Voice Input",
+                "Call Memory": "Yes",
+                "Important Apps": "Facebook, Google Mobile Service",
+                "Phone Book Memory": "Practically Unlimited",
+                "SMS Memory": "Practically Unlimited",
+                "Sensors": "Gravity Sensor, Accelerometer, Proximity Sensor, Compass, Light Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "IPS Display, 4 Point Multi-touch Screen",
+                "Resolution": "WVGA, 800 x 480 Pixels",
+                "Size": "4 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "63x125x12.3 mm",
+                "Weight": "155 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "250 hrs (2G)",
+                "Talk Time": "8 hrs (2G)",
+                "Type": "Li-Ion, 2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "512 MB RAM, 4 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "PowerVR SGX531",
+                "Java": "Yes",
+                "OS": "Android v4.0.4 (Ice Cream Sandwich)",
+                "Operating Freq": "GSM - 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1 GHz + ARM Cortex-A9, Dual Core"
+            }
+        }
+    ]
+}

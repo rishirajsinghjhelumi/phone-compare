@@ -1,0 +1,97 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Conference Call, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Battery, Charger, Headset, User Guide",
+                "Keypad": "No",
+                "Model Name": "Ninja 4.0 A87",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Fixed Focus, Night Mode, Multi-shot Mode, Zoom - 4x",
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes, Supports MP4, H.263, H.264, WMV"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Bluetooth": "Yes, v2.1",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "WAP",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "MMS Enabled, Alarm Clock, Flight Mode",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Search, Weather Update, Mi Zone, Mi Store, Hookup, Facebook, Google Play, Gmail",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Head - 0.657 W/Kg, At the Body - 1.24 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Gravity Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Other Display Features": "Pinch to Zoom",
+                "Resolution": "WVGA, 800 x 480 Pixels",
+                "Size": "4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "64x124.8x11.7 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "175 hrs (2G)",
+                "Talk Time": "5 hrs (2G)",
+                "Type": "Li-Ion, 1400 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "130",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v2.3 (Gingerbread)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1 GHz + Qualcomm Scorpion"
+            }
+        }
+    ]
+}

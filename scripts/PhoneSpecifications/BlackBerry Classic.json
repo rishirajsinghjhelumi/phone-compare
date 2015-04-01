@@ -1,0 +1,106 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BlackBerry",
+                "Business Features": "Document Viewer, Pushmail, Documents To Go, Adobe Reader",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "-0",
+                "In the Box": "Warranty Card, Charger, Earphone, Handset, User Manual",
+                "Keypad": "Yes, QWERTY",
+                "Model ID": "SQC 100-1",
+                "Model Name": "Classic",
+                "SIM Size": "Nano SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Auto Focus, Geo-tagging, Touch Focus, Face Detection, HDR, Panorama, Image Editor",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080, 30 fps"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV, WMA, eAAC+, FLAC",
+                "Ringtone": "WAV, MP3",
+                "Sound Enhancement": "Active Noise Cancellation with Dedicated Mic",
+                "Video Player": "Yes, Supports DivX, XviD, MP4, WMV, H.264, Full HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42.2 Mbps HSDPA; 5.76 Mbps HSUPA, HSPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (EDR, LE, A2DP)",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, with BlackBerry Maps",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 a/b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Optical Trackpad, Java: MIDP 2.1, MMS Enabled, Vibration Mode, Video Editor, WLAN Support, Remember (Memos / Tasks Combo)",
+                "Call Memory": "Yes",
+                "Important Apps": "Instant Messaging, BBM 6, Evernote, Password Keeper, File Manager, Dropbox, BlackBerry Blend",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Compass, Proximity Sensor, Gyro Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Multi-touch, Corning Gorilla Glass 3",
+                "Resolution": "720 x 720 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "72.4x131x10.2 mm",
+                "Weight": "177 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1.5 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "348 hrs (2G), 365 hrs (3G)",
+                "Talk Time": "11 hrs (2G), 17 hrs (3G)",
+                "Type": "Li-Ion, 2515 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 128 GB",
+                "Internal": "0",
+                "Memory": "2 GB RAM, 16 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 225",
+                "Java": "Yes",
+                "OS": "Blackberry OS v10/03/01",
+                "Operating Freq": "GSM - 850, 900, 1700, 1800, 1900; UMTS - 2100; 4G LTE - Bands 1, 2, 3, 5, 7, 8, 20 (2600)",
+                "Processor": "1.5 GHz + Qualcomm Snapdragon MSM8960 Krait, Dual Core"
+            }
+        }
+    ]
+}

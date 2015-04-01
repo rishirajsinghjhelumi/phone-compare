@@ -1,0 +1,87 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Asus",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Deep Black",
+                "Model ID": "A502CG",
+                "Model Name": "Zenfone 5",
+                "SIM Type": "Dual Sim, GSM + WCDMA, (Dual Standby)",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Auto Focus, Flash Support, 5-element Lens",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, GLONASS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Asus Web Storage 5 GB for Lifecycle",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "eCompass, Proximity Sensor, G-Sensor, Hall Sensor, Light Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "72.8x148.2x10.8 mm",
+                "Weight": "160 g"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "IPS Display, Anti-fingerprint Coating",
+                "Resolution": "qHD, 960 x 540 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "2500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "8",
+                "Memory": "1 GB RAM, 8 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat)",
+                "Operating Freq": "GSM - 900, 1800; WCMDA - 2100",
+                "Processor": "1.2 GHz + Intel Atom Z2520 Processor with Intel Hyper Threading Technology, Dual Core",
+                "User Interface": "ZenUI Vision"
+            }
+        }
+    ]
+}

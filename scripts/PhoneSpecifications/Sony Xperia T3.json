@@ -1,0 +1,101 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Sony",
+                "Business Features": "Document Viewer, Pushmail  (Microsoft Exchange ActiveSync)",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Purple",
+                "Model ID": "D5102",
+                "Model Name": "Xperia T3",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3",
+                "Ringtone": "Polyphonic",
+                "Video Player": "Yes, Full HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "Pulsed LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 1.1 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, HSPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (aptX, A2DP)",
+                "DLNA": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android, Google Chrome",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Wi-Fi Miracast, Screen Mirroring, Smart Connect, USB Charging, Xperia Link, One-touch Connection, One-touch Listening, One-touch Mirroring, One-touch Sharing, Flight Mode, Alarm Clock, Calculator, Calendar, Sketch, Stopwatch, Tasks, Timer, ANT+ Sport, Fitness and Health Support, Voice Input",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Maps, Sony Select, Web Browser (WebKit), Google Play, Google Voice Search, Google Search, Facebook, Google, SyncML, Hangouts",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "eCompass"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "77x150.7x7 mm",
+                "Weight": "148 g"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "TRILUMINOS Display, Vivid, Colour Management, IPS Display, Contrast Enhancement, Noise Reduction, Sharpness Filter, BRAVIA Engine 2",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "5.3 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "688 hrs (2G)",
+                "Talk Time": "12 hrs (2G)",
+                "Type": "2500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100; 4G LTE",
+                "Processor": "1.4 GHz + Qualcomm Snapdragon MSM8228, Quad Core"
+            }
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Business Features": "Document Viewer, Document Editor, Pushmail  (Microsoft Exchange ActiveSync), Mobile Printing",
+                "Call Features": "Conference Call, Speed Dialing, Loudspeaker, Call Timer, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Blue",
+                "In the Box": "Handset, Battery, Charger, Headset, Data Cable, S Pen, User Manual, Warranty Card",
+                "Keypad": "No",
+                "Model ID": "N-7000",
+                "Model Name": "Galaxy Note",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Mali-400 MP",
+                "Java": "Yes",
+                "OS": "Android v2.3 (Gingerbread), Upgradable to v4.0 (Ice Cream Sandwich)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.4 GHz + ARM Cortex-A9, Dual Core",
+                "User Interface": "TouchWiz"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Resolution": "Others, 800 x 1280 Pixels",
+                "Size": "5.29 Inches",
+                "Type": "HD Super AMOLED"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Single Shot, Smile Shot, Beauty, Panorama Shot, Share Shot, Action Shot, Geo-tagging, Auto Focus, Touch Focus, Image Stabilization, White Balance, Smile Detection, Blink Detection, Image Editor",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080, 30 fps",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "82.95x146.85x9.65 mm",
+                "Weight": "178 g"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "960 hrs (2G), 820 hrs (3G)",
+                "Talk Time": "26 hrs (2G), 13 hrs (3G)",
+                "Type": "Li-Ion, 2500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "16",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3, Supported Profiles (HS, GAP, SSP, SDAP, HSP, HFP1.5, A2DP, SPP, SAP, OPP, PBAP, MAP, AVRCP 1.3, HID)",
+                "DLNA": "Yes",
+                "EDGE": "Yes, Class 12",
+                "GPRS": "Yes, Class 12, 48 kbps",
+                "Internet Features": "Email, Adobe Flash 10.1",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 a/g/b/n"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports MP3, WAV, eAAC, FLAC, AC3",
+                "Ringtone": "MP3, WAV, 32 Polyphonic",
+                "Sound Enhancement": "3D Sound Technology - Earphone Only",
+                "Video Player": "Yes, Supports MPEG-4, H.263, H.264, DivX, Xvid, WMV, VC-1, 3GP, Full HD"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Practically Unlimited",
+                "Important Apps": "Google Search, Google Mail, Google Talk, YouTube, Android Market",
+                "Phone Book Memory": "Practically Unlimited",
+                "SAR Value": "0.209 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor, Barometer Sensor, Digital Compass, Light Sensor, Gyroscope"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        }
+    ]
+}

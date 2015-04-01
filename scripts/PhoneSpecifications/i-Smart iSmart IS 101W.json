@@ -1,0 +1,31 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "i-Smart",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model ID": "CFMOBIS101WBL",
+                "Model Name": "iSmart IS 101W",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x 160 Pixels",
+                "Size": "1.8 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "32 KB"
+            }
+        }
+    ]
+}

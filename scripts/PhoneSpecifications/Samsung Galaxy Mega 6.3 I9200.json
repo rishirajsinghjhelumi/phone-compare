@@ -1,0 +1,101 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Business Features": "Document Viewer, Pushmail",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model ID": "I9200",
+                "Model Name": "Galaxy Mega 6.3",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "Auto Focus, Geo-tagging, Touch Focus, Face and Smile Detection, HDR Support, Image Editor",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 1.9 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3, AC3, eAAC+, FLAC, WAV",
+                "Ringtone": "WAV, MP3",
+                "Video Player": "Yes, Supports MP4, H.264, WMV, H.263"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (LE, A2DP)",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, GLONASS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 a/b/g/n/ac"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Wi-Fi Direct, NFC Support, Infrared Port, USB Host, USB On-the-go, MMS Enabled, Video Editor, Organizer, Predictive Text Input, Calendar, Voice Input",
+                "Call Memory": "Yes",
+                "Important Apps": "Instant Messaging, Google, Gmail, YouTube, Google Talk, Picasa",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Accelerometer, Compass, Gyro Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Multi-touch",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "6.3 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "88x167.6x8 mm",
+                "Weight": "199 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 3200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "16",
+                "Memory": "1.5 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 305",
+                "Java": "Yes",
+                "OS": "Android v4.2.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.7 GHz + Qualcomm Snapdragon 400, Dual Core",
+                "User Interface": "TouchWiz"
+            }
+        }
+    ]
+}

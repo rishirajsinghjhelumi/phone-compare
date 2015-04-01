@@ -1,0 +1,92 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "XOLO",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model Name": "X500",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes, Full HD, HD"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Face Detection, Burst Mode, Panorama Mode, Auto Focus",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Smart Multi-tasking",
+                "Call Memory": "Yes",
+                "Important Apps": "YouTube, Browser Benchmarking",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "1.54 W/kg",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "61x110.5x12.5 mm",
+                "Weight": "132 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "IPS Display",
+                "Resolution": "HVGA, 320 x 480 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "384 hrs (2G), 360 hrs (3G)",
+                "Talk Time": "9 hrs (2G), 9 hrs (3G)",
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "400 Mhz Graphics Engine",
+                "OS": "Android v4 (Ice Cream Sandwich), Upgradable to v4.1 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.2 GHz + Intel Atom with Hyper Threading"
+            }
+        }
+    ]
+}

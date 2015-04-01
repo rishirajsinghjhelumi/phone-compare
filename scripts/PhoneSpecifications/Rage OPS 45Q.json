@@ -1,0 +1,70 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Rage",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Battery, Charger, Handsfree, Manual, Warranty Card",
+                "Model ID": "OPS 45Q",
+                "SIM Size": "Mini+Micro",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Primary Camera": "8 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "G sensor,Gesture sensor,proximity sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480x960 Pixels",
+                "Size": "4.5 Inches",
+                "Type": "QHD Capacitive touchscreen"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "132x66.3x7.95 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-polymer, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "vV4.2.2 (Jelly Bean)",
+                "Processor": "1.3 GHZ ,Quad core, Dual Core"
+            }
+        }
+    ]
+}

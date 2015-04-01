@@ -1,0 +1,70 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Rage",
+                "Handset Color": "Black/Silver",
+                "In the Box": "Handset, Battery, Charger, Handsfree, Manual, Warranty Card",
+                "Model ID": "40BX",
+                "SIM Size": "Mini-SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "3.2 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "Yes",
+                "HDMI Port": "Yes",
+                "USB Connectivity": "Yes, micro USB, Mini USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "G Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 800 Pixels",
+                "Size": "4 Inches",
+                "Type": "HVGA capacitive touchscreen"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "123x69.4x10.7 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Manufacturer Warranty For Phone And 6 Months Warranty For In The Box Accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-polymer, 1600 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 Gb",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "vv4.4.2 Kikat",
+                "Processor": "1.0 Ghz"
+            }
+        }
+    ]
+}

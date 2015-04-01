@@ -1,0 +1,101 @@
+{
+    "specification": [
+        {
+            "Important Note": {}
+        },
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Alcatel",
+                "Call Features": "Hands Free, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model ID": "6043D",
+                "Model Name": "One Touch Idol X Plus",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Auto Focus, Video Stabiization, LTL Panorama",
+                "Primary Camera": "Yes, 13.1 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080, 30 fps",
+                "Zoom": "Digital Zoom"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports FLAC, MP3, AMR, MIDI, APE, AAC, AAC+, MP2, Vorbis",
+                "Sound Enhancement": "HD Voice, OMA: DRM 1.0, 24-bit SACD Support and 192 KHz Playback, ES9018 Hi-Fi Decoder, Maxim9720 Headphone Amplifier",
+                "Video Player": "Yes, Supports H.265, H.264, XviD, VC-1, H.263, MPEG-4, VP8, Full HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Bluetooth": "Yes, v4",
+                "DLNA": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Black Crystal Touch Panel, Video Streaming, Wi-Fi Display, Wi-Fi Direct, Games, Flip to Mute, Video Chat",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Head - 1.117 W/Kg, At the Body - 1.436 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "G-Sensor, Proximity Sensor, Light Sensor, eCompass"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "NEG Glass, OGS with Full Lamination, IPS Display, 5 Point Multi-touch, Corning Gorilla Glass 2, Oleophobic Coating",
+                "Resolution": "Full HD, 1920 x 1080 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "69.1x140.4x8.1 mm",
+                "Weight": "125 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "650 hrs (2G), 600 hrs (3G)",
+                "Talk Time": "27 hrs (2G), 16 hrs (3G)",
+                "Type": "Lithium, 2500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "16",
+                "Memory": "2 GB RAM",
+                "User Memory": "12.3 GB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2 (Jelly Bean), Upgradable to v4.4 (KitKat)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "2 GHz"
+            }
+        }
+    ]
+}

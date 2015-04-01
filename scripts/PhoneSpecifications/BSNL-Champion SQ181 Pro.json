@@ -1,0 +1,30 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BSNL-Champion",
+                "Handset Color": "White",
+                "In the Box": "Mobile, Charger, Battery",
+                "Model ID": "SQ181 Pro",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x 128 Pixels",
+                "Size": "1.8 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "32 MB"
+            }
+        }
+    ]
+}

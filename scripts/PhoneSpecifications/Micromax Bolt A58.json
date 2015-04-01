@@ -1,0 +1,86 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Business Features": "Document Viewer, Kingsoft Office",
+                "Call Features": "Hands Free, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Red",
+                "Model ID": "Bolt A58",
+                "Model Name": "Bolt A58",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Fixed Focus",
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 320 x 480"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports WAV, MIDI, MP3",
+                "Video Player": "Yes, Supports MKV, 3GP, MP4"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Opera Mini, Android",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Multi-task, FOTA",
+                "Call Memory": "Yes",
+                "Important Apps": "Hike, Spuul, Game Hub, 3-in-One Bubbles, Google Play Store, M!Live, The Dark Man",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "G-Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "260 K",
+                "Resolution": "HVGA, 320 x 480 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "200 hrs (2G)",
+                "Talk Time": "4 hrs (2G)",
+                "Type": "Li-Ion, 1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512",
+                "Memory": "512 MB RAM, 512 MB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1 GHz + MTK 6572M, Dual Core"
+            }
+        }
+    ]
+}

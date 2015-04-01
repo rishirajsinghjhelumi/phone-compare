@@ -1,0 +1,67 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Haier",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model ID": "AE 6",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "3.2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Accelerometer, Ambient Light Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Manufacturer Warranty for Phone and 1 Year Warranty for the Box Accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "125x63x10.7 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480x800 Pixels",
+                "Size": "4 Inches",
+                "Type": "Amoled"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1400 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat)",
+                "Processor": "1.2 GHz + Dual core, Dual Core"
+            }
+        }
+    ]
+}

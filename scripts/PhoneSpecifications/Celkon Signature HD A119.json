@@ -1,0 +1,100 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Celkon",
+                "Business Features": "Document Viewer",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Coffee",
+                "Model Name": "Signature HD A119",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports eAAC+, MIDI, MP3",
+                "Ringtone": "MP3, Polyphonic",
+                "Video Player": "Yes, Supports WMA, 3GP, H.264, MP4, H.263, HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "Auto Focus, Image Editor",
+                "Primary Camera": "Yes, 12 Megapixel",
+                "Secondary Camera": "Yes, 3 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "EDGE": "Yes, Class 12",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "MMS Enabled, Organizer, To-do List, Dictionary, Predictive Text Input, Mini SIM",
+                "Call Memory": "Yes",
+                "Important Apps": "Instant Messaging, SNS Integration",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "GSM 900 and 1800: At the Head - 0.795 W/Kg and At the Body - 0.813 W/Kg; GSM 2100: At the Head - 0.392 W/Kg and At the Body - 0.352 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Accelerometer, G-Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "74.5x148x9.3 mm",
+                "Weight": "177 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "IPS Display, Multi-touch",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "140 hrs (2G)",
+                "Talk Time": "5 hrs (2G)",
+                "Type": "Li-Ion, 2100 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "1 GB RAM",
+                "User Memory": "1.45 GB"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "Yes",
+                "OS": "Android v4.1 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800; WCDMA - 2100",
+                "Processor": "1 GHz, Dual Core"
+            }
+        }
+    ]
+}

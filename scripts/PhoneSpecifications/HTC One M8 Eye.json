@@ -1,0 +1,97 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "HTC",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Silver",
+                "Model Name": "One (M8 Eye)",
+                "SIM Size": "Nano SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; WCDMA - 2100; 4G - LTE",
+                "Processor": "2.3 GHz + Qualcomm Snapdragon 801, Quad Core",
+                "User Interface": "HTC Sense, HTC BlinkFeed"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Wide Viewing Angles",
+                "Resolution": "Full HD, 1920 x 1080 Pixels",
+                "Size": "5 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "BSI Sensor, f/2.0, 28 mm Lens, Full HD Video Recording with HDR Video",
+                "Primary Camera": "Yes, 13 Megapixel",
+                "Secondary Camera": "Yes, 5 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "70.6x146.36x9.35 mm",
+                "Weight": "160 g"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "309 hrs (3G)",
+                "Talk Time": "24 hrs (3G)",
+                "Type": "Li-Polymer, 2600 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 128 GB",
+                "Internal": "16",
+                "Memory": "2 GB RAM, 16 GB ROM"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSPA+",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (aptX)",
+                "DLNA": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 a/b/g/n"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports AMR, AAC, WAV, MID, OGG, M4A, MP3, WMA, FLAC",
+                "Sound Enhancement": "Dual Frontal Stereo Speakers with Built-in Amplifiers, Sense Voice, HTC BoomSound, Auto Balancing Bass-to-treble Software",
+                "Video Player": "Yes, Supports 3G2, 3GP, MKV, WMV, MP4, AVI, Full HD"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "HTC Connect, Internal GPS Antenna, Voice Input",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Digital Compass, Proximity Sensor, Accelerometer, Ambient Light Sensor, Gyro Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Intex",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Battery, Headphone, Charger, Manual, Warranty Card",
+                "Model ID": "Aqua 3 G",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Proximity sensor, Light sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Customer Need to Visit Nearest Authorized Service Center",
+                "Warranty Summary": "1 Year Intex Warranty For Handset & 6 month For Accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "65x126x10 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "800 x 480 Pixels",
+                "Size": "4 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1400 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "12 MB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2.2 (Jelly Bean)",
+                "Processor": "1 GHz + MT6572, Dual Core"
+            }
+        }
+    ]
+}

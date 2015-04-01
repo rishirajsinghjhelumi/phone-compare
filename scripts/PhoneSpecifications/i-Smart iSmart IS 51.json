@@ -1,0 +1,31 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "i-Smart",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model ID": "CFMOBIS51BL",
+                "Model Name": "iSmart IS 51",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1350 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "2 GB"
+            }
+        }
+    ]
+}

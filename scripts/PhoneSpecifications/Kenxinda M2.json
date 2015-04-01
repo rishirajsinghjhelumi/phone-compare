@@ -1,0 +1,35 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Kenxinda",
+                "Handset Color": "Silver",
+                "In the Box": "Mobile, Charger, Battery",
+                "Model ID": "M2",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "120 x 120 Pixels",
+                "Size": "1.44 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 600 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "200 KB"
+            }
+        }
+    ]
+}

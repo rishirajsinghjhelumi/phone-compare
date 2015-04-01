@@ -1,0 +1,96 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "HTC",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Blue",
+                "Model Name": "Desire 816 Dual Sim",
+                "SIM Size": "Nano SIM",
+                "SIM Type": "Dual Sim, GSM + WCDMA",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2 (KitKat)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; WCDMA - 2100",
+                "Processor": "1.6 GHz + Qualcomm Snapdragon 400, Quad Core",
+                "User Interface": "HTC BlinkFeed, HTC Sense"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "5.5 Inches"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "",
+                "Primary Camera": "Yes, 13 Megapixel",
+                "Secondary Camera": "Yes, 5 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "78.7x156.6x7.9 mm",
+                "Weight": "165 g"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "614 hrs (3G)",
+                "Talk Time": "21 hrs (3G)",
+                "Type": "Li-Polymer, 2600 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 128 GB",
+                "Internal": "8",
+                "Memory": "1.5 GB RAM",
+                "User Memory": "3.9 GB"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 14.4 Mbps HSPA+",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (aptX)",
+                "DLNA": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "GPS, GLONASS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3, AMR, AAC, M4A, MIDI, WAV, OGG, WMA (Windows Media Audio 9)",
+                "Sound Enhancement": "HTC BoomSound, Dual Frontal Stereo Speakers with Built-in Amplifiers, Sense Voice",
+                "Video Player": "Yes, Supports 3GP, AVI, MP4, ASP, 3G2, WMV (Windows Media Video 9), MP4, Full HD"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Internal GPS Antenna, HTC Connect, Micro USB 5-pin Port",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Ambient Light Sensor, Digital Compass, Accelerometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Arise",
+                "Handset Color": "Yellow",
+                "In the Box": "Mobile Phone,Ear Phone,Charger,Battery,User Manual & Warranty Card",
+                "Model Name": "Choice AX128",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "176 x 144 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "48.5x110x14.5 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "1 Year Warranty on Mobile & 6 Months on Accessories, Defect arising out of Faulty or defective material or workmanship. Parts & Labour cost is covered",
+                "Warranty Service Type": "Repair or Replace as per Policy By Authorized Service centre in India",
+                "Warranty Summary": "1 Year Arise India Limited Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "85.5 KB"
+            }
+        }
+    ]
+}

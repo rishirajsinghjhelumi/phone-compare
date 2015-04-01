@@ -1,0 +1,100 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Business Features": "Document Viewer, Pushmail  (ActiveSync), Document: DOC, DOCX, DOT, DOTX, XLS, XLX, XLTX, CSV, PPT, PPTX, PPS, PPSX, POT, POTX, PDF, HWP, TXT, ASC, RTF and Zip",
+                "Call Features": "Conference Call, Speed Dialing, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model ID": "GT-S7262ZWAINU/INS",
+                "Model Name": "Galaxy Star Pro",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900",
+                "Processor": "1 GHz + Cortex-A5"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Brightness Control, Auto-rotate Screen, Screen Timeout, Finger Gestures, Control Motions, Pinch-to-Zoom",
+                "Resolution": "WVGA, 480 x 800 Pixels",
+                "Size": "4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Shooting Mode, Multi-scene Mode, Panoramic Photos, Zooming In and Out, White Balance, Metering, Centre-weighted, Brightness, Timer, Switch between Still and Video Mode, Night Mode, Image Editor",
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "62.7x121.2x10.6 mm",
+                "Weight": "121 g"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "370 hrs (2G)",
+                "Talk Time": "15 hrs (2G)",
+                "Type": "1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, Supported Profiles (OPP, PBAP, MAP, HID, HSP, HFP 1.5, A2DP, GAP, PAN, DID, AVRCP)",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Chrome, Android",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MIDI, MP3, WAV, FLAC",
+                "Video Player": "Yes, Supports 3GP, MKV, MP4, M4V, 3G2, WEBM"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Samsung Apps, ChatON, Widgets, Gmail, Google Talk, Google+, Instant Messaging, YouTube, Play Store, Play Books, Google, Google Now, Play Movies, Play Music, Google Voice, Samsung Kies",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Head - 0.497 W/Kg, At the Body - 0.311 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        }
+    ]
+}

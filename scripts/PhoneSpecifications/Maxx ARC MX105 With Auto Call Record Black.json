@@ -1,0 +1,36 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Maxx",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model Name": "ARC MX105 With Auto Call Record Black",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x 160 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "0"
+            }
+        }
+    ]
+}

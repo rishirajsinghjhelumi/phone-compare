@@ -1,0 +1,61 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Celkon",
+                "Handset Color": "Sliver",
+                "In the Box": "Mobile",
+                "Model Name": "Q44",
+                "SIM Size": "Full Size SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "5 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "800 x 480 Pixels",
+                "Size": "4 Inches",
+                "Type": "IPS LCD Screen"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Manufacturer Warranty",
+                "Warranty Summary": "Manufacturer Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "8 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Mali-400",
+                "OS": "v4.4.2 (KitKat)",
+                "Processor": "1.3 Quad Core"
+            }
+        }
+    ]
+}

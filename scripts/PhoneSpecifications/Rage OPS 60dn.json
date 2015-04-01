@@ -1,0 +1,43 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Rage",
+                "Handset Color": "White",
+                "In the Box": "Handset, Battery, Charger, Handsfree, Manual, Warranty Card",
+                "Model Name": "OPS 60dn",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 3.5 Megapixel"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 854 Pixels",
+                "Size": "4.5 Inches",
+                "Type": "Capacitive Touch"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Polymer, 1600 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "4 GB",
+                "User Memory": "2.2 GB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android"
+            }
+        }
+    ]
+}

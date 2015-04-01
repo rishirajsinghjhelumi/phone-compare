@@ -1,0 +1,76 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Celkon",
+                "Handset Color": "White",
+                "In the Box": "Battery, Charger, USB cable, Head set, Mobile Case, Warranty Card",
+                "Model ID": "AR50",
+                "Model Name": "Rahman Ishaq",
+                "SIM Size": "Full Size SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "Yes",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "G - Sensor, Proximity"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "540 x 960 Pixels",
+                "Size": "5 Inches",
+                "Type": "TFT LCD"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "73.4x144.3x9.8 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty covers, repair of any part of product and if the defect is due to the faulty material or workmanship.",
+                "Not Covered in Warranty": "Any damage caused due to liquid enter in to the handset, misuse, accident or natural disasters, use of incompatible accessories or unauthorized software or if hand set is subjected to high voltage or cracks in device or display.",
+                "Warranty Service Type": "Contact Near by Celkon Authorized Service Center",
+                "Warranty Summary": "1 year manufacturer warranty on the transceiver and 6months for the battery & accessories applicable with the warranty card."
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Mali-400",
+                "OS": "Android v4.2.3 (Jelly Bean)",
+                "Processor": "1.2 GHz + Cortex A7, Dual Core"
+            }
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BQ",
+                "Handset Color": "Blue",
+                "In the Box": "Mobile",
+                "Model Name": "K70",
+                "SIM Size": "Normal SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 ? 400 Pixels",
+                "Size": "3.2 Inches",
+                "Type": "WQVGA"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "56.6x114x14.2 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Manufacturer Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "128 MB"
+            }
+        },
+        {
+            "Platform": {
+                "Processor": "M Star 8535D"
+            }
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Nokia",
+                "Call Features": "Conference Call, Speed Dialing, Hands Free, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Cyan",
+                "In the Box": "Charger, Warranty Card, Handset, Headset, User Manual, Battery",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "114",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports MP3, MIDI, WAV",
+                "Ringtone": "Polyphonic",
+                "Video Player": "Yes, Supports MP4, WMV, H.263"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Landscape Orientation, Exposure Compensation, Auto and Manual White Balance, Full Screen Viewfinder, Self Timer, Image Editor",
+                "Primary Camera": "Yes, 0.3 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 176 x 144, 10 fps",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1",
+                "Charging Point": "2.0 mm Thin Pin",
+                "EDGE": "Yes, 236.8 kbps",
+                "GPRS": "Yes, 59.2 kbps",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "WAP 2.0",
+                "WAP": "Yes, v2",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Twitter, Facebook, Instant Messaging",
+                "Phone Book Memory": "1000",
+                "SAR Value": "At the Ear - 1.46 W/Kg",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "46x110x14.8 mm",
+                "Weight": "80 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "65 K",
+                "Resolution": "128 x 160 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "637 hrs (2G)",
+                "Talk Time": "10 hrs (2G)",
+                "Type": "Li-Ion, 1020 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "16"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "Yes",
+                "OS": "(Series 40)",
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

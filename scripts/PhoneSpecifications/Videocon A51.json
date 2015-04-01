@@ -1,0 +1,94 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Videocon",
+                "Business Features": "Pushmail  (Mail for Exchange)",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Bluish Black",
+                "In the Box": "Data Cable, Service Center List, Battery, Charger, User Manual, Warranty Card, Handset, Headset",
+                "Model ID": "A51",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Flash Support, Auto Focus",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes, Supports H.263, H.264, 3GP, MPEG4"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3, Supported Profiles (A2DP)",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Multi-task, Rich Notifications, Customizable Home Screens, Resizable Widgets, Games",
+                "Call Memory": "Yes",
+                "Important Apps": "Saavn, TOI, Facebook, WhatsApp, Google Talk, Gmail, App Cache Cleaner, Fun Zone, Astrology, Cricket Alerts",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "1.552 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, G-Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "5 Point Touchscreen, Vivid Display",
+                "Resolution": "Others, 480 x 854 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "78.4x146.2x11.3 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Talk Time": "5 hrs (2G)",
+                "Type": "2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "512 MB RAM, 4 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4 (Ice Cream Sandwich)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1 GHz + Qualcomm, Dual Core"
+            }
+        }
+    ]
+}

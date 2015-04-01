@@ -1,0 +1,30 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Panasonic",
+                "Handset Color": "Red",
+                "In the Box": "Handset, Battery, Charger, USB Cable, Earphone, Screen Protector",
+                "Model Name": "T40",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 800 Pixels",
+                "Size": "4 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "8 GB"
+            }
+        }
+    ]
+}

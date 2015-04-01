@@ -1,0 +1,67 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "iBall",
+                "Handset Color": "Silver",
+                "In the Box": "Travel Charger, Usb Cable, Stereo Headset",
+                "Model Name": "Andi 5K Panther",
+                "SIM Size": "Regular",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Primary Camera": "8 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB, Mini USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "G-sensor, Proxymity sensor, Accelerometer"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "960x540 Pixels",
+                "Size": "5 Inches",
+                "Type": "IPS qHD"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Warranty Summary": "1 Year"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1900 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Processor": "1.4 GHz + Octa Core"
+            }
+        }
+    ]
+}

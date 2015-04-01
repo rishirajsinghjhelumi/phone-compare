@@ -1,0 +1,45 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Forme",
+                "Handset Color": "Red",
+                "In the Box": "Handset, Charger, Headset, Battery, Manual, Waranty Card",
+                "Model Name": "D9",
+                "SIM Size": "Mini Sim",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "1.8 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "32 MB"
+            }
+        }
+    ]
+}

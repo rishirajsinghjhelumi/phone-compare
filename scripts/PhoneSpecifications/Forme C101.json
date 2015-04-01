@@ -1,0 +1,49 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Forme",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Charger, Battery, User Manual, Warranty Card",
+                "Model Name": "C101",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 640 Pixels",
+                "Size": "1.77 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box Accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "32 MB"
+            }
+        }
+    ]
+}

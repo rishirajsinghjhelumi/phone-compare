@@ -1,0 +1,62 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Onida",
+                "Handset Color": "White",
+                "In the Box": "Handset, Battery Charger, Headset, User Manual",
+                "Model ID": "kyt180",
+                "Model Name": "Bar",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, Mini USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320x480 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "tft"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "26x12x125 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Warranty Service Type": "Customer Go To Service Center",
+                "Warranty Summary": "One Year Waranty By Company Service Center"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "256 Mb",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "No",
+                "Processor": "No"
+            }
+        }
+    ]
+}

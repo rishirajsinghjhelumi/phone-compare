@@ -1,0 +1,38 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "HPL",
+                "Handset Color": "White & Red",
+                "In the Box": "Handset, Battery, USB, Charger, Manual",
+                "Model Name": "WA-247",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "QVGA"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "64 MB",
+                "Memory": "64 MB RAM"
+            }
+        }
+    ]
+}

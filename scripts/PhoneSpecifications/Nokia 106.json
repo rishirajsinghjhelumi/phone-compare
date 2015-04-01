@@ -1,0 +1,89 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Nokia",
+                "Call Features": "Speed Dialing, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "In the Box": "Handset, Battery, Charger, User Guide",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "106",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "No",
+                "Secondary Camera": "No"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "No",
+                "Ringtone": "32 Polyphonic",
+                "Sound Enhancement": "Integrated Hands-free Speakers"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "No",
+                "Charging Point": "2.0 mm Charging Connector",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Removable Battery, Digital Clock, Calculator, Flashlight, Calendar, Converter, Speaking Clock, Expense Manager, Alarm, Reminders, Native Games, BMP Graphics Format, Call Waiting, Speech Codec, Security, Predictive Text, Save Numbers in 5 Separate Phonebooks, Audio Playback File Formats: MIDI",
+                "Call Memory": "Yes",
+                "Important Apps": "Nokia Life",
+                "Phone Book Memory": "500",
+                "SAR Value": "1.18 W/Kg",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Color": "64 K",
+                "Other Display Features": "Pixel density: 114 ppi, Display Width: 28.4 mm, Display Height: 35.5 mm, RGB Stripe",
+                "Resolution": "Others, 160 x 128 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "LCD Transmissive"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "47.5x112.9x14.9 mm",
+                "Weight": "74.2 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "840 hrs (2G)",
+                "Talk Time": "9 hrs (2G)",
+                "Type": "800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "0"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "(Series 30)",
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

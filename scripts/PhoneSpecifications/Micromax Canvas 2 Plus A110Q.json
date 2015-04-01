@@ -1,0 +1,95 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Business Features": "Document Viewer, Google Document, Spreadsheets",
+                "Call Features": "Conference Call, Hands Free, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "In the Box": "Charger, USB Cable, Handset, Headset, Battery, User Guide, Warranty Card",
+                "Model ID": "A110Q",
+                "Model Name": "Canvas 2 Plus",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MIDI, MP3, WAV",
+                "Video Player": "Yes, Supports 3GP, AVI, MP4, MKV, HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "Dual LED",
+                "HD Recording": "HD",
+                "Other Camera Features": "Auto Focus",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 720 x 1280"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Multi-tasking, Intuitive Text Input and Spell Check, Games, MMS Enabled, Flight Mode, Notifications, Voice Search, Sound Recorder, Bluetooth Tethering, Calendar, Voice Input",
+                "Call Memory": "Yes",
+                "Important Apps": "M! Live, M! Zone+, Hook Up, Voice Chats, Google, Gmail, Android Market, Widgets, Picasa",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Head - 0.34 W/Kg, At the Body - 0.39 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor, Light Sensor, Gravity Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Other Display Features": "IPS Display, Pinch-to-Zoom",
+                "Resolution": "Others, 480 x 854 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "280 hrs (2G)",
+                "Talk Time": "6 hrs (2G)",
+                "Type": "2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "2.4",
+                "Memory": "1 GB RAM, 4 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2.1 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1.2 GHz, Quad Core"
+            }
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lenovo",
+                "Business Features": "Document Viewer, Pushmail",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model Name": "S880",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Other Camera Features": "Auto Focus, Geo-tagging, Face Detection, Touch Focus, Panorama Mode, Burst Mode 16 Shots, Image Editor",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 1280 x 720"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports eAAC, MP3, WAV",
+                "Ringtone": "MP3, WAV",
+                "Video Player": "Yes, Supports WMV, H.264, MP4, H.263, HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3, Supported Profiles (HSP)",
+                "EDGE": "Yes, Class 12",
+                "GPRS": "Yes, Class 12",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "MMS Enabled, Bluetooth Tethering, Voice Input",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Mobile Service, Instant Messaging, Gmail, Google Talk, Google Search",
+                "Phone Book Memory": "Practically Unlimited",
+                "SMS Memory": "Practically Unlimited",
+                "Sensors": "Gravity Sensor, eCompass, Accelerometer, Proximity Sensor, Light Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "3 Point Multi-touch Screen",
+                "Resolution": "WVGA, 800 x 480 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "78x142x9.9 mm",
+                "Weight": "197 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2250 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "512 MB RAM, 4 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "PowerVR SGX531",
+                "Java": "Yes",
+                "OS": "Android v4 (Ice Cream Sandwich)",
+                "Operating Freq": "GSM - 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1 GHz + Cortex-A9"
+            }
+        }
+    ]
+}

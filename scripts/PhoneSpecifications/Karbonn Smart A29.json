@@ -1,0 +1,89 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Karbonn",
+                "Business Features": "Document Viewer, Document Editor, Kingsoft Office",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model Name": "Smart A29",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "Auto Focus",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, Supported Profiles (A2DP)",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android, WAP, Opera Mini, UC Browser",
+                "Tethering": "Wi-fi Hotspot",
+                "WAP": "Yes",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Sound Recorder, Voice Assisted GPS Navigation, Multi-tasking, Voice Search",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Play, Gmail, Google Talk, WhatsApp, Saavn, Flipboard, ET, TOI, Karbonn Live, Hungama My Play, Outlook Email, Customizable Widgets, Notification Panel, Play Store",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "0.910 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Ambient Light Sensor, Proximity Sensor, G-Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "IPS Display, Gesture Support",
+                "Resolution": "qHD, 540 x 960 Pixels",
+                "Size": "4.7 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "512 MB RAM, 4 GB ROM",
+                "User Memory": "2.53 GB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.1.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1.2 GHz, Dual Core"
+            }
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Karbonn",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black & Grey",
+                "Keypad": "Yes, Alphanumeric",
+                "Model ID": "KC620",
+                "SIM Type": "Triple Sim, GSM + GSM + CDMA, (Dual Active)"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 1.3 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes, Supports 3GP, MP4"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Bluetooth": "Yes",
+                "GPRS": "Yes",
+                "Preinstalled Browser": "WAP",
+                "WAP": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "English and Hindi Language Support, Bright Torch, Auto Call Recorder, MMS Enabled, Call Reject by SMS, Data Protection, Mobile Tracker",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "500",
+                "SMS Memory": "200"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "46.8x111.2x13.9 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "500 hrs (2G)",
+                "Talk Time": "8 hrs (2G)",
+                "Type": "Li-Ion, 1900 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 4 GB"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "CDMA - 800; GSM - 900, 1800"
+            }
+        }
+    ]
+}

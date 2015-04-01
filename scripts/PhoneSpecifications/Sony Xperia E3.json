@@ -1,0 +1,99 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Sony",
+                "Business Features": "Pushmail  (Microsoft Exchange ActiveSync)",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model ID": "D2203",
+                "Model Name": "Xperia E3",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports OTA, AMR, WAV, MP3, SMF, OGG, Vorbis",
+                "Sound Enhancement": "xLoud Experience - Audio Filter Technology from Sony, Clear Audio+, Surround Sound Technology (VPT)",
+                "Video Player": "Yes, Supports MP4, 3GPP, Full HD"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Geo-tagging, Image Stabiliser, Auto Scene Recognition, Smooth Zoom - 4x, HDR (High Dynamic Range) for Pictures, Image Capture (JPEG), Image Playback (BMP, GIF, JPEG, PNG, WBMP), Sony Camera Apps (Social Live, Timeshift Burst, AR Effect, AR Fun, Background Defocus), BSI Image Sensor",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, GLONASS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "SyncML, ANT+ Wireless Technology, One-touch Connection, One-touch Listening, One-touch Mirroring, One-touch Sharing, One-touch Backup, Wi-Fi Direct",
+                "Call Memory": "Yes",
+                "Important Apps": "Facebook, Google, Gesture Control",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "69.4x137.1x8.5 mm",
+                "Weight": "143.8 g"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Scratch-resistant, IPS Display",
+                "Resolution": "Others, 480 x 854 Pixels",
+                "Size": "4.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "706 hrs (2G)",
+                "Talk Time": "12 hrs (2G)",
+                "Type": "2330 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 305",
+                "OS": "Android v4.4 (KitKat)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1.2 GHz + Qualcomm Snapdragon MSM8226, Quad Core"
+            }
+        }
+    ]
+}

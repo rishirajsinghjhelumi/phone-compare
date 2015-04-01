@@ -1,0 +1,107 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Sony",
+                "Business Features": "Document Viewer, Pushmail  (Microsoft Exchange, ActiveSync)",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model ID": "Xperia ZR",
+                "Model Name": "Xperia ZR",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 320",
+                "OS": "Android v4.1 (Jelly Bean), Upgradable to v4.4 (KitKat)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.5 GHz + Qualcomm Snapdragon S4 Pro, Quad Core"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Dust-proof and Water-proof, OptiContrast Panel, Multi-touch (Upto 10 Fingers Supported), Auto Rotation, Vivid Display, Shatter-proof Sheet on Scratch-resistant Glass, Gesture Input, Wide Color Gamut, BRAVIA Engine 2, Screenshot Capturing",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "4.6 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Exmor RS for Mobile Sensor, Burst Mode, Fast Capture, Auto Focus, Face Detection, Face Recognition, Geo-tagging, Image Stabiliser, Object Tracking, Picture Effect, Quick Launch, Red-eye Reduction, Scene Recognition, Smile Shutter, Send to Web, Image Senso",
+                "Primary Camera": "Yes, 13 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 1080 x 1920",
+                "Zoom": "Digital Zoom - 16x"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "67.3x131.3x10.5 mm",
+                "Weight": "138 g"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "470 hrs (2G), 520 hrs (3G)",
+                "Talk Time": "11 hrs (2G), 13 hrs (3G)",
+                "Type": "2300 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8",
+                "Memory": "2 GB RAM, 8 GB ROM"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 5.8 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (AVRCP 1.3, HDP 1.1, LE, OPP 1.1, HFP 1.6, A2DP 1.2, SPP 1.1, PMP 1.0, HIDP 1.1, HSP 1.2, PAP 1.1, DIP 1.3, PANP 1.0, MAP 1.0)",
+                "DLNA": "Yes",
+                "EDGE": "Yes, 296 kbps",
+                "GPRS": "Yes, 107 kbps",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, GLONASS, with Google Maps",
+                "Preinstalled Browser": "Android, Google Chrome",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 a/b/g/n"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports WAV, MP3, FLAC",
+                "Ringtone": "Polyphonic",
+                "Sound Enhancement": "xLoud Experience, Dynamic Normalizer, 3D Surround Sound",
+                "Video Player": "Yes, Supports MOV, 3GPP, H.263, MP4, XviD, H.264, MKV, AVI, Full HD"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Sony Music App ( Can Download 1.5Mil Songs for Free), Sony Liv App, Google Play, Google Voice Search, Facebook, Google Wallet, Google Talk, Twitter, Gmail, Instant Messaging, YouTube",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, eCompass, Accelerometer, Gyroscope, Magnetometer, Ambient Light Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        }
+    ]
+}

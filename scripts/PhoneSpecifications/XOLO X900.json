@@ -1,0 +1,102 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "XOLO",
+                "Business Features": "Document Viewer",
+                "Call Features": "Conference Call, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Battery, Charger, Headset, User Guide",
+                "Keypad": "No",
+                "Model Name": "X900",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3, MIDI, WAV",
+                "Video Player": "Yes, Supports MPEG4, 3GPP, WMC, H.264, VP8, Full HD, HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "Single LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Auto Focus, Touch Focus, Burst Mode, Multi-mode",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 1.3 Megapixel",
+                "Video Recording": "Yes, 1080 x 1920, 30 fps",
+                "Zoom": "Digital Zoom - 8x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 5.7 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1",
+                "EDGE": "Yes, Class 10",
+                "GPRS": "Yes, Class 10",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "with Google Maps",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Gmail",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "GSM 900: At the Head - 1.32 W/Kg and At the Body - 0.821 W/Kg; GSM 1800: At the Head - 0.493 W/Kg and At the Body - 0.412 W/Kg; WCDMA 2100: At the Head - 0.399 W/kg and At the Body - 0.257 W/kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Gyroscope Sensor, Magnetometer, Ambient Light Sensor, Proximity Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "63x123x10.99 mm",
+                "Weight": "124 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Corning Gorilla Glass",
+                "Resolution": "1024 x 600 Pixels",
+                "Size": "4.03 Inches",
+                "Type": "TFT LCD"
+            }
+        },
+        {
+            "Battery": {
+                "Talk Time": "14 hrs (2G), 8 hrs (3G)",
+                "Type": "1460 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "16",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "400 MHz Clock Speed, 40 Million Triangles/sec",
+                "OS": "Android v2.3 (Gingerbread), Upgradable to v4.0 (Ice Cream Sandwich)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.6 GHz + Intel Atom"
+            }
+        }
+    ]
+}

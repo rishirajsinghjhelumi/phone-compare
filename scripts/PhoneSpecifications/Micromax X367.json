@@ -1,0 +1,93 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Business Features": "Document Viewer, eBook, Text Reader",
+                "Call Features": "Speed Dialing, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Grey",
+                "Model Name": "X367",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Zoom Level, Brightness Level, Multi-shot, Night Mode",
+                "Primary Camera": "Yes, 0.3 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports WAV, MP3",
+                "Video Player": "Yes, Supports 3GP, MP4"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1, Supported Profiles (A2DP, EDR)",
+                "Charging Point": "2 Pin Charger",
+                "GPRS": "Yes, Class 10",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Dorado WAP 2.0",
+                "USB Connectivity": "Yes, micro USB",
+                "WAP": "Yes, v2",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "M! Live, Sokoben, Snakes, Tekris, Bookmarks",
+                "Phone Book Memory": "500",
+                "SMS Memory": "200"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "2.8 Inches",
+                "Type": "TFT LCD"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "58x107x11 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "180 hrs (2G)",
+                "Talk Time": "3 hrs (2G)",
+                "Type": "Lithium, 900 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "85.5",
+                "Memory": "64 MB RAM, 64 MB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800",
+                "Processor": "ARM9"
+            }
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "iBall",
+                "Handset Color": "Dark Gray",
+                "In the Box": "Handset, Battery, Headset, Manual, Warranty Card",
+                "Model ID": "4l Pulse",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "5 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "G-sensor, Proximity sensor, Light sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "6 Month",
+                "Warranty Summary": "1 Year"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 800 Pixels",
+                "Size": "4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "4 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "v8.1",
+                "Processor": "1.2 GHz, Quad Core"
+            }
+        }
+    ]
+}

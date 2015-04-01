@@ -1,0 +1,47 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BSNL-Champion",
+                "Handset Color": "White",
+                "In the Box": "Mobile, Charger, Battery",
+                "Model Name": "SQ 241 Sleek",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Carry in 1 year warranty."
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320x240 Pixels",
+                "Size": "2.4 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "32 MB"
+            }
+        }
+    ]
+}

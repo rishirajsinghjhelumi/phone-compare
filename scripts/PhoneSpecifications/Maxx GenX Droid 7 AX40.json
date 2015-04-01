@@ -1,0 +1,66 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Maxx",
+                "Handset Color": "White",
+                "In the Box": "Battery, Handset, Charger, Headset, Manual",
+                "Model Name": "Genx Droid 7 AX40",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "G-sensor, Accelorometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Customer Need to Contact to Nearest Service Center",
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "64.6x126.3x11.6 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "854 x 480 Pixels",
+                "Size": "4 Inches",
+                "Type": "WVGA Capacitive Touchscreen"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512 MB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v2.3.6 (Gingerbread)",
+                "Processor": "1 GHz + Single Core Processor"
+            }
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "LG",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Red",
+                "In the Box": "USB Sync / Charge Cable, Battery, SIM Ejection Tool, Safety and Warranty Information, Quick Start Guide, Handset, Charger",
+                "Model Name": "Nexus 5 16GB",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 330, 450 MHz",
+                "OS": "Android v4.4 (KitKat)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; WCDMA - 2100; 4G LTE",
+                "Processor": "2.3 GHz + Qualcomm Snapdragon 800"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Corning Gorilla Glass 3, Less Glare, Wider Viewing Angle, IPS Display",
+                "Resolution": "Full HD, 1920 x 1080 Pixels",
+                "Size": "4.95 Inches"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Optical Image Stabilization, HDR+ Mode, Less Shake, Less Noise, Rapid Burst, Photo Sphere, 360 Deg View, Brighter Night and Sharper Action Shots",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 1.3 Megapixel"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "69.17x137.84x8.59 mm",
+                "Weight": "130 g"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "300 hrs (2G)",
+                "Talk Time": "17 hrs (2G)",
+                "Type": "2300 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "16",
+                "Memory": "2 GB RAM"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (LE)",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "GPS, with Google Maps",
+                "Preinstalled Browser": "Android, Google Chrome",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes, 802.11 a/b/g/n/ac"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3",
+                "Sound Enhancement": "3.5 mm Stereo Audio Connector, Dual Microphones, Built-in Speaker, Hall Effect",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Wireless Charging Built-in, NFC (Android Beam), Ceramic Power and Volume Buttons, Google Calendar",
+                "Call Memory": "Yes",
+                "Important Apps": "Gmail, Drive, Google Keep, Google Apps, Google Play, Android Updates",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Pressure Sensor, Compass, Ambient Light Sensor, Proximity Sensor, Gyroscope Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        }
+    ]
+}

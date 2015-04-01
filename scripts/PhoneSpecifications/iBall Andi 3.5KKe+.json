@@ -1,0 +1,81 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "iBall",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model Name": "Andi 3.5KKe Plus",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Primary Camera": "Yes, 3.2 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Bluetooth": "Yes, Supported Profiles (A2DP)",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Wifi": "Yes, 802.11 b/g"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Video Chat",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "GSM 900: 0.724 W/Kg, GSM 1800: 0.844 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Light Sensor, Proximity Sensor, G-Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Super Responsive",
+                "Resolution": "HVGA, 480 x 320 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "1450 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800",
+                "Processor": "1.2 GHz + Cortex-A7, Dual Core"
+            }
+        }
+    ]
+}

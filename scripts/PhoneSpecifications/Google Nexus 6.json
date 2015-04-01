@@ -1,0 +1,101 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Motorola",
+                "Call Features": "Conference Call, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Cloud White",
+                "In the Box": "SIM Tray Removal Tool, Handset, Pin, Headset - Motorola Earbuds, Safety and Warranty Guides, Data Cable, Turbo Charger",
+                "Model ID": "XT1100",
+                "Model Name": "Nexus 6",
+                "SIM Size": "Nano SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 420",
+                "OS": "Android v5 (Lollipop)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; WCDMA - 2100; 4G LTE - Bands 1/3/5/7/8/9/19/20/28/41",
+                "Processor": "2.7 GHz + Qualcomm Snapdragon 805, Quad Core"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Corning Gorilla Glass 3",
+                "Resolution": "Quad HD, 2560 X 1440 Pixels",
+                "Size": "6 Inches",
+                "Type": "AMOLED"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "Dual LED Ring",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Optical Image Stabilization, Aperture f/2.0, Epic Shots, HDR+, Pre-installed Google Camera",
+                "Primary Camera": "Yes, 13 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 3840 x 2160, 30 fps"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "82.98x159.26x10.06 mm",
+                "Weight": "184 g"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "250 hrs (2G)",
+                "Talk Time": "24 hrs (2G)",
+                "Type": "3220 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "64",
+                "Memory": "3 GB RAM"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4.1",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 a/c"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3",
+                "Sound Enhancement": "Dual Front Facing Speakers",
+                "Video Player": "Yes, Full HD, 4K - Ultra HD"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Qi Wireless Charging, Multi-tasking (Switch Between Editing Documents, Browsing the Web, Watching Movies and Listening to Music)",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Head 0.93 W/Kg, At the Body 1.38 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Barometer, Ambient Light Sensor, Gyroscope, Magnetometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and for in the box accessories"
+            }
+        }
+    ]
+}

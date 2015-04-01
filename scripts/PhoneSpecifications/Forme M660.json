@@ -1,0 +1,49 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Forme",
+                "Handset Color": "Red",
+                "In the Box": "Handset, Charger, Battery, User Manual, Warranty Card",
+                "Model ID": "M660",
+                "SIM Type": "Triple Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "2.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box Accessories"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "2.4 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "300 MB"
+            }
+        }
+    ]
+}

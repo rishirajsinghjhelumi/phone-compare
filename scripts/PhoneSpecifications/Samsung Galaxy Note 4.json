@@ -1,0 +1,93 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Charcoal Black",
+                "Model ID": "SM-N910GZKEINS/INU",
+                "Model Name": "Note 4",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports AMR-WB, Vorbis, AAC+, WMA, FLAC, eAAC+, AMR-NB, MP3, AAC",
+                "Sound Enhancement": "Adapt Sound, Sound Alive, Wise Voice 2.0, Extra Volume 2.0, 3 Mics (Directional Voice Recording)",
+                "Video Player": "Yes, Full HD, 4K - Ultra HD"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Voice Commands (Smile, Cheese, Capture, Shoot), Smart OIS, Fast Auto Focus, Live HDR (Rich Tone)",
+                "Primary Camera": "Yes, 16 Megapixel",
+                "Secondary Camera": "Yes, 3.7 Megapixel",
+                "Video Recording": "Yes, 3840 x 2160"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSPA+",
+                "Bluetooth": "Yes, v4.1",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes, 802.11 a/b/g/n/ac"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Samsung WatchON, Advanced S Note Widgets, Smart Select",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Gyroscope, Gesture Sensor, Accelerometer, Barometer, Geo-magnetic, Proximity Sensor, Hall Sensor, RGB Ambient Light Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "78.6x153.5x8.5 mm",
+                "Weight": "176 g"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Vivid and Clear Display",
+                "Resolution": "Quad HD, 2560 X 1440 Pixels",
+                "Size": "5.7 Inches",
+                "Type": "Super AMOLED"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "3220 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 128 GB",
+                "Internal": "32",
+                "Memory": "3 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100; 4G - LTE",
+                "Processor": "2.7 GHz, Quad Core"
+            }
+        }
+    ]
+}

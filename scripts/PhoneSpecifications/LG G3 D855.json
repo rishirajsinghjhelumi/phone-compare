@@ -1,0 +1,84 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "LG",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model ID": "LG - D855",
+                "Model Name": "G3",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3, WAV, AMR, WMA, MKA, MID, OGG, FLAC, M4A, XMF",
+                "Video Player": "Yes, Supports SKM, FLV, AVI, WMV, ASF, MKV, OGM, MP4, 3GP, DIVX, WEBM, TS, K3G"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Optical Image Stabilizer, Laser Auto Focus, Dual Flash",
+                "Primary Camera": "Yes, 13 Megapixel",
+                "Secondary Camera": "Yes, 2.1 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSPA+; 21 Mbps HSPA+",
+                "Bluetooth": "Yes, v4, Supported Profiles (LE, aptX)",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, GLONASS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes, 802.11 a/b/g/n/ac"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Smart Keyboard, Knock Code, Smart Notice, Wireless Charging, Quick Circle",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "Quad HD, 2560 X 1440 Pixels",
+                "Size": "5.5 Inches",
+                "Type": "True HD IPS LCD"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "3000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 128 GB",
+                "Internal": "16",
+                "Memory": "2 GB RAM, 16 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Operating Freq": "GSM - 900, 1800; WCDMA - 2100",
+                "Processor": "2.5 GHz + Qualcomm Snapdragon, Quad Core"
+            }
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Business Features": "Document Viewer, Document Editor, VOIP Support, Pushmail",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Deep Gray",
+                "In the Box": "Handset, Battery, Charger, Headset, Data Cable, User Manual, Quick Guide",
+                "Keypad": "No",
+                "Model ID": "S7530",
+                "Model Name": "Omnia M",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "Auto Focus, Multi-shot Mode, Photo Effects, Face Decoration, Geo-tagging, Image Stabilization, Image Sharing, Photo Studio, Panorama View, Image Editor",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 30 fps"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports eAAC, MP3, WAV",
+                "Ringtone": "MP3, WAV",
+                "Video Player": "Yes, Supports MP4, WMV, H.264, H.263"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA, 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Bing Maps",
+                "Preinstalled Browser": "Internet Explorer 9",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Event Scheduling, Play Media from Phone On TV or Desktop",
+                "Call Memory": "Yes",
+                "Important Apps": "Marketplace, Weather Update, Yahoo News, Yahoo Finance, Top Tweets, Tango, Chat On, Cloud, Push Notification, SkyDrive, Video Mail Service, Facebook, Twitter, Linkdin, Live Tile, xBox Live, People Application, Samsung Zone, Mini Diary, Fun Shot 1.5, All Share, RSS imes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor, Compass"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Resolution": "WVGA, 480 x 800 Pixels",
+                "Size": "4 Inches",
+                "Type": "Super AMOLED"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "64.1x121.7x10.5 mm",
+                "Weight": "120 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "4",
+                "Memory": "384 MB RAM, 4 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "No",
+                "OS": "Windows v7.5",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1 GHz"
+            }
+        }
+    ]
+}

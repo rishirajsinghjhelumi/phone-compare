@@ -1,0 +1,107 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Sony",
+                "Business Features": "Document Viewer, Document Editor, Pushmail  (Exchange Active Sync)",
+                "Call Features": "Conference Call, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Glossy White",
+                "In the Box": "Handset, Battery (1460 mAh), Charger, Headset, USB Cable, 2 GB Memory Card",
+                "Keypad": "No",
+                "Model Name": "Xperia Neo L",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD",
+                "Other Camera Features": "Auto Focus, Touch Focus, Geo-tagging, Video Light, Send to Web",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 1280 x 720, 30 fps"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports WAV, MP3, eAAC",
+                "Ringtone": "MP3",
+                "Sound Enhancement": "xLoud Audio Technology",
+                "Video Player": "Yes, Supports MP4, H.264, H.263, MPEG-4, 3GPP, HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1, Supported Profiles (EDR, A2DP, PAN, HSP, HFP, AVRCP, AVDTP, AVCTP, AVDP, SPP, PBAP, OPP, GAVDP, RFCOMM)",
+                "DLNA": "Yes",
+                "EDGE": "Yes, 237 kbps",
+                "GPRS": "Yes, 80 kbps",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android 4.0",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Voice Search, Google Talk, Google Mail, Facebook, Twitter, YouTube, Instant Messaging, Android Market, Google Search, Google Location Service, Skype, Google Talk Video",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor, Compass, Ambient Light Sensor, Magnetometer"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Scratch Resistant",
+                "Resolution": "854 x 480 Pixels",
+                "Size": "4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "61.1x121x12.2 mm",
+                "Weight": "131.5 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "575 hrs (2G), 410 hrs (3G)",
+                "Talk Time": "7 hrs (2G), 7 hrs (3G)",
+                "Type": "Li-Po, 1460 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Included Memory Card": "2 GB",
+                "Internal": "1",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 205",
+                "Java": "Yes",
+                "OS": "Android v4 (Ice Cream Sandwich)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1 GHz + Qualcomm Scorpion",
+                "User Interface": "Timescape"
+            }
+        }
+    ]
+}

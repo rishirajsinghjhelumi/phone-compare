@@ -1,0 +1,53 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BLU",
+                "Handset Color": "White",
+                "In the Box": "Handset, Battery, Charger, Handsfree, User Manual, warranty card",
+                "Model Name": "S16",
+                "SIM Size": "Regular",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5mm",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240x320 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Warranty Service Type": "Customer needs to call/visit the nearest service centre since product comes with 1 year Manufacturer warranty",
+                "Warranty Summary": "1 Year manufacturer warranty for phone, 6 months warranty for Battery & 3 months for in box Accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1650 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "36 KB"
+            }
+        }
+    ]
+}

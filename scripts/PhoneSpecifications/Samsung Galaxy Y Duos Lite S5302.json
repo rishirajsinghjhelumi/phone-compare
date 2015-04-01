@@ -1,0 +1,106 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Business Features": "Document Viewer, Pushmail, Quickoffice",
+                "Call Features": "Conference Call, Speed Dialing, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Battery (1200mAh), Charger, Headset, Data Cable, Quick Start Guide",
+                "Keypad": "No",
+                "Model ID": "S5302",
+                "Model Name": "Galaxy Y Duos Lite",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Smart Active)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Fixed Focus, White Balance, Exposure Metering, Multi-shot Mode, Photo Effects, Zoom, Geo-tagging, Image Editor",
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 320 x 240, 15 fps",
+                "Zoom": "Digital Zoom - 2x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, MIDI, eACC",
+                "Ringtone": "MP3, 64 Polyphonic",
+                "Sound Enhancement": "Virtual 5.1 Channel Surround Sound, DNSe Sound Enhancement",
+                "Video Player": "Yes, Supports AMR-NB, eAAC, MPEG4, 3GP, AMR, AAC, AAC, AAC?, H.263, H.264"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 3.6 Mbps HSDPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3, Supported Profiles (A2DP, AVRCP, DUNP, GAP, HFP, HSP, OPP, SPP)",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Stereo FM Radio with RDS, MMS Enabled, Flight Mode, Alarm, Caller ID, Call Waiting, Calculator, Clock, Calendar, Voice Recorder, Samsung Kies Conectivity, Task Manager, Voice Search, Swype, FOTA (Firmware Over the Air), Mobile Tracker, Call Functions, Voice Input",
+                "Call Memory": "Yes",
+                "Important Apps": "Chat ON, Google Search, Play Store, Google Latitude, Google Talk, Google Mail, Google, YouTube, Samsung Apps, Social Hub, Messenger, Instant Messaging",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "0.858W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor, Compass"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "QVGA, 240 x 320 Pixels",
+                "Size": "2.8 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "58x103.5x12 mm",
+                "Weight": "103 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "410 hrs (2G)",
+                "Talk Time": "15 hrs (2G)",
+                "Type": "1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "3",
+                "User Memory": "3 GB"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "Yes",
+                "OS": "Android v2.3 (Gingerbread)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "832 MHz",
+                "User Interface": "TouchWiz"
+            }
+        }
+    ]
+}

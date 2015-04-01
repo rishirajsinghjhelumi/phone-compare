@@ -1,0 +1,104 @@
+{
+    "specification": [
+        {
+            "Important Note": {}
+        },
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Motorola",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Battery Door, User Manual, Headset, Handset with Inbuilt Battery, Charger",
+                "Model ID": "XT1068",
+                "Model Name": "MOTO G (2nd Generation)",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 305, 450 MHz Single Core",
+                "OS": "Android v4.4.4 (KitKat), Upgradable to v5.0 (Lollipop)(OTA Upgrade)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.2 GHz + Qualcomm Snapdragon 400, Quad Core"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Corning Gorilla Glass 3",
+                "Resolution": "HD, 720 x 1280 Pixels",
+                "Size": "5 Inches",
+                "Type": "IPS LCD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD",
+                "Other Camera Features": "Auto Focus, Slow Motion Video, Burst Mode, Auto HDR, Panorama, Tap to Focus",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 720 x 1280, 30 fps",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "70.7x141.5x10.99 mm",
+                "Weight": "149 g"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "2070 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "16",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21.1 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (HSP, OPP, HFP, BIP, LE, A2DP, HID, AVRCP, SPP, PBAP, EDR, FTP)",
+                "EDGE": "Yes, Class 12",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, aGPS, Standalone GPS, sGPS, GLONASS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports AAC, eAAC+, AMR-WB, AMR-NB, AAC+, MP3, WAV, MIDI",
+                "Video Player": "Yes, Supports H.263, H.264, MPEG4, HD"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "MMS Enabled, Alerts (Silent, Polyphonic Ring, Vibrate, Notification LED), POP Email",
+                "Call Memory": "Yes",
+                "Important Apps": "Gmail, Hangouts",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Head 1.52 W/Kg, At the Body 0.894 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "eCompass, Hall Effect Sensor, Accelerometer, Magnetometer, Proximity Sensor, Gyroscope, Ambient Light Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and for in the box accessories"
+            }
+        }
+    ]
+}

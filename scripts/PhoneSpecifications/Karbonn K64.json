@@ -1,0 +1,42 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Karbonn",
+                "Handset Color": "Black",
+                "In the Box": "User guide, Warranty card, Mobile handset, Charger, Battery",
+                "Model Name": "K64",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "2.4 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "1 Year Standard Manufacturer for Mobile handset and 6 Months Warranty for in-box accessories",
+                "Warranty Summary": "1 Year Standard Manufacturer Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1750 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "0"
+            }
+        }
+    ]
+}

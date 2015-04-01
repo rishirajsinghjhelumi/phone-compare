@@ -1,0 +1,49 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "A & K",
+                "Handset Color": "White",
+                "In the Box": "Mobile, Battery, Charger, Earphone, Cover",
+                "Model ID": "3333",
+                "SIM Size": "Normal",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Manufactring Defect",
+                "Not Covered in Warranty": "Manufactring Defect",
+                "Warranty Service Type": "Replacment"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "32 KB"
+            }
+        }
+    ]
+}

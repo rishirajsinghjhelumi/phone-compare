@@ -1,0 +1,55 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BSNL-Champion",
+                "Handset Color": "Black",
+                "In the Box": "Mobile, Charger, Battery",
+                "Model ID": "Apna Phone SQ241 Power",
+                "Model Name": "Champion",
+                "SIM Size": "Normal SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "Yes",
+                "USB Connectivity": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Carry In 1 Year Warranty",
+                "Warranty Summary": "1 Year Warranty"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "53x124x14.1 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 240 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2600 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "32 MB"
+            }
+        }
+    ]
+}

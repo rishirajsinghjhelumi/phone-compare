@@ -1,0 +1,105 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Sony",
+                "Business Features": "Document Viewer, Pushmail  (Microsoft Exchange ActiveSync), Neo Reader Barcode Scanner",
+                "Call Features": "Conference Call, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "In the Box": "Handset, Charger, Battery, Headset, USB Cable, Start-up Guide",
+                "Model ID": "C2305",
+                "Model Name": "Xperia C",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "IMG SGX544",
+                "OS": "Android v4.2.2 (Jelly Bean), Upgradable to v4.3 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.2 GHz + MTK6589, Quad Core"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Gesture Input, Scratch Resistant, Screenshot Capturing, Auto Rotation, Pan and Zoom, Multi-touch (4 Fingers Supported)",
+                "Resolution": "qHD, 960 x 540 Pixels",
+                "Size": "5 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "Pulsed LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Fast Capture, Exmor R, Auto Focus, Self-portrait Function, Touch Focus, Face Detection, Sweep Panorama, HDR for Photos, Dedicated Camera Key, Intelligent Voice-guide, Super-fast Pinch-to-Zoom, Beauty Mode, Geo-tagging, Self-timer, Send to Web, Smile Shutter, Touch Capture, Video Light",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "74.15x141.5x8.88 mm",
+                "Weight": "153 g"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "588 hrs (2G), 605 hrs (3G)",
+                "Talk Time": "10 hrs (2G), 10 hrs (3G)",
+                "Type": "2330 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSDPA; 11.5 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (HFP 1.6, HSP 1.2, DUN 1.1, OPP 1.2, A2DP 1.2, AVRCP 1.3, HIDP 1.0, FTP 1.2, PANP 1.0)",
+                "DLNA": "Yes",
+                "EDGE": "Yes, 237 kbps",
+                "GPRS": "Yes, 85.6 kbps",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV, MIDI",
+                "Sound Enhancement": "3D Surround Sound, Clear Audio+, Clear Bass, Clear Phase, Clear Stereo, WALKMAN Application, Manual Equalizer, Sony Audio Enhancement Technology, Album Art, Dynamic Normalizer, TrackID Music Recognition, xLoud Experience",
+                "Video Player": "Yes, Supports 3GPP, MP4, Full HD"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Smart Application - Throw, Xperia Care, Facebook, Twitter, Google Talk, Video Chat Ready, Gmail, Instant Messaging, YouTube, Play Anywhere, Xperia Link, Google Sync, PlayNow Service, Movies Application, Album Application",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Ambient Light Sensor, Proximity Sensor, Magnetometer, Accelerometer, eCompass"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        }
+    ]
+}

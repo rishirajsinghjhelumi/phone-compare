@@ -1,0 +1,57 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lemon",
+                "Handset Color": "White",
+                "In the Box": "Charger, Handsfree, User Mannual, Data Cable, Handset, Warranty Card, Battery",
+                "Model Name": "Aspire A1",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "960 x 540 Pixels",
+                "Size": "5.3 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1year manufacturers warranty on phone and on others as per rules in user mannual"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Polymer, 2500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.1 (Ice Cream Sandwich)",
+                "Processor": "1 GHz, Dual Core"
+            }
+        }
+    ]
+}

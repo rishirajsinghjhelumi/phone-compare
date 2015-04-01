@@ -1,0 +1,94 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "XOLO",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model Name": "Q1000S",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3, WAV, MIDI",
+                "Sound Enhancement": "Digital Microphones: 2, Ambient Noise Cancellation",
+                "Video Player": "Yes, Supports H.263, H.264, 3GP, MPEG4, Full HD"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "BSI 2 Sensor, Burst Mode, Flash Support, Auto Focus, Image Stabilization, Scene Detection and Tuning, HDR, Low Light Enhancement, Face Recognition, Red-eye Removal, Panorama Capture, Geo-tagging, Enhanced Color Reproduction",
+                "Primary Camera": "Yes, 13 Megapixel",
+                "Secondary Camera": "Yes, 5 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42.2 Mbps HSDPA; 11.5 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Video Chatting, Voice Recording, Android Video Player",
+                "Call Memory": "Yes",
+                "Important Apps": "Antutu Benchmark, Nenamark Benchmark, Vellamo 2 HTML 5 Benchmark",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Ambient Light Sensor, Proximity Sensor, Magnetometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "72.1x147x6.98 mm",
+                "Weight": "158 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "OGS Technology, IPS Display",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "327 hrs (2G), 425 hrs (3G)",
+                "Talk Time": "22 hrs (2G), 12 hrs (3G)",
+                "Type": "2500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "16",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Power VR SGX544, 357 MHz",
+                "OS": "Android v4.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1.5 GHz, Quad Core"
+            }
+        }
+    ]
+}

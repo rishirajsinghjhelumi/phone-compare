@@ -1,0 +1,85 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Iris Charcoal",
+                "Model ID": "SM-G130EZAAINS/INU",
+                "Model Name": "Galaxy Star 2",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports OGA, IMY, AMR, MIDI, MXMF, MP3, M4A, 3GA, AAC, AWB, MID, XMF, WAV, FLAC, RTTTL, RTX, OTA",
+                "Video Player": "Yes, Supports AMR, WEBM, MP4, M4V, 3GP, 3G2, H.263, MKV, HD"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Shot Mode (Auto, Night, Panorama, Sound, Shot), Photo Effects (Black and White, Negative, None, Sepia), White Balance (Auto, Cloudy, Daylight, Fluorescent, Incandescent), Brightness, Location Tags, Guidelines, Metering, Share Shot, Timer, CMOS",
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 640 x 480",
+                "Zoom": "Digital Zoom - 2x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (A2DP, AVRCP, BPP, SDAP, FTP, OPP)",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Alarm, Stopwatch, Timer, World Clock, Snooze, Calculator, Countdown Timer, Wi-Fi Direct, Updated Touch - Wiz Essence UX, Music Playback: Upto 17 Hours, Video Playback: Upto 3 Hours",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "HVGA, 320 x 480 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "170 hrs (2G)",
+                "Talk Time": "5 hrs (2G)",
+                "Type": "Li-ion, 1300 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "512 MB RAM",
+                "User Memory": "4 GB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900",
+                "Processor": "1 GHz"
+            }
+        }
+    ]
+}

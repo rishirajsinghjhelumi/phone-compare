@@ -1,0 +1,101 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Nokia",
+                "Business Features": "Document Viewer, VOIP Support, Pushmail  (Mail for Exchange), Outlook",
+                "Call Features": "Conference Call, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "In the Box": "Battery, Charger, Nokia 4 GB microSD Card, Handset, Headset, User Guide",
+                "Model Name": "Asha 503",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, MIDI",
+                "Ringtone": "MP3, 32 Polyphonic",
+                "Sound Enhancement": "Integrated Hands-free Speakers, HD Audio, Noise Cancellation",
+                "Video Player": "Yes, Supports MP4, 3GP"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 320 x 240, 15 fps",
+                "Zoom": "Digital Zoom - 3x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3, Supported Profiles (A2DP 1.2, DUN, FTP, AVCTP 1.3)",
+                "Charging Point": "Micro USB",
+                "EDGE": "Yes, 236.8 kbps",
+                "GPRS": "Yes, 85.6 kbps",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Nokia Xpress Browser",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Facebook, Twitter, WhatsApp, LINE, WeChat, Yahoo Mail, Gmail, Nokia Mail, Windows Live, Windows Hotmail, eBuddy IM, Nokia Chat, Nokia Nearby, YouTube",
+                "Phone Book Memory": "4000",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Accelerometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "60.6x102.6x12.7 mm",
+                "Weight": "111.4 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Other Display Features": "Nokia Glance Screen, Screen Double Tap, Corning Gorilla Glass, Two-point Touch, Brightness Control",
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "3 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "480 hrs (2G)",
+                "Talk Time": "12 hrs (2G), 4 hrs (3G)",
+                "Type": "1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "128"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "Yes",
+                "OS": "Nokia Asha v1.1",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100"
+            }
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Sony Ericsson",
+                "Business Features": "Document Viewer, Document Editor, Pushmail  (Exchange ActiveSync)",
+                "Call Features": "Conference Call, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Gold",
+                "In the Box": "Handset, Battery, Charger, Headset, 4 GB microSD Card, Data Cable",
+                "Model ID": "ST18i",
+                "Model Name": "Xperia Ray",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD",
+                "Other Camera Features": "Geo-tagging, Face Detection, Image Stabilization, Smile Detection, Auto Focus",
+                "Primary Camera": "Yes, 8.1 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 1280 x 720",
+                "Zoom": "Digital Zoom - 16x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, AAC",
+                "Ringtone": "MP3",
+                "Video Player": "Yes, Supports MP4, H.263, H.264, HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA; 5.8 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1, Supported Profiles (A2DP, EDR)",
+                "DLNA": "Yes",
+                "EDGE": "Yes, 237 kbps",
+                "GPRS": "Yes, 86 kbps",
+                "Internet Features": "Email, Adobe Flash 10.1",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "E-Manual, Calculator, Alarm Clock, Flight Mode, Predictive Text Input, 3D Games",
+                "Call Memory": "Practically Unlimited",
+                "Important Apps": "Google Search, Gmail, YouTube, Calendar, Google Talk, Facebook, Twitter",
+                "Phone Book Memory": "Practically Unlimited",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor, Digital Compass, CMOS Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Bravia Mobile Engine, Scratch Resistant Display, Touch Sensitive Controls",
+                "Resolution": "WVGA, 854 x 480 Pixels",
+                "Size": "3.3 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "53x111x9.4 mm",
+                "Weight": "100 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "430 hrs (2G), 440 hrs (3G)",
+                "Talk Time": "6 hrs (2G), 7 hrs (3G)",
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Included Memory Card": "4 GB",
+                "Internal": "300",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 205",
+                "Java": "Yes",
+                "OS": "Android v2.3 (Gingerbread)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1 GHz + Qualcomm Scorpion",
+                "User Interface": "Timescape"
+            }
+        }
+    ]
+}

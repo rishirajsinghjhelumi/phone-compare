@@ -1,0 +1,95 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Spice",
+                "Business Features": "Pushmail  (Exchange)",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Red",
+                "Model Name": "Stellar 520",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV, MIDI",
+                "Video Player": "Yes, Supports 3GP, WMV, MP4"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "Auto Focus, Geo-tagging, Touch Focus, Panorama Mode, HDR",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes",
+                "Zoom": "Digital Zoom"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes",
+                "Charging Point": "Micro USB",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Android, Opera Mini",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Touchscreen QWERTY and T9 Keyboard, Spice Cloud, MMS Enabled, Instant Messaging, Calendar, Calculator, Alarm, Clock",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Play, Google Search, Gmail, Hangouts, VAS Apps, Hungama My Play, OLX, Get It",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "G-Sensor, Proximity Sensor, Ambient Light Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Weight": "175 g"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "One Glass Solution (OGS) Display",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "5 Inches",
+                "Type": "IPS LCD"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; WCDMA - 2100",
+                "Processor": "1.3 GHz, Quad Core"
+            }
+        }
+    ]
+}

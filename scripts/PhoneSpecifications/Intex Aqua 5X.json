@@ -1,0 +1,61 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Intex",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Battery, Charger, Headphone, Manual",
+                "Model ID": "Aqua 5X",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 800 Pixels",
+                "Size": "4 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "63x123x6 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Customer Need To Contact Nearest Service Center",
+                "Warranty Summary": "1 Year Intex Warranty For Handset & 6 Month For Accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1300 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "256 MB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat)",
+                "Processor": "1 GHz, Dual Core"
+            }
+        }
+    ]
+}

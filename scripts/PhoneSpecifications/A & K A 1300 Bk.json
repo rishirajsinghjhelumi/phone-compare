@@ -1,0 +1,56 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "A & K",
+                "Handset Color": "Black",
+                "In the Box": "Mobile, Charger, Battery, Ear Phone",
+                "Model Name": "A 1300 Bk",
+                "SIM Size": "Normal",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "Normal",
+                "USB Connectivity": "No"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Mfg. Defects",
+                "Not Covered in Warranty": "Battery",
+                "Warranty Service Type": "Replacment",
+                "Warranty Summary": "Replacment Warrenty"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "100x10 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320x480 Pixels",
+                "Size": "1.44 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 850 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "32 KB"
+            }
+        },
+        {
+            "Platform": {
+                "Processor": "Spectrum"
+            }
+        }
+    ]
+}

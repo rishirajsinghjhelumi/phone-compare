@@ -1,0 +1,92 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Gionee",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model ID": "T520",
+                "Model Name": "T520",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV",
+                "Video Player": "Yes, Supports MP4, 3GP, AVI"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Fixed Focus",
+                "Primary Camera": "Yes, 1.3 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 320 x 240, 8 fps"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "WAP 2.0, Opera Mini",
+                "USB Connectivity": "Yes, micro USB",
+                "WAP": "Yes, v2",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Games, MMS Enabled",
+                "Call Memory": "Yes",
+                "Important Apps": "Facebook, ATV, Twitter, Yahoo Messenger",
+                "Phone Book Memory": "1000",
+                "SMS Memory": "500",
+                "Sensors": "G-Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "61x116x10.9 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "HVGA, 320 x 480 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "120 hrs (2G)",
+                "Talk Time": "7 hrs (2G)",
+                "Type": "1050 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "16",
+                "Memory": "8 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "Yes",
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

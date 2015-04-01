@@ -1,0 +1,30 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Kenxinda",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model Name": "Lady 2",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x 128 Pixels",
+                "Size": "1.77 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 600 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "0"
+            }
+        }
+    ]
+}

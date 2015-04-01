@@ -1,0 +1,52 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Handset Color": "White",
+                "In the Box": "Mobile",
+                "Model ID": "C3322",
+                "Model Name": "Metro DUOS",
+                "SIM Size": "Mini Sim",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "No",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Samsung Warranty"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "2.2 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "45 MB"
+            }
+        }
+    ]
+}

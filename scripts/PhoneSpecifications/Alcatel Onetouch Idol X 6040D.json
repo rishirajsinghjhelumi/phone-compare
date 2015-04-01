@@ -1,0 +1,101 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Alcatel",
+                "Business Features": "Document Viewer, Adobe Reader, Evernote, Office Suite",
+                "Call Features": "Hands Free, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Red",
+                "In the Box": "Handset, Charger, Data Cable, Headset, Quick Guide",
+                "Model Name": "Onetouch Idol X Plus 6040D",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports APE, FLAC, AMR, MIDI, AAC, MP2, AAC+, MP3, Vorbis",
+                "Sound Enhancement": "HD Voice",
+                "Video Player": "Yes, Supports XVID, VP8, H.263, MPEG-4, VC-1, H.264, HD, Full HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Auto Focus, Face Detection, Touch Focus, Panorama, HDR, Burst Mode, Face Beauty",
+                "Primary Camera": "Yes, 13.1 Megapixel",
+                "Secondary Camera": "No, 2 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080, 30 fps",
+                "Zoom": "Digital Zoom"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSDPA; 11 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (A2DP)",
+                "DLNA": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Flight Mode, Vibrator, FOTA, My Tracks, Shazam, Flip to Mute, Wi-Fi Display, Wi-Fi Direct",
+                "Call Memory": "Yes",
+                "Important Apps": "WhatsApp, Twitter, Facebook, One Touch Widgets, One Touch Apps, Gameloft Live, Basic Google Apps, Barcode Scanner, Deezer, WeChat",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Light Sensor, G-Sensor, eCompass"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "67.5x140.4x6.9 mm",
+                "Weight": "130 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Multi-touch 5 Points, Dragontrail Glass, Oleophobic Coating, IPS, Full Lamination, Black Crystal Touch Panel",
+                "Resolution": "Full HD, 1920 x 1080 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "320 hrs (2G), 240 hrs (3G)",
+                "Talk Time": "20 hrs (2G), 12 hrs (3G)",
+                "Type": "Lithium, 2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "16",
+                "Memory": "2 GB RAM",
+                "User Memory": "12.7 GB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.5 GHz + MT6589+, Quad Core"
+            }
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Nokia",
+                "Business Features": "Document Viewer, Document Editor, VOIP Support, Pushmail  (Microsoft Exchange ActiveSync), Microsoft Outlook",
+                "Call Features": "Conference Call, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model Name": "X2 Dual SIM",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports OGG, MKA, M4A, AWB, MIDI, AAC, MP3, FLAC, WAV",
+                "Ringtone": "32 Polyphonic, MP3",
+                "Sound Enhancement": "Integrated Hands-free Speakers, Noise Cancellation, Playlists in Music Player, Selection Criterion in Music Player, Audio Streaming, Album Graphics Display in Music Player, Bass Boost, Graphical Equalizer, Podcasts, Talk Noise Cancellation for Calls",
+                "Video Player": "Yes, Supports M4V, AVI, 3GP, MP4, MKV, 3G2, HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD",
+                "Other Camera Features": "",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes",
+                "Video Recording": "Yes, 1280 x 720, 30 fps",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21.1 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (PBAP 1.0, GAVDP 1.2, HFP 1.6, OPP 1.1, FTP, AVRCP 1.3, A2DP 1.2, HID, PAN 1.0, HSP 1.2)",
+                "Charging Point": "Micro USB",
+                "EDGE": "Yes, 236.8 kbps",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, GLONASS, with HERE Maps",
+                "Preinstalled Browser": "Opera, IPv6",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Twitter, Windows Live, Hotmail, Sina Weibo, Skype IM, Facebook, WeChat, Viber, LINE, Skype, Nokia MixRadio",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Ambient Light Sensor, Orientation Sensor, Accelerometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "68.3x121.7x11.1 mm",
+                "Weight": "150 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Multipoint-touch, Tactile Feedback, Brightness Control, Scratch Resistant Glass, ClearBlack Display Technology, Nokia Glance Screen, Double-tap to Wake",
+                "Resolution": "WVGA, 480 x 800 Pixels",
+                "Size": "4.29 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "552 hrs (2G)",
+                "Talk Time": "10 hrs (2G), 13 hrs (3G)",
+                "Type": "1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Nokia X Software v2",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.2 GHz + Qualcomm Snapdragon 200, Dual Core",
+                "User Interface": "Touch UI"
+            }
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Rage",
+                "Handset Color": "White",
+                "In the Box": "Handset, Battery, Charger, Handsfree, Manual, Warranty Card",
+                "Model Name": "OPS 80",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "1.3 Megapixel"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 800 Pixels",
+                "Size": "5.3 Inches",
+                "Type": "Capacitive Touch"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Polymer, 2500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "4 GB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android"
+            }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "LG",
+                "Handset Color": "White",
+                "In the Box": "Mobile",
+                "Model ID": "D380",
+                "Model Name": "L80 Dual",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Accelerometer, proximity"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year LG India Warranty"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "800 x 400 Pixels",
+                "Size": "5 Inches",
+                "Type": "IPS LCD"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-ion, 2540 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 302",
+                "OS": "Android v4.4.2 (KitKat)",
+                "Processor": "1.2 GHz + Cortex-A7, Dual Core"
+            }
+        }
+    ]
+}

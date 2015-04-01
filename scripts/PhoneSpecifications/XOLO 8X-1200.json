@@ -1,0 +1,92 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "XOLO",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model Name": "Play 8X-1200",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "Dual LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "PureCel Sensor, Auto Focus, Scene Detection and Tuning, High Dynamic Range (HDR), Low Light Enhancement, Face Recognition, Vertical and Horizontal Panorama Capture, Geo-tagging",
+                "Primary Camera": "Yes, 13 Megapixel",
+                "Secondary Camera": "Yes, 5 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports WAV, AAC, MIDI, AMR-NB, MP3",
+                "Sound Enhancement": "Dual Mic Support for Noise Cancellation",
+                "Video Player": "Yes, Supports 3GPP, DivX, H.264, MPEG4, H.263, Full HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 5.76 Mbps HSUPA, HSPA+",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Micro USB 5-pin, Android Video Player, OTG Support, WLAN Support, Video Chat",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Magnetometer, Accelerometer, Proximity Sensor, Gyroscope, Hall Effect Sensor, Ambient Light Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "One Glass Solution (OGS), 5 Fingers Supported, Full HD IPS Display",
+                "Resolution": "Full HD, 1920 x 1080 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "68.5x143x9.7 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "600 hrs (2G), 547 hrs (3G)",
+                "Talk Time": "24 hrs (2G), 11 hrs (3G)",
+                "Type": "Li-Ion, 2300 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "32",
+                "Memory": "2 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Mali 450; 700 MHz Speed",
+                "OS": "Android v4.4 (KitKat)",
+                "Operating Freq": "GSM - 900, 1800; WCDMA - 2100",
+                "Processor": "2 GHz + MT6592T"
+            }
+        }
+    ]
+}

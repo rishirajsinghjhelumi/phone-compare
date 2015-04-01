@@ -1,0 +1,54 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "RKMobile",
+                "Handset Color": "Yellow",
+                "In the Box": "Battery, Datacable, Handset, Adopter, Warranty Card, Manual, Headset",
+                "Model Name": "Plaudit Sense",
+                "SIM Size": "Full Size SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "USB",
+                "HDMI Port": "No",
+                "USB Connectivity": "No, micro USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "We will pickup from your doorsetp and after the service we will send back to your door step",
+                "Warranty Summary": "1 Year"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "2.8 Inches",
+                "Type": "QVGA"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "64 MB",
+                "Memory": "64 MB RAM"
+            }
+        }
+    ]
+}

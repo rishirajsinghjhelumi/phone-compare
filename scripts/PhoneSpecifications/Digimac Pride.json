@@ -1,0 +1,37 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Digimac",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model Name": "Pride",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "QVGA"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "0"
+            }
+        }
+    ]
+}

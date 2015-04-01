@@ -1,0 +1,100 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Gionee",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "User Manual, Charger, Handset, Battery",
+                "Model ID": "P6",
+                "Model Name": "Pioneer",
+                "SIM Type": "Dual Sim, GSM + UMTS",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes, Supports MP4, AVI, 3GP, H.263, H.264, Full HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Face Beauty, Panorama (Horizontal and Vertical), Eraser, Face Detection, Geo-tagging, Touch Focus, 99 Snaps in One Click, Gesture Shot, Smile Shot",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, HSPA",
+                "Bluetooth": "Yes, v4, Supported Profiles (A2DP)",
+                "EDGE": "Yes, Class 12",
+                "GPRS": "Yes, Class 12",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android, WAP 2.0",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes",
+                "WAP": "Yes, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "WLAN Support, Wireless Input Device, WLAN Direct, USB Internet (Sharing Windows PC Internet through USB Cable), Guest Mode, Smart Gesture (Pause Alarm), 9 Regional Language Support, Face Unlock, OTA, Amigo Paper",
+                "Call Memory": "Yes",
+                "Important Apps": "GioneeXender, HotKnot, Games Zone",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Head - 0.194 W/Kg, At the Body - 0.728 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, eCompass, Accelerometer, Digital Compass, G-Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "74.3x142.8x8.6 mm",
+                "Weight": "150.2 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Resolution": "Others, 854 x 480 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "162 hrs (2G), 108 hrs (3G)",
+                "Talk Time": "13 hrs (2G), 9 hrs (3G)",
+                "Type": "1950 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8",
+                "Memory": "1 GB RAM, 8 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "ARM Mali-400 MP",
+                "OS": "Android v4.4 (KitKat)",
+                "Operating Freq": "GSM - 850, 900, 1900, 1950; UMTS - 2100",
+                "Processor": "1.3 GHz + Cortex-A7, Quad Core"
+            }
+        }
+    ]
+}

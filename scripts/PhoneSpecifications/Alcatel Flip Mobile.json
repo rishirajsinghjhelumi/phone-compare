@@ -1,0 +1,43 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Alcatel",
+                "Handset Color": "Red",
+                "In the Box": "Mobile, Charger and Headset",
+                "Model ID": "1030D",
+                "Model Name": "Flip Mobile",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "No, micro USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x 160 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "3 MB"
+            }
+        }
+    ]
+}

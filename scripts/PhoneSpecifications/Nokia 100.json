@@ -1,0 +1,90 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Nokia",
+                "Call Features": "Speed Dialing, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "P. Black",
+                "In the Box": "User Guide, Charger (AC-3), Handset, Battery (BL-5CB), Headset (WH-102)",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "100",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "No",
+                "Ringtone": "32 Polyphonic"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "No",
+                "Secondary Camera": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "No",
+                "Charging Point": "2 mm Thin Pin",
+                "EDGE": "No",
+                "GPRS": "No",
+                "Preinstalled Browser": "No",
+                "USB Connectivity": "No",
+                "WAP": "No",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Calendar, Notes, Calculator, Speaking Alarm Clock, Games, Call Tracker, Flash Light",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "500",
+                "SAR Value": "1.28 W/Kg",
+                "SMS Memory": "250"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "45.5x110x14.9 mm",
+                "Weight": "70 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "65 K",
+                "Resolution": "128 x 160 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "840 hrs (2G)",
+                "Talk Time": "7 hrs (2G)",
+                "Type": "Li-Ion, 800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "0"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

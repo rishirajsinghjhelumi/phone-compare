@@ -1,0 +1,101 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lava",
+                "Call Features": "Conference Call, Speed Dialing, Hands Free, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Handset, User Manual, Headset, Charger, Data Cable, Battery, Extra Back Panel",
+                "Model Name": "Iris 455",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD",
+                "Other Camera Features": "Auto Focus, Zoom, Face Detection, Panorama Shot",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 720 x 1280"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MIDI, MP3",
+                "Ringtone": "MIDI, MP3, 64 Polyphonic, WAV, AMR, AAC",
+                "Video Player": "Yes, Supports 3GP, MP4, HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4.1.1, Supported Profiles (A2DP)",
+                "EDGE": "Yes, Class 12",
+                "GPRS": "Yes, Class 12",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android, Google Chrome",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Call Recording, Minute Reminder, Predictive Text Input, Calendar, MMS Enabled, Alarm, Calculator, Call Barring, Call Waiting, Offline Mode, Sound Recorder, FOTA Enabled, To-do List, Games",
+                "Call Memory": "Yes",
+                "Important Apps": "Play Store, YouTube, Google Talk, Gmail, Facebook, Twitter, Google+, Messenger, Fusion, Saavn, Saving Private Sheep, Hike, Cricket Fever, Air Control, Lava Zone",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Light Sensor, G-Sensor, Proximity Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Resolution": "qHD, 540 x 960 Pixels",
+                "Size": "4.5 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "68.5x137.1x9.92 mm",
+                "Weight": "120 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Talk Time": "8 hrs (2G), 6 hrs (3G)",
+                "Type": "Li-Polymer, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "512 MB RAM, 4 GB ROM",
+                "User Memory": "Less Than 2 GB"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Power VR SGX531",
+                "Java": "Yes",
+                "OS": "Android v4.1 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1 GHz + ARM Cortex-A9, Dual Core"
+            }
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "M-tech",
+                "Handset Color": "Grey",
+                "In the Box": "1 Each of Transceiver, Charger, Battery, Handfree, User guide, Waranty Card, USB Cable",
+                "Model Name": "OPAL PRO",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Internet Features": "Email",
+                "USB Connectivity": "Yes, Mini USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Important Apps": "Google Play Store, Gmail, Youtube, Google Chrome",
+                "SAR Value": "GSM 900 HEAD: 0.553 W/kg BODY : 0.831 W/kgGSM 1800 HEAD: 0.789 W/kg BODY: 0.353 W/kgWCDMA2100 HEAD: 0.831 W/kg BODY: 0.782 W/kg",
+                "Sensors": "Gravity"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "61x114x10 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Customer needs to call/visit the nearest service centre?",
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-lon, 1300 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512 MB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2 (Jelly Bean)",
+                "Processor": "1.2 GHz + Dual Core Processor, Dual Core"
+            }
+        }
+    ]
+}

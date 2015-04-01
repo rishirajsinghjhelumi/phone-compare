@@ -1,0 +1,108 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Sony",
+                "Business Features": "Pushmail  (ActiveSync, Microsoft Exchange)",
+                "Call Features": "Conference Call, Hands Free, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Red",
+                "In the Box": "Handset, Charger, Headset, User Guide, Data Cable, Battery",
+                "Model ID": "C5302",
+                "Model Name": "Xperia SP",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports FLAC, MP3, WAV",
+                "Ringtone": "Polyphonic",
+                "Sound Enhancement": "xLoud Experience, 3D Surround Sound, Noise Suppression",
+                "Video Player": "Yes, Supports 3GPP, AVI, WEBM, XviD, MP4, MKV, MPEG2-TS, Full HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Auto Focus, Exmor RS Sensor, Auto HDR, Face and Smile Detection, Sweep Panorama, Smile Shutter, Geo-tagging, Self-timer, Touch Focus, White Balance, Image Stabilizer, Metering, Auto Upload, Shutter Sound, Multi-scene Mode, Red-eye Reduction, Scene Recognition",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080",
+                "Zoom": "Digital Zoom - 16x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSDPA; 5.8 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (HIDP, GAP, AVRCP 1.0, HDP 1.1, PMP, HSP 1.1, A2DP 1.2, MAP, HFP 1.6, PAP 1.0, OPP 1.1)",
+                "DLNA": "Yes",
+                "EDGE": "Yes, 237 kbps",
+                "GPRS": "Yes, 86 kbps",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, GLONASS, with Google Maps",
+                "Preinstalled Browser": "Android, Google Chrome",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 a/b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Play, Google Voice Search, Facebook, Google Sync, SyncML, Google, Widgets, Google Talk, Twitter, Google Wallet, Gmail, Weather Forecasts, News Update, YouTube, Instant Messaging",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Gyroscope Sensor, Ambient Light Sensor, Proximity Sensor, Accelerometer, Magnetometer, eCompass"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "67.1x130.6x9.98 mm",
+                "Weight": "155 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Scratch Resistant, BRAVIA Engine 2, Screen Mirroring, Corning Gorilla Glass, Screenshot Capturing, Glove Mode, One-touch Mirroring, Pinch-to-Zoom, Multi-touch (up to 10 Fingers Supported), Gesture Input, Auto Rotation, OptiContrast Panel",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "4.6 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "697 hrs (2G), 706 hrs (3G)",
+                "Talk Time": "10 hrs (2G), 13 hrs (3G)",
+                "Type": "2370 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 320",
+                "OS": "Android v4.1 (Jelly Bean), Upgradable to v4.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.7 GHz + Qualcomm Snapdragon S4 Pro, Dual Core"
+            }
+        }
+    ]
+}

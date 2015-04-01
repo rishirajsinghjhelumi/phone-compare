@@ -1,0 +1,52 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "i-Smart",
+                "Handset Color": "White",
+                "In the Box": "mobile phone, user mannual, USB, head phone, battery",
+                "Model ID": "Is 301 I Elite",
+                "Model Name": "Elite",
+                "SIM Size": "normal",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5mm",
+                "USB Connectivity": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x 160 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "47.7x112.32x14.52 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Covers specific details on what would actually the warranty cover.",
+                "Not Covered in Warranty": "This elaborates on the things that, if damaged, will not be repaired/covered under warranty.",
+                "Warranty Summary": "1 year warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "35 kb"
+            }
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "YKing",
+                "Handset Color": "White",
+                "In the Box": "Handset, Battery, Headset, Charger, Manual",
+                "Model Name": "Y 103",
+                "SIM Size": "Full Size Sim",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "No",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Handset Only",
+                "Not Covered in Warranty": "Battery, Charger, Data Cable",
+                "Warranty Service Type": "Customer needs to call the nearby Authorized Service Center",
+                "Warranty Summary": "1 Year Manufacturing Warranty On Handset Only"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "11x122x64 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "HVGA Capacitive Touch"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1850 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "64 MB",
+                "Memory": "64 MB RAM"
+            }
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Business Features": "Document Viewer, Pushmail  (Active Sync)",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black Mist",
+                "In the Box": "Data Cable, Battery, Headset, Handset, Charger",
+                "Model ID": "i9500",
+                "Model Name": "Galaxy S4",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "PowerVR SGX",
+                "OS": "Android v4.2.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.6 GHz"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Resolution": "Full HD, 1920 x 1080 Pixels",
+                "Size": "5 Inches",
+                "Type": "Super AMOLED"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Auto Focus, Flash, Zero Shutter Lag, BIS, Dual Shot, Dual Recording, Sound and Shot, Drama Shot, Story Album, 360 Photo, Animated Photo, Eraser, Night, Best Photo, Best Face, Beauty Face, HDR (High Dynamic Range), Panorama, Sports, Image Editor",
+                "Primary Camera": "Yes, 13 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080, 30 fps"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "69.8x136.6x7.9 mm",
+                "Weight": "130 g"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "2600 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "16 GB",
+                "Memory": "2 GB RAM"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (LE)",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, GLONASS, with Google Maps",
+                "Preinstalled Browser": "Android, Chrome",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 a/b/g/n/ac"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports AAC/AAC+/eAAC+, apt-X, WMA, OGG, AC-3, AMR-NB/WB, MP3, FLAC",
+                "Video Player": "Yes, Supports DivX, DivX3.11, H.264, H.263, WMV7/8, HEVC, MPEG4, VC-1, Sorenson Spark, VP8, Full HD"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "ChatON, Samsung WatchON, Samsung Kies, Kies Air, YouTube, Google Search, Google Maps, Gmail, Google Latitude, Google Play Store, Google Plus, YouTube, Google Talk, Google Places, Google Navigation, Google Downloads, Voice Search",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Head - 0.724 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Gyro, Barometer, Accelerometer, RGB light, Temperature and Humidity, Gesture, Proximity, Geomagnetic"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        }
+    ]
+}

@@ -1,0 +1,108 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Sony",
+                "Business Features": "Document Viewer, Pushmail  (Microsoft Exchange ActiveSync), Reader Mode",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model ID": "D5503",
+                "Model Name": "Xperia Z1 Compact",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports OTA, AMR, MP3, OGG, XMF, iMelody, ADTS, SMF, WAV, RTX, RTTTL, FLAC",
+                "Ringtone": "Polyphonic",
+                "Sound Enhancement": "",
+                "Video Player": "Yes, Supports 3GPP, MP4, M4V, XviD, WEBM, MKV, AVI, Full HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "Pulsed LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "",
+                "Primary Camera": "Yes, 20.7 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080",
+                "Zoom": "Digital Zoom - 8x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSDPA; 5.8 Mbps HSUPA; HSPA+",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (A2DP 1.2, DIP 1.3, GAPC / LE, HDP 1.1, OPP 1.1, HIDP, AVRCP 1.3, HFP 1.6, PANP 1.0, SPP 1.1, PAP 1.1, PMPOLE 1.0, aptX, HSP 1.2, HR 1.1, MAP 1.0)",
+                "DLNA": "Yes",
+                "EDGE": "Yes, 296 kbps",
+                "GPRS": "Yes, 107 kbps",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, GLONASS, with Google Maps with Street View",
+                "Preinstalled Browser": "Android, Google Chrome",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 a/b/g/n/ac"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Play, Google Voice Search, Google Hangouts, Sony Select, Web Browser (WebKit), YouTube, Twitter, Facebook, Xperia Transfer, Google Search, Xperia Home, Google Plus, Gmail, Instant Messaging, Google Sync",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Ambient Light Sensor, Gyroscope, Proximity Sensor, Magnetometer, eCompass"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "64.9x127x9.5 mm",
+                "Weight": "137 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16.7 M",
+                "Other Display Features": "",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "4.3 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "670 hrs (2G), 600 hrs (3G)",
+                "Talk Time": "10 hrs (2G), 18 hrs (3G)",
+                "Type": "2300 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "16",
+                "Memory": "2 GB RAM",
+                "User Memory": "12 GB"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 330",
+                "OS": "Android v4.3 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "2.2 GHz + Qualcomm Snapdragon 800 MSM8974, Quad Core"
+            }
+        }
+    ]
+}

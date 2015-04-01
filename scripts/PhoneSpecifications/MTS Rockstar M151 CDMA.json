@@ -1,0 +1,66 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "MTS",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model ID": "Rockstar M151 CDMA",
+                "Model Name": "Rockstar M151 CDMA",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Torch"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Not Covered in Warranty": "Warranty does not cover any external accessories (such as battery, cable, carrying bag), damage caused to the product due to improper installation by customer, normal wear and tear to magnetic heads, audio, video, laser pick-ups and TV picture tubes, pane",
+                "Warranty Summary": "1 year manufacturer warranty"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "14.6x109.6x46.1 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x 160 Pixels",
+                "Size": "1.77 Inches",
+                "Type": "TFT LCD"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "128 MB",
+                "Memory": "32 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Brew",
+                "Processor": "Qualcomm QSC 1110"
+            }
+        }
+    ]
+}

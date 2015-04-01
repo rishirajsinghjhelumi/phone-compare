@@ -1,0 +1,30 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "HPL",
+                "Handset Color": "White",
+                "In the Box": "Mobile",
+                "Model Name": "WA-241",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 X 480 Pixels",
+                "Size": "2.4 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Lithium, 1700 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "64 MB"
+            }
+        }
+    ]
+}

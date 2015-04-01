@@ -1,0 +1,80 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Battery, Handset, User Guide",
+                "Keypad": "Yes, Alphanumeric",
+                "Model ID": "X1850",
+                "Model Name": "JOY",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports AMR, MP3, AAC, WAV",
+                "Video Player": "Yes, Supports 3GP, MP4"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.08 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Bluetooth": "Yes, v3",
+                "Charging Point": "Micro USB",
+                "USB Connectivity": "Yes, micro USB"
+            }
+        },
+        {
+            "Other Features": {
+                "Call Memory": "Yes",
+                "Phone Book Memory": "300",
+                "SMS Memory": "100"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "50.5x114.5x15.8 mm"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "Others, 160 x 128 Pixels",
+                "Size": "1.77 Inches",
+                "Type": "TFT LCD"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "648 hrs (2G)",
+                "Talk Time": "7 hrs (2G)",
+                "Type": "1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "35",
+                "Memory": "35 KB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

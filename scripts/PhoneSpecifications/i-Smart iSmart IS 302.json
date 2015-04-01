@@ -1,0 +1,31 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "i-Smart",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model ID": "CFMOBIS302BL",
+                "Model Name": "iSmart IS 302",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "2.8 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "32 KB"
+            }
+        }
+    ]
+}

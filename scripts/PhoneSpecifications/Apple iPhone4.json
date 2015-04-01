@@ -1,0 +1,30 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Apple",
+                "Handset Color": "White",
+                "In the Box": "Mobile",
+                "Model ID": "iPhone4",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "640 x 960 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 950 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "16 GB"
+            }
+        }
+    ]
+}

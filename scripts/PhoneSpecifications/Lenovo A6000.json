@@ -1,0 +1,103 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lenovo",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Battery, Headset, 2 Pin Wall Charger, USB Cable, Handset",
+                "Model ID": "P0SB0001IN",
+                "Model Name": "A6000",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim, GSM LTE",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD",
+                "Other Camera Features": "Auto Focus",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 1280 x 720",
+                "Zoom": "6x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Sound Enhancement": "2 x Speakers, Dolby Digital Plus",
+                "Video Player": "Supports MPEG4, 3GP, AVI, WebM"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSDPA; 23 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Vibrator Mode",
+                "Call Memory": "Yes",
+                "Important Apps": "Vibe UI 2.0, Lenovo DoIT Apps",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Head - 0.939 W/Kg, At the Body 0.822 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Gravitation Sensor, Light Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "5-point Multi-touch Display",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "70x141x8.2 mm",
+                "Weight": "128 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Removable Battery": "Yes",
+                "Standby Time": "264 hrs (2G), 264 hrs (3G)",
+                "Talk Time": "22 hrs (2G), 13 hrs (3G)",
+                "Type": "Li-Ion, 2300 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8",
+                "Memory": "1 GB RAM, 8 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 306; 400 MHz Speed",
+                "OS": "Android v4.4.4 (KitKat)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100; LTE (FDD) - Band 1, 3, 7, 20 (2600), LTE (TDD) - Band 40 (2300)",
+                "Processor": "1.2 GHz + Qualcomm Snapdragon MSM8916, Quad Core"
+            }
+        }
+    ]
+}

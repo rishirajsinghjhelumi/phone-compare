@@ -1,0 +1,48 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Handset Color": "Black",
+                "In the Box": "Charger, Battery, Earphone, Handset, User Manual, Warranty Card",
+                "Model ID": "SCH-B339",
+                "Model Name": "B339",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "HDMI Port": "No",
+                "USB Connectivity": "No"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Reliance India Warranty"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x 128 Pixels",
+                "Size": "1.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "64 MB"
+            }
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "HTC",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model ID": "Desire 700",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim, CDMA + GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports WAV, MIDI, MP3",
+                "Sound Enhancement": "HTC BoomSound, Dual Frontal Stereo Speakers with Built-in Amplifiers",
+                "Video Player": "Yes, Supports WMV (Windows Media Video 9), MP4, ASP and MP3), 3GP, 3G2, AVI (MP4, Full HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Auto Focus, Dedicated HTC ImageChip, BSI Sensor, F2.0 Aperture and 28 mm Lens, Smart Flash, Continuous Shooting and VideoPic, HTC Zoe with Sequence Shot, Smile and Object Removal",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 2.1 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, UMTS 2100: 14.4 Mbps HSDPA; CDMA 2000 - DL: 3.1, UL: 1.8",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (aptX)",
+                "DLNA": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, GLONASS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Wifi": "Yes, 802.11 a/b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "HTC Connect, Games, Audio Recording",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Ambient Light Sensor, Compass, Proximity Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "72x145.5x10.3 mm",
+                "Weight": "150 g"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Vivid Clarity",
+                "Resolution": "qHD, 960 x 540 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "338 hrs (3G)",
+                "Talk Time": "8 hrs (3G)",
+                "Type": "Li-Polymer, 2100 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "8 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android vv4.1.2 (Jelly Bean)",
+                "Operating Freq": "SIM1: Up to HSPA (900 / 2100) and up to EVDO REV. B (800), SIM2: Up to EDGE (900 /1800 /1900)",
+                "Processor": "1.2 GHz, Quad Core",
+                "User Interface": "HTC Sense, HTC BlinkFeed"
+            }
+        }
+    ]
+}

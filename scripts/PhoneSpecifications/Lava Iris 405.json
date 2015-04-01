@@ -1,0 +1,97 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lava",
+                "Business Features": "Document Viewer, eBook Reader",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Battery, Charger, Silicon Pouch, Screen Guard, Data Cable, Handset, Headset, User Manual",
+                "Model Name": "Iris 405",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD",
+                "Other Camera Features": "Image Stabilization, Zero Shutter Lag, Fixed Focus",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 720 x 1280, 30 fps",
+                "Zoom": "Digital Zoom - 8x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports WAV, MP3, MIDI",
+                "Video Player": "Yes, Supports MP4, 3GP, AVI, Full HD @ 30 fps"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android, Opera Mini",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "FOTA, Auto Call Recording",
+                "Call Memory": "Yes",
+                "Important Apps": "Facebook, Saavn, Instant Messaging, Twitter, Google, WeChat",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "G-Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Resolution": "WVGA, 480 x 800 Pixels",
+                "Size": "4 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "63.3x125x10.6 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "150 hrs (2G)",
+                "Talk Time": "6 hrs (2G)",
+                "Type": "Li-Ion, 1400 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "512 MB RAM, 4 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.1 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 1900; UMTS - 2100",
+                "Processor": "1 GHz, Dual Core"
+            }
+        }
+    ]
+}

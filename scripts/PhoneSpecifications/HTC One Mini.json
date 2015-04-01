@@ -1,0 +1,93 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "HTC",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model Name": "One Mini",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Primary Camera: BSI Sensor, Dedicated HTC ImageChip 2, HTC Zoe with Sequence Shot, Continuous Shoot, Smart Flash, HTC Share, Slow Motion Video Recording with Variable Speed Playback",
+                "Primary Camera": "Yes",
+                "Secondary Camera": "Yes, 1.6 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports WAV, MP3, MIDI",
+                "Sound Enhancement": "HTC Boom Sound, Studio-quality Sound with Beats Audio, Sense Voice, Dual Frontal Stereo Speakers with Built-in Amplifiers",
+                "Video Player": "Yes, Supports 3GP, MP4, 3G2, AVI, ASP, WMV 9, Full HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSPA+",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "DLNA": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "GLONASS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Wifi": "Yes, 802.11 a/b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Audio Recording, 25 GB of Dropbox Space",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Ambient Light Sensor, Proximity Sensor, Digital Compass, Gyro Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "4.3 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "63.2x132x9.25 mm",
+                "Weight": "122 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "692 hrs (3G)",
+                "Talk Time": "13 hrs (3G)",
+                "Type": "Li-Polymer, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "16",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.4 GHz + Qualcomm Snapdragon 400, Dual Core",
+                "User Interface": "HTC Sense, HTC BlinkFeed"
+            }
+        }
+    ]
+}

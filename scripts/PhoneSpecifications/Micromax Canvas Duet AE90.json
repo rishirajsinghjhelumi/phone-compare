@@ -1,0 +1,86 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model Name": "Canvas Duet AE90",
+                "SIM Type": "Dual Sim, CDMA + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Other Camera Features": "Auto Focus, Flash Support, Night Mode, Zoom Level - 4x",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 1280 x 720"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports MP3, WAV, MIDI, AMR, AAC",
+                "Video Player": "Yes, Supports 3GP, AVI, MP4, HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, CDMA EVDO: 3.1 Mbps",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3",
+                "GPRS": "Yes, Class 12",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Alarm (5 with Snooze), Calendar, Calculator",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "qHD, 960 x 540 Pixels",
+                "Size": "4.5 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "150 hrs (2G)",
+                "Talk Time": "5 hrs (2G)",
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "2.6",
+                "Memory": "1 GB RAM, 4 GB ROM",
+                "User Memory": "1.82 GB for Users and 0.88 GB for Apps"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.1.2 (Jelly Bean)",
+                "Operating Freq": "CDMA (EVDO) - 800; GSM - 900, 1800",
+                "Processor": "1.2 GHz, Quad Core"
+            }
+        }
+    ]
+}

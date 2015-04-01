@@ -1,0 +1,96 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Intex",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Silver & Black",
+                "In the Box": "Screen Guard, Battery, Earphone, User Manual, Application Manual, Transceiver, Travel Charger, Data Cable, Warranty Card",
+                "Model ID": "Aqua V4",
+                "SIM Type": "Dual Sim, GSM + WCDMA",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Flash Support, Scene Mode, Color Effect, Shutter Sound, Time Stamp",
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports MP3, AMR, MIDI, AAC, AAC+, WMA",
+                "Video Player": "Yes, Supports 3GP, AVI, MP4"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Bluetooth": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android, WAP, Opera Mini",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB",
+                "WAP": "Yes",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Pre-loaded Games, Auto Call Record, Wi-Fi Tethering, Bluetooth Tethering, 5-pin Micro USB, MMS Enabled",
+                "Call Memory": "Yes",
+                "Important Apps": "Emoji, Intex Care, Flipkart, OLX, Intex Play, Pre-loaded Instant Messaging, Pre-loaded Apps, Intex Zone, Google Play Store, Take Picture While Recording",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Gravity Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "HVGA, 320 x 480 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "61.5x116.5x10.95 mm",
+                "Weight": "107 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "180 hrs (2G)",
+                "Talk Time": "8 hrs (2G)",
+                "Type": "Li-Ion, 1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512",
+                "Memory": "256 MB RAM, 512 MB ROM",
+                "User Memory": "139 MB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Operating Freq": "GSM - 900, 1800; WCDMA - 2100",
+                "Processor": "1 GHz + SC 7715"
+            }
+        }
+    ]
+}

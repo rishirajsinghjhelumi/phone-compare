@@ -1,0 +1,61 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Handset Color": "Gold",
+                "In the Box": "Mobile",
+                "Model ID": "SM-G850YZKEINU",
+                "Model Name": "Galaxy Alpha",
+                "SIM Size": "Nano-SIM",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Mali-T628 MP6",
+                "OS": "Android v4.4 (KitKat)",
+                "Processor": "1.8 GHz + Octa-Core"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "1280 x 720 Pixels",
+                "Size": "4.7 Inches",
+                "Type": "Super AMOLED"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Primary Camera": "12 Megapixel",
+                "Secondary Camera": "2.1 Megapixel"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1860 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "32 GB",
+                "Memory": "2 GB RAM"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Accelerometer, gyro, proximity, compass, heart rate"
+            }
+        }
+    ]
+}

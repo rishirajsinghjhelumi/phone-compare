@@ -1,0 +1,94 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Intex",
+                "Business Features": "Document Viewer, eBook Reader",
+                "Call Features": "Speed Dialing, Hands Free, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Natural White",
+                "In the Box": "User Manual, Handset, Warranty Card, Battery, Charger, Data Cable, Headset",
+                "Model Name": "Turbo 3.5",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports MP3, WAV",
+                "Ringtone": "MP3",
+                "Video Player": "Yes, Supports MP4, 3GP, AVI"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Flash Support, Self-timer, White Balance, Normal and Night Scene Mode, Effects",
+                "Primary Camera": "Yes, 1.3 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 5 fps"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, Supported Profiles (A2DP)",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "WAP",
+                "USB Connectivity": "Yes",
+                "WAP": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Intex Zone, Facebook, Google, Bookmark",
+                "Phone Book Memory": "1000",
+                "SAR Value": "GSM 900: 0.676 W/Kg, DCS 1800: 0.392 W/Kg",
+                "SMS Memory": "200"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "61.5x114.2x11.3 mm",
+                "Weight": "90 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "65 K",
+                "Resolution": "HVGA, 320 x 480 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "200 hrs (2G)",
+                "Talk Time": "5 hrs (2G)",
+                "Type": "Li-Ion, 1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "494"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "Yes",
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

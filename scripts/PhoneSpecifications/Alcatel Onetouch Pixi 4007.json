@@ -1,0 +1,94 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Alcatel",
+                "Business Features": "Document Viewer, Office Suite Viewer",
+                "Call Features": "Hands Free, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "In the Box": "Handset, Charger, Data Cable, Battery, Quick User Guide, Headset",
+                "Model Name": "Onetouch Pixi 4007",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, eAAC, AAC, MIDI, AAC+, AAC Enhanced",
+                "Video Player": "Yes, Supports MPEG4, H.263, H.264"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 640 x 480, 30 fps"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (A2DP)",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Android",
+                "Tethering": "USB",
+                "USB Connectivity": "micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Traffic Manager, Battery Saver, Security and Antivirus Lite, Easy Installer, FOTA, Flight Mode, Vibrator",
+                "Call Memory": "Yes",
+                "Important Apps": "Twitter, Facebook",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "62.3x115x12.2 mm",
+                "Weight": "118 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "HVGA, 320 x 480 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "500 hrs (2G), 300 hrs (3G)",
+                "Talk Time": "13 hrs (2G), 7 hrs (3G)",
+                "Type": "Lithium, 1300 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512",
+                "Memory": "256 MB RAM",
+                "User Memory": "100 MB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v2.3 (Gingerbread)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1 GHz + MT6575M"
+            }
+        }
+    ]
+}

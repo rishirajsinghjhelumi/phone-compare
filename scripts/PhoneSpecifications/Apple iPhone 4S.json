@@ -1,0 +1,94 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Apple",
+                "Business Features": "Document Viewer, Microsoft Word, Microsoft Excel, Microsoft PowerPoint, PDF, PPT, PPTX, XLS, XLSX, TXT, DOC, DOCX, RTF",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model Name": "iPhone 4S",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "A5 Chip"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Retina Display, Finger Print Resistant, Oleophobic Coating on Front and Back, Brightness, Multi-touch",
+                "Resolution": "Others, 960 x 640 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Primary Camera: Auto Focus, Tap to Focus, Face Detection, Panorama, Geo-tagging, Backside Illumination Sensor, Five-element Lens, Hybrid IR Filter, f / 2.4 Aperture",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080, 30 fps"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "58.6x115.2x9.3 mm",
+                "Weight": "140 g"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "200 hrs (2G)",
+                "Talk Time": "8 hrs (3G)",
+                "Type": "Lithium-Ion"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "16"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "Charging Point": "Charging via USB to Computer System or Power Adapter",
+                "EDGE": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, GLONASS, with Yes",
+                "Preinstalled Browser": "Safari",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports WAV, MP3",
+                "Sound Enhancement": "Built-in Speaker, Microphone",
+                "Video Player": "Yes, Supports MOV, AVI, H.264, M4V, AAC-LC, MP4, MPEG-4, Full HD"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Video Stabilisation, Multiple Languages and Characters Support, Games, Calculator, Calendar, Voice Memos, FaceTime, Reminders, Passbook, Clock, Dictionary Support, AirPlay Mirroring to Apple TV Support, AirPlay Video Streaming to Apple TV (2nd and 3rd Generation)",
+                "Call Memory": "Yes",
+                "Important Apps": "Weather, iTunes Store, App Store, News Stand, iMovie, iBooks, iTunes U, Podcasts, Find My iPhone, Find My Friends, Remote, iTunes Festival, Stocks, iPhoto, Keynote, Pages, Numbers",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Three-axis Gyro Sensor, Accelerometer, Digital Compass, Ambient Light Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and for in the box accessories"
+            }
+        }
+    ]
+}

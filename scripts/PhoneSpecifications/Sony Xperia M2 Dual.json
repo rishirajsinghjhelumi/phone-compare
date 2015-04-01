@@ -1,0 +1,105 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Sony",
+                "Business Features": "Document Viewer, Pushmail  (Microsoft Exchange ActiveSync)",
+                "Call Features": "Conference Call, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model ID": "D2302",
+                "Model Name": "Xperia M2 Dual",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Active)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 305",
+                "OS": "Android v4.3 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.2 GHz + Qualcomm Snapdragon MSM8226, Quad Core"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16.7 M",
+                "Other Display Features": "Screenshot Capturing, Illumination Effect, Pan and Zoom, Face Detection, Scratch-resistant - Touch Panel Cover Glass, Auto Rotation, Touch Gesture - 10 Fingers Multi-touch, Picture Wallpaper, Wallpaper Animation, Sony TV Technology, Shake Control, Gesture Input",
+                "Resolution": "qHD, 960 x 540 Pixels",
+                "Size": "4.8 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Other Camera Features": "",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 1280 x 720",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "71.1x139.6x8.6 mm",
+                "Weight": "148 g"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "693 hrs (2G)",
+                "Talk Time": "14 hrs (2G)",
+                "Type": "2300 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8",
+                "Memory": "1 GB RAM",
+                "User Memory": "5 GB"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 5.76 Mbps HSUPA; HSPA+",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (AVRCP 1.3, DUN 1.1, A2DP 1.2, HSP 1.2, HIDP 1.0, GAPC / LE, HFP 1.6, OPP 1.1, PANP 1.0)",
+                "DLNA": "Yes",
+                "EDGE": "Yes, 296 kbps",
+                "GPRS": "Yes, 107 kbps",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, GLONASS, with Google Maps with Street View and Latitude",
+                "Preinstalled Browser": "Android, Google Chrome",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 a/b/g/n"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports ADTS, WAV, MP3, SMF, XMF, OTA, RTX, FLAC, iMelody, OGG, AMR, RTTTL",
+                "Sound Enhancement": "",
+                "Video Player": "Yes, Supports MP4, 3GPP, HD"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Hangouts, YouTube, Movies Application, WALKMAN Application, Facebook, Twitter, Google Play, Google Voice Search, Google Search, Web Browser (WebKit), SyncML, Multiple IM, Xperia Link, Friends Application, Sony Media Apps, Album App, Xperia Care, Xperia Transfer, Gmail, Instant Messaging",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor, Magnetometer, Ambient Light Sensor, eCompass"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        }
+    ]
+}

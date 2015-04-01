@@ -1,0 +1,68 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Handset Color": "White",
+                "In the Box": "Mobile",
+                "Model ID": "sm-g360hzwdins",
+                "Model Name": "Galaxy Core Prime",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Primary Camera": "5 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Accelerometer, Proximity Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480x800 Pixels",
+                "Size": "4.5 Inches",
+                "Type": "lcd"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty Of The Product Is Limited To Manufacturing Defects Only",
+                "Not Covered in Warranty": "Warranty Does Not Cover Any External Accessories (Such As Battery, Cable, Carrying Bag), Damage Caused To The Product Due To Improper Installation By Customer, Normal Wear And Tear To Magnetic Heads, Audio, Video, Laser Pick-Ups And Tv Picture Tubes, Pane",
+                "Warranty Summary": "1 Year Samsung Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "8 gb",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android vv4.4 (KitKat) (KitKat)",
+                "Processor": "1.2 GHz + Quad Core, Quad Core"
+            }
+        }
+    ]
+}

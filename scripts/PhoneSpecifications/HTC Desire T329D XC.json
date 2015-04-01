@@ -1,0 +1,92 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "HTC",
+                "Business Features": "Document Viewer",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black Stone",
+                "Model ID": "T329D",
+                "Model Name": "Desire XC Dual Sim",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim, GSM + CDMA",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3",
+                "Sound Enhancement": "Beats Audio Support",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "HTC Image Chip, 30 Continuous Shooting, Video Pic, BSI",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 480 x 800"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "EDGE": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "25 GB Dropbox - Free for 2 Years, Smart Dial, Games, Multi-task",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "62.3x119.5x9.4 mm",
+                "Weight": "107 g"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Lock Screen-to-app",
+                "Resolution": "WVGA, 480 x 800 Pixels",
+                "Size": "4 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1650 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "4",
+                "Memory": "768 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android",
+                "Operating Freq": "GSM - 900, 1800, 1900; CDMA - 800",
+                "Processor": "1 GHz, Dual Core",
+                "User Interface": "HTC Sense"
+            }
+        }
+    ]
+}

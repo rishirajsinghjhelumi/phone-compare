@@ -1,0 +1,103 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BlackBerry",
+                "Business Features": "Document Viewer, Pushmail",
+                "Call Features": "Conference Call, Speed Dialing, Hands Free, Loudspeaker, Call Timer",
+                "Form": "Bar",
+                "Handset Color": "Charcoal Black",
+                "In the Box": "Handset, Battery, Charger, Headset, Data Cable, User Manual, Carrying Case, Polishing Cloth",
+                "Keypad": "Yes, QWERTY",
+                "Model Name": "9900",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD",
+                "Other Camera Features": "Face Detection, Image Stabilization, Geo-tagging, Zero Shutter Lag, Multi-shot Mode",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 1280 x 720",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "No",
+                "Music Player": "Yes, Supports MP3, WAV, FLAC",
+                "Ringtone": "MP3, MIDI, Polyphonic",
+                "Video Player": "Yes, Supports MP4, M4A, 3GP, M4V, AVI, ASF, WMV, HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 14.4 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1, Supported Profiles (A2DP, AVRCP 1.3, PBAP, HSP, HFP, SPP, SSP, DUN, MAP, OBEX)",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, with BlackBerry Maps",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Liquid Graphic, Backlit Keypad, Optical Trackpad, BlackBerry Messenger, NFC Support, Organizer, LED Indicator, Sleep Mode, Password Protection with Screen Lock, AES or Triple DES Encryption with BlackBerry Enterprise Server, Dedicated Keys, Calendar, Clock, Calculator, Voice Input",
+                "Call Memory": "Yes",
+                "Important Apps": "Vlingo, Wikitude, BlackBerry Travel, ScoreMobile, Facebook",
+                "Phone Book Memory": "Practically Unlimited",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Digital Compass"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Resolution": "Others, 640 x 480 Pixels",
+                "Size": "2.8 Inches",
+                "Type": "TFT LCD"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "66x115x10.5 mm",
+                "Weight": "130 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1.5 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "307 hrs (2G), 307 hrs (3G)",
+                "Talk Time": "6 hrs (2G), 5 hrs (3G)",
+                "Type": "Li-Ion, 1230 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8",
+                "Memory": "768 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "Yes",
+                "OS": "Blackberry OS v7",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1.2 GHz"
+            }
+        }
+    ]
+}

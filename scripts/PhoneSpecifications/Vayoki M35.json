@@ -1,0 +1,74 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Vayoki",
+                "Handset Color": "Black",
+                "In the Box": "2m USB Cable",
+                "Model Name": "M35",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Primary Camera": "5 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "Yes",
+                "USB Connectivity": "Yes, micro USB, Mini USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Accelerometer, Ambient Light Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Warranty Service Type": "Customer have to visit at nearest Service Centre",
+                "Warranty Summary": "1 Year from Vayoki"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "5.9xHeight refers to the measurement from top to base or head to foot.xdecimal mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "350*720 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "LED"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "NO",
+                "OS": "Android v4.4.2 (KitKat)",
+                "Processor": "1.2 GHz + 1.3 DualCore, Dual Core"
+            }
+        }
+    ]
+}

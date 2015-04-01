@@ -1,0 +1,53 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Alcatel",
+                "Handset Color": "Black",
+                "In the Box": "Battery, Charger, User Guide",
+                "Model ID": "3020D",
+                "Model Name": "OneTouch",
+                "SIM Size": "Mini",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "220x176 Pixels",
+                "Size": "2 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Alcatel Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Lithium, 850 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "16 MB"
+            }
+        }
+    ]
+}

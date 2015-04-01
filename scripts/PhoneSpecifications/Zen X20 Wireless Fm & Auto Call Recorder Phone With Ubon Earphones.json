@@ -1,0 +1,52 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Zen",
+                "Handset Color": "Black",
+                "In the Box": "HANDSET, BATTERY, CHARGER, EARPHONES(INBOX), 1 EXTRA BACK PANEL, 1 UBON EARPHONES(INDIVIDUAL PACK)",
+                "Model ID": "X20 Wireless Fm & Auto Call Recorder Phone With Ubon Earphones",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 MM",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "WVGA"
+            }
+        },
+        {
+            "Warranty": {
+                "Not Covered in Warranty": "Handset 1 Yr, Battery 6 Months, Rest All 3 Months",
+                "Warranty Service Type": "On Auth. Zen Service Centres",
+                "Warranty Summary": "1 Yr. Zen Warranty On Auth. Service Centres"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "LI-I0N, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB"
+            }
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "HPL",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Battery, USB, Charger, Manual",
+                "Model ID": "A35",
+                "Model Name": "A35",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "2 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "63x116x11.5 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "High Resolution"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1400 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512 MB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v2.3 (Gingerbread)",
+                "Processor": "1 GHz + Spentrum, Dual Core"
+            }
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Business Features": "Document Viewer, Pushmail  (Active Sync)",
+                "Call Features": "Conference Call, Speed Dialing, Hands Free, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Titan Gray",
+                "In the Box": "Handset, Charger, Data Cable, Battery, Headset",
+                "Model ID": "GT-I8552",
+                "Model Name": "Galaxy Grand Quattro",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 203",
+                "Java": "Yes",
+                "OS": "Android v4.1.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.2 GHz + Cortex-A5, Quad Core"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Multi-touch",
+                "Resolution": "WVGA, 480 x 800 Pixels",
+                "Size": "4.7 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "Auto Focus, Geo-tagging, Touch Focus, Face and Smile Detection, Macro, CMOS, Image Editor",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 30 fps"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "70.7x133.3x9.65 mm",
+                "Weight": "143.9 g"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "210 hrs (2G)",
+                "Talk Time": "11 hrs (2G)",
+                "Type": "Li-Ion, 2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3, Supported Profiles (A2DP, HID, HFP, MAP, PBAP, AVRCP, HSP, PAN, OPP)",
+                "DLNA": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports WAV, eAAC+, FLAC, OGG, MP3, MIDI",
+                "Ringtone": "MP3, WAV",
+                "Sound Enhancement": "Active Noise Cancellation with Dedicated Mic",
+                "Video Player": "Yes, Supports WMV, H.264, 3GP, H.263, MP4, AVI"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Video Editor, Predictive Text Input, Calendar, Organizer, MMS Enabled, Wi-FI Direct, Call Barring, Call Holding, Offline Mode, Own Number Indication, Auto Answer, Clock, World Clock (Summer Time), Easy Mode & ChatOn, Voice Input",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Search, Gmail, YouTube, Google Talk, Picasa, SNS Integration, Instant Messaging, Samsung Apps service",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Head - 0.192 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Light Sensor, Accelerometer, Proximity Sensor, Compass"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        }
+    ]
+}

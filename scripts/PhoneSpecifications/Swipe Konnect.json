@@ -1,0 +1,67 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Swipe",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model ID": "4E",
+                "Model Name": "Konnect",
+                "SIM Size": "Micro Sim",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Primary Camera": "2 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "No",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "G-SENSOR"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "800 X 480 Pixels",
+                "Size": "4 Inches",
+                "Type": "AMOLED"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "From SWIPE Authorised Service Centers.",
+                "Warranty Summary": "1 Year SWIPE India Warranty on Handset & 6 months warranty on charger etc. from SWIPE'S Authorised Service Centers"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512 MB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android vv4.4 (KitKat)",
+                "Processor": "1.3 GHz"
+            }
+        }
+    ]
+}

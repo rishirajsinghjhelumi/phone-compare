@@ -1,0 +1,90 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Karbonn",
+                "Business Features": "Document Viewer, Document Editor, Outlook, Office Suite, Kingsoft Office",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model Name": "A4 Plus",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 3.2 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android, Opera Mini, UC Browser, WAP",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes",
+                "WAP": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Multi-tasking, Sharing Screen Shots, Wi-Fi Direct",
+                "Call Memory": "Yes",
+                "Important Apps": "Customizable Menu, Widgets, Google Play Store, Google Talk, Google, Gmail, Karbonn Live, WhatsApp, Saavn, TOI, News and Weather",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "0.936 Watt/kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, G-Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "IPS Display",
+                "Resolution": "WVGA, 480 x 800 Pixels",
+                "Size": "4 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "1250 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "90",
+                "Memory": "512 MB RAM",
+                "User Memory": "139 MB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4 (Ice Cream Sandwich)",
+                "Operating Freq": "GSM - 900, 1800",
+                "Processor": "1 GHz, Dual Core",
+                "User Interface": "Refined Evolved"
+            }
+        }
+    ]
+}

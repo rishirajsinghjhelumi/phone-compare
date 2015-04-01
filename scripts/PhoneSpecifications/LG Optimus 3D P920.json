@@ -1,0 +1,108 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "LG",
+                "Business Features": "Document Viewer, Document Editor, Pushmail",
+                "Call Features": "Conference Call, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Metal Black",
+                "In the Box": "Handset, Battery, Charger, Headset, Data Cable, HDMI Cable, User Manual",
+                "Keypad": "No",
+                "Model Name": "Optimus 3D P920",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "No",
+                "Music Player": "Yes, Supports MP3, WAV, eAAC",
+                "Ringtone": "MP3",
+                "Video Player": "Yes, Supports MP4, H.264, H.263, WMV, DivX, Xvid, Full HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "3D Photos with 3 MP Resolution, 2D Photos with 5 MP Resolution, Auto Focus, Stereoscopic Photos, Geo-tagging",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080, 30 fps",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 14.4 Mbps HSDPA; 5.7 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1",
+                "DLNA": "Yes",
+                "EDGE": "Yes, Class 10, 236.8 kbps",
+                "GPRS": "Yes, Class 10, 48 kbps",
+                "HDMI Port": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS",
+                "Preinstalled Browser": "Android",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "WAP": "Yes",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Adobe Flash 10.1, Predictive Text Input, Pre-set Equalizer, Calendar, Multi-tasking, World Clock, Calculator, USB Charging, Flight Mode, Alarm, Stop Watch, PC Sync, Flash UI, Voice Input, TV Out Port",
+                "Call Memory": "Practically Unlimited",
+                "Important Apps": "YouTube, Google Search, Gmail, Google Talk, Facebook, Twitter, Flickr",
+                "Phone Book Memory": "Practically Unlimited",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor, Digital Compass, Gyro Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "68x128.8x11.9 mm",
+                "Weight": "168 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "IPS Screen",
+                "Resolution": "WVGA, 800 x 480 Pixels",
+                "Size": "4.3 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "450 hrs (2G)",
+                "Talk Time": "13 hrs (2G), 9 hrs (3G)",
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "PowerVR SGX540",
+                "Java": "Yes",
+                "OS": "Android v2.2 (Froyo), Upgradable to v2.3 Gingerbread",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1 GHz + ARM Cortex-A9, Dual Core"
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Celkon",
+                "Handset Color": "White & Silver",
+                "In the Box": "Mobile",
+                "Model ID": "ARR-35",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion 1200 mAh battery, 1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "0$$MB"
+            }
+        }
+    ]
+}

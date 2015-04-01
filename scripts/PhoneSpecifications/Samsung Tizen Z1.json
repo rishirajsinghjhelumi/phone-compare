@@ -1,0 +1,57 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Handset Color": "White",
+                "In the Box": "Handset, Battery, Charger, Earphone, User Manual",
+                "Model ID": "Tizen Z1",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "3.1 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 800 Pixels",
+                "Size": "4 Inches",
+                "Type": "HD IGZO LCD"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Manufcturer Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "768 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "vv2.3",
+                "Processor": "Dual core, 1.2 GHz, Cortex A7, Chipset, Dual Core"
+            }
+        }
+    ]
+}

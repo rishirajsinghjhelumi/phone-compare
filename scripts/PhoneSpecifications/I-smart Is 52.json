@@ -1,0 +1,31 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "i-smart",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model ID": "AFSMOBIS52BL",
+                "Model Name": "IS 52",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 800 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "512 MB"
+            }
+        }
+    ]
+}

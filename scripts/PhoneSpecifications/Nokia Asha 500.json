@@ -1,0 +1,99 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Nokia",
+                "Business Features": "Document Viewer, VOIP Support, Pushmail  (Mail for Exchange), Outlook",
+                "Call Features": "Conference Call, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "User Guide, Handset, Battery, Charger, Headset",
+                "Model ID": "RM-934",
+                "Model Name": "Asha 500",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, MIDI",
+                "Ringtone": "32 Polyphonic, MP3",
+                "Sound Enhancement": "Integrated Hands-free Speakers",
+                "Video Player": "Yes, Supports MP4, 3GP"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Fixed Focus, Camera Focal Length: 35 mm, Camera Minimum Focus Range: 50 cm, Landscape Orientation, Auto and Manual White Balance, Self-timer, Automatic Scene Mode, Color Tone Modes, White Balance Mode, Automatic Light Sensitivity, Video Zoom: 4x, Image Editor",
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 320 x 240, 13 fps",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3, Supported Profiles (OPP 1.1, HSP 1.1, HFP 1.5, AVRCP 1.3, A2DP 1.2, PBAP 1.0, FTP, DUN)",
+                "EDGE": "Yes, 236.8 kbps",
+                "GPRS": "Yes, 42.8 kbps",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Nokia Xpress Browser",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Facebook, Twitter, WhatsApp, LINE, WeChat, Nokia Life, Weather Channel, Nokia Asha Software Platform 1.1.1, Yahoo Mail, Gmail, Nokia Mail, Windows Live, Hot Mail, Instant Messaging, Direct Chat, eBuddy IM, Nokia Music Apps, YouTube, LinkedIn, Foursquare, Nokia Nearby",
+                "Phone Book Memory": "4000",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "58.1x100.3x12.8 mm",
+                "Weight": "101.3 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Other Display Features": "Multi-point Touch, Tactile Feedback, Screen Double Tap, Nokia Glance Screen",
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "2.8 Inches",
+                "Type": "LCD Transflective"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "528 hrs (2G)",
+                "Talk Time": "14 hrs (2G)",
+                "Type": "1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "64"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "Yes",
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

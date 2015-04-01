@@ -1,0 +1,101 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BlackBerry",
+                "Business Features": "Document Viewer, Pushmail",
+                "Call Features": "Conference Call, Speed Dialing, Loudspeaker, Call Timer, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "In the Box": "Headset, Battery (Li-ion), Handset, Charger, Data Cable, 2 GB microSD Card, User Manual",
+                "Keypad": "Yes, QWERTY",
+                "Model Name": "9360",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "Geo-tagging, Face Detection, Image Stabilisation, Scene Modes",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 640 x 480",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "No",
+                "Music Player": "Yes, Supports FLAC, MP3, eAAC, WAV",
+                "Ringtone": "64 Polyphonic, MP3",
+                "Video Player": "Yes, Supports MP4, AVI, H.264, H.263, WMV, 3GP, M4A"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1, Supported Profiles (SPP, HSP, PBAP, MAP, SSP, A2DP, HFP, OBEX, DUN, AVRCP)",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with BlackBerry Maps",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Predictive Text Input, Password Protection, LED Indicator, Dedicated Keys, Optical Trackpad, Clock, Calendar, Memo Pad, Calculator, Voice Notes Recorder, Vibrate Mode, Sleep Mode, M3 and T3 Rating for Hearing Aids, Voice Input",
+                "Call Memory": "Yes",
+                "Important Apps": "Instant Messaging, YouTube, BlackBerry App World, Vlingo, BlackBerry Protect, Facebook, Wikitude, Twitter, BlackBerry Messenger, Weather Forecast",
+                "Phone Book Memory": "Practically Unlimited",
+                "SAR Value": "The SAR Limit Set by the FCC/IC is 1.6 W/Kg",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "HVGA, 480 x 360 Pixels",
+                "Size": "2.44 Inches",
+                "Type": "TFT LCD"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "60x109x11 mm",
+                "Weight": "99 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1.5 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "336 hrs (2G), 288 hrs (3G)",
+                "Talk Time": "5 hrs (2G)",
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Hot Swap Support": "Yes",
+                "Included Memory Card": "2 GB",
+                "Internal": "512",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "No",
+                "OS": "Blackberry OS v7",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "800 MHz"
+            }
+        }
+    ]
+}

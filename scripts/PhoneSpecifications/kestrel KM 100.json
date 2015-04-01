@@ -1,0 +1,44 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "kestrel",
+                "Handset Color": "Saffron",
+                "In the Box": "Mobile",
+                "Model Name": "KM 100",
+                "SIM Size": "Features of Kestrel KM 100 : 2.4-inch Screen / Alphanumeric Keypad / FM Radio With Recording / HD Camera Dual Standby SIM (GSM+GSM) / Expandable Storage",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "USB Connectivity": "No",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "QVGA Pixels",
+                "Size": "2.4 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Authorized Service Center,",
+                "Warranty Summary": "1 Year Manufacturer Warranty For Phone And 6months On Accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "32 MB"
+            }
+        }
+    ]
+}

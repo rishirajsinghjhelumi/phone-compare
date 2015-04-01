@@ -1,0 +1,69 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "iBall",
+                "Handset Color": "Red",
+                "In the Box": "Handset, Battery, Adaptor, USB Cable, Headset, Manual, Warranty Card, 3 Colorfull Battery Covers",
+                "Model Name": "Andi 4U Frisbee",
+                "SIM Size": "Full Size SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Primary Camera": "8 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "G-Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Manufacturer Warranty"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "62x125x9 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "800 x 480 Pixels",
+                "Size": "4 Inches",
+                "Type": "IPS"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1600 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat)",
+                "Processor": "1.3 GHz + Quad Core, Quad Core"
+            }
+        }
+    ]
+}

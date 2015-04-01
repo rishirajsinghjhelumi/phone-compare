@@ -1,0 +1,82 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Blue and Black",
+                "In the Box": "Handset, Battery, Charger, Headset",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "Guru E1282",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "No",
+                "Secondary Camera": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Opera Mini",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Ergonomic Keypad, Games",
+                "Call Memory": "Yes",
+                "Important Apps": "Facebook, Twitter",
+                "Phone Book Memory": "1000",
+                "SAR Value": "At the Head - 1.31 W/Kg",
+                "SMS Memory": "500"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Display": {
+                "Color": "65 K",
+                "Resolution": "128 x 160 Pixels",
+                "Size": "1.7 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "660 hrs (2G)",
+                "Talk Time": "12 hrs (2G)",
+                "Type": "1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 4 GB",
+                "Internal": "0"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

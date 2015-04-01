@@ -1,0 +1,108 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Sony Ericsson",
+                "Business Features": "Document Viewer, Document Editor, Pushmail  (Exchange ActiveSync)",
+                "Call Features": "Conference Call, Loudspeaker, Call Divert",
+                "Handset Color": "White",
+                "In the Box": "Handset, Battery, Charger, Wired Headset, 2 GB microSD Card, Data Cable, HDMI Cable, Screen Protector",
+                "Model ID": "neo V",
+                "Model Name": "Xperia",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD",
+                "Other Camera Features": "Auto Focus, Geo-tagging, Face Detection, Smile Detection, 3D Sweep Panorama",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 1280 x 720, 30 fps",
+                "Zoom": "Digital Zoom - 16x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV, eAAC",
+                "Ringtone": "MP3",
+                "Sound Enhancement": "xLOUD Engine Audio Filter Technology",
+                "Video Player": "Yes, Supports MP4, H.264, WMV, HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1, Supported Profiles (A2DP)",
+                "DLNA": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "HDMI Port": "Yes",
+                "Internet Features": "Email, Adobe Flash 10.1",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Album Art, Video Streaming, Sound Recorder, Predictive Text Input, Noise Shield, Flight Mode, E-Manual, Calendar, Calculator, Alarm Clock, MMS Enabled, TrackID Music Recognition, Voice Input, TV Out Port",
+                "Call Memory": "Practically Unlimited",
+                "Important Apps": "Android Market, YouTube, Twitter, Google Talk, Facebook, Google Calendar",
+                "Phone Book Memory": "Practically Unlimited",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor, Digital Compass"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Bravia Engine, Gesture Input, Touch Focus",
+                "Resolution": "854 x 480 Pixels",
+                "Size": "3.7 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "57x116x13 mm",
+                "Weight": "126 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "430 hrs (2G), 400 hrs (3G)",
+                "Talk Time": "6 hrs (2G), 7 hrs (3G)",
+                "Type": "Li-Po, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Included Memory Card": "2 GB",
+                "Internal": "320",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 205",
+                "Java": "Yes",
+                "OS": "Android v2.3 (Gingerbread)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1 GHz + Qualcomm Scorpion",
+                "User Interface": "Timescape"
+            }
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Jivi",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model Name": "JV 21",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "1.2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "V3",
+                "HDMI Port": "No",
+                "USB Connectivity": "No",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Not Covered in Warranty": "Warranty does not cover any external accessories (such as battery, cable)",
+                "Warranty Service Type": "Customer needs to call the nearby Authorized Service Center.",
+                "Warranty Summary": "1 Year JIVI Warranty"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "4x10 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x 160 Pixels",
+                "Size": "1.8 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "126 KB"
+            }
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Sony",
+                "Business Features": "Pushmail  (Microsoft Exchange ActiveSync)",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Green",
+                "Model ID": "D5833",
+                "Model Name": "Xperia Z3 Compact",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "Pulsed LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "",
+                "Primary Camera": "Yes, 20.7 Megapixel",
+                "Secondary Camera": "Yes, 2.2 Megapixel",
+                "Video Recording": "Yes, 3840 x 2160",
+                "Zoom": "Digital Zoom - 8x"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports ADTS, DSDIFF, DSF, XMF, Matroska, AMR, SMF, OGG, OTA, RTX, iMelody, FLAC, RTTTL, MP3, WAV, ASF",
+                "Sound Enhancement": "Sony 3D Surround Sound Technology (VPT), Clear Audio+, xLoud Experience, High-resolution Audio, DSEE HX (Digital Sound Enhancement Engine), Block Out the Noise (Noise Sound Wave, Inverted, Anti-sound Wave)",
+                "Video Player": "Yes, Supports Matroska, 3GPP, MP4, AVI, WEBM, XviD, Full HD, 4K - Ultra HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "DLNA": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, GLONASS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Xperia Lounge, Facebook, Google, SyncML",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "TRILUMINOS Display with X-Reality for Mobile Picture Engine",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "4.6 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "64.9x127x8.6 mm",
+                "Weight": "129 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "920 hrs (2G)",
+                "Talk Time": "14 hrs (2G)",
+                "Type": "2600 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 128 GB",
+                "Internal": "16",
+                "Memory": "2 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 330",
+                "OS": "Android v4.4 (KitKat)",
+                "Operating Freq": "GSM - 900, 1800, 1900; UMTS - 2100; 4G - LTE",
+                "Processor": "2.5 GHz + Qualcomm Snapdragon 801 Krait 400, Quad Core"
+            }
+        }
+    ]
+}

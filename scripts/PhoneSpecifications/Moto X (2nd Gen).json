@@ -1,0 +1,107 @@
+{
+    "specification": [
+        {
+            "Important Note": {}
+        },
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Motorola",
+                "Business Features": "Document Viewer, Document Editor",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black Blue",
+                "In the Box": "User Manual, Charger, Handset with Inbuilt Battery, Headset",
+                "Model ID": "XT1092",
+                "Model Name": "MOTO X (2nd Generation)",
+                "SIM Size": "Nano SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "No",
+                "Music Player": "Yes, Supports MP3",
+                "Ringtone": "MP3",
+                "Video Player": "Yes, HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "Dual LED",
+                "HD Recording": "HD",
+                "Other Camera Features": "F2.25, Dual LED Ring Flash",
+                "Primary Camera": "Yes, 13 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (LE)",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes, 802.11 a/ac/b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Integrated Handsfree, Mode Vibrator, Calendar Function, Alarm Watch Function, Vibration Alarm, Stopwatch, Lock Terminal, DTMF Support, Clock, Date, Wi-Fi Direct, Wi-Fi Security, Voice Recorder, Wi-Fi Hotspot: Maximum Number of Connections 8, Missed Call and SMS Reminder, Voice Input",
+                "Call Memory": "Yes",
+                "Important Apps": "Moto Connect, Moto Migrate",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Head 0.726 W/Kg, At the Body 1.28 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Gyroscope, Accelerometer, Proximity Sensor, Compass"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "72.4x140.8x9.97 mm",
+                "Weight": "144 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Automatic Image Rotation, Dual Touch Capacitive Touchscreen Technology, Corning Gorilla Glass 3, Date and Time Visualization",
+                "Resolution": "Full HD, 1920 x 1080 Pixels",
+                "Size": "5.2 Inches",
+                "Type": "OLED"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2300 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "16",
+                "Memory": "2 GB RAM",
+                "User Memory": "10 GB"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 330",
+                "OS": "Android v4.4.4 (KitKat), Upgradable to v5.0 (Lollipop)(OTA Upgrade)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100; 4G - LTE",
+                "Processor": "2.5 GHz + Qualcomm Snapdragon 801 MSM8974-AC, Quad Core"
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Devante",
+                "Handset Color": "Black",
+                "In the Box": "1 Mobile, 1 User Manual, 1 Data Cable, 1 Headphone, 1 Charger",
+                "Model Name": "Salsa",
+                "SIM Size": "Full Size SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Primary Camera": "0.3 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes, Mini USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Proximity Sensor, Light Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "640 x 480 Pixels",
+                "Size": "6.5 Inches",
+                "Type": "TFT LCD"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Warranty Service Type": "On-site Service. Customer needs to call the nearby Authorized Service Center, service engineer will come to the site to get the product repaired or inspected.",
+                "Warranty Summary": "1 Year Warrenty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2.2 (Jelly Bean)",
+                "Processor": "1.2 GHz + MTK, Dual Core"
+            }
+        }
+    ]
+}

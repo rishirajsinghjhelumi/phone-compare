@@ -1,0 +1,89 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Spice",
+                "Business Features": "VOIP Support",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black and Silver",
+                "Model Name": "Pinnacle Stylus MI 550",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "Dual LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Primary Camera: Auto Focus",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080, 30 fps"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes, Full HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, HSPA+",
+                "Bluetooth": "Yes, v4",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "Wi-fi Hotspot",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Spice Cloud 2GB with Remote Lock, Wipe and Locate, 9.5 mm Slim, Evernote and Skitch 1 Year Premium Services Free, Intelligent Answer, Games, Wi-Fi Tethering, Pop-up Play, Gesture Screen Lock, Flip to Mute, S Pen, Multi-tasking, Direct Call, Cloud Computing",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, G-Sensor, Ambient Light Sensor, Gyro Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "5.5 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "79x158x9.5 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "2500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8",
+                "Memory": "1 GB RAM, 8 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1.2 GHz, Quad Core"
+            }
+        }
+    ]
+}

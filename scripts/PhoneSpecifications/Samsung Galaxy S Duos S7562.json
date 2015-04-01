@@ -1,0 +1,105 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Business Features": "Document Viewer, Pushmail",
+                "Call Features": "Conference Call, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "In the Box": "Handset, Battery, Charger, Headset, Data Cable",
+                "Keypad": "No",
+                "Model ID": "S7562",
+                "Model Name": "Galaxy S Duos",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 200",
+                "Java": "Yes",
+                "OS": "Android v4 (Ice Cream Sandwich)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1 GHz + Cortex-A5"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Resolution": "WVGA, 480 x 800 Pixels",
+                "Size": "4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "Auto Focus, Geo-tagging, Multi-shot Mode, Panorama, White Balance, Photo Effects",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 640 x 480, 30 fps",
+                "Zoom": "Digital Zoom - 2x"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "63.1x121.5x10.5 mm",
+                "Weight": "120 g"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "570 hrs (2G), 470 hrs (3G)",
+                "Talk Time": "12 hrs (2G), 8 hrs (3G)",
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "768 MB RAM"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3, Supported Profiles (PBAP, PBA, A2DP, GAP, HFP, HSP, OPP, SPP, HID, PAN, MAP)",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV, eAAC, MIDI",
+                "Ringtone": "MP3, WAV, 40 Polyphonic",
+                "Video Player": "Yes, Supports H.264, H.263, MPEG4"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "MMS Enabled, Predictive Text Input, Calculator, World Clock, Clock, Calendar, Alarm, Voice Input",
+                "Call Memory": "Yes",
+                "Important Apps": "Chat ON, SNS Integration, Play Store, Samsung Apps, Google Search",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "0.471 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor, Compass"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        }
+    ]
+}

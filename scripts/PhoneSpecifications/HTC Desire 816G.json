@@ -1,0 +1,96 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "HTC",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model ID": "D816o",
+                "Model Name": "Desire 816G dual sim",
+                "SIM Size": "Nano SIM",
+                "SIM Type": "Dual Sim, GSM + WCDMA",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3",
+                "Sound Enhancement": "HTC BoomSound, Dual Frontal Stereo Speakers, Noise-cancelling Technology",
+                "Video Player": "Yes, Full HD"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "BSI Sensor, Automatically Create Own Videos at the Push of a Button with Video Highlights Feature",
+                "Primary Camera": "Yes, 13 Megapixel",
+                "Secondary Camera": "Yes, 5 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSPA+",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (aptX)",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Internal GPS Antenna, HTC Connect, Micro USB 5-pin Port",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Ambient Light Sensor, Digital Compass, Proximity Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "78.74x156.6x7.99 mm",
+                "Weight": "158 g"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "5.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "460 hrs (3G)",
+                "Talk Time": "10 hrs (3G)",
+                "Type": "Li-Polymer, 2600 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8",
+                "Memory": "1 GB RAM, 8 GB ROM",
+                "User Memory": "4.3 GB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; WCDMA 2100",
+                "Processor": "1.3 GHz, Quad Core",
+                "User Interface": "HTC BlinkFeed"
+            }
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "LG",
+                "Business Features": "Document Viewer, Document Editor, Pushmail  (Microsoft Exchange)",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Battery, Charger, Headset, 2 GB microSD Card, Data Cable, User Manual",
+                "Keypad": "No",
+                "Model Name": "Optimus Hub E510",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Auto Focus, Geo-tagging, Face and Smile Detection, Beauty Shot",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 640 x 480, 15 fps",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, eAAC, WAV",
+                "Ringtone": "MP3",
+                "Video Player": "Yes, Supports MP4, H.263, H.264, DivX, Xvid, WMV"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 3.6 Mbps HSDPA; 384 kbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3",
+                "DLNA": "Yes",
+                "EDGE": "Yes, Class 12",
+                "GPRS": "Yes, Class 12, 48 kbps",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "WAP": "Yes",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "MMS Enabled, Up to 7 Display Screens, Application Manager, LG Social, Wi-Fi Direct, Calendar, Clock, Alarm, Calculator, Memo Book, Pinch Zoom, Phone Lock, Offline Mode, Group SMS, PC Sync Application",
+                "Call Memory": "Practically Unlimited",
+                "Important Apps": "eBuddy, Android Market, Gmail, Google Talk, YouTube, Facebook, Twitter, Yahoo, Hotmail",
+                "Phone Book Memory": "Practically Unlimited",
+                "SAR Value": "The Highest SAR Value for this Model Phone Tested by DASY4 for Use at the Ear is 0.713 W/Kg and When Worn on the Body is 1.12 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor, Digital Compass, CMOS Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "256 K",
+                "Resolution": "HVGA, 480 x 320 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "TFT LCD"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "60.8x113.4x11.9 mm",
+                "Weight": "120 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "556 hrs (2G), 444 hrs (3G)",
+                "Talk Time": "12 hrs (2G), 8 hrs (3G)",
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Included Memory Card": "2 GB",
+                "Internal": "152",
+                "Memory": "512 MB RAM, 512 MB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 200",
+                "Java": "Yes",
+                "OS": "Android v2.3 (Gingerbread)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "800 MHz + ARMv6",
+                "User Interface": "Optimus 2.0"
+            }
+        }
+    ]
+}

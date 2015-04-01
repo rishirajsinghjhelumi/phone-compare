@@ -1,0 +1,78 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lava",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Grey",
+                "In the Box": "Battery, Handset, Headphone, Charger, Warranty Card, User Manual",
+                "Keypad": "Yes, Alphanumeric",
+                "Model ID": "288",
+                "Model Name": "Spark",
+                "SIM Type": "Dual Sim, GSM + GSM"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "Yes",
+                "Other Camera Features": "Flash Support",
+                "Primary Camera": "Yes, 0.3 Megapixel"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports WAV, AMR, MP3",
+                "Video Player": "Yes, Supports 3GP, AVI, MP4"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Audio Recording, Alarm, Auto Call Recording with Folder, Mobile Tracker, Privacy Protection, English and Hindi Language Support, Bright LED Torch",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "500",
+                "SMS Memory": "100"
+            }
+        },
+        {
+            "Display": {
+                "Color": "65 K",
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "2.8 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "56x127.5x11.9 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

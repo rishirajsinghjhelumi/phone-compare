@@ -1,0 +1,71 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "i-Smart",
+                "Handset Color": "Black",
+                "In the Box": "User Mannual, Mobile Phone, Battery, Headset, Charger, Back Cover, USB Cable",
+                "Model ID": "IS 305",
+                "Model Name": "Shodow K1",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "2 Megapixel",
+                "Secondary Camera": "1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Motion Sensor, Proximity Sensor, G sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480X800 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "Capacitive Screen"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "62.2x119.3x11.2 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Covers specific details on what would actually the warranty cover.",
+                "Not Covered in Warranty": "This elaborates on the things that, if damaged, will not be repaired/covered under warranty.",
+                "Warranty Service Type": "This attribute covers the process on the customer's part to claim the warranty. In case of any repair/damage to the product, who/where the customer has to contact and how would the company then process the customer's request ."
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "512 MB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Processor": "1.2 GHz Dual Core Processor, Dual Core"
+            }
+        }
+    ]
+}

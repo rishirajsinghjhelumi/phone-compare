@@ -1,0 +1,68 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "M-tech",
+                "Handset Color": "Black",
+                "In the Box": "1 Handset, Charger, Battery, Hand free user Guide, Warranty Card, Usb Cable",
+                "Model Name": "A8 INFINITY",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "1.3 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 MM",
+                "USB Connectivity": "Yes, Mini USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "GRAVITY"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Customer Needs To Call/Visit The Nearest Service Centre",
+                "Warranty Summary": "1 Year Manufacturer Warranty For Phone And 6 Months Warranty For The Accessories In The Box"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "11x118x63 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "HVGA"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1350 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "2 GB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4 (Ice Cream Sandwich)",
+                "Processor": "1 GHz + DUAL CORE, Dual Core"
+            }
+        }
+    ]
+}

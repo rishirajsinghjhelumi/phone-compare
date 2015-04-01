@@ -1,0 +1,95 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "XOLO",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Data Cable, Battery, Charger, Headset, Handset, User Manual",
+                "Model Name": "B700",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD",
+                "Other Camera Features": "Auto Focus, Touch Focus",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 720 x 1280, 30 fps"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports WAV, MIDI, MP3",
+                "Video Player": "Yes, Supports MPEG-4, H.263, H.264, HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Voice Recording, Android Video Player",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "GSM 900: At the Head - 0.827 W/Kg and At the Body - 0.647 W/Kg; GSM 1800: At the Head - 0.739 W/Kg and At the Body - 0.432 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Magnetometer, Accelerometer, Ambient Light Sensor, Proximity Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "IPS Display",
+                "Resolution": "qHD, 540 x 960 Pixels",
+                "Size": "4.3 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "66.5x130.5x12.1 mm",
+                "Weight": "160 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "380 hrs (2G), 363 hrs (3G)",
+                "Talk Time": "23 hrs (2G), 20 hrs (3G)",
+                "Type": "3450 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "PowerVR SGX 531, 21 Million Triangles/sec",
+                "OS": "Android v4.0.4 (Ice Cream Sandwich)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1 GHz, Dual Core"
+            }
+        }
+    ]
+}

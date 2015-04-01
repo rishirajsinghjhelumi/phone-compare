@@ -1,0 +1,43 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "vox",
+                "Handset Color": "Black",
+                "In the Box": "1 MOBILE PHONE with 1 charger, ear phone, battery, user mannual and data cable",
+                "Model ID": "Kick K1 Dual Sim Smart Phone 4.2 Android Black",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "2 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320*480 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512 MB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2.2 jellybean",
+                "Processor": "1.2 GHz"
+            }
+        }
+    ]
+}

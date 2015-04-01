@@ -1,0 +1,58 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Earth",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Battery, Charger, Earphone, User Manual, Warranty Card",
+                "Model Name": "E Phone 1",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "QVGA Display"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "50x114.6x11.65 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to \nmanufacturing defects only",
+                "Warranty Service Type": "Costomer needs to call the nearby \nAuthorized Service Center",
+                "Warranty Summary": "1 year manufacturerwarranty for Phone\nand 6 months warranty for box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1450 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "32 MB"
+            }
+        }
+    ]
+}

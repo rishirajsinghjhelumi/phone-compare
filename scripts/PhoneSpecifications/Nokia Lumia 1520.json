@@ -1,0 +1,107 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Nokia",
+                "Business Features": "Document Viewer, Document Editor, Pushmail  (Microsoft Exchange Active Sync), Adobe Acrobat Reader, Lync (Corporate IM), Company Hub for Enterprise Applications, Excel, PDF, Word, Power Point, OneNote, Outlook Mobile, Office 365, Outlook.com",
+                "Call Features": "Conference Call, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Yellow",
+                "In the Box": "Nokia Headset WH-208, SIM Door Key, Quick Guide, Nokia Charging and Data Cable CA-190CD, Nokia Lumia 1520, Nokia AC-60 Micro USB Charger",
+                "Model Name": "Lumia 1520",
+                "SIM Size": "Nano SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Ringtone": "MP3",
+                "Sound Enhancement": "Integrated Hands-free Speakers, Multimicrophone Uplink Noise Cancellation, Album Graphics Display in Music Player, Audio Streaming, Dolby Headphone, Cloud Music Offline Playback, Graphical Equalizer, Podcasts, Cloud Music Playback, Nokia Rich Recording with Four Microphones",
+                "Video Player": "Yes, Supports AVI, MP4, WMV, MOV, 3GP, 3G2, M4V, Full HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "Dual LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "",
+                "Primary Camera": "Yes, 20 Megapixel",
+                "Secondary Camera": "Yes, 1.2 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080, 30 fps",
+                "Zoom": "Digital Zoom - 2x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42.2 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (HFP 1.5, GAVDP 1.2, A2DP 1.2, PBAP 1.1, OPP 1.1, AVRCP 1.4)",
+                "Charging Point": "Micro USB",
+                "EDGE": "Yes, 236.8 kbps",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, A-GLONASS",
+                "Preinstalled Browser": "Internet Explorer 10",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 a/b/g/n/ac"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Magnetometer, Accelerometer, Proximity Sensor, Orientation Sensor, Gyroscope, Ambient Light Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "85.4x162.8x8.7 mm",
+                "Weight": "209 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Super Sensitive Touch, Corning Gorilla Glass 2, Brightness Control, High Brightness Mode, Easy to Clean, Wide Viewing Angle, Lumia Color Profile, ClearBlack, Refresh Rate 60 Hz, IPS Display, Sunlight Readability Enhancements, Nokia Glance Screen",
+                "Resolution": "Full HD, 1920 x 1080 Pixels",
+                "Size": "6 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "768 hrs (2G)",
+                "Talk Time": "27 hrs (2G), 25 hrs (3G)",
+                "Type": "3400 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "32",
+                "Memory": "2 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Windows v8",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "2.2 GHz + Qualcomm Snapdragon 800, Quad Core",
+                "User Interface": "Touch UI"
+            }
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "LG",
+                "Business Features": "Document Viewer, Pushmail  (Microsoft Exchange ActiveSync), Word, Excel, Power Point, PDF",
+                "Call Features": "Hands Free, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model ID": "LG-D686",
+                "Model Name": "G Pro Lite Dual",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports MP3, WAV, AC3",
+                "Sound Enhancement": "Dual Speaker (0.7 W Multi Channel Speaker, 1.4 W High Powered Boost Amp), EQ Filter and Sound Normalizer, Pre-set Equalizer, Dual Microphone",
+                "Video Player": "Yes, Supports H.263, WMV, MP4, DivX, H.264, HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD",
+                "Other Camera Features": "BSI Sensor, Cheese Shutter, Auto Focus, Innovative UX Features, Super Resolution Zoom, Face Tracking, Panorama, Continuous Shot, Beauty Shot, Geo-tagging, ISO: Auto, 400, 200, 100, Image Share, Image Editor",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 1.3 Megapixel",
+                "Video Recording": "Yes, 720 x 1280, 30 fps",
+                "Zoom": "Digital Zoom - 8x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3, Supported Profiles (HID, FTP, SPP, AVRCP, GAP, OPP, A2DP, HFP, HSP, PBAP)",
+                "DLNA": "Yes",
+                "EDGE": "Yes, Class 12",
+                "GPRS": "Yes, Class 12",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android, Google Chrome, Opera Mini",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes, 802.11 a/b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Gmail, AOL, Yahoo, Hotmail, LG Email, Instant Messaging, Google Talk, Messenger, LG Software, Hungama Music, Google Account, Google +, Bookmarks, Google Play Store, Facebook, Hangouts, Twitter, Weather, YouTube",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Ear - 0.435 W/Kg, At the Body - 1.30 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Ambient Light Sensor, Accelerometer, Proximity Sensor, Digital Compass"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "76.9x150.2x9.48 mm",
+                "Weight": "161 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Brightness, IPS Display, Auto-rotate Screen, Narrow Bezel Display, Pinch-to-Zoom, sRGB 100 %, Vivid Full HD Display, Multi-touch",
+                "Resolution": "qHD, 540 x 960 Pixels",
+                "Size": "5.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "SiO, 3140 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8",
+                "Memory": "1 GB RAM",
+                "User Memory": "4.8 GB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.1 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1 GHz + MT6577, Dual Core",
+                "User Interface": "Optimus 3.0"
+            }
+        }
+    ]
+}

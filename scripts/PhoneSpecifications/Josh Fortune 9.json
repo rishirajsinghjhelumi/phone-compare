@@ -1,0 +1,80 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Josh",
+                "Business Features": "Office Tools",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Blue",
+                "In the Box": "Data Cable, Headset, Handset, Battery, Charger",
+                "Model Name": "Fortune 9",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Sound Enhancement": "Party Shuffle, Bass Boost, Virtualizers, Equalizer",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "Dual LED",
+                "Other Camera Features": "Multi Angle View, Panorama, Auto Scene Detection Mode, Featured Smile Shot and Burst Shot",
+                "Primary Camera": "Yes, 3.2 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "One Key Install Feature, Voice Prompt Search Option, Calculator with Advanced Panel, Scientific Calculator, Calendar, Wireless Keyboard Connectivity, Voice Input",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Play Store, News and Weather Update, Pre Installed Latitude and Longitude Finder, Fruit Ninja, Angry Bird",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Multipoint Touch",
+                "Size": "4 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "1650 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "0"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v2.3.6 (Gingerbread)",
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

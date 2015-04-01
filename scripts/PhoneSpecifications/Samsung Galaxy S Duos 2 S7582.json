@@ -1,0 +1,95 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model ID": "GT-S7582UWAINS/INU",
+                "Model Name": "Galaxy S Duos 2",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.2 GHz, Dual Core"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Resolution": "WVGA, 480 x 800 Pixels",
+                "Size": "4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "CMOS, Auto Focus",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "63.1x121.5x10.57 mm",
+                "Weight": "118 g"
+            }
+        },
+        {
+            "Battery": {
+                "Talk Time": "8 hrs (3G)",
+                "Type": "1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "4",
+                "Memory": "717 MB RAM",
+                "User Memory": "1.99 GB"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 5.76 Mbps HSUPA; HSPA+",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, Supported Profiles (PBAP, A2DP, HID, AVRCP, DI, HSP, HFP, OPP, PAN, MAP, SAP)",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, GLONASS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports WAV, MP3, FLAC, MIDI",
+                "Video Player": "Yes, Supports M4V, MP4, 3G2, WEBM, 3GP, WMV, ASF, FLV, AVI, MKV"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Wi-Fi Direct, 10 Indian Languages: Hindi, Bengali, Punjabi, Marathi, Gujarati, Kannada, Malayalam, Telegu, Tamil, Assamese, Toggle Keyboard with a Single Swipe, Multi-tasking, Notification Panel, Flexible Widget",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Head - 1.02 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Accelerometer, Geo-magnetic"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Conference Call, Loudspeaker, Call Timer, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "USB Data Cable, Warranty Card and User Manual, Handset, Earphones, Charger",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "C192",
+                "SIM Type": "Single Sim, CDMA",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "No",
+                "Secondary Camera": "No"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Bluetooth": "No",
+                "GPRS": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Alarm Clock, Calculator, Game, Stopwatch, Torch, Speaker Phone, Call Waiting, Caller ID",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Color": "65 K",
+                "Resolution": "Others, 128 x 160 Pixels",
+                "Size": "1.77 Inches",
+                "Type": "TFT LCD"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "46.1x109.6x14.6 mm",
+                "Weight": "71.7 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "240 hrs (2G)",
+                "Talk Time": "6 hrs (2G)",
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "0"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "CDMA - 800"
+            }
+        }
+    ]
+}

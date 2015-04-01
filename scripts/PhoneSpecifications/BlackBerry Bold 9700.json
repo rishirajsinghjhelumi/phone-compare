@@ -1,0 +1,41 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BlackBerry",
+                "Handset Color": "Black",
+                "In the Box": "Hanset, Charger, Battery, Manual Book, Heaset",
+                "Model Name": "Bold 9700",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "3.1 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480x360 Pixels",
+                "Size": "2.44 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "256 MB",
+                "Memory": "256 MB RAM"
+            }
+        }
+    ]
+}

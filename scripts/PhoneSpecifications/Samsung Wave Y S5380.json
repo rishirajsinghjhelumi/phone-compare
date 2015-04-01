@@ -1,0 +1,105 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Business Features": "Pushmail, Windows Live",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Sand Silver",
+                "In the Box": "Handset, Battery, Charger, Headset, Data Cable",
+                "Keypad": "No",
+                "Model ID": "S5380",
+                "Model Name": "Wave Y",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV, eAAC, FLAC",
+                "Ringtone": "MP3",
+                "Sound Enhancement": "3D Sound Technology",
+                "Video Player": "Yes, Supports MPEG4, H.263, H.264, WMV, 3GPP"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Geo-tagging, Image Editor",
+                "Primary Camera": "Yes, 2 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 30 fps",
+                "Zoom": "Digital Zoom - 1.4x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS",
+                "Preinstalled Browser": "WAP, Dolfin 3.0",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "WAP": "Yes, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "PC Sync Application, Calender, NFC, Mobile Tracker, Live Panel, Lock Screen Folder Management, 3D Folder Viewing, Wi-Fi Direct, Samsung Apps, Music Hub",
+                "Call Memory": "Yes",
+                "Important Apps": "Yahoo, YouTube, Google, Instant Messaging, SNS Integration, ChatON Messenger, Facebook, Twitter",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "0.768 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "57.9x110x12.3 mm",
+                "Weight": "104.8 g"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "HVGA, 480 x 320 Pixels",
+                "Size": "3.2 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "610 hrs (2G), 440 hrs (3G)",
+                "Talk Time": "13 hrs (2G), 4 hrs (3G)",
+                "Type": "Li-Ion, 1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "150"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "Yes",
+                "OS": "Bada v2",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "832 MHz",
+                "User Interface": "TouchWiz"
+            }
+        }
+    ]
+}

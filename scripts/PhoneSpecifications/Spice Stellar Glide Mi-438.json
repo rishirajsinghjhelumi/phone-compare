@@ -1,0 +1,69 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Spice",
+                "Handset Color": "Gold",
+                "In the Box": "Spice Stellar Glide Mi-438 handset, Battery, Charger, Data cable, Headset, Flip cover, User guide",
+                "Model ID": "Mi-438",
+                "Model Name": "Stellar Glide Mi-438",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "2 Megapixel",
+                "Secondary Camera": "1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5mm",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "G-Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "800 x 480 Pixels",
+                "Size": "4 Inches",
+                "Type": "TFT LCD"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "145x79x9.5 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer's"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "1350 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2 (Jelly Bean)",
+                "Processor": "1.3 GHz, Dual Core"
+            }
+        }
+    ]
+}

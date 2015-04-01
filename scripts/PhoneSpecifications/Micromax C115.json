@@ -1,0 +1,89 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Conference Call, Speed Dialing, Loudspeaker, Call Timer, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "White Blue",
+                "In the Box": "Handset, Battery, Charger, Headset, User Manual",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "C115",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Single Sim, CDMA",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "No",
+                "Secondary Camera": "No"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "No",
+                "Bluetooth": "No",
+                "EDGE": "No",
+                "GPRS": "No",
+                "Tethering": "USB",
+                "USB Connectivity": "Yes",
+                "WAP": "No",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Alarm, Calendar, Calculator, Auto Power Off, World Clock, Stopwatch, Currency Converter, Preloaded Games, Voice Mail",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "300",
+                "SMS Memory": "200"
+            }
+        },
+        {
+            "Display": {
+                "Color": "65 K",
+                "Resolution": "128 x 160 Pixels",
+                "Size": "1.77 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "44.7x113.6x14.95 mm",
+                "Weight": "81 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "600 hrs (2G)",
+                "Talk Time": "11 hrs (2G)",
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "0",
+                "Memory": "32 MB RAM, 64 Mb ROM"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "No",
+                "Operating Freq": "CDMA - 800"
+            }
+        }
+    ]
+}

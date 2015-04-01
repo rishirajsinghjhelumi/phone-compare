@@ -1,0 +1,61 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Philips",
+                "Handset Color": "Black",
+                "In the Box": "Mobile Phone, User Booklet, Earphone, Battery, Charger",
+                "Model Name": "Xenium X513",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 5 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "Yes",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, Mini USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "2.2 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "15.6x47.6x112.3 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "manufacture defect only",
+                "Not Covered in Warranty": "battery, cable",
+                "Warranty Service Type": "Customer needs to call authorized service centre of the nearby area",
+                "Warranty Summary": "1 year manufacture warratany"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-on, 2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "5 MB",
+                "Memory": "5 MB RAM"
+            }
+        }
+    ]
+}

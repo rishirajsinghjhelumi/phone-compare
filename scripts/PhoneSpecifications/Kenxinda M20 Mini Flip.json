@@ -1,0 +1,49 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Kenxinda",
+                "Handset Color": "Green",
+                "In the Box": "Handset, Battery, Charger, Earphone, User Manual, Anti radiation chip",
+                "Model ID": "M20 Mini Flip",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Manufcturer Warranty"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "144 x 176 Pixels",
+                "Size": "1.4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 750 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "0$$MB",
+                "Memory": "32 MB RAM"
+            }
+        }
+    ]
+}

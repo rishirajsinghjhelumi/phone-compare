@@ -1,0 +1,47 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Haier",
+                "Handset Color": "White",
+                "In the Box": "Battery, Handset, Earphone, User Manual, Charger, Warranty Card",
+                "Model Name": "Reliance Haier CG220 CDMA GSM Dual SIM Camera Mobile Phone",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Reliance India Warranty"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "2.4 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "16 MB"
+            }
+        }
+    ]
+}

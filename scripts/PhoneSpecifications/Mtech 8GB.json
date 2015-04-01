@@ -1,0 +1,53 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Mtech",
+                "Handset Color": "Black",
+                "In the Box": "1 Handset, Charger, Battery, Head Phone, User Guide, Warranty Card, Usb Cable",
+                "Model ID": "8GB",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Customer needs to call/ Visit the nearest service centre",
+                "Warranty Summary": "1 Year Manufacture Warranty for Phone and 6 months Warranty for accessories"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 X 480 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "128 MB",
+                "Memory": "64 MB RAM"
+            }
+        }
+    ]
+}

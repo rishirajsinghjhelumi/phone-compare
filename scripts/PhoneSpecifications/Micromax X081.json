@@ -1,0 +1,79 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "X081",
+                "SIM Type": "Dual Sim, GSM + GSM"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports AMR, AAC, MP3, MID, WAV",
+                "Sound Enhancement": "Speaker Specification - 8 ohm",
+                "Video Player": "Yes, Supports MP4, 3GP"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.08 Megapixel",
+                "Video Recording": "Yes, 352 x 288"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Bluetooth": "Yes, v2, Supported Profiles (A2DP, OPP, HFP, AVRCP)",
+                "USB Connectivity": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Torch, Voice Call Recording, Keypad Backlight: White, Ringtones, 20 Call Blacklist, Alarm (5 with Snooze), Calculator, Calendar",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "300",
+                "SMS Memory": "100"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "51.2x118x14.8 mm"
+            }
+        },
+        {
+            "Display": {
+                "Color": "65 K",
+                "Resolution": "Others, 128 x 160 Pixels",
+                "Size": "1.77 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "300 hrs (2G)",
+                "Talk Time": "7 hrs (2G)",
+                "Type": "Li-Ion, 1750 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "60",
+                "Memory": "32 MB RAM, 32 MB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

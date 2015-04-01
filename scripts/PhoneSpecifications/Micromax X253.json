@@ -1,0 +1,72 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Handset Color": "White",
+                "In the Box": "handset charger battery usermanual",
+                "Model Name": "X253",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "0.03 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "no"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Warranty Service Type": "customer go to service center",
+                "Warranty Summary": "one year waranty by company service center"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "120x50x12 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320X480 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "tft"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "lion, 1400 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "83 KB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "no",
+                "OS": "v0",
+                "Processor": "no"
+            }
+        }
+    ]
+}

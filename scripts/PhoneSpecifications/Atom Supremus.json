@@ -1,0 +1,99 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Atom",
+                "Business Features": "Document Viewer, Pushmail  (Microsoft Exchange Active Sync), Word, Excel, Power Point, PDF, Neo Reader Barcode Scanner, eBook Reader",
+                "Call Features": "Conference Call, Speed Dialing, Hands Free, Loudspeaker, Call Timer, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Data Cable, SIM Tray Pin, Handset, Warranty Card, Charger, User Guide, Battery",
+                "Model Name": "Supremus",
+                "SIM Type": "Dual Sim, 3G GSM + 3G GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD",
+                "Other Camera Features": "Snap Shots, Continuous Focus, Real-time Zoom, Time Lapse Mode, Shoot Stunning Videos, Panorama, Crop...Auto Focus, Zoom Level - 5, Brightness Level - 5, Multi-shot, Night Mode, Photo CLI",
+                "Primary Camera": "Yes, 13 Megapixel",
+                "Secondary Camera": "Yes, 5 Megapixel",
+                "Video Recording": "Yes, 720 x 1280, 30 fps",
+                "Zoom": "Digital Zoom"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3, WAV, MIDI",
+                "Video Player": "Yes, Supports 3GP, AVI, MP4, MJPEG, Full HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSDPA; 11 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (HSP 1.2, HFP 1.6, DUN 1.1, OPP 1.2, FTP, HIDP 1.0, A2DP 1.2, AVRCP 1.3)",
+                "EDGE": "Yes, Class 12",
+                "GPRS": "Yes, Class 12",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Call Memory": "Yes",
+                "Important Apps": "Gmail, AOL, Yahoo, Hot Mail, LG Email, Instant Messaging, Google Talk, Messenger, Google Apps, YouTube, Google Plus, Google Wallet, Google",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Light Sensor, Proximity Sensor, Accelerometer, Gyroscope Sensor, Magnetic Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16.7 M",
+                "Other Display Features": "Multi-touch, IPS Display, NM2 Wide Angle Technology",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "78x157x9.2 mm",
+                "Weight": "125 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "460 hrs (2G), 460 hrs (3G)",
+                "Talk Time": "18 hrs (2G), 10 hrs (3G)",
+                "Type": "Li-Ion, 2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "16",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 320, 400 MHz",
+                "OS": "Android v4.2.1 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800; UMTS - 2100",
+                "Processor": "1.5 GHz + MediaTek MT 6589T, Quad Core"
+            }
+        }
+    ]
+}

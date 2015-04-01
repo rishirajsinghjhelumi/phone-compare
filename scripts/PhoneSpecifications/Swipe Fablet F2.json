@@ -1,0 +1,53 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Swipe",
+                "Handset Color": "White",
+                "In the Box": "Charger, Mobile, Data Cable",
+                "Model Name": "Fablet F2",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 5 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 800 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defect only",
+                "Not Covered in Warranty": "Physical Damage",
+                "Warranty Summary": "1 Year Swipe Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "512 MB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android"
+            }
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "LG",
+                "Handset Color": "Red",
+                "In the Box": "Mobile",
+                "Model Name": "G Pro 2 D838",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "Full HD",
+                "Primary Camera": "Yes, 13 Megapixel",
+                "Secondary Camera": "2.1 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "Yes",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Proximity, Ambient Light, Accelerometer, Digital Compass, Gyroscope"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year LG India Warranty"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "157.9x81.9x8.3 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "1920 x 1080 Pixels",
+                "Size": "5.9 Inches",
+                "Type": "True HD-IPS LCD capacitive touchscreen"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "SiO+ Li-Polymer, 3200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "16 GB",
+                "Memory": "3 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 330",
+                "OS": "Android v4.4.2 (KitKat)",
+                "Processor": "2.3 GHz + Qualcomm Snapdragon 800, Quad Core"
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Zook",
+                "Handset Color": "Grey",
+                "In the Box": "Handset, Battery, Headset, Charger, Manual",
+                "Model Name": "Boss",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Customer needs to call the nearby Authorized Service Center",
+                "Warranty Summary": "1 Year Manufacturing Warranty On Handset Only"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "51x121.5x14.7 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "176 x 240 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 4 GB",
+                "Internal": "32 MB"
+            }
+        }
+    ]
+}

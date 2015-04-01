@@ -1,0 +1,94 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BlackBerry",
+                "Business Features": "Pushmail",
+                "Call Features": "Hands Free, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Keypad": "Yes, QWERTY",
+                "Model Name": "9720",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Zoom, EDOF, Flash Support, Continuous Shot, Image Stabilisation",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MIDI, WAV, MP3, FLAC",
+                "Video Player": "Yes, Supports ASF, SPMID, 3GP2, MOV, AVI, QCP, M4A, OGG, WMV, 3GP, MP4, AAC, AMR, WMA"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Bluetooth": "Yes, v2.1, Supported Profiles (EDR)",
+                "EDGE": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, Autonomous, with Google Maps",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "BBM Key and BBM Voice, Password Protection and Screen Lock, On-screen or LED Indicator Notification, Voice Output, Customizable Fonts, Multicast Feature, Games, Audio Recording, Integrated Speaker and Microphone, Integrated Hands-free Speakerphone, Hands-free Headset Capable, Voice Input",
+                "Call Memory": "Yes",
+                "Important Apps": "BlackBerry Desktop Software, Facebook, Twitter",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Ambient Light Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "35-key, Optical Trackpad, Backlit, Aspect Ratio: 4:3, Gesture Support",
+                "Resolution": "HVGA, 480 x 360 Pixels",
+                "Size": "2.8 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "66x114x12 mm",
+                "Weight": "120 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1.5 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "432 hrs (2G)",
+                "Talk Time": "7 hrs (2G)",
+                "Type": "1450 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Blackberry OS v7.1",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "806 MHz + Tavor MG1"
+            }
+        }
+    ]
+}

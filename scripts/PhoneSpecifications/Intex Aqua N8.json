@@ -1,0 +1,72 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Intex",
+                "Handset Color": "White",
+                "In the Box": "Handsfree, Mobile Handset, Battery, USB Cable, User Manual and Warranty Card, Charger",
+                "Model Name": "Aqua N8",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "Yes",
+                "USB Connectivity": "Yes, micro USB, Mini USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "G-Sensor, Proximity Sensor, Light Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "67.5x133.2x10 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 840 Pixels",
+                "Size": "4.5 Inches",
+                "Type": "OGS Display"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1750 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "1.74 GB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "No",
+                "OS": "Android v4.2.2 (Jelly Bean)",
+                "Processor": "1.3 GHz, Quad Core"
+            }
+        }
+    ]
+}

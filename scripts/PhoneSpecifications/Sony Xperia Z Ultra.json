@@ -1,0 +1,106 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Sony",
+                "Business Features": "Document Viewer, Pushmail  (Exchange ActiveSync, Google Sync, Mail for Exchange)",
+                "Call Features": "Hands Free, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "Model ID": "C6802",
+                "Model Name": "Xperia Z Ultra",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080",
+                "Zoom": "Digital Zoom - 16x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MIDI, MP3, FLAC, eAAC+, WAV",
+                "Ringtone": "Polyphonic",
+                "Sound Enhancement": "Clear Audio+, Dynamic Normalizer, Music Tones, PlayNow Service, WALKMAN Application, xLoud Experience, Noise Reduction, 3D Surround Sound",
+                "Video Player": "Yes, Supports M4V, 3GPP, H.264, WEBM, 3GP, MKV, Xvid, AVI, H.263, MP4, VP8, Full HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSDPA; 5.8 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (APTX, A2DP 1.2, HFP 1.6, HR 1.1, MAP 1.0, SPP 1.1, PMPOLE 1.0, AVRCP 1.3, DIP 1.3, HSP 1.2, OPP 1.1, HDP 1.1, GAPC / LE, HIDP, PAP 1.1, PANP 1.0)",
+                "DLNA": "Yes",
+                "EDGE": "Yes, 296 kbps",
+                "GPRS": "Yes, 107 kbps",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, GLONASS, with Google Maps",
+                "Preinstalled Browser": "Android, Google Chrome",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes, 802.11 a/b/g/n/ac"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Play, Google Search, Facebook, Google Talk, Twitter, Gmail, YouTube, Instant Messaging, Bookmarks, Twitter",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Ambient Light Sensor, Magnetometer, Gyroscope, eCompass, Accelerometer"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "10 Fingers Multi-touch Supported, Colour and Contrast Enhancement, Dust-proof and Water-resistant, Sony Mobile BRAVIA Engine 2, Gesture Input, Shatter Proof Sheet on Scratch Resistant Glass, TRILUMINOUS Display, Pixel Reproduction, Texture and Utline Improvement, Pen Input with Stylus",
+                "Resolution": "Full HD, 1920 x 1080 Pixels",
+                "Size": "6.4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "92.2x179.4x6.5 mm",
+                "Weight": "212 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "870 hrs (2G), 820 hrs (3G)",
+                "Talk Time": "14 hrs (2G), 16 hrs (3G)",
+                "Type": "3050 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "16",
+                "Memory": "2 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 330",
+                "OS": "Android v4.2 (Jelly Bean), Upgradable to v4.4 (KitKat)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "2.2 GHz + Qualcomm Snapdragon 800, Quad Core"
+            }
+        }
+    ]
+}

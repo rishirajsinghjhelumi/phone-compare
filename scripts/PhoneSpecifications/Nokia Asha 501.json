@@ -1,0 +1,100 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Nokia",
+                "Call Features": "Conference Call, Hands Free, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Bright Green",
+                "In the Box": "Handset, Charger, Headset, Battery",
+                "Model ID": "Asha 501",
+                "Model Name": "Asha 501",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Auto and Manual White Balance, Full Screen Viewfinder, Fixed Focus, Self-timer, Colour Tone Mode, Automatic Light Sensitivity, Image Editor",
+                "Primary Camera": "Yes, 3.2 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 320 x 240, 15 fps",
+                "Zoom": "Digital Zoom - 3x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports eAAC+, MP3, MIDI",
+                "Ringtone": "36 Polyphonic, MP3",
+                "Video Player": "Yes, Supports 3GP, MP4, AVI, ASF"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3, Supported Profiles (HSP 1.1, OPP 1.1, HFP 1.5, PBAP 1.0)",
+                "Charging Point": "2.0 mm Thin Pin",
+                "EDGE": "Yes, 236.8 kbps",
+                "GPRS": "Yes, 85.6 kbps",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Nokia Xpress Browser",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Facebook, Twitter, Nokia Chat, YouTube",
+                "Phone Book Memory": "4000",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Accelerometer"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Other Display Features": "Brightness Control, RGB Stripe, Screen Double Tap, Nokia Glance Screen, Two-point Touch",
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "3 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "58x99.2x12.1 mm",
+                "Weight": "91 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "624 hrs (2G)",
+                "Talk Time": "17 hrs (2G)",
+                "Type": "1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "64"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "Yes",
+                "OS": "Nokia Asha",
+                "Operating Freq": "GSM - 900, 1800",
+                "User Interface": "Touch UI"
+            }
+        }
+    ]
+}

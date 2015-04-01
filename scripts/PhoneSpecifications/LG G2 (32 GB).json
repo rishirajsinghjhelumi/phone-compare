@@ -1,0 +1,103 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "LG",
+                "Business Features": "Document Viewer, Document Editor, Pushmail, Word, Excel, Power Point, PDF",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Battery, Handset, Charger, Quick Service Guide, Data Cable, Headset, SIM Slot Opener Pin",
+                "Model Name": "G2 (D802) 32GB",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports FLAC, AC3, WAV, eAAC+, MP3",
+                "Sound Enhancement": "Pre-set Equalizer: Off, Bass Reducer, Treble Booster, Bass Booster, Vocal Booster, Headset Mode: Enhancer and Custom, Hi-Fi Sound",
+                "Video Player": "Yes, Supports MP4, H.264, H.263, DivX, WMV, Full HD"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "",
+                "Primary Camera": "Yes, 13 Megapixel",
+                "Secondary Camera": "Yes, 2.1 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080, 60 fps",
+                "Zoom": "Digital Zoom - 8x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSPA+",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "DLNA": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes, 802.11 a/b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "HDMI or RGB Supported, Wi-Fi Direct, NFC Support, USB On-The-Go, KnockON, Owner Mode, Guest Mode, Plug and Pop, QRemote 2.0, Slide Aside, Qtranslator, QSlide, Quick Memo, Live Zoom, Rear Key, Answer Me, Capture Plus, Clip Tray, Zoom To Track, TV Out Port",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Gyroscope, Digital Compass, Accelerometer, Ambient Light Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "70.9x138.5x8.9 mm",
+                "Weight": "143 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Corning Gorilla Glass 3, IPS Display",
+                "Resolution": "Full HD, 1920 x 1080 Pixels",
+                "Size": "5.2 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "900 hrs (2G), 850 hrs (3G)",
+                "Talk Time": "18 hrs (2G), 16 hrs (3G)",
+                "Type": "SiO+ Li-Polymer, 3000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "32",
+                "Memory": "2 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 330",
+                "OS": "Android v4.2.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "2.26 GHz + Qualcomm Snapdragon 800, Quad Core",
+                "User Interface": "Optimus 3.0"
+            }
+        }
+    ]
+}

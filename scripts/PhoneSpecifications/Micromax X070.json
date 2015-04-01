@@ -1,0 +1,38 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Handset Color": "Grey",
+                "In the Box": "Mobile",
+                "Model ID": "X070",
+                "Model Name": "X070",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "USB Connectivity": "Yes, Mini USB"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128x160 Pixels",
+                "Size": "1.77 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "90 KB",
+                "Memory": "32 MB RAM"
+            }
+        }
+    ]
+}

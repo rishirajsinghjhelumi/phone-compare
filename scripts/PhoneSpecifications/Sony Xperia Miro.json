@@ -1,0 +1,109 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Sony",
+                "Business Features": "Document Viewer, Pushmail  (Exchange ActiveSync), NeoReader Barcode Scanner",
+                "Call Features": "Conference Call, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White with Silver Strip",
+                "In the Box": "Handset, Battery, Charger, Headset, Data Cable, SIM Card Adaptor",
+                "Keypad": "No",
+                "Model Name": "Xperia Miro",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports eAAC, WAV, MP3, MIDI",
+                "Ringtone": "MP3",
+                "Sound Enhancement": "xLOUD Audio Filter Technology, TrackID Music Recognition",
+                "Video Player": "Yes, Supports MP4, H.263, H.264, MPEG4, 3GPP"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "Auto Focus, Geo-tagging, Touch Focus, Face and Smile Detection, 3D Sweep Panorama, Video Light, Video Stabilizer, Self Timer, Touch Capture, Photo Flash, Photo Light, Send to Web",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 640 x 480, 30 fps",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1, Supported Profiles (A2DP 1.2, EDR, AVRCP 1.0, HFP 1.5, HSP 1.1, OPP 1.1, PAP 1.0)",
+                "DLNA": "Yes",
+                "EDGE": "Yes, 237 kbps",
+                "GPRS": "Yes, 86 kbps",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Facebook, Google, Google Voice Search, Google Talk, Google Mail, Multiple Instant Messaging, YouTube, Twitter, Google Play",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "0.87 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor, Magnetometer"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "59.4x113x9.9 mm",
+                "Weight": "110 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Scratch-resistant, Handwriting Recognition, Gesture Support, Multi-touch",
+                "Resolution": "HVGA, 320 x 480 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "470 hrs (2G), 545 hrs (3G)",
+                "Talk Time": "5 hrs (2G), 6 hrs (3G)",
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "512 MB RAM",
+                "User Memory": "2.2 GB"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 200",
+                "Java": "Yes",
+                "OS": "Android v4 (Ice Cream Sandwich)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "800 MHz + Qualcomm Scorpion",
+                "User Interface": "Timescape"
+            }
+        }
+    ]
+}

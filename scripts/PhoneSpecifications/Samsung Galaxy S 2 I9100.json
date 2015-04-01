@@ -1,0 +1,109 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Business Features": "Document Viewer, Document Editor, Pushmail, Mobile Printing",
+                "Call Features": "Conference Call, Speed Dialing, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Ceramic White",
+                "In the Box": "Handset, Headset, Battery, Charger, Data Cable",
+                "Keypad": "No",
+                "Model ID": "I9100",
+                "Model Name": "Galaxy S II",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Mali-400 MP",
+                "Java": "Yes",
+                "OS": "Android v2.3 (Gingerbread), Upgradable to v4.0 (Ice Cream Sandwich)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.2 GHz + ARM Cortex-A9, Dual Core",
+                "User Interface": "TouchWiz 4.0"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Resolution": "WVGA, 800 x 480 Pixels",
+                "Size": "4.27 Inches",
+                "Type": "Super AMOLED Plus"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Auto Focus, Shot Mode, Photo Effects, White Balance, Geo-tagging, Face and Smile Detection, Image Stabilization, Image Editor",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080, 30 fps",
+                "Zoom": "Digital Zoom"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "66.1x125.3x8.4 mm",
+                "Weight": "116 g"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "710 hrs (2G), 610 hrs (3G)",
+                "Talk Time": "8 hrs (3G)",
+                "Type": "Li-Ion, 1650 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "16",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3, Supported Profiles (SAP, PBAT, AVRCP, SDAP, MAP, GAP, SSP, HSP, HFP, A2DP, OPP, HID)",
+                "DLNA": "Yes",
+                "EDGE": "Yes, Class 12",
+                "GPRS": "Yes, Class 12, 48 kbps",
+                "Internet Features": "Email, Adobe Flash 10.1",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 a/g/b/g/n"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV, eAAC",
+                "Ringtone": "64 Polyphonic, MP3, WAV",
+                "Video Player": "Yes, Supports DivX, MP4, XviD, WMV, H.264, H.263, Full HD"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "vCard and vCalendar, Calendar, Scheduler, To-do List, Clock, World Time, Alarm, Calculator, Stop Watch, Predictive Text Input, PC Sync Application, Voice Input, TV Out Port",
+                "Call Memory": "Practically Unlimited",
+                "Important Apps": "Twitter, Facebook, Instant Messaging, Gmail, Google Talk",
+                "Phone Book Memory": "Practically Unlimited",
+                "SAR Value": "0.338 W/Kg",
+                "SMS Memory": "Practically Unlimited",
+                "Sensors": "Accelerometer, Proximity Sensor, Gyroscope, Digital Compass"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        }
+    ]
+}

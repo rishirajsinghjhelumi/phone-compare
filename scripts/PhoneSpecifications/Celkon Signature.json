@@ -1,0 +1,75 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Celkon",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Charger, Headset, Battery, Manual",
+                "Model ID": "A115",
+                "Model Name": "Signature",
+                "SIM Size": "Full Size SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Primary Camera": "8 Megapixel",
+                "Secondary Camera": "1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, Mini USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Proximity, Light, G-Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty Covers, Repair Of Any Part Of Product And If The Defect Is Due To The Faulty Material Or Workmanship.",
+                "Not Covered in Warranty": "Any Damage Caused Due To Liquid Enter In To The Handset, Misuse, Accident Or Natural Disasters, Use Of Incompatible Accessories Or Unauthorized Software Or If Hand Set Is Subjected To High Voltage Or Cracks In Device Or Display.",
+                "Warranty Service Type": "Contact Near By Celkon Authorized Service Center",
+                "Warranty Summary": "1 Year Manufacturer Warranty On The Transceiver And 6months For The Battery And Accessories Applicable With The Warranty Card"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "74x148x9.3 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "854 x 480 Pixels",
+                "Size": "5 Inches",
+                "Type": "FWVGA"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "4 GB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2.2 (Jelly Bean)",
+                "Processor": "1.3 GHz, Dual Core"
+            }
+        }
+    ]
+}

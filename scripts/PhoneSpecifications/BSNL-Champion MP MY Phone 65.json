@@ -1,0 +1,72 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BSNL-Champion",
+                "Handset Color": "White",
+                "In the Box": "Mobile, Charger, Battery",
+                "Model Name": "MP MY Phone 65",
+                "SIM Size": "Normal Sim",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "5 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "Yes",
+                "HDMI Port": "Yes",
+                "USB Connectivity": "Yes, micro USB, Mini USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Accelerometer, G-Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Manufacture",
+                "Warranty Service Type": "Carry In 1 Year Warranty",
+                "Warranty Summary": "One Year"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "10.3x18.3x1 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "800 x 480 Pixels",
+                "Size": "6.5 Inches",
+                "Type": "WVGA Screen"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2.2 (Jelly Bean)",
+                "Processor": "1.2 GHz + Dual Core, Dual Core"
+            }
+        }
+    ]
+}

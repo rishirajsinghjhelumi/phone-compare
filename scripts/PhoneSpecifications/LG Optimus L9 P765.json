@@ -1,0 +1,108 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "LG",
+                "Business Features": "Document Viewer, Pushmail  (Microsoft Exchange ActiveSync), LG TV",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Headset, Handset, USB Cable, Battery, Charger, User Manual",
+                "Model ID": "P765",
+                "Model Name": "Optimus L9",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Auto Focus, Geo-tagging, Touch Focus, Face Detection, Image Editor",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080, 30 fps",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports AAC, MP3, MIDI, WAV, WMA, eAAC+, AC3",
+                "Ringtone": "MP3",
+                "Video Player": "Yes, Supports H.264, Xvid, WMV, DivX, MP4, H.263, Full HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (GAP, HFP, FTP, HSP, A2DP, AVRCP, SPP, PBAP, OPP, HID)",
+                "DLNA": "Yes",
+                "EDGE": "Yes, Class 12",
+                "GPRS": "Yes, Class 12, 48 kbps",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android Webkit",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Quick Memo, Quick Translator, Quick Shutter, Offline Mode, On Screen Phone, Video Streaming, PC Sync, Alarm Clock, Timer, World Clock, Stop Watch, Calculator, Calendar, Voice Recording, Multitasking, Application Manager, Finance, Latitude, Widgets, Contact Backup and Sync, Call Reject, Voice Input",
+                "Call Memory": "Yes",
+                "Important Apps": "YouTube, Google Talk, Gmail, Google Search",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Ear - 0.395 W/Kg, At the Body - 0.494 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Accelerometer, Compass"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Resolution": "qHD, 960 x 540 Pixels",
+                "Size": "4.7 Inches",
+                "Type": "IPS"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "68.2x131.9x9.1 mm",
+                "Weight": "125 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "830 hrs (2G), 798 hrs (3G)",
+                "Talk Time": "12 hrs (2G), 11 hrs (3G)",
+                "Type": "Li-Ion, 2150 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "1 GB RAM, 4 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "PowerVR SGX540",
+                "Java": "Yes",
+                "OS": "Android v4 (Ice Cream Sandwich)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1 GHz + ARM Cortex-A9, Dual Core",
+                "User Interface": "Optimus 3.0"
+            }
+        }
+    ]
+}

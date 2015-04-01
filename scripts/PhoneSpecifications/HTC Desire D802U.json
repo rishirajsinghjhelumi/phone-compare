@@ -1,0 +1,67 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "HTC",
+                "Handset Color": "Grey",
+                "In the Box": "Handset, Battery, EU AC Adapter, USB Sync Cable, Headset, Safety and Regulatory Guide, Quick Start Guide, Warranty Statement, Customer Care Card",
+                "Model Name": "Desire D802U",
+                "SIM Size": "Nano SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Primary Camera": "13 Megapixel",
+                "Secondary Camera": "8 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "Yes",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Ambient Light Sensor, Accelerometer, proximity, Digital Compass"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "720 x 1280 Pixels",
+                "Size": "5.5 Inches",
+                "Type": "LCD capacitive, 16M Color, HD720p"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for the Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Polymer, 2600 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 128 GB",
+                "Internal": "16 GB",
+                "Memory": "2 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 405",
+                "OS": "Android v4.4.2 (KitKat)",
+                "Processor": "Qualcomm MSM8939 Snapdragon 615"
+            }
+        }
+    ]
+}

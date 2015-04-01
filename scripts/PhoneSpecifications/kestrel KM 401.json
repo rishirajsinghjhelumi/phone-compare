@@ -1,0 +1,65 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "kestrel",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model Name": "KM 401",
+                "SIM Size": "Kestrel 401 dual sim phone comes with Android v4.4 (KitKat) OS, a 5 Megapixel Camera and a 4-inch OGS?Capacitive Touchscreen. You can expand the memory up to 32GB and browse the net as it is WiFi enabled as well.",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "5 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "Yes",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "G Sensor,proximity sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Authorized Service Center,",
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6months on accessories"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 800 Pixels",
+                "Size": "4 Inches",
+                "Type": "OGS Capacitive Screen"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1400 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "512 MB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat)",
+                "Processor": "Chipeset: MT6572 (1.0Ghz processor), Dual Core"
+            }
+        }
+    ]
+}

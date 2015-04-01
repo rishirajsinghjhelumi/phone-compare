@@ -1,0 +1,100 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "LG",
+                "Business Features": "Document Viewer, Pushmail",
+                "Call Features": "Conference Call, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Battery, Charger, Headset, 2 GB microSD Card, Data Cable, Manual",
+                "Keypad": "Yes, QWERTY",
+                "Model Name": "Optimus Pro C660",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Geo-tagging",
+                "Primary Camera": "Yes, 3 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 24 fps",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV, eAAC",
+                "Ringtone": "MP3, WAV",
+                "Video Player": "Yes, Supports MP4, H.264, H.263"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 3.6 Mbps HSDPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3",
+                "EDGE": "Yes, Class 12",
+                "GPRS": "Yes, Class 12, 48 kbps",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Digital Compass, Predictive Text Input, Organizer, Maps",
+                "Call Memory": "Practically Unlimited",
+                "Important Apps": "Google Search, Gmail, YouTube, Facebook, Twitter, Google Talk",
+                "Phone Book Memory": "Practically Unlimited",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor, Digital Compass"
+            }
+        },
+        {
+            "Display": {
+                "Color": "256 K",
+                "Resolution": "QVGA, 240 x 320 Pixels",
+                "Size": "2.8 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "59.7x119.5x12.9 mm",
+                "Weight": "128 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "852 hrs (2G)",
+                "Talk Time": "13 hrs (2G)",
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Included Memory Card": "2 GB",
+                "Internal": "150"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "Yes",
+                "OS": "Android v2.3 (Gingerbread)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "800 MHz + Qualcomm Scorpion"
+            }
+        }
+    ]
+}

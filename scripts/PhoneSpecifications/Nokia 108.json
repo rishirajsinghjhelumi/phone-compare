@@ -1,0 +1,91 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Nokia",
+                "Call Features": "Conference Call, Speed Dialing, Hands Free, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Yellow",
+                "In the Box": "Battery, Headset, Handset, Charger, Visual User Guide",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "108 Dual SIM",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV, MIDI",
+                "Ringtone": "MP3, 32 Polyphonic",
+                "Video Player": "Yes, Supports MPEG-4, 3GP"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Fixed Focus, Self-timer, Camera Video Zoom: 2x",
+                "Primary Camera": "Yes, 0.3 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 320 x 240, 15 fps",
+                "Zoom": "Digital Zoom - 2x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3, Supported Profiles (OPP 1.1)",
+                "Charging Point": "2.0 mm Charging Connector",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "500",
+                "SAR Value": "At the Head - 1.41 W/Kg",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "47x110.4x13.5 mm",
+                "Weight": "69.9 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "64 K",
+                "Resolution": "Others, 128 x 160 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "600 hrs (2G)",
+                "Talk Time": "13 hrs (2G)",
+                "Type": "950 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "4 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

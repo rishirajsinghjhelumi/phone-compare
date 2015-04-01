@@ -1,0 +1,30 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Blackberry",
+                "Handset Color": "Black",
+                "In the Box": "Battery, Charger, Earphone, Software CD, User Guide",
+                "Model Name": "9900",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "640 x 480 Pixels",
+                "Size": "2.8 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1230 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "8 GB"
+            }
+        }
+    ]
+}

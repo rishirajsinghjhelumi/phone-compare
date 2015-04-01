@@ -1,0 +1,96 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lenovo",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Starry Night Black",
+                "Model ID": "Vibe Z2 Pro",
+                "Model Name": "Vibe Z2 Pro",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "Auto Focus with RGB and BSI Sensors",
+                "Primary Camera": "Yes, 16 Megapixel",
+                "Secondary Camera": "Yes, 5 Megapixel"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3",
+                "Sound Enhancement": "1 x Sealed Chamber Speaker",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, LTE (4G): 150 Mbps HSDPA; 50 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (HS)",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android, UC Browser",
+                "Tethering": "Wi-fi Hotspot",
+                "Wifi": "Yes, 802.11 b/g/n/ac"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Games",
+                "Call Memory": "Yes",
+                "Important Apps": "Facebook, Skype, Twitter, Google Android Suite, SHAREit, Security, SYNCit, CLONEit, SNAPit Camera, SEEit Gallery, AccuWeather, Route 66 Navi + Maps, Evernote, Guvera Music",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Light Sensor, eCompass, Gravitation, Proximity Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Gorilla Glass 3",
+                "Resolution": "Quad HD, 2560 X 1440 Pixels",
+                "Size": "6 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "81.3x156x7.7 mm",
+                "Weight": "179 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "948 hrs (2G)",
+                "Talk Time": "45 hrs (2G)",
+                "Type": "Li-Polymer, 4000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "32",
+                "Memory": "3 GB RAM, 32 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 1700, 2100; 4G: LTE",
+                "Processor": "2.5 GHz + Qualcomm Snapdragon 801 MSM8974AC, Quad Core"
+            }
+        }
+    ]
+}

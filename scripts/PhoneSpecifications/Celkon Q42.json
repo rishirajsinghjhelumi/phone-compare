@@ -1,0 +1,30 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Celkon",
+                "Handset Color": "Black and Red",
+                "In the Box": "Mobile",
+                "Model ID": "Q42",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "800 x 480 Pixels",
+                "Size": "4 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion 1400 mAh battery, 1400 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "4$$GB"
+            }
+        }
+    ]
+}

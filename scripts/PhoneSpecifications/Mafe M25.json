@@ -1,0 +1,56 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Mafe",
+                "Handset Color": "Black",
+                "In the Box": "1 Batter, 1 Charger, 1 Earphone, 1 Mobile, 1 User Manual, 1 warranty Card",
+                "Model Name": "M25",
+                "SIM Size": "Full size SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128 x 160 Pixels",
+                "Size": "1.8 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Warranty Service Type": "Customer needs to call the nearby Authorized Service Center",
+                "Warranty Summary": "1 Year India Warrantty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1400 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "12 KB"
+            }
+        },
+        {
+            "Platform": {
+                "Processor": "1.2 GHz"
+            }
+        }
+    ]
+}

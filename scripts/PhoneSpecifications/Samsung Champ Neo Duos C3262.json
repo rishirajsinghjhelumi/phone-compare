@@ -1,0 +1,94 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Samsung",
+                "Business Features": "Pushmail  (ActiveSync)",
+                "Call Features": "Hands Free, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Ceramic White",
+                "In the Box": "User Manual, Charger, Headset, Battery, Handset",
+                "Keypad": "No",
+                "Model ID": "C3262",
+                "Model Name": "Champ Neo Duos",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports WAV, eACC, MP3, MIDI",
+                "Ringtone": "MP3",
+                "Video Player": "Yes, Supports MP4, 3GP, H.263"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3, Supported Profiles (DUN, PBAP, PBA, A2DP, AVRCP, FTP, GAP, HFP, HSP, OPP, SAP, SPP, SDAP)",
+                "EDGE": "No",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "MMS Enabled, Stylus Pen, Predictive Text Input, Dedicated Keys, Alarm Clock, Fake Call, SOS Message",
+                "Call Memory": "Yes",
+                "Important Apps": "Facebook, Twitter, Instant Messaging, ChatOn, MSN, Yahoo, Google Talk, Samsung Apps",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "0.762 W/Kg",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "QVGA, 240 x 320 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "TFT LCD"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "54.3x96.9x13.5 mm",
+                "Weight": "82 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "550 hrs (2G)",
+                "Talk Time": "14 hrs (2G)",
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Hot Swap Support": "Yes",
+                "Internal": "20"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 850, 900, 1800, 1900"
+            }
+        }
+    ]
+}

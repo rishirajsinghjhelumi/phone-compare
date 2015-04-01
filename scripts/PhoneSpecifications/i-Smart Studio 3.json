@@ -1,0 +1,65 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "i-Smart",
+                "Handset Color": "Black",
+                "In the Box": "Mobile, Earphone, Charger, User Mannual, Battery, Data Cable, Screen Guard",
+                "Model ID": "IS 51",
+                "Model Name": "Studio 3",
+                "SIM Size": "Full Size Sim",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Motion Sensor, Proximity Sensor, G sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "WHVGA"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "63x118x10 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-ion, 1350 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "2 GB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2.2 (Jelly Bean)",
+                "Processor": "1.2 GHz + 1.2GHz Dualcore, Dual Core"
+            }
+        }
+    ]
+}

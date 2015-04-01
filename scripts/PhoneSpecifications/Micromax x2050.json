@@ -1,0 +1,56 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Handset Color": "Black",
+                "In the Box": "Mobiles, Battery Charger, Handfree Warranty Card",
+                "Model ID": "x2050",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5mm",
+                "HDMI Port": "Yes",
+                "USB Connectivity": "Yes, micro USB, Mini USB"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240*320 Pixels",
+                "Size": "2 Inches",
+                "Type": "tft"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "47.2x114x12.7 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Customer Go To Service Senter"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 950 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "256 MB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "No"
+            }
+        }
+    ]
+}

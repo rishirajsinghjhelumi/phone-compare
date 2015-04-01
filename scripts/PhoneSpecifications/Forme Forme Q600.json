@@ -1,0 +1,58 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Forme",
+                "Handset Color": "Black::Red",
+                "In the Box": "Handset, Charger, Battery, Headset, Warranty Card, User Manual",
+                "Model Name": "Forme Q600",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Authorized service centre",
+                "Warranty Summary": "1 Year Manufacturer Warranty for Phone and 6 Months Warranty for in the Box Accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "61.5x118x11.25 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "220x176 Pixels",
+                "Size": "2 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1050 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "32 MB"
+            }
+        }
+    ]
+}

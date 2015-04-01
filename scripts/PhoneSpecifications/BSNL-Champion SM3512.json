@@ -1,0 +1,54 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BSNL-Champion",
+                "Handset Color": "Black",
+                "In the Box": "Mobile, Charger,Battery",
+                "Model Name": "SM3512",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 1.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "USB Connectivity": "No",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Carry in 1 year warranty.",
+                "Warranty Summary": "1 Year warranty."
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "1280x720 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1300 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8 GB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Processor": "Dual Core"
+            }
+        }
+    ]
+}

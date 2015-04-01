@@ -1,0 +1,79 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black and Grey",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "GC666",
+                "SIM Type": "Dual Sim, CDMA + GSM"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, MIDI",
+                "Video Player": "Yes, Supports 3GP, MP4"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1",
+                "Preinstalled Browser": "WAP",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "WAP": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Call Memory": "Yes",
+                "Important Apps": "M! Live",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Head - 1.11 W/Kg, At the Body - 1.42 W/Kg",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "350 hrs (2G)",
+                "Talk Time": "6 hrs (2G)",
+                "Type": "1700 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "0",
+                "Memory": "128 MB RAM, 256 MB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "CDMA - 800; GSM - 900, 1800",
+                "Processor": "192 MHz + Qualcomm QSC1105"
+            }
+        }
+    ]
+}

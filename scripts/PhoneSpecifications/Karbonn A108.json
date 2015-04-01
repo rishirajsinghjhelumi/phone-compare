@@ -1,0 +1,58 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Karbonn",
+                "Handset Color": "Grey",
+                "Model Name": "A108",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "2 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty Of The Product Is Limited To Manufacturing Defect Only, And Will Be Covered By The Manufacturer Only",
+                "Not Covered in Warranty": "Accessories (Hanfree, Datacable, Charger & Battery) Warrenty Is Only Of Six Months And Only Handset Is Covered In 1 Year Warranty",
+                "Warranty Service Type": "Off-Site, Curstomer Need To Bring The Product To The Service Center Himlself",
+                "Warranty Summary": "1 Year Warranty From Karbonn, Customer Have To Take The Mobile Phone To The Service Center For Any Kind Of Problem"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "3.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1300 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512 MB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2.2 (Jelly Bean)",
+                "Processor": "1 GHz"
+            }
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lenovo",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model ID": "P0R00003IN",
+                "Model Name": "A328",
+                "SIM Type": "Dual Sim, GSM + WCDMA",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Sound Enhancement": "1 x Speaker",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Auto Focus, Flash Support, Live Images, Zero Shutter Delay, HDR Mode, Face Detection, Smile Shot, Auto Scene Detection, Continuous Shots (40), 5 Customizable ISO Levels, Scene Mode, Color Effects, Adjustable Exposure",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "Wi-fi Hotspot",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Vibrator Mode",
+                "Call Memory": "Yes",
+                "Important Apps": "Vibe UI, DoIT Apps",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "At the Body - 0.655 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "SW Enabled Proximity Sensor, G-Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "68.5x132x11 mm",
+                "Weight": "140 g"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Twisted Nematic Display",
+                "Resolution": "Others, 854 x 480 Pixels",
+                "Size": "4.5 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "240 hrs (2G), 228 hrs (3G)",
+                "Talk Time": "21 hrs (2G), 13 hrs (3G)",
+                "Type": "Li-Polymer, 2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "1 GB RAM, 4 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Operating Freq": "GSM - 900, 1800, 1900; WCDMA - 2100",
+                "Processor": "1.3 GHz + MT6582M, Quad Core"
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Celkon",
+                "Handset Color": "Black",
+                "In the Box": "Mobile Handset, Charger, Data Cable, Handsfree, User Guide, Warranty Card",
+                "Model Name": "Millenia Epic Q550",
+                "SIM Size": "Mini Sim",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Primary Camera": "8 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Manufacturing Defects Only",
+                "Not Covered in Warranty": "Physical Damage",
+                "Warranty Service Type": "Customer needs to call Nearest Service Center",
+                "Warranty Summary": "1 Year Standard Manufacturer Warranty for Mobile handset and 6 months for in-box accessories"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "1280 x 720 Pixels",
+                "Size": "5.5 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 3500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "16 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat)",
+                "Processor": "1.2 GHz, Quad Core"
+            }
+        }
+    ]
+}

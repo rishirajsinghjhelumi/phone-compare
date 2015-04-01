@@ -1,0 +1,92 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Speed Dialing, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "C210",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Single Sim, CDMA",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Ringtone": "MIDI, MP3",
+                "Sound Enhancement": "MP3 Song Reverse and Forward, Stereo Headset",
+                "Video Player": "Yes, Supports 3GP, MP4"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Fixed Focus, Night Mode",
+                "Primary Camera": "Yes",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 176 x 144"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Bluetooth": "Yes, v2.1, Supported Profiles (OBEX, A2DP, AG, FTP)",
+                "Charging Point": "2 Pin",
+                "Preinstalled Browser": "WAP",
+                "USB Connectivity": "Yes, micro USB",
+                "WAP": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Hindi and English Language Support, Predictive Text, Bookmarks, Mini USB Ear Jack, Mobile Tracker, Incoming Call Guard (Blacklist), Call Blacklist: 10, Call Whitelist: 10, World Clock, Alarm, Calculator, Currency or Unit Convertor, Calendar, Voice Memo, Auto Power On or Off, UTK",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "500",
+                "SMS Memory": "200"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "46.5x109.6x15.4 mm"
+            }
+        },
+        {
+            "Display": {
+                "Color": "62 K",
+                "Resolution": "Others, 176 x 220 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "300 hrs (2G)",
+                "Talk Time": "8 hrs (2G)",
+                "Type": "800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 4 GB",
+                "Internal": "3.03",
+                "Memory": "8 MB RAM, 16 MB ROM",
+                "User Memory": "2 MB"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "CDMA - 800",
+                "Processor": "800 MHz + Qualcomm QSC1110 ARM 9"
+            }
+        }
+    ]
+}

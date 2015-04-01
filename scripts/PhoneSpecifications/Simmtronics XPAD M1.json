@@ -1,0 +1,85 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Simmtronics",
+                "Business Features": "Document Viewer, Document Editor",
+                "Call Features": "Conference Call, Loudspeaker",
+                "Handset Color": "Blue",
+                "In the Box": "1 Handset, 1 Battery, 1 Usb Cable, 1 Travel Charger, 1 Flip Cover, 1 Warranty Card, 1 User Manual",
+                "Model Name": "XPAD M1",
+                "SIM Type": "Dual Sim, 3G WCDMA + 2G GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes",
+                "Video Player": "Yes, Supports MP4/3GPP"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, HSDPA / HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, Supported Profiles (A2DP)",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "USB",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Audio Recording, Flight Mode, Calendar, Clock, MMS Enabled",
+                "Call Memory": "Yes",
+                "Important Apps": "Google Play Store, Widgets, Gmail, Facebook",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Color": "65 K",
+                "Other Display Features": "Pinch-to-Zoom, Multi-touch",
+                "Resolution": "854 x 480 Pixels",
+                "Size": "4.7 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "70.7x10.3 mm"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "250 hrs (2G)",
+                "Talk Time": "5 - 6 Hrs hrs (2G)",
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.2 (Jelly Bean)",
+                "Operating Freq": "GSM - 900, 1800, WCDMA:2100",
+                "Processor": "1.2 GHz, Dual Core"
+            }
+        }
+    ]
+}

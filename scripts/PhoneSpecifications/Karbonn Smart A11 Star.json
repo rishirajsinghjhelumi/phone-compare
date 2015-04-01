@@ -1,0 +1,98 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Karbonn",
+                "Call Features": "Hands Free, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "Battery, Charger, Headset, Data Cable, User Manual, Handset, Warranty Card",
+                "Model Name": "A11 star",
+                "SIM Size": "SIM 1: Mini SIM, SIM 2: Micro SIM",
+                "SIM Type": "Dual Sim, WCDMA + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Flash Support",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, MIDI",
+                "Video Player": "Yes, Supports MP4, 3GP"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes",
+                "Charging Point": "Micro USB Charging",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android, Chrome, Opera Mini",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Calculator, Alarm, Calendar, Mute Mode",
+                "Call Memory": "Yes",
+                "Important Apps": "Flipkart Shopping, Flipkart Ebooks",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "0.787 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Light Sensor, G-Sensor, Proximity Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "WVGA, 480 x 800 Pixels",
+                "Size": "4.3 Inches",
+                "Type": "IPS"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "69x129.9x9.4 mm",
+                "Weight": "120 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "250 hrs (2G)",
+                "Type": "Li-Ion, 1400 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "512 MB RAM, 4 GB ROM",
+                "User Memory": "2.4 GB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2 (KitKat)",
+                "Operating Freq": "GSM - 900, 1800; UMTS - 2100",
+                "Processor": "1.2 GHz + MTK, Dual Core"
+            }
+        }
+    ]
+}

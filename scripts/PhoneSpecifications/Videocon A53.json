@@ -1,0 +1,59 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Videocon",
+                "Handset Color": "Black",
+                "In the Box": "Hand Set, Battery, Charging Adaptor, Headset, Data Cable, User Manual, Warranty Card",
+                "Model Name": "A53",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "2 Megapixel",
+                "Secondary Camera": "8 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "G-sensor, proximity sensor, Abience light sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year manufacturer warranty"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "540x960 Pixels",
+                "Size": "5.3 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB"
+            }
+        },
+        {
+            "Platform": {
+                "Processor": "Dual Core"
+            }
+        }
+    ]
+}

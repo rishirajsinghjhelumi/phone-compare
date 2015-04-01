@@ -1,0 +1,103 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Nokia",
+                "Business Features": "Document Viewer, VOIP Support, Pushmail  (Microsoft Exchange ActiveSync)",
+                "Call Features": "Conference Call, Speed Dialing, Hands Free, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Bright Yellow",
+                "Model ID": "RM-1030",
+                "Model Name": "XL",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes, 864 x 480, 30 fps",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, MIDI",
+                "Ringtone": "MP3",
+                "Sound Enhancement": "Noise Cancellation",
+                "Video Player": "Yes, Supports MP4, 3GP"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, Supported Profiles (HFP 1.5, HSP 1.2, PBAP 1.0, GAVDP 1.2, AVRCP 1.3, A2DP 1.2, DUN, GAVDP, OPP 1.2, FTP)",
+                "EDGE": "Yes, 236.8 Kbps",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with HERE Drive, HERE Maps",
+                "Preinstalled Browser": "Nokia Browser, Opera",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "Twitter, Facebook, WeChat, Viber, Skype, Hotmail, Yahoo, Instant Messaging, Customisable Home Screen",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Ambient Light Sensor, Proximity Sensor, Accelerometer"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Brightness Control, Tactile Feedback, Nokia Glance Screen, Orientation Sensor, Wide Viewing Angle, Screen Double Tap, Multi-point Touch",
+                "Resolution": "WVGA, 480 x 800 Pixels",
+                "Size": "5 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "77.7x141.4x10.9 mm",
+                "Weight": "190 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "888 hrs (2G)",
+                "Talk Time": "16 hrs (2G), 13 hrs (3G)",
+                "Type": "2000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4",
+                "Memory": "768 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Nokia X Software v1",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1 GHz + Qualcomm Snapdragon S4, Dual Core"
+            }
+        }
+    ]
+}

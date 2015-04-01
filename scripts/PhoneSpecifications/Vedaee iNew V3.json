@@ -1,0 +1,75 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Vedaee",
+                "Handset Color": "White",
+                "In the Box": "Mobile",
+                "Model Name": "iNew V3",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Primary Camera": "13 Megapixel",
+                "Secondary Camera": "5 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, Mini USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Accelerometer, Proximaty Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "1280x720 Pixels",
+                "Size": "5 Inches",
+                "Type": "OGS Corning Gorilla Glass"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "142.5x6.5x70.8 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Limited To Software Only",
+                "Not Covered in Warranty": "Not covered for hardware",
+                "Warranty Service Type": "Call On Our Customer Care No.",
+                "Warranty Summary": "1 Year"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1830 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "16 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "ARM Mali400-MP 533 MHz",
+                "OS": "Android v4.2",
+                "Processor": "1.3 GHz + MT6582, Quad Core"
+            }
+        }
+    ]
+}

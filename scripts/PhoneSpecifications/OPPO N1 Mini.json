@@ -1,0 +1,91 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "OPPO",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Lemon",
+                "Model ID": "OPPO N5111",
+                "Model Name": "N1 Mini",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports FLAC, OGG, MID, WMA, AMR, APE, MP3, AAC, WAV",
+                "Sound Enhancement": "Noise Cancellation, Dual Mic",
+                "Video Player": "Yes, Supports AVI, MOV, 3GP, RMVB, WMV, MP4, RM, FLV, MKV, ASF"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Rotating Camera, 24 MP Ultra HD Mode, Stacked CMOS, AR Coating Lens, Pure Image 2.0, Audio Photo, HDR, GIF, Panorama, Slow Shutter",
+                "Primary Camera": "Yes, 13 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSDPA; 5.7 Mbps HSUPA",
+                "Bluetooth": "Yes, v4",
+                "DLNA": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "OTG Support, OS - ColorOS v1.4.0i, O-Click",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, eCompass, Light Sensor, G-Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "72.2x148.4x9.2 mm",
+                "Weight": "150 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16.7 M",
+                "Other Display Features": "1000:1 Contrast, IPS Display, 450 cd/m Maximum Brightness, Screen-off Gestures",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "5 Inches",
+                "Type": "IPS"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "2140 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "16",
+                "Memory": "2 GB RAM, 16 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.3 (Jelly Bean)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; WCDMA - 2100",
+                "Processor": "1.6 GHz + Qualcomm Snapdragon 400, Quad Core"
+            }
+        }
+    ]
+}

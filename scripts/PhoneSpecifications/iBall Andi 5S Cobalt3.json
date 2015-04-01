@@ -1,0 +1,66 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "iBall",
+                "Handset Color": "Gold",
+                "In the Box": "Mobile",
+                "Model Name": "Andi 5S Cobalt3",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "12 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, Mini USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "G Sensor, Light Sensor, Proximity Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "720 x 1280 Pixels",
+                "Size": "5 Inches",
+                "Type": "HD IPS Touch Screen"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year manufacturer warranty for the Tablet, 6 months manufacturer warranty for other inbox accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "LIon, 2200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "8 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "No",
+                "OS": "Android v4.4.2 (KitKat)",
+                "Processor": "1.7 GHz + Octa Core"
+            }
+        }
+    ]
+}

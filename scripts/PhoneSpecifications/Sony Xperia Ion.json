@@ -1,0 +1,112 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Sony",
+                "Business Features": "Document Viewer, Pushmail  (Exchange Active Sync)",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Red",
+                "In the Box": "Battery, Handset, Warranty Card, Charger, Headset, USB Cable, User Manual",
+                "Keypad": "No",
+                "Model Name": "Xperia Ion",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "3D Sweep Panorama, Auto Focus, Face Detection, Geotagging, Image Stabiliser, Red-eye Reduction, Self Timer, Scene Recognition, Smile Shutter, Touch Focus, Video Light",
+                "Primary Camera": "Yes, 12 Megapixel",
+                "Secondary Camera": "Yes, 1.3 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080",
+                "Zoom": "Digital Zoom - 16x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3, WAV, eAAC",
+                "Ringtone": "MP3, Polyphonic",
+                "Sound Enhancement": "xLOUD Audio Filter Technology",
+                "Video Player": "Yes, Supports 3GPP, MP4, H.264, H.263"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21.1 Mbps HSDPA; 5.8 Mbps HSPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1, Supported Profiles (A2DP 1.2, EDR, AVRCP 1.0, HFP 1.5, HSP 1.1, OPP 1.1, PAP 1.0)",
+                "DLNA": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email, Adobe Flash 11",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "NFC, MMS Enabled, Airplane Mode, Alarm Clock, Calculator, Calendar, Timer, Stopwatch, HDMI Support, Security, 3D and Motion Games, Sound Recorder, Predictive Text Input, TV Out Port",
+                "Call Memory": "Yes",
+                "Important Apps": "Facebook, Google Talk, Twitter, YouTube, Google Voice Search, Google Search, Android Market, Gmail",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "1.02 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor, Ambient Light Sensor, Magnetometer, Gyroscope"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Scratch Resistant, Auto Rotation, Gesture Input, Screenshot Capturing, Pinch-to-Zoom, Bravia Engine",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "4.6 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "68x133x10.6 mm",
+                "Weight": "144 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "400 hrs (2G), 350 hrs (3G)",
+                "Talk Time": "10 hrs (2G), 4 hrs (3G)",
+                "Type": "1900 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "13.2",
+                "Memory": "1 GB RAM",
+                "User Memory": "12.9 GB"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 220",
+                "Java": "Yes",
+                "OS": "Android v4 (Ice Cream Sandwich)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.5 GHz + Qualcomm Scorpion, Dual Core",
+                "User Interface": "Timescape"
+            }
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "HTC",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Red",
+                "Model Name": "One E8 Dual Sim",
+                "SIM Size": "Nano SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "BSI Sensor, f/2.2, 1080p Full HD Video Recording, Wide Angle View Captures More Smiles, Display-side Countdown Timer",
+                "Primary Camera": "Yes, 13 Megapixel",
+                "Secondary Camera": "Yes, 5 Megapixel",
+                "Video Recording": "Yes, 1080 x 1920"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports WAV, MP3, WMA (Windows Media Audio 10), AMR, OGG, M4A, MIDI, AAC",
+                "Sound Enhancement": "Dual Frontal Stereo Speakers with Built-in Amplifiers, Sense Voice, HTC Boom Sound",
+                "Video Player": "Yes, Supports ASP, WMV (Windows Media Video 10), AVI, 3GP, MP4, 3G2, Full HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42 Mbps HSPA+",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (aptX)",
+                "DLNA": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "with Google Maps",
+                "Preinstalled Browser": "Android",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 a/b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Motion Launch Gesture Controls, Built-in Touch Up Software, HTC Connect, Internal GPS Antenna",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Gyro Sensor, Accelerometer, Digital Compass, Proximity Sensor, Ambient Light Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Dual Curve Design, Built-in Selfie Tools",
+                "Resolution": "Full HD, 1920 x 1080 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "70.67x146.42x9.85 mm",
+                "Weight": "145 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "504 hrs (3G)",
+                "Talk Time": "26 hrs (3G)",
+                "Type": "Li-Polymer, 2600 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 128 GB",
+                "Internal": "16",
+                "Memory": "2 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4.2",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; WCDMA - 2100; 4G - LTE",
+                "Processor": "Qualcomm Snapdragon 801, Quad Core",
+                "User Interface": "HTC Sense, HTC BlinkFeed"
+            }
+        }
+    ]
+}

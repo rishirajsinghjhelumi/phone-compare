@@ -1,0 +1,103 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Microsoft",
+                "Business Features": "Document Viewer, Document Editor, Pushmail  (Microsoft Exchange Active Sync), Excel, Word, Power Point, OneNote, Adobe Reader, Outlook",
+                "Call Features": "Conference Call, Speed Dialing, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "In the Box": "User Guide, Handset, Nokia Stereo Headset WH-108, Charger, Battery",
+                "Model ID": "532",
+                "Model Name": "Lumia",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim, GSM + WCDMA",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports AAC-LC, GSM FR, AMR-NB",
+                "Sound Enhancement": "Integrated Hands-free Speakers, Album Graphics Display in Music Player, Cloud Music Offline Playback, Cloud Music Playback, Podcasts, Noise Cancellation",
+                "Video Player": "Yes, Supports MPEG4, MP4, H.264, VC-1, H.263, AVC, H.264"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Fixed Focus, Sensor Size: 1/4-inch, f-number/aperture: f/2.4, Focal Length: 28 mm, Focus Range: 60 cm",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 0.3 Megapixel",
+                "Video Recording": "Yes, 480 x 848, 30 fps"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 42.2 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (HFP 1.6, OPP 1.1, AVRCP 1.4, GATT, A2DP 1.2, PBAP 1.1)",
+                "Charging Point": "Micro USB",
+                "DLNA": "Yes",
+                "EDGE": "Yes, 236.8 kbps",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, GLONASS, with HERE Drive+, HERE Maps, Bing Maps",
+                "Preinstalled Browser": "Internet Explorer 11",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Voice Input",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Ambient Light Sensor, Accelerometer, Proximity Sensor, Orientation Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "65.5x118.9x11.6 mm",
+                "Weight": "136.3 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "Refresh Rate 60 Hz, RGB Stripe, Brightness Control, Tactile Feedback, Easy to Clean, Multi-point Touch, Color Boosting",
+                "Resolution": "WVGA, 800 x 480 Pixels",
+                "Size": "4 Inches",
+                "Type": "LCD Transmissive"
+            }
+        },
+        {
+            "Battery": {
+                "Removable Battery": "Yes",
+                "Standby Time": "528 hrs (2G)",
+                "Talk Time": "20 hrs (2G), 12 hrs (3G)",
+                "Type": "1560 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 128 GB",
+                "Internal": "8",
+                "Memory": "1 GB RAM, 8 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Windows v8.1",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; WCDMA - 2100",
+                "Processor": "1.2 GHz + Qualcomm Snapdragon 200, Quad Core"
+            }
+        }
+    ]
+}

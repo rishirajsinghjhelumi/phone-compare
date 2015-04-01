@@ -1,0 +1,96 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BlackBerry",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "Model ID": "STJ 100-1",
+                "Model Name": "Z3",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes, Full HD"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Flash Support",
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "Yes, 1.1 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080",
+                "Zoom": "Digital Zoom - 5x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, HSPA+",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (EDR)",
+                "DLNA": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, Autonomous GPS, Simultaneous GPS, with BlackBerry Maps",
+                "USB Connectivity": "Yes",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Non-removable Battery, Wi-Fi Direct, Miracast, Notification LED, USB Charging Port, Microphone, Headset Jack",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Ambient Light Sensor, Proximity Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "72.8x140x9.2 mm"
+            }
+        },
+        {
+            "Display": {
+                "Color": "24 bit",
+                "Other Display Features": "GFF / Cover Glass Touch Panel Display",
+                "Resolution": "qHD, 960 x 540 Pixels",
+                "Size": "5 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "288 hrs (2G), 384 hrs (3G)",
+                "Talk Time": "12 hrs (2G), 15 hrs (3G)",
+                "Type": "2500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Hot Swap Support": "Yes",
+                "Internal": "8",
+                "Memory": "1.5 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Blackberry OS v10.2.1",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "1.2 GHz + Qualcomm 8230, Dual Core"
+            }
+        }
+    ]
+}

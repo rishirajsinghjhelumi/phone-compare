@@ -1,0 +1,108 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Nokia",
+                "Business Features": "Document Viewer, Document Editor, Pushmail  (Microsoft Exchange ActiveSync), Excel, Word, PowerPoint, OneNote, OneDrive Storage, Adobe Reader, PDF, Outlook, Office 365",
+                "Call Features": "Conference Call, Speed Dialing, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Bright Green",
+                "In the Box": "Headset, Handset, Quick Guide, Charger",
+                "Model ID": "730",
+                "Model Name": "Lumia 730",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim, GSM + WCDMA, (Dual Standby)",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "",
+                "Primary Camera": "Yes, 6.7 Megapixel",
+                "Secondary Camera": "Yes, 5 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports GSM FR, AAC, WMA, M4A, ASF, AMR-NB, HE-AAC, AAC-LC, MP3, 3G2, AMR",
+                "Ringtone": "MP3",
+                "Sound Enhancement": "Integrated Hands-free Speakers, Noise Cancellation",
+                "Video Player": "Yes, Supports 3GP, 3G2, MP4, H.263, AVI, MPEG4, VC-1, MOV, H.264, AVC, Windows Video, WMV, M4V, Full HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 21.1 Mbps HSDPA; 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4, Supported Profiles (HFP, AVRCP, OPP, PBAP, PAN, A2DP, GATT)",
+                "Charging Point": "Micro USB",
+                "DLNA": "Yes",
+                "EDGE": "Yes, 236.8 kbps",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "NFC": "Yes",
+                "Navigation Technology": "A-GPS, A-GLONASS, BeiDou, with HERE Drive, HERE Maps, HERE Transit",
+                "Preinstalled Browser": "Internet Explorer 11",
+                "Tethering": "Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Voice Input",
+                "Call Memory": "Yes",
+                "Important Apps": "Lync (Corporate IM) Free Download, Company Hub for Enterprise Application, Windows Phone Apps, Nokia Photo Transfer for Mac, Game Features: Touch UI, XBox-Live Hub, DirectX 11, WhatsApp, Skype IM, WeChat, Viber, LINE, Twitter, Yahoo Messenger, Facebook, LinkedIn",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Proximity Sensor, Ambient Light Sensor, Accelerometer, Magnetometer"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16 M",
+                "Other Display Features": "High Brightness Mode, Easy to Clean, Wide Viewing Angle, Scratch Resistant Glass, Corning Gorilla Glass 3, Double-tap to Wake, Refresh Rate 60 Hz, Brightness Control, Sunlight Readability Enhancements",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "4.7 Inches",
+                "Type": "OLED"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "68.5x134.7x8.7 mm",
+                "Weight": "130.4 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "600 hrs (2G)",
+                "Talk Time": "22 hrs (2G), 17 hrs (3G)",
+                "Type": "2220 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 128 GB",
+                "Internal": "8",
+                "Memory": "1 GB RAM, 8 GB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Windows v8.1",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; WCDMA - 2100",
+                "Processor": "1.2 GHz + Snapdragon 400, Quad Core"
+            }
+        }
+    ]
+}

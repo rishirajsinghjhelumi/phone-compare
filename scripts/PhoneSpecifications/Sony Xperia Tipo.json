@@ -1,0 +1,106 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Sony",
+                "Business Features": "Document Viewer, Pushmail  (Exchange ActiveSync), NeoReader Barcode Scanner",
+                "Call Features": "Conference Call, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Deep Red",
+                "In the Box": "Handset, Battery, Charger, Headset, Data Cable, Screen Protector",
+                "Keypad": "No",
+                "Model Name": "Xperia Tipo",
+                "SIM Type": "Single Sim, GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports WAV, MP3, eAAC, MIDI",
+                "Ringtone": "MP3",
+                "Sound Enhancement": "xLOUD Audio Filter Technology",
+                "Video Player": "Yes, Supports MP4, H.263, H.264, WMV, 3GPP"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Geo-tagging, Self Timer, Send to Web",
+                "Primary Camera": "Yes, 3.2 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 640 x 480, 30 fps",
+                "Zoom": "Digital Zoom - 4x"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 7.2 Mbps HSDPA, 5.76 Mbps HSUPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v2.1, Supported Profiles (A2DP 1.2, EDR, AVRCP 1.0, HFP 1.5, HSP 1.1, OPP 1.1, PAP 1.0)",
+                "EDGE": "Yes, 237 kbps",
+                "GPRS": "Yes, 86 kbps",
+                "Internet Features": "Email",
+                "Navigation Technology": "A-GPS, with Google Maps",
+                "Preinstalled Browser": "Android",
+                "Tethering": "USB, Wi-fi Hotspot",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Predictive Text Input, MMS Enabled, Google Sync, 3D Gaming, Audio Recording, Alarm, Flight Mode, Calculator, Calendar, Wallpaper Animation, Auto Rotate, Track ID Music Recognition, Voice Input",
+                "Call Memory": "Yes",
+                "Important Apps": "Facebook, Twitter, YouTube, Gmail, Google Voice Search, Google Talk, WhatsApp, Google Play, Instant Messaging",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "1.62 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer, Proximity Sensor"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "57x103x13 mm",
+                "Weight": "99.4 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Other Display Features": "Scratch-resistant, Handwriting Recognition, Gesture Support",
+                "Resolution": "HVGA, 320 x 480 Pixels",
+                "Size": "3.2 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "470 hrs (2G), 545 hrs (3G)",
+                "Talk Time": "5 hrs (2G), 4 hrs (3G)",
+                "Type": "Li-Ion, 1500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "2.9",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "Adreno 200",
+                "Java": "Yes",
+                "OS": "Android v4 (Ice Cream Sandwich)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100",
+                "Processor": "800 MHz + Qualcomm Scorpion",
+                "User Interface": "Timescape"
+            }
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lemon",
+                "Handset Color": "Black & Red",
+                "In the Box": "Handset, Handfree, Battery Charger, Data Cable, User Manual, Waranty Card",
+                "Model ID": "B659",
+                "Model Name": "Bar",
+                "SIM Size": "Micro Sim",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, Mini USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "tft"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "126x26x13 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Warranty Service Type": "customer go to service center",
+                "Warranty Summary": "One Year Waranty By Company Service Center"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Polymer, 3000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "256 MB",
+                "Memory": "256 MB RAM"
+            }
+        }
+    ]
+}

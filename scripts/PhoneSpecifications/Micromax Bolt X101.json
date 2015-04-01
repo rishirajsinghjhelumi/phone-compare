@@ -1,0 +1,90 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Micromax",
+                "Call Features": "Conference Call, Speed Dialing, Hands Free, Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "In the Box": "Battery, Charger, Handset, Headset, User Guide",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "X101",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "LED",
+                "Other Camera Features": "Brightness, Night Vision",
+                "Primary Camera": "Yes",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "No, Supports MP3, WAV",
+                "Video Player": "Yes, Supports AVI"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Bluetooth": "Yes, v2, Supported Profiles (HFG, OPP)",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "WAP 2.0",
+                "WAP": "Yes, v2",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Calender, Calculator, Multiple Alarms, Incoming Call Guard, Mobile Tracker, Privacy Protection, MI Zone, LED Torch, Swap Call",
+                "Call Memory": "Yes",
+                "Important Apps": "Preloaded Apps",
+                "Phone Book Memory": "250",
+                "SAR Value": "At the Head - 0.534 W/Kg, At the Body - 0.687 W/Kg",
+                "SMS Memory": "50"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "Others, 128 x 160 Pixels",
+                "Size": "1.77 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "46"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "200 hrs (2G)",
+                "Type": "1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 4 GB",
+                "Internal": "0",
+                "Memory": "16 MB RAM, 32 MB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

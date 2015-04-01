@@ -1,0 +1,55 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "RKMobile",
+                "Handset Color": "Grey",
+                "In the Box": "Charger, Battery, Handset, Headset, Manual, Warranty Card",
+                "Model Name": "Plaudit P27",
+                "SIM Size": "Full Size SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Primary Camera": "Yes, 2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "No, micro USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "240 x 320 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "QVGA"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "We will pickup from your doorsetp and after the service we will send back to your door step",
+                "Warranty Summary": "1 Year"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "32 MB",
+                "Memory": "32 MB RAM"
+            }
+        }
+    ]
+}

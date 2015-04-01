@@ -1,0 +1,40 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Adcom",
+                "Handset Color": "Black",
+                "In the Box": "ChargerAdaptor, Mobile Charger Manual, User Manual Booklet Miscellaneous, Battery Earphone, Headphone, Warranty Card",
+                "Model Name": "Thunder X10",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "Manufacturer Warranty"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "160 x 128 Pixels",
+                "Size": "1.8 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 800 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "64 MB"
+            }
+        }
+    ]
+}

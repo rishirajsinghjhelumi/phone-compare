@@ -1,0 +1,76 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lenovo",
+                "Handset Color": "White",
+                "In the Box": "Headset, Charger, Manual, Repairing Block Card, Battery, USB Cable, Handset, Flip Cover, Warranty Card",
+                "Model Name": "S890",
+                "SIM Size": "Full Sim Size",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Accelerometer, Proximity"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only.",
+                "Not Covered in Warranty": "Warranty void in case of water or moisture damage, physical damage, damage caused to the product due to improper installation by customer. Damaged caused due to device opened by external technician.",
+                "Warranty Service Type": "Customer needs to call the nearby authorized service center.",
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories."
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "74.2x143x9.3 mm"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "540 x 960 Pixels",
+                "Size": "5 Inches",
+                "Type": "IPS LCD capacitive touchscreen"
+            }
+        },
+        {
+            "Battery": {
+                "Talk Time": "17 hrs hrs (2G), 11.5 hrs hrs (3G)",
+                "Type": "Li-Ion, 2250 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "1 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "PowerVR SGX531",
+                "OS": "Android v4.1 (Jelly Bean)",
+                "Processor": "1.2 GHz + Cortex A9, Dual Core"
+            }
+        }
+    ]
+}

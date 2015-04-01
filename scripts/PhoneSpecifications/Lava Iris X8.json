@@ -1,0 +1,92 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lava",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "In the Box": "Handset, Screen Guard, Charger, Earphone, User Manual",
+                "Model Name": "Iris X8",
+                "SIM Type": "Dual Sim, GSM + WCDMA",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Flash": "Dual LED",
+                "HD Recording": "HD, Full HD",
+                "Other Camera Features": "Auto Focus, BSI III Sensor, Zoom Support",
+                "Primary Camera": "Yes, 8 Megapixel",
+                "Secondary Camera": "Yes, 3 Megapixel",
+                "Video Recording": "Yes, 1920 x 1080"
+            }
+        },
+        {
+            "Multimedia": {
+                "Music Player": "Yes, Supports MP3",
+                "Video Player": "Yes, Supports AVI, 3GP, MKV, MP4, WMV, Full HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v4",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Android and Google Chrome",
+                "Wifi": "Yes, 802.11 b/g/n"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Multi-tasking, In-built Gesture Technology, FOTA Upgradable, Hot Swap Technology",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SAR Value": "GSM 900: At the Head - 0.549 W/Kg and At the Body - 0.921 W/Kg, GSM 1800: At the Head - 0.117 W/Kg and At the Body - 0.242 W/Kg, WCDMA 2100 - At the Head - 0.159 W/Kg and At the Body - 0.304 W/Kg",
+                "SMS Memory": "Yes",
+                "Sensors": "Light Sensor, Proximity Sensor, Accelerometer, Hall Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Color": "16.7 M",
+                "Other Display Features": "Asahi Glass, IPS Display",
+                "Resolution": "HD, 1280 x 720 Pixels",
+                "Size": "5 Inches"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "70.9x143.4x8.6 mm",
+                "Weight": "160 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Talk Time": "14 hrs (2G), 9 hrs (3G)",
+                "Type": "Li-Polymer, 2500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "16",
+                "Memory": "2 GB RAM, 16 GB ROM",
+                "User Memory": "12.9 GB"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat), Upgradable to v5 (Lollipop)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; WCDMA - 2100",
+                "Processor": "1.4 GHz + ARM Cortex-A7 MTK 6592M"
+            }
+        }
+    ]
+}

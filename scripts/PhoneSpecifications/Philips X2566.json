@@ -1,0 +1,84 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Philips",
+                "Call Features": "Loudspeaker, Call Timer, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Black",
+                "In the Box": "QSG (Quick Start Guide), Battery, USB Data Cable, User Manual, Charger",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "X2566",
+                "SIM Size": "Normal SIM",
+                "SIM Type": "Dual Sim, GSM + GSM"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports AMR, AAC, MIDI, MP3",
+                "Ringtone": "Polyphonic (64 Tones), MP3, AMR, MIDI",
+                "Video Player": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Digital Magnifying Zoom",
+                "Primary Camera": "Yes",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Bluetooth": "Yes, v2.1, Supported Profiles (AVRCP, HSP, GAVDP, FTP, IOPT, A2DP, HFP, OPP)",
+                "GPRS": "Yes, Class 12",
+                "USB Connectivity": "Yes, Mini USB"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Voice Recorder, Image Viewer, English and Hindi Language Support, Integrated Antenna, Messaging (Concatenated SMS, SMS Cell Broadcast, Short Message Service, SMS Multi-target, MMS Enabled), Multimedia Applications, Call Counters, Call on Hold, Call Waitin",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "1000",
+                "SMS Memory": "200"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "64.9x124.5x16 mm",
+                "Weight": "108.8 g"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "1128 hrs (2G)",
+                "Talk Time": "24 hrs (2G)",
+                "Type": "Li-Ion, 1630 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "3.8"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800, 1900"
+            }
+        }
+    ]
+}

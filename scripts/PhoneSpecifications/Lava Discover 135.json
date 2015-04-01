@@ -1,0 +1,90 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Lava",
+                "Call Features": "Loudspeaker",
+                "Form": "Bar",
+                "Handset Color": "Purple",
+                "In the Box": "Warranty Card, Battery, Headset, Handset, USB Cable with Charger, User Manual",
+                "Model Name": "Discover 135",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim, GSM + GSM",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Yes, Supports MP3, MIDI, WAV",
+                "Ringtone": "MIDI, MP3, WAV",
+                "Video Player": "Yes, Supports 3GP, MJPG, MP4, PGDL, AVI, MOT"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 1.3 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Opera Mini, WAP",
+                "USB Connectivity": "Yes",
+                "WAP": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Preloaded Movies, Games, Talking Cat, Unlimited Auto Call Recording, World Clock, Stopwatch, Calendar, Calculator, Alarm, Sound Recording, MMS Enabled, Lava Space, Lava Zone, Phonebook and SMS Backup",
+                "Call Memory": "Yes",
+                "Important Apps": "Facebook, Google, Google Plus, Gmail, YouTube, Google Apps, Google Widget, News Hunt, Cricket Next, Times Jobs, Magic Bricks",
+                "Phone Book Memory": "500",
+                "SMS Memory": "300"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "61.5x118x12 mm"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Resolution": "HVGA, 320 x 480 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "TFT"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1400 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "128",
+                "Memory": "64 MB RAM, 128 MB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "Operating Freq": "GSM - 900, 1800"
+            }
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "ZTE",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model Name": "Geek V975",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD, Full HD",
+                "Primary Camera": "8 Megapixel",
+                "Secondary Camera": "1 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Accelerometer, gyro, proximity, compass"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "720 x 1280 Pixels",
+                "Size": "5 Inches",
+                "Type": "IPS capacitive touchscreen"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "9.5x145x70? mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-ion, 2300 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 64 GB",
+                "Internal": "8 GB",
+                "Memory": "2 GB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "PowerVR SGX544",
+                "OS": "Android v4.2.2 (Jelly Bean)",
+                "Processor": "2 GHz + Intel Atom Z2580, Dual Core"
+            }
+        }
+    ]
+}

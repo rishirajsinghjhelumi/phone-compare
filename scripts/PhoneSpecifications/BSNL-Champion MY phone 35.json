@@ -1,0 +1,71 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BSNL-Champion",
+                "Handset Color": "White",
+                "In the Box": "Mobile, Charger, Battery",
+                "Model Name": "MY phone 35",
+                "SIM Size": "Normal Sim",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "3 Megapixel",
+                "Secondary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "Yes",
+                "HDMI Port": "Yes",
+                "USB Connectivity": "Yes, micro USB, Mini USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Accelerometer , G-Sensor, Light Sensor, Proximity Sensor, Compass"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480x320 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "HVGA"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "119x61x10.5 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Service Type": "Carry In 1 Year Warranty",
+                "Warranty Summary": "1 Year Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1650 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512 MB",
+                "Memory": "256 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.4 (KitKat)",
+                "Processor": "1 GHz"
+            }
+        }
+    ]
+}

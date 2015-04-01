@@ -1,0 +1,54 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Earth",
+                "Handset Color": "Black, Blue",
+                "In the Box": "Handset, Battery, Charger, Earphone, User Manual, Warranty Card",
+                "Model ID": "S11",
+                "SIM Type": "Dual Sim"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "128x160 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "TFT Display"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "45x114x16 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty Of The Product Is Limited To \nManufacturing Defects Only",
+                "Warranty Summary": "1 Year Manufacturer warranty For Phone\n And 6 Months Warranty For Box Accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 4 GB"
+            }
+        }
+    ]
+}

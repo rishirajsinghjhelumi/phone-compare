@@ -1,0 +1,49 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "A & K",
+                "Handset Color": "White",
+                "In the Box": "Mobile, Battery, Charger, Earphone",
+                "Model Name": "G 5050",
+                "SIM Size": "Normal",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "HD Recording": "HD"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320 x 480 Pixels",
+                "Size": "2.4 Inches"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "Replacement Warrenty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1050 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB",
+                "Internal": "32 KB",
+                "Memory": "32 MB RAM"
+            }
+        }
+    ]
+}

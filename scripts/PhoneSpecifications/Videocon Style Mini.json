@@ -1,0 +1,44 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Videocon",
+                "Handset Color": "Black",
+                "In the Box": "Handset, Charger, Ear Phone, Bettery, User Manual Book",
+                "Model ID": "Style Mini",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "180 x120 Pixels",
+                "Size": "2 Inches",
+                "Type": "QVGA"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 Year Videocon India Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "2 MB"
+            }
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Adcom",
+                "Call Features": "Conference Call, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "White",
+                "In the Box": "Data Cable, Handset, Warranty Card, Charger, Headset, User Manual, Battery",
+                "Model Name": "Thunder A-400(i)",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "Yes, Capacitive"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel",
+                "Secondary Camera": "Yes, 2 Megapixel",
+                "Video Recording": "Yes"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes",
+                "Music Player": "Yes, Supports MP3",
+                "Ringtone": "MIDI, AMR, 64 Melody, MP3, WAV",
+                "Video Player": "Yes, Supports MP4, AVI, RMVB, 3GP"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes",
+                "EDGE": "Yes",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Android, WAP",
+                "USB Connectivity": "Yes, micro USB, v2",
+                "WAP": "Yes",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "Call Waiting, Call Hold, Call Barring, MMS Enabled, Multiple Languages Supported, I/O Interface: Micro 5 Pin, Games",
+                "Call Memory": "Yes",
+                "Phone Book Memory": "Yes",
+                "SMS Memory": "Yes",
+                "Sensors": "Accelerometer"
+            }
+        },
+        {
+            "Display": {
+                "Other Display Features": "Multi-touch",
+                "Resolution": "480 x 800 Pixels",
+                "Size": "4 Inches",
+                "Type": "LCD"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "512",
+                "Memory": "256 MB RAM, 512 MB ROM"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "Yes",
+                "OS": "Android v4.0.4 (Ice Cream Sandwich)",
+                "Operating Freq": "GSM - 900, 1800",
+                "Processor": "1 GHz + MTK MT6515M"
+            }
+        }
+    ]
+}

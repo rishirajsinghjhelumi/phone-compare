@@ -1,0 +1,30 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Karbonn",
+                "Handset Color": "White",
+                "In the Box": "Mobile",
+                "Model ID": "K85",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "640 x 480 Pixels",
+                "Size": "4.95 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion 1150mAh Battery, 1150 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "0$$MB"
+            }
+        }
+    ]
+}

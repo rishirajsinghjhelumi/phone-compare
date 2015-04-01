@@ -1,0 +1,22 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "BlackBerry",
+                "Handset Color": "Black and Grey",
+                "Model ID": "P9982",
+                "Model Name": "Porsche"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1.5 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Internal": "64"
+            }
+        }
+    ]
+}

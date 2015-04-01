@@ -1,0 +1,61 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Jivi",
+                "Handset Color": "White",
+                "In the Box": "Mobile, Charger, Headphone, Manual",
+                "Model ID": "X 1515",
+                "Model Name": "Dual SIM (G+G) Display Capacitative Touch",
+                "SIM Size": "Micro SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "2 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "450 X 380 Pixels",
+                "Size": "3.5 Inches",
+                "Type": "Capacitative Touch Screen"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "25.5"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Not Covered in Warranty": "Warranty does not cover any external accessories (such as battery, cable, charger)",
+                "Warranty Service Type": "Customer Needs to Visit near by Authorized Service Cente",
+                "Warranty Summary": "1 Year Jivi India Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1350 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "126 KB"
+            }
+        }
+    ]
+}

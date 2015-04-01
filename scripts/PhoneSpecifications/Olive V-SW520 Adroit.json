@@ -1,0 +1,73 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Olive",
+                "Handset Color": "Black",
+                "In the Box": "Mobile",
+                "Model Name": "V-SW520 Adroit",
+                "SIM Size": "Mini SIM",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "Yes"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 5 Megapixel",
+                "Secondary Camera": "0.5 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes",
+                "Audio Jack": "3.5 mm",
+                "HDMI Port": "No",
+                "USB Connectivity": "Yes, micro USB",
+                "Wifi": "Yes"
+            }
+        },
+        {
+            "Other Features": {
+                "Sensors": "Ambient Light Sensor"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "480 x 800 Pixels",
+                "Size": "5.2 Inches",
+                "Type": "AMOLED"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "148x83x11.3 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to software and hardware defect only",
+                "Not Covered in Warranty": "Warranty does not cover any external accessories (such as battery, cable, handsfree)",
+                "Warranty Service Type": "On-Site Service, Customer needs to call the nearby Authorized Service Center.",
+                "Warranty Summary": "1 Year Olive India Warranty"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 2500 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "4 GB",
+                "Memory": "512 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "OS": "Android v4.0 (Ice Cream Sandwich)",
+                "Processor": "1.2 GHz + Dual Core, Dual Core"
+            }
+        }
+    ]
+}

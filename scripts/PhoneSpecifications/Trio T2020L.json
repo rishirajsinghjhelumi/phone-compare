@@ -1,0 +1,49 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Trio",
+                "Handset Color": "Black & Blue",
+                "In the Box": "Mobile, Charger, Battery, Earphone, Warranty Card, User manual",
+                "Model ID": "T2020L",
+                "SIM Type": "Dual Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Primary Camera": "Yes, 0.3 Megapixel"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "Audio Jack": "3.5 mm",
+                "USB Connectivity": "Yes, micro USB"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Manufacturing defect",
+                "Not Covered in Warranty": "As per Compnay warranty Policy",
+                "Warranty Service Type": "Customer need to Visit nearby service center",
+                "Warranty Summary": "1 Year Warranty of Handset and 6 Month for accessories"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "176 x 144 Pixels",
+                "Size": "1.8 Inches"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 8 GB"
+            }
+        }
+    ]
+}

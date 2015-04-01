@@ -1,0 +1,98 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Nokia",
+                "Business Features": "VOIP Support, Pushmail  (Mail for Exchange)",
+                "Call Features": "Speed Dialing, Loudspeaker, Call Divert",
+                "Form": "Bar",
+                "Handset Color": "Cyan",
+                "In the Box": "Battery, Headset, Visual User Guide, Charger, Handset",
+                "Keypad": "Yes, Alphanumeric",
+                "Model Name": "301",
+                "SIM Type": "Dual Sim, GSM + GSM, (Dual Standby)",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Camera": {
+                "Other Camera Features": "Panorama Mode, Automatic Five-shot Photo Burst with Sequential Shot Feature, Self-timer, Fixed Focus, Auto and Manual White Balance, Full Screen Viewfinder, Colour Tone Modes, Automatic Light Sensitivity, Video Zoom - 3x",
+                "Primary Camera": "Yes, 3.2 Megapixel",
+                "Secondary Camera": "No",
+                "Video Recording": "Yes, 320 x 240, 30 fps",
+                "Zoom": "Digital Zoom - 3x"
+            }
+        },
+        {
+            "Multimedia": {
+                "FM": "Yes, with Recording",
+                "Music Player": "Supports WAV, MP3",
+                "Ringtone": "32 Polyphonic",
+                "Video Player": "Yes, Supports AVI, H.264, AVC, MPEG-4, MP4, 3GP, ASF"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "Yes, 5.76 Mbps HSUPA; 7.2 Mbps HSDPA",
+                "Audio Jack": "3.5 mm",
+                "Bluetooth": "Yes, v3, Supported Profiles (HFP 1.5, SDAP, PBAP 1.0, A2DP 1.2, SPP, OPP 1.1, HSP 1.1, SAP, AVRCP 1.4, GAVDP)",
+                "EDGE": "Yes, 236.8 kbps",
+                "GPRS": "Yes",
+                "Internet Features": "Email",
+                "Preinstalled Browser": "Nokia Xpress Browser",
+                "USB Connectivity": "Yes",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Other Features": {
+                "Additional Features": "",
+                "Call Memory": "Yes",
+                "Important Apps": "YouTube, VuClip Videos, IM Apps, Yahoo, Gmail, Hotmail, Facebook, Twitter, Nokia Chat, eBuddy IM",
+                "Phone Book Memory": "1000",
+                "SMS Memory": "Yes"
+            }
+        },
+        {
+            "Display": {
+                "Color": "262 K",
+                "Other Display Features": "Brightness Control, RGB Stripe",
+                "Resolution": "QVGA, 320 x 240 Pixels",
+                "Size": "2.4 Inches",
+                "Type": "LCD Transmissive"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "50x114x12.5 mm",
+                "Weight": "102 g"
+            }
+        },
+        {
+            "Warranty": {
+                "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+            }
+        },
+        {
+            "Battery": {
+                "Standby Time": "504 hrs (2G), 504 hrs (3G)",
+                "Talk Time": "20 hrs (2G), 6 hrs (3G)",
+                "Type": "1200 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 32 GB",
+                "Internal": "256",
+                "Memory": "64 MB RAM"
+            }
+        },
+        {
+            "Platform": {
+                "Java": "Yes",
+                "OS": "(Series 40)",
+                "Operating Freq": "GSM - 850, 900, 1800, 1900; UMTS - 2100"
+            }
+        }
+    ]
+}

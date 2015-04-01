@@ -1,0 +1,59 @@
+{
+    "specification": [
+        {
+            "GENERAL FEATURES": {
+                "Brand": "Haier",
+                "Handset Color": "Black",
+                "In the Box": "mobiles battery charger earphone",
+                "Model ID": "C381",
+                "Model Name": "Bar",
+                "SIM Size": "Micro Sim",
+                "SIM Type": "Single Sim",
+                "Touch Screen": "No"
+            }
+        },
+        {
+            "Internet & Connectivity": {
+                "3G": "No",
+                "Audio Jack": "3.5mm",
+                "HDMI Port": "Yes",
+                "USB Connectivity": "No",
+                "Wifi": "No"
+            }
+        },
+        {
+            "Display": {
+                "Resolution": "320x480 Pixels",
+                "Size": "1.8 Inches",
+                "Type": "tft"
+            }
+        },
+        {
+            "Dimensions": {
+                "Size": "45.1x108.5x13.6 mm"
+            }
+        },
+        {
+            "Warranty": {
+                "Covered in Warranty": "Warranty of the product is limited to manufacturing defects only",
+                "Warranty Summary": "1 year warranty for service center"
+            }
+        },
+        {
+            "Battery": {
+                "Type": "Li-Ion, 1000 mAh"
+            }
+        },
+        {
+            "Memory and Storage": {
+                "Expandable Memory": "microSD, upto 16 GB",
+                "Internal": "256 MB"
+            }
+        },
+        {
+            "Platform": {
+                "Graphics": "No"
+            }
+        }
+    ]
+}
