@@ -3,6 +3,11 @@ import json
 REVIEW_FILE = "ParametricAnalysis/ProsCons/Amazon.csv"
 reviewJSON = {}
 
+def getMongoDBConn():
+	from pymongo import MongoClient
+	client = MongoClient('localhost', 27017)
+	return client['compareDB']
+
 def getAbout(about):
 	num, review = 0, None
 	if about != '' and about != None and about != ' ':
@@ -77,4 +82,6 @@ def generateReviews(filename):
 
 if __name__ == '__main__':
 	generateReviews(REVIEW_FILE)
-	print json.dumps(reviewJSON[("Apple", "Apple iPhone 4")])
+	# a = json.dumps(reviewJSON[("Apple", "Apple iPhone 4")])
+
+	db = getMongoDBConn()
