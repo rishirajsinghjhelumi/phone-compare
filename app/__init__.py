@@ -34,3 +34,5 @@ app.register_blueprint(usersModule)
 
 
 #Phone Views
+from app.phones.views import mod as phonesModule
+app.register_blueprint(phonesModule)

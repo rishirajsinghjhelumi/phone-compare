@@ -5,9 +5,9 @@ class Phone(mongo.Document):
 	brand = mongo.StringField(max_length = 255, required = True)
 	model = mongo.StringField(max_length = 255, required = True)
 
-	sentiments = mongo.ListField(db.EmbeddedDocumentField('Sentiment'))
-	specifications = mongo.DictField(default = {}, require = True)
-	pros_cons = mongo.ListField(db.EmbeddedDocumentField('ProsCons'))
+	sentiments = mongo.ListField(mongo.EmbeddedDocumentField('Sentiment'))
+	specifications = mongo.DictField(default = {}, required = True)
+	pros_cons = mongo.ListField(mongo.EmbeddedDocumentField('ProsCons'))
 
 	def __unicode__(self):
 		return "%s : %s"%(self.brand, self.model)
@@ -20,8 +20,8 @@ class Sentiment(mongo.EmbeddedDocument):
 
 class ProsCons(mongo.EmbeddedDocument):
 	about = mongo.StringField(required = True)
-	positive = mongo.ListField(db.EmbeddedDocumentField('Review'), required = True, default = [])
-	negative = mongo.ListField(db.EmbeddedDocumentField('Review'), required = True, default = [])
+	positive = mongo.ListField(mongo.EmbeddedDocumentField('Review'), required = True, default = [])
+	negative = mongo.ListField(mongo.EmbeddedDocumentField('Review'), required = True, default = [])
 
 class Review(mongo.EmbeddedDocument):
 
