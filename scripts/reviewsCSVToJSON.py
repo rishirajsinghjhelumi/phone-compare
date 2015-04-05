@@ -80,8 +80,13 @@ def generateReviews(filename):
 
 	print faults
 
+def storeInDB():
+
+	mongo = getMongoDBConn()
+	reviews = mongo.reviews
+	for key in reviewJSON:
+		reviews.insert(reviewJSON[key])
+
 if __name__ == '__main__':
 	generateReviews(REVIEW_FILE)
-	# a = json.dumps(reviewJSON[("Apple", "Apple iPhone 4")])
-
-	db = getMongoDBConn()
+	storeInDB()

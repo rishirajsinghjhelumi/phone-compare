@@ -3,6 +3,11 @@ import json
 SENTIMENT_FILE = "ParametricAnalysis/Count/Amazon.csv"
 sentimentJSON = {}
 
+def getMongoDBConn():
+	from pymongo import MongoClient
+	client = MongoClient('localhost', 27017)
+	return client['compareDB']
+
 def getSentimentJSON(sentiment):
 
 	fields = sentiment.split(',')
@@ -46,6 +51,14 @@ def generateSentiments(filename):
 
 	print faults
 
+def storeInDB():
+
+	mongo = getMongoDBConn()
+	sentiments = mongo.sentiments
+	for key in sentimentJSON:
+		sentiments.insert(sentimentJSON[key])
+
 if __name__ == '__main__':
+
 	generateSentiments(SENTIMENT_FILE)
-	print json.dumps(sentimentJSON[("Apple", "Apple iPhone 4")])
+	storeInDB()
