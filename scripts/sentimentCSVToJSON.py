@@ -1,4 +1,5 @@
 import json
+from dbConn import getMongoDBConn
 
 SENTIMENT_FILES = [
 	"ParametricAnalysis/Count/Amazon.csv",
@@ -6,11 +7,6 @@ SENTIMENT_FILES = [
 	"ParametricAnalysis/Count/Snapdeal.csv"
 ]
 sentimentJSON = {}
-
-def getMongoDBConn():
-	from pymongo import MongoClient
-	client = MongoClient('localhost', 27017)
-	return client['compareDB']
 
 def getSentimentJSON(sentiment):
 

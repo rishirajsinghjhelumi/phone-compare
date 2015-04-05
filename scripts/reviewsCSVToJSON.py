@@ -1,4 +1,5 @@
 import json
+from dbConn import getMongoDBConn
 
 REVIEW_FILES = [
 	"ParametricAnalysis/ProsCons/Amazon.csv",
@@ -6,11 +7,6 @@ REVIEW_FILES = [
 	"ParametricAnalysis/ProsCons/Snapdeal.csv"
 ]
 reviewJSON = {}
-
-def getMongoDBConn():
-	from pymongo import MongoClient
-	client = MongoClient('localhost', 27017)
-	return client['compareDB']
 
 def getAbout(about):
 	num, review = 0, None
