@@ -20,3 +20,6 @@ def install_secret_key(app, filename='secret_key'):
             print('mkdir -p {filename}'.format(filename=full_path))
         print('head -c 24 /dev/urandom > {filename}'.format(filename=filename))
         sys.exit(1)
+
+def getArgAsList(request, arg):
+    return request.args.get(arg).split(',')

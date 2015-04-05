@@ -33,6 +33,10 @@ from app.users.views import mod as usersModule
 app.register_blueprint(usersModule)
 
 
-#Phone Views
+# Phone Views
 from app.phones.views import mod as phonesModule
 app.register_blueprint(phonesModule)
+
+# Cart Views
+from app.cart.views import mod as cartModule
+app.register_blueprint(cartModule)
