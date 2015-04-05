@@ -22,8 +22,8 @@ def store(filename):
 			break
 
 	
-	specification = mongo.specification
-	specification.insert({
+	phones = mongo.phones
+	phones.insert({
 		"Brand" : brand,
 		"Model Name" : model,
 		"specification" : specs
