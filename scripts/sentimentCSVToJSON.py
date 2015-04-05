@@ -1,6 +1,10 @@
 import json
 
-SENTIMENT_FILE = "ParametricAnalysis/Count/Amazon.csv"
+SENTIMENT_FILES = [
+	"ParametricAnalysis/Count/Amazon.csv",
+	"ParametricAnalysis/Count/Flipkart.csv",
+	"ParametricAnalysis/Count/Snapdeal.csv"
+]
 sentimentJSON = {}
 
 def getMongoDBConn():
@@ -60,5 +64,6 @@ def storeInDB():
 
 if __name__ == '__main__':
 
-	generateSentiments(SENTIMENT_FILE)
+	for fil in SENTIMENT_FILES:
+		generateSentiments(fil)
 	storeInDB()

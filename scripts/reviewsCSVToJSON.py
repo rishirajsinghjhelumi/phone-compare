@@ -1,6 +1,10 @@
 import json
 
-REVIEW_FILE = "ParametricAnalysis/ProsCons/Amazon.csv"
+REVIEW_FILES = [
+	"ParametricAnalysis/ProsCons/Amazon.csv",
+	"ParametricAnalysis/ProsCons/Flipkart.csv",
+	"ParametricAnalysis/ProsCons/Snapdeal.csv"
+]
 reviewJSON = {}
 
 def getMongoDBConn():
@@ -88,5 +92,7 @@ def storeInDB():
 		reviews.insert(reviewJSON[key])
 
 if __name__ == '__main__':
-	generateReviews(REVIEW_FILE)
+
+	for fil in REVIEW_FILES:
+		generateReviews(fil)
 	storeInDB()
