@@ -1,6 +1,6 @@
 from flask import Flask, render_template, jsonify
 from flask.ext.sqlalchemy import SQLAlchemy
-from flask.ext.mongoengine import MongoEngine
+from pymongo import MongoClient
 
 from util import install_secret_key
 
@@ -10,7 +10,7 @@ app.config["MONGODB_SETTINGS"] = {'DB': "compareDB"}
 app.config["SECRET_KEY"] = "JA%*&DNA&D^)A"
 
 db = SQLAlchemy(app)
-mongo = MongoEngine(app)
+mongo = MongoClient('localhost', 27017)['compareDB']
 
 if not app.config['DEBUG']:
     install_secret_key(app)
