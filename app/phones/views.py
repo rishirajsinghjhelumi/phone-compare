@@ -5,11 +5,12 @@ from bson import json_util
 import json
 
 from app import mongo
-from app.decorators import mongoJsonify
+from app.decorators import mongoJsonify, jsonResponse
 
 mod = Blueprint('phones', __name__, url_prefix='/phone')
 
-@mod.route('/all/', methods=['GET', 'POST'])
-@mongoJsonify
-def all():
-	return mongo.phones.find_one()
+@mod.route('/brand/<brandName>', methods=['GET', 'POST'])
+@jsonResponse
+def brandModels(brandName):
+	phones = mongo.phones.find({"Brand" : brandName}, {"Model Name" : 1})
+	return [phone for phone in phones]
