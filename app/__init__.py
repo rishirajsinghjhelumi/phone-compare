@@ -27,7 +27,9 @@ def forbidden_page(error):
 @app.errorhandler(500)
 def server_error_page(error):
     return jsonify(status = "Server Error"), 500
-
+@app.route('/hello',methods=['GET'])
+def hello():
+    return "Hello"
 # User Views
 from app.users.views import mod as usersModule
 app.register_blueprint(usersModule)
