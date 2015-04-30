@@ -22,4 +22,8 @@ def install_secret_key(app, filename='secret_key'):
         sys.exit(1)
 
 def getArgAsList(request, arg):
-    return request.args.get(arg).split(',')
+    argument = request.args.get(arg)
+    if argument != None:
+	return argument.split(',')
+    else :
+	return []
