@@ -27,6 +27,7 @@ def forbidden_page(error):
 @app.errorhandler(500)
 def server_error_page(error):
     return jsonify(status = "Server Error"), 500
+
 @app.route('/hello',methods=['GET'])
 def hello():
     return "Hello"
@@ -42,3 +43,7 @@ app.register_blueprint(phonesModule)
 # Cart Views
 from app.cart.views import mod as cartModule
 app.register_blueprint(cartModule)
+
+#WebPages Views
+from app.webpages.views import mod as webModule
+app.register_blueprint(webModule)

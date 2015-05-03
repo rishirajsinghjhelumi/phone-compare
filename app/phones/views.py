@@ -16,7 +16,7 @@ mod = Blueprint('phones', __name__, url_prefix='/phone')
 
 formatter = logging.Formatter(
         "[%(asctime)s] {%(pathname)s:%(lineno)d} %(levelname)s - %(message)s")
-handler = RotatingFileHandler("/var/www/html/wordpress/phone-compare/app/phones/logs/application.log", maxBytes=10000000, backupCount=5)
+handler = RotatingFileHandler("app/phones/logs/application.log", maxBytes=10000000, backupCount=5)
 #handler.setLevel(logging.INFO)
 handler.setFormatter(formatter)
 app.logger.addHandler(handler)
@@ -91,7 +91,6 @@ def getPhoneIdListFromPriceRange(priceRange):
 		for resultObj in phoneDetail:
 			phoneIdList.append(resultObj['_id'])
 			app.logger.info(resultObj['_id'])
-	app.logger.info("Price range IDs==>", phoneIdList)
 	return  phoneIdList
 
 def getPhoneIdListFromKeywordPreference(keyword):
@@ -141,7 +140,12 @@ def phones():
 		phoneIds = list(set(phoneIds))
 		app.logger.info("########All keyWord prefered Phones")
 		app.logger.info(phoneIds)
-		phoneIds = set(phoneIds) & set(getPhoneIdListFromPriceRange(priceRange))
+		priceFilterPhoneId = getPhoneIdListFromPriceRange(priceRange)
+		if keywords:
+			phoneIds = set(phoneIds) & set(priceFilterPhoneId)
+		elif priceRange:
+			app.logger.info("only PriceRange")
+			phoneIds = priceFilterPhoneId
 		return [getPhoneInfo(phone) for phone in phoneIds]
         else :
                 return keywords
