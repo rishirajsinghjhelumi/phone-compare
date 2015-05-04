@@ -25,7 +25,7 @@
                   <div class="product-more-views">
                     <ul class="jcarousel jcarousel-skin-previews elevate-gallery" id="elevate-gallery">
                       <li> <a  href="#" class="elevatezoom-gallery" data-update="" data-image={{ url_for('static', filename='img/product_page_img_big1.jpg')}} 
-data-zoom-image="img/product_page_img_big1_zoom.jpg"> <img src="static/img/product_page_img_sm1.jpg" alt="" /></a> </li>
+data-zoom-image="img/product_page_img_big1_zoom.jpg"> <img src="static/img/product_page_img_big1_zoom.jpg" alt="" /></a> </li>
                       <li> <a  href="#" class="elevatezoom-gallery" data-update="" data-image={{ url_for('static', filename='img/product_page_img_big1.jpg')}} 
 data-zoom-image="img/product_page_img_big2_zoom.jpg"> <img src="img/product_page_img_sm2.jpg" alt="" /></a> </li>
                       <li> <a  href="#" class="elevatezoom-gallery" data-update="" data-image="img/product_page_img_big3.jpg" 
@@ -40,8 +40,18 @@ data-zoom-image="img/product_page_img_big3_zoom.jpg"> <img src="img/product_page
                     </ul>
                   </div>
                 </div>
-                <div class="span4">
-                  <div id="zoom-big-image" class="elevate-zoom"> <img src={{ url_for('static', filename='img/product_page_img_big1.jpg')}}  alt="" data-zoom-image="img/product_page_img_big1_zoom.jpg" class="elevatezoom" /></div>
+                <div class="span5">
+                  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                       <div class="front">
+                           <div id="zoom-big-image" class="elevate-zoom"> <img src={{ url_for('static', filename='img/product_page_img_big1.jpg')}}  alt="" data-zoom-image="img/product_page_img_big1_zoom.jpg" class="elevatezoom" /></div>
+                        </div>
+                    <div class="back">
+                         <div id="zoom-big-image" class="elevate-zoom"> <img src={{ url_for('static', filename='img/product_page_img_big1-Recovered_Back.jpg')}}  alt="" data-zoom-image="img/product_page_img_big1_zoom.jpg" class="elevatezoom" /></div>
+                    </div>
+                   </div>
+                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -69,8 +79,8 @@ data-zoom-image="img/product_page_img_big3_zoom.jpg"> <img src="img/product_page
 
                 <div class="span3">
                   <ul class="styled-list dash">
-                    <li>SIM Type: {{phoneDetails["specification"][0]["GENERAL FEATURES"]["SIM Type"]}}</li>
-                    <li>Touch Screen: {{phoneDetails["specification"][0]["GENERAL FEATURES"]["Touch Screen"]}}</li>
+                    <li><b>SIM Type</b>: {{phoneDetails["specification"][0]["GENERAL FEATURES"]["SIM Type"]}}</li>
+                    <li></b>Touch Screen</b>: {{phoneDetails["specification"][0]["GENERAL FEATURES"]["Touch Screen"]}}</li>
                   </ul>
                </div>
                <div class="span3">
@@ -117,7 +127,7 @@ data-zoom-image="img/product_page_img_big3_zoom.jpg"> <img src="img/product_page
         <div class="span12">
           <ul class="nav-tabs contentTab">
             <li class="active"><a href="#tab1">Description</a></li>
-            <li><a href="#tab2">Reviews</a></li>
+            <li><a href="#tab2">User Experience</a></li>
             <li><a href="#tab3">Tags</a></li>
             <li><a href="#tab4">Custom block</a></li>
           </ul>
@@ -131,6 +141,7 @@ data-zoom-image="img/product_page_img_big3_zoom.jpg"> <img src="img/product_page
                   <table class="table table-bordered table-striped">
                   <thead>
                     <tr>
+
                       <th class="aligncenter" scope="col">{{key}}</th>
                     </tr>
                   </thead>
@@ -158,8 +169,19 @@ data-zoom-image="img/product_page_img_big3_zoom.jpg"> <img src="img/product_page
 
               </div>
             </div>
+
             <div class="tab-pane" id="tab2">
-              <div class="box-collateral box-reviews" id="customer-reviews">
+              <div class="box-collateral box-description">
+                <h2>Details</h2>
+                {%for keywords in phoneDetails["Keywords"]%}
+                  <div class="skillbar clearfix " data-percent={{keywords["Rating"]*20|round|int}}%>
+                    <div class="skillbar-title" style="background: #d35400;"><span>{{keywords["Keyword"]}}</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                    <div class="skill-bar-percent">{{keywords["Rating"]*20|round(1, 'floor') }}% junta says positive</div>
+                  </div>
+                {%endfor%}
+              </div>
+              <!-- <div class="box-collateral box-reviews" id="customer-reviews">
                 <div class="form-add">
                   <h2>Write Your Own Review</h2>
                   <form action="#" method="post" id="review-form">
@@ -230,7 +252,7 @@ data-zoom-image="img/product_page_img_big3_zoom.jpg"> <img src="img/product_page
                     </div>
                   </form>
                 </div>
-              </div>
+              </div> -->
             </div>
             <div class="tab-pane" id="tab3">
               <div class="box-collateral box-tags">
