@@ -21,7 +21,7 @@
           <div class="span5">
             <div class="product-img-box noselect">
               <div class="row">
-                <div class="span1">
+                <!-- <div class="span1">
                   <div class="product-more-views">
                     <ul class="jcarousel jcarousel-skin-previews elevate-gallery" id="elevate-gallery">
                       <li> <a  href="#" class="elevatezoom-gallery" data-update="" data-image={{ url_for('static', filename='img/product_page_img_big1.jpg')}} 
@@ -39,7 +39,7 @@ data-zoom-image="img/product_page_img_big3_zoom.jpg"> <img src="img/product_page
                       <li><a href="#" title=''><i class="icon-right-open-1"></i></a> </li>
                     </ul>
                   </div>
-                </div>
+                </div> -->
                 <div class="span5">
                   <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                     <div class="flipper">
@@ -57,8 +57,8 @@ data-zoom-image="img/product_page_img_big3_zoom.jpg"> <img src="img/product_page
             </div>
           </div>
           <div class="span7">
-            <div class="product-shop">
-              <div class="product_info_left">
+            <div class="product-CSS">
+              <div class="product_info">
                 <div class="product-name">
                   
                   <h1><span class="color">{{phoneDetails.Brand}} {{phoneDetails["Model Name"]}}</span></h1>
@@ -72,15 +72,21 @@ data-zoom-image="img/product_page_img_big3_zoom.jpg"> <img src="img/product_page
                   </div>
                 </div>
 
-                <br><br>
 
-                <div class="span3">
+                <br>
+                <hr><br>
+
+                <span class="row">
+                <div class="span3"><p>
                   <ul class="styled-list dash">
                     <li><b>SIM Type</b>: {{phoneDetails["specification"][0]["GENERAL FEATURES"]["SIM Type"]}}</li>
-                    <li></b>Touch Screen</b>: {{phoneDetails["specification"][0]["GENERAL FEATURES"]["Touch Screen"]}}</li>
+                    <li><b>Touch Screen</b>: {{phoneDetails["specification"][0]["GENERAL FEATURES"]["Touch Screen"]}}</li>
+
+                    <li><b>Touch Screen</b>: {{phoneDetails["specification"][0]["GENERAL FEATURES"]["Touch Screen"]}}</li>
+                    <li><b>Touch Screen</b>: {{phoneDetails["specification"][0]["GENERAL FEATURES"]["Touch Screen"]}}</li>
                   </ul>
-               </div>
-               <div class="span3">
+               </p></div>
+               <div class="span3"><p>
                   <ul class="styled-list dash">
                {% for specs in phoneDetails["specification"] %}
                {% if specs["Memory and Storage"]%}
@@ -88,31 +94,66 @@ data-zoom-image="img/product_page_img_big3_zoom.jpg"> <img src="img/product_page
 
                {% elif specs["Display"] %}
                  <li> <b>Display</b>: {{specs["Display"]["Resolution"]}}</li>
+                 <li><b>Touch Screen</b>: {{phoneDetails["specification"][0]["GENERAL FEATURES"]["Touch Screen"]}}</li>
+                 <li><b>Touch Screen</b>: {{phoneDetails["specification"][0]["GENERAL FEATURES"]["Touch Screen"]}}</li>
                {% endif %}
 
                {% endfor %}
              </ul>
-           </div>
-                 
-                <div class="price-box"><!-- <span class="old-price"> <span class="price">$241.00</span> </span> --><span class="special-price"> <span class="price">₹210.95</span> </span> </div>
+           </p></div>
+         </span>
+         <hr>
+
+                 <br>
+                  {%set counter = 0 %}
+                  {%set lowestPrice = [1000000] %}
+                  {% set lowestWebsite = ["Out of Stock"] %}
+                  {% set lowestWebsiteURL = ["#"] %}
+                 {% for price in phoneDetails["Prices"] %}
+                 {%set counter = counter + 1%}
+                  {%if price["price"]|int < lowestPrice[0] %}
+                    {%if price["stock status"]|int > 0 %}
+                      {% set _ = lowestPrice.append(price["price"]) %}
+                      {% set _ = lowestWebsite.append(price["website"]|string) %}
+                      {% set _ = lowestWebsiteURL.append( price["productUrl"]|string) %}
+                      {% set _ = lowestPrice.pop(0) %}
+                      {% set _ = lowestWebsite.pop(0) %}
+                      {% set _ = lowestWebsiteURL.pop(0) %}                    
+                    {%endif%}
+                  {%endif%}
+                {%endfor%}
+
+                
+                  
+                  <div class= "product-name" align="left">
+                  {%if lowestWebsite[0] == "Out of Stock"  %}
+                    <h4><div style="color: #B40404">{{"Not Available in our search"}}</div></h4>
+                      {% else %}
+                    <h4> Lowest Price: ₹&nbsp {{lowestPrice[0]}} &nbsp&nbsp 
+                      <a href={{lowestWebsiteURL[0]}} target="_blank"><button class="btn-mini border" type="hidden"> Buy Now </button></a>
+                    </h4> 
+                  {%endif%}
+                  
+
+                </div>
                 <div class="add-to-cart">
                   <form id="form-add_to_cart">
                     <!-- <div class="qty">
                       <label for="qty">Qty:</label>
                       <input id="qty" class="input-text qty" type="text" title="Qty" value="1" maxlength="12" name="qty">
                     </div> -->
-                    <button class="button btn-cart" title="Add to Cart" type="button" onClick="document.getElementById('form-add_to_cart').submit()"><i class="icon-chart-bar"></i>Add to Compare</button>
-                    <button class="button btn-cart" title="Add to Cart" type="button" onClick="document.getElementById('form-add_to_cart').submit()"><i class="icon-shop"></i>Choose your shop</button>
+                    <button class="button btn-small" title="Add to Cart" type="button" onClick="document.getElementById('form-add_to_cart').submit()" ><i class="icon-chart-bar"></i>{{" "}}Add to Compare</button>
+                    <button class="button btn-small" title="Add to Cart" type="button" onClick="document.getElementById('form-add_to_cart').submit()"><i class="icon-shop"></i>{{" "}}Compare Prices</button>
                   </form>
                 </div>
-                <div class="add-to-links">
+                <!-- <div class="add-to-links">
                   <ul>
                     <li><a href="#" class="small_icon_color"><i class="icon-heart"></i></a><a href="#">Add to wishlist </a></li>
                     <li><a href="#" class="small_icon_color"><i class="icon-popup"></i></a><a href="#">Add to compare </a></li>
                     <li><a href="#" class="small_icon_color"><i class=" icon-mail-1"></i></a><a href="#">Email to a friend</a></li>
                   </ul>
                 </div>
-                <p class="no-rating"> <a href="#">Be the first to review this product</a> </p>
+                <p class="no-rating"> <a href="#">Be the first to review this product</a> </p> -->
               </div>
             </div>
           </div>
@@ -123,10 +164,9 @@ data-zoom-image="img/product_page_img_big3_zoom.jpg"> <img src="img/product_page
       <div class="row">
         <div class="span12">
           <ul class="nav-tabs contentTab">
-            <li class="active"><a href="#tab1">Description</a></li>
+            <li class="active"><a href="#tab1">Specification</a></li>
             <li><a href="#tab2">User Experience</a></li>
-            <li><a href="#tab3">Tags</a></li>
-            <li><a href="#tab4">Custom block</a></li>
+            <li><a href="#tab3">Pros and Cons</a></li>
           </ul>
           <div class="tab-content">
             <div class="tab-pane active" id="tab1">
@@ -139,7 +179,7 @@ data-zoom-image="img/product_page_img_big3_zoom.jpg"> <img src="img/product_page
                   <thead>
                     <tr>
 
-                      <th class="aligncenter" scope="col" style="background-color: #9966cc">{{key}}</th>
+                      <th class="aligncenter" scope="col" style="background-color: #FFEFE7">{{key}}</th>
                     </tr>
                   </thead>
                   </table>
@@ -252,7 +292,82 @@ data-zoom-image="img/product_page_img_big3_zoom.jpg"> <img src="img/product_page
               </div> -->
             </div>
             <div class="tab-pane" id="tab3">
-              <div class="box-collateral box-tags">
+              <div class="box-collateral box-description">
+                <h2>Details</h2>
+                
+                  {%for reviews in phoneDetails["Reviews"]%}
+                  <table class="table table-bordered table-striped">
+                  <thead>
+                    <tr>
+                      <th class="aligncenter" scope="col" style="background-color: #FFEFE7">{% filter upper %}
+                                {{reviews["About"]}}
+                                {% endfilter %}
+                      </th>
+                    </tr>
+                  </thead>
+                  </table>
+
+                  <div class="span5" style="width: 47%; padding-left: 00%;">
+
+                  <div id="accordion" class="accordion">
+                      <div class="accordion-group">
+                      <div class="accordion-heading">
+                        <a class="accordion-toggle" href="#collapseOnePros{{reviews["About"]}}" data-parent="#accordion" data-toggle="collapse">
+                          <span class="open">
+                          <i class="icon-minus"></i>
+                          </span>
+                          <span class="closed">
+                          <i class="icon-plus"></i>
+                          </span>PROS
+                          </a>
+                      </div>
+                      <div id="collapseOnePros{{reviews["About"]}}" class="accordion-body collapse" style="height: 0px;">
+                      <div class="accordion-inner">
+                       <ul class="styled-list arrow">
+                        {%for pros in reviews["Positive"]%}
+                           <h4><li style="font-family: Oswald";> {{pros["Review"]}} ({{pros["Users"]}})</li></h4>
+                           {%endfor%}
+                        </ul>
+                        
+                        </div>
+                      </div>
+                      </div>
+                      </div>
+                  </div>
+
+                 
+                  <div  class="span5" style="width: 47%; padding-right: 00%;align:right;" >
+
+                  <div id="accordion" class="accordion">
+                      <div class="accordion-group">
+                      <div class="accordion-heading">
+                        <a class="accordion-toggle" href="#collapseOneCons{{reviews["About"]}}" data-parent="#accordion" data-toggle="collapse">
+                          <span class="open">
+                          <i class="icon-minus"></i>
+                          </span>
+                          <span class="closed">
+                          <i class="icon-plus"></i>
+                          </span>CONS
+                          </a>
+                      </div>
+                      <div id="collapseOneCons{{reviews["About"]}}" class="accordion-body collapse" style="height: 0px;">
+                      <div class="accordion-inner"> 
+                        <ul class="styled-list arrow">
+                        {%for cons in reviews["Negative"]%}
+                           <h4><li style="font-family: Oswald";> {{cons["Review"]}} ({{cons["Users"]}}) </li></h4>
+                        {%endfor%}
+                        </ul>
+                       </div>
+                      </div>
+                      </div>
+                  </div>
+                  </div>
+                  {% endfor %}
+
+                
+
+              </div>
+              <!-- <div class="box-collateral box-tags">
                 <h2>Product Tags</h2>
                 <form id="addTagForm" action="#" method="get">
                   <div class="form-add">
@@ -265,7 +380,8 @@ data-zoom-image="img/product_page_img_big3_zoom.jpg"> <img src="img/product_page
                 </form>
                 <p class="note">Use spaces to separate tags. Use single quotes (') for phrases.</p>
               </div>
-            </div>
+            </div> -->
+          </div>
             <div class="tab-pane" id="tab4">
               <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
               <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
