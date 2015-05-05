@@ -16,7 +16,7 @@ mod = Blueprint('phones', __name__, url_prefix='/phone')
 
 formatter = logging.Formatter(
         "[%(asctime)s] {%(pathname)s:%(lineno)d} %(levelname)s - %(message)s")
-handler = RotatingFileHandler("app/phones/logs/application.log", maxBytes=10000000, backupCount=5)
+handler = RotatingFileHandler("./logs/application.log", maxBytes=10000000, backupCount=5)
 #handler.setLevel(logging.INFO)
 handler.setFormatter(formatter)
 app.logger.addHandler(handler)
