@@ -12,6 +12,7 @@ from app.decorators import mongoJsonify, jsonResponse
 import logging
 from app.util import getArgAsList
 from logging.handlers import RotatingFileHandler
+import jinja2
 
 mod = Blueprint('webpage', __name__, url_prefix='')
 
