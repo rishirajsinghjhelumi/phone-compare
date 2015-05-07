@@ -8,6 +8,7 @@ import json
 from app import mongo
 from app import app
 from app.phones.views import *
+from app.cart.views import *
 from app.decorators import mongoJsonify, jsonResponse
 import logging
 from app.util import getArgAsList
@@ -34,4 +35,9 @@ def productDetail(phoneID):
 	phoneName = phoneDetails["Model Name"]
 	phoneBrand = phoneDetails["Brand"]
 	title = phoneBrand + " " + phoneName
-	return render_template("product-elevatezoom.html", title=title, phoneDetails = phoneDetails)
+	cartDetails = getCartDetails()
+
+	app.logger.info(cartDetails)
+	for ids in cartDetails:
+		app.logger.info(ids)
+	return render_template("product-elevatezoom.html", title=title, phoneDetails = phoneDetails, cartDetails = cartDetails)

@@ -2364,6 +2364,15 @@ a.small_icon_color:hover i {
 	background:#1191db;
 	border-radius:  3px;
 }
+.accordion-toggle-Cons {
+    background: none repeat scroll 0 0 #1191db;
+    border-radius: 3px;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 30px 10px 15px;
+}
+
 .accordion-heading a.collapsed {
 	margin:0;
 	background:#1191db;

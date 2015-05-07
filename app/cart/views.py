@@ -4,12 +4,22 @@ from bson.objectid import ObjectId
 
 from bson import json_util
 import json
+import logging
+from logging.handlers import RotatingFileHandler
+from app import app
 
 from app import mongo
 from app.decorators import mongoJsonify, jsonResponse
 from app.util import getArgAsList
 
 mod = Blueprint('cart', __name__, url_prefix='/cart')
+formatter = logging.Formatter(
+        "[%(asctime)s] {%(pathname)s:%(lineno)d} %(levelname)s - %(message)s")
+handler = RotatingFileHandler("app/phones/logs/application.log", maxBytes=10000000, backupCount=5)
+#handler.setLevel(logging.INFO)
+handler.setFormatter(formatter)
+app.logger.addHandler(handler)
+app.logger.setLevel(logging.DEBUG)
 
 CART = "CART"
 
@@ -21,19 +31,26 @@ def before_request():
 @mod.route('/add/<phoneID>', methods=['GET'])
 @jsonResponse
 def addToCart(phoneID):
-	
+
+	if len(session[CART]) == 4:
+		return {"status" : 512, "phoneId" : session[CART]}
+
+
 	if phoneID not in session[CART]:
 		session[CART][phoneID] = True
-		return {"status" : "true"}
+		# statusCode : 256   already present
+		# status code  :512  4 phone already present
+		app.logger.info(len(session[CART]))
+		return {"status" : 200, "count": len(session[CART]), "phoneId" : session[CART].keys()}
 
-	return {"status" : "Already in cart!"}
+	return {"status" : 256}
 
 @mod.route('/remove/<phoneID>', methods=['GET'])
 @jsonResponse
 def removeFromCart(phoneID):
 	
 	if phoneID not in session[CART]:
-		return {"status" : "Not in Cart!"}
+		return {"status" : "Not in Cart!", "phoneId" : session[CART].keys()}
 
 	session[CART].pop(phoneID, None)
 	return {"status" : "true"}
@@ -42,6 +59,16 @@ def removeFromCart(phoneID):
 @jsonResponse
 def getCart():
 	return session[CART].keys()
+
+def getCartDetails():
+	cartDetails = {}
+	cartDetails =  session[CART].keys()
+	app.logger.info(cartDetails)
+	return cartDetails
+	# cartContent = [keys for keys in cartDetails]
+	
+	# app.logger.info(cartContent)
+	# return cartContent
 
 @mod.route('/clear', methods=['GET'])
 @jsonResponse

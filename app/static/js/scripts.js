@@ -406,9 +406,17 @@
         // change accordion caret when collapsing
         accordion.find('.accordion-toggle').click(function () {
             if ($(this).hasClass('collapsed')) {
-                accordion.find('.accordion-toggle').not(this).addClass('collapsed');
+                accordion.find('.accordion-toggle').next(this).addClass('collapsed');
             }
         })
+
+        // change accordion caret when collapsing
+
+
+
+
+
+
 		
          // products carousel
         carousel.each(function() {
