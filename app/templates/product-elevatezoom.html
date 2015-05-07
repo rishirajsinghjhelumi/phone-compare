@@ -1,5 +1,6 @@
 {% extends "header.html" %}
   {% block content %}
+  <div class = "phone details" style="display: none;"><div class="PhoneObjectID">{{phoneDetails["_id"]}}</div></div>
   <section id="content">
     <div class="container top">
       <div class="content_top">
@@ -21,25 +22,6 @@
           <div class="span5">
             <div class="product-img-box noselect">
               <div class="row">
-                <!-- <div class="span1">
-                  <div class="product-more-views">
-                    <ul class="jcarousel jcarousel-skin-previews elevate-gallery" id="elevate-gallery">
-                      <li> <a  href="#" class="elevatezoom-gallery" data-update="" data-image={{ url_for('static', filename='img/product_page_img_big1.jpg')}} 
-data-zoom-image="img/product_page_img_big1_zoom.jpg"> <img src="static/img/product_page_img_big1_zoom.jpg" alt="" /></a> </li>
-                      <li> <a  href="#" class="elevatezoom-gallery" data-update="" data-image={{ url_for('static', filename='img/product_page_img_big1.jpg')}} 
-data-zoom-image="img/product_page_img_big2_zoom.jpg"> <img src="img/product_page_img_sm2.jpg" alt="" /></a> </li>
-                      <li> <a  href="#" class="elevatezoom-gallery" data-update="" data-image="img/product_page_img_big3.jpg" 
-data-zoom-image="img/product_page_img_big3_zoom.jpg"> <img src="img/product_page_img_sm3.jpg" alt="" /></a> </li>
-                      <li> <a  href="#" class="elevatezoom-gallery" data-update="" data-image="img/product_page_img_big1.jpg" 
-data-zoom-image="img/product_page_img_big1_zoom.jpg"> <img src="img/product_page_img_sm1.jpg" alt="" /></a> </li>
-                      <li> <a  href="#" class="elevatezoom-gallery" data-update="" data-image="img/product_page_img_big2.jpg" 
-data-zoom-image="img/product_page_img_big2_zoom.jpg"> <img src="img/product_page_img_sm2.jpg" alt="" /></a> </li>
-                      <li> <a  href="#" class="elevatezoom-gallery" data-update="" data-image="img/product_page_img_big3.jpg" 
-data-zoom-image="img/product_page_img_big3_zoom.jpg"> <img src="img/product_page_img_sm3.jpg" alt="" /></a> </li>
-                      <li><a href="#" title=''><i class="icon-right-open-1"></i></a> </li>
-                    </ul>
-                  </div>
-                </div> -->
                 <div class="span5">
                   <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                     <div class="flipper">
@@ -138,12 +120,14 @@ data-zoom-image="img/product_page_img_big3_zoom.jpg"> <img src="img/product_page
                 </div>
                 <div class="add-to-cart">
                   <form id="form-add_to_cart">
-                    <!-- <div class="qty">
-                      <label for="qty">Qty:</label>
-                      <input id="qty" class="input-text qty" type="text" title="Qty" value="1" maxlength="12" name="qty">
-                    </div> -->
-                    <button class="button btn-small" title="Add to Cart" type="button" onClick="document.getElementById('form-add_to_cart').submit()" ><i class="icon-chart-bar"></i>{{" "}}Add to Compare</button>
-                    <button class="button btn-small" title="Add to Cart" type="button" onClick="document.getElementById('form-add_to_cart').submit()"><i class="icon-shop"></i>{{" "}}Compare Prices</button>
+                    
+                    <div class="alert alert-success alert-dismissable" style="display: none;">
+                      <button class="close" data-dismiss="alert" type="button">×</button>
+                      <h3>Sorry!</h3>
+                       We can accomodate only 4 mobiles to be compared. Please remove one to add more.
+                    </div>
+                    <button class="button btn-small" title="Add to Compare" type="button" id ="add_to_compare" ><i class="icon-chart-bar"></i>{{" "}}Add to Compare</button>
+                    <button class="button btn-small" title="Compare Prices" type="button" onClick="document.getElementById('form-add_to_cart').submit()"><i class="icon-shop"></i>{{" "}}Compare Prices</button>
                   </form>
                 </div>
                 <!-- <div class="add-to-links">
@@ -218,85 +202,14 @@ data-zoom-image="img/product_page_img_big3_zoom.jpg"> <img src="img/product_page
                   </div>
                 {%endfor%}
               </div>
-              <!-- <div class="box-collateral box-reviews" id="customer-reviews">
-                <div class="form-add">
-                  <h2>Write Your Own Review</h2>
-                  <form action="#" method="post" id="review-form">
-                    <fieldset>
-                      <h4>You're reviewing: <span class="color">{{phoneDetails.Brand}} {{phoneDetails["Model Name"]}}</span></h4>
-                      <h5>How do you rate this product? <em class="required">*</em></h5>
-                      <span id="input-message-box"></span>
-                      <table class="table table-bordered table-hover" id="product-review-table">
-                        <tbody>
-                          <tr class="first odd">
-                            <th>&nbsp;</th>
-                            <th class="aligncenter">1<span class="star_title"> star</span></th>
-                            <th class="aligncenter">2<span class="star_title"> stars</span></th>
-                            <th class="aligncenter">3<span class="star_title"> stars</span></th>
-                            <th class="aligncenter">4<span class="star_title"> stars</span></th>
-                            <th class="aligncenter">5<span class="star_title"> stars</span></th>
-                          </tr>
-                          <tr class="even">
-                            <td>Quality</td>
-                            <td class="aligncenter"><input type="radio" name="ratings[1]" id="Quality_1" value="1" class="radio"></td>
-                            <td class="aligncenter"><input type="radio" name="ratings[1]" id="Quality_2" value="2" class="radio"></td>
-                            <td class="aligncenter"><input type="radio" name="ratings[1]" id="Quality_3" value="3" class="radio"></td>
-                            <td class="aligncenter"><input type="radio" name="ratings[1]" id="Quality_4" value="4" class="radio"></td>
-                            <td class="aligncenter last"><input type="radio" name="ratings[1]" id="Quality_5" value="5" class="radio"></td>
-                          </tr>
-                          <tr class="odd">
-                            <td>Price</td>
-                            <td class="aligncenter"><input type="radio" name="ratings[3]" id="Price_1" value="11" class="radio"></td>
-                            <td class="aligncenter"><input type="radio" name="ratings[3]" id="Price_2" value="12" class="radio"></td>
-                            <td class="aligncenter"><input type="radio" name="ratings[3]" id="Price_3" value="13" class="radio"></td>
-                            <td class="aligncenter"><input type="radio" name="ratings[3]" id="Price_4" value="14" class="radio"></td>
-                            <td class="aligncenter last"><input type="radio" name="ratings[3]" id="Price_5" value="15" class="radio"></td>
-                          </tr>
-                          <tr class="last even">
-                            <td>Value</td>
-                            <td class="aligncenter"><input type="radio" name="ratings[2]" id="Value_1" value="6" class="radio"></td>
-                            <td class="aligncenter"><input type="radio" name="ratings[2]" id="Value_2" value="7" class="radio"></td>
-                            <td class="aligncenter"><input type="radio" name="ratings[2]" id="Value_3" value="8" class="radio"></td>
-                            <td class="aligncenter"><input type="radio" name="ratings[2]" id="Value_4" value="9" class="radio"></td>
-                            <td class="aligncenter last"><input type="radio" name="ratings[2]" id="Value_5" value="10" class="radio"></td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      <input type="hidden" name="validate_rating" class="validate-rating" value="">
-                      <ul class="form-list">
-                        <li>
-                          <label for="nickname_field" class="required"><em>*</em>Nickname</label>
-                          <div class="input-box">
-                            <input type="text" name="nickname" id="nickname_field" class="input-text required-entry" value="">
-                          </div>
-                        </li>
-                        <li>
-                          <label for="summary_field" class="required"><em>*</em>Summary of Your Review</label>
-                          <div class="input-box">
-                            <input type="text" name="title" id="summary_field" class="input-text required-entry" value="">
-                          </div>
-                        </li>
-                        <li>
-                          <label for="review_field" class="required"><em>*</em>Review</label>
-                          <div class="input-box">
-                            <textarea name="detail" id="review_field" cols="5" rows="3" class="required-entry"></textarea>
-                          </div>
-                        </li>
-                      </ul>
-                    </fieldset>
-                    <div class="buttons-set">
-                      <button type="submit" title="Submit Review" class="button pull-right">Submit Review</button>
-                    </div>
-                  </form>
-                </div>
-              </div> -->
+              
             </div>
             <div class="tab-pane" id="tab3">
               <div class="box-collateral box-description">
                 <h2>Details</h2>
                 
                   {%for reviews in phoneDetails["Reviews"]%}
-                  <table class="table table-bordered table-striped">
+                  <table class="table table-bordered table-striped ">
                   <thead>
                     <tr>
                       <th class="aligncenter" scope="col" style="background-color: #FFEFE7">{% filter upper %}
@@ -307,12 +220,13 @@ data-zoom-image="img/product_page_img_big3_zoom.jpg"> <img src="img/product_page
                   </thead>
                   </table>
 
+                  <div id="toggle" class="toggle">
                   <div class="span5" style="width: 47%; padding-left: 00%;">
 
-                  <div id="accordion" class="accordion">
+                  
                       <div class="accordion-group">
                       <div class="accordion-heading">
-                        <a class="accordion-toggle" href="#collapseOnePros{{reviews["About"]}}" data-parent="#accordion" data-toggle="collapse">
+                         <a class="accordion-toggle-Cons collapsed c" href="#collapseOnePros{{reviews["About"]}}" data-parent="#accordion" data-toggle="collapse">
                           <span class="open">
                           <i class="icon-minus"></i>
                           </span>
@@ -332,16 +246,15 @@ data-zoom-image="img/product_page_img_big3_zoom.jpg"> <img src="img/product_page
                         </div>
                       </div>
                       </div>
-                      </div>
                   </div>
 
                  
                   <div  class="span5" style="width: 47%; padding-right: 00%;align:right;" >
 
-                  <div id="accordion" class="accordion">
+                  
                       <div class="accordion-group">
                       <div class="accordion-heading">
-                        <a class="accordion-toggle" href="#collapseOneCons{{reviews["About"]}}" data-parent="#accordion" data-toggle="collapse">
+                        <a class="accordion-toggle-Cons " href="#collapseOneCons{{reviews["About"]}}" data-parent="#accordion" data-toggle="collapse">
                           <span class="open">
                           <i class="icon-minus"></i>
                           </span>
