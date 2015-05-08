@@ -41,3 +41,22 @@ def productDetail(phoneID):
 	for ids in cartDetails:
 		app.logger.info(ids)
 	return render_template("product-elevatezoom.html", title=title, phoneDetails = phoneDetails, cartDetails = cartDetails)
+
+@mod.route('/compare', methods=['GET'])
+def compareProducts():
+	phoneIds = []
+	phoneIds = getArgAsList(request, 'ids')
+	app.logger.info(phoneIds)
+	if not phoneIds:
+		phoneIds = getCartDetails()
+		app.logger.info("getting phoneIds from cart")
+		app.logger.info(len(phoneIds))
+	phoneDetails = [getPhoneInfo(phoneId) for phoneId in phoneIds]
+	app.logger.info(phoneIds)
+	for phones in phoneDetails:
+		app.logger.info(phones["Brand"])
+	return render_template("compare.html", title="Compare Your Options", phoneDetails = phoneDetails, cartDetails = phoneIds)
+
+
+
+

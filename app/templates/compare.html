@@ -1,0 +1,377 @@
+  {% extends "header.html" %}
+  {% block content %}
+
+  <!--CONTENT-->
+
+  <section id="content">
+    <div class="container top">
+      <div class="row">
+        <div class="span12">
+
+            <!--<div class="cleancode">
+              <p>Vestibulum justo. Nulla mauris ipsum, convallis ut, vestibulum eu, tincidunt vel, nisi. Curabitur molestie euismod erat. Proin eros odio, mattis rutrum. et, egestas vitae, magna. Integer semper, velit ut interNam lectus nulla, bibendum pretium, dictum a, mattis nec, dolor. Nullam id justo sed diam aliquam tincidunt. Duis sollicitudin, dui ac commodo iaculis, mi risus sagittis odio, vel ultrices enim sem ut pede. Aenean quam. Nulla neque purus, ullamcorper nec, eleifend at, fermentum ut, turpis. Nullam id justo sed labore diam diam aliquam nonumy. Integer ligula magna, dictum et, pulvinar non, ultricies ac, nibh. Vivamus euismod nulla vel nunc. Fusce tincidunt, justo congue egestas molestie, tortor tortor blandit erat, et scelerisque metus metus at ipsum.</p>
+            </div> -->
+
+
+            <div class="product-listing product-grid">
+              <div class="row big_with_description isotope-outer">
+                {%for i in range(4)%}
+
+                {%if phoneDetails[i] is defined %}
+                <!-- One Product Block Starts-->
+                {%set counter = 0 %}
+                {%set lowestPrice = [1000000] %}
+                {% set lowestWebsite = ["Out of Stock"] %}
+                {% set lowestWebsiteURL = ["#"] %}
+                {% for price in phoneDetails[i]["Prices"] %}
+                {%set counter = counter + 1%}
+                {%if price["price"]|int < lowestPrice[0] %}
+                {%if price["stock status"]|int > 0 %}
+                {% set _ = lowestPrice.append(price["price"]) %}
+                {% set _ = lowestWebsite.append(price["website"]|string) %}
+                {% set _ = lowestWebsiteURL.append( price["productUrl"]|string) %}
+                {% set _ = lowestPrice.pop(0) %}
+                {% set _ = lowestWebsite.pop(0) %}
+                {% set _ = lowestWebsiteURL.pop(0) %}                    
+                {%endif%}
+                {%endif%}
+                {%endfor%}
+                <div class="span3 product" style = "border-radius: 0px">
+                  <div class="phone{{i + 1}} closefix closewrapper" onclick="click1(this)"><i class="icon-cancel"></i></div>
+
+                  <div class="product-image-wrapper onhover animate scale"><a href='../pdp/{{phoneDetails[i]["_id"]}}'><img class="phone{{i + 1}}" src="static/img/product_page_img_big1.jpg" alt="">
+                  </a><a href="#openModal"><img class="hide{{i + 1}}" src="static/img/addnew1.png" alt=""></a> </div>
+                  <div class="phone{{i+ 1}} wrapper-hover">
+                   <div class="product-name namealign"><a href='../pdp/{{phoneDetails[i]["_id"]}}'><h4>{{phoneDetails[i]["Brand"]}} {{phoneDetails[i]["Model Name"]}}</h4></a></div>
+                   <div class="wrapper"><span class="sort-rating hidden">4</span>
+                    <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket" title="Compare Prices"></i></a> </div>
+
+                    {%if lowestWebsite[0] == "Out of Stock"  %}
+                    <div class="product-price"><div style="color: #B40404"><h4 class="aligncenter">{{"Price Not Available"}}</h4></div></span></a></div>
+                    {% else %}
+                    <div class="product-price aligncenter" ><a href="{{lowestWebsiteURL[0]}}">Lowest Price&nbsp;₹<span class="sort-price">{{lowestPrice[0]}} &nbsp&nbsp</span></a></div>
+                    {%endif%}
+
+                    <div class="rating-listing rating "> <strong><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a></strong><a><i class="icon-star-empty"></i></a> </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--I dont know what this div does -->
+              <div class="preview hidden-tablet hidden-phone">
+                <div class="wrapper">
+                  <div class="col-2">
+                    <div class="phone{{i}} closefix hoverclosewrapper" onclick="click1(this)"><i class="icon-cancel"></i></div>
+                    <div class="big_image"><a href='../pdp/{{phoneDetails[i]["_id"]}}'><img class="phone{{i}}" src="static/img/product_page_img_big1.jpg"  alt="" /></a><a href="#openModal"><img class="hide{{i}}" src="static/img/addnew1.png" alt=""></a></div> 
+                    <div class="phone{{i}} wrapper-hover">
+                     <div class="product-name namealign"><a href="product.html">XIAOMI</a></div>
+                     <div class="wrapper"><span class="sort-rating hidden">2</span>
+                      <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket" title="Compare Prices"></i></a> </div>
+                      <div class="product-price"><a href="https://www.flipkart.com/">Lowest Price&nbsp;₹<span class="sort-price"><b>8000.00</b></span></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <!--I dont know what this div does --> 
+            <!--OneProduct Block Ends-->
+
+            {%else%}
+
+            <!-- One Product Block Starts-->
+            <div class="span3 product" style = "border-radius: 0px">
+              <div class="product-image-wrapper onhover animate scale"><a href="product.html"></a>
+                <a href="#openModal"><img class="" src="static/img/addnew1.png" alt=""></a> </div>
+              </div>
+              <!--OneProduct Block Ends-->
+
+              <!--I dont know what this div does -->
+              <div class="preview hidden-tablet hidden-phone">
+                <div class="wrapper">
+                  <div class="col-2">
+                    <div class="phone{{i}} closefix hoverclosewrapper" onclick="click1(this)"><i class="icon-cancel"></i></div>
+                    <div class="big_image"><a href="product.html"><img class="phone{{i}}" src="static/img/product_page_img_big1.jpg"  alt="" /></a><a href="#openModal"><img class="hide{{i}}" src="static/img/addnew1.png" alt=""></a></div> 
+                    <div class="phone{{i}} wrapper-hover">
+                     <div class="product-name namealign"><a href="product.html">XIAOMI</a></div>
+                     <div class="wrapper"><span class="sort-rating hidden">2</span>
+                      <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket" title = "Compare Prices"></i></a> </div>
+                      <div class="product-price"><a href="https://www.flipkart.com/">Lowest Price&nbsp;₹<span class="sort-price"><b>8000.00</b></span></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <!--I dont know what this div does --> 
+
+
+            {%endif%}
+            {%endfor%}  
+
+          </div>
+        </div>
+        <!--tab-->
+        <!--what the fuck-->
+        <h4>This shit is cool</h4>
+        <div class="horizontalTab">
+          <ul class="nav-tabs contentTab">
+            <li class="active"><a href="#SpecificationTab">Specification</a></li>
+            <li><a href="#UserExperienceTab">User Experience</a></li>
+            <li><a href="#ProsConsTab">Pros and Cons</a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="SpecificationTab">
+             <!--inside_tab-->
+
+             <table class="table table-bordered">
+               <thead>
+                <tr>
+                  <th scope="col" class="aligncenter">Processing Speed</th>
+                </tr>
+              </thead>
+            </table>
+            <table class="table table-bordered">
+              <colgroup>
+              <col class="colfixw1">
+              <col class="colfixw2">
+              <col class="colfixw2">
+              <col class="colfixw2">
+              <col class="colfixw2">
+            </colgroup>
+            <thead>
+              <tr>
+                <th scope="col" class="aligncenter">CPU </th>
+                <td scope="col" class="aligncenter"><div class="phone1">Quad-core 2.7 GHz Krait 450</div></td>
+                <td scope="col" class="aligncenter"><div class="phone2">Quad-core 2.7 GHz Krait 450</div></td>
+                <td scope="col" class="aligncenter"><div class="phone3">Quad-core 2.3 GHz Krait 400</div></td>
+                <td scope="col" class="aligncenter"><div class="phone4">Quad-core 2.3 GHz Krait 400</div></td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="aligncenter">GPU</th>
+                <td class="aligncenter"><div class="phone1">Adreno 420</div></td>
+                <td class="aligncenter"><div class="phone2">Adreno 420</td>
+                <td class="aligncenter"><div class="phone3">Adreno 330</td>
+                <td class="aligncenter"><div class="phone4">Adreno 330</td>
+              </tr>
+              <tr>
+                <th class="aligncenter">Cores Available</th>
+                <td class="aligncenter"><div class="phone1">Quad-Core</div></td>
+                <td class="aligncenter"><div class="phone2">Quad-Core</div></td>
+                <td class="aligncenter"><div class="phone3">Quad-Core</div></td>
+                <td class="aligncenter"><div class="phone4">Quad-Core</div></td>
+              </tr>
+              <tr>
+                <th class="aligncenter">Display Size</th>
+                <td class="aligncenter"><div class="phone1">5.6 inches</div></td>
+                <td class="aligncenter"><div class="phone2">5.96 inches</div></td>
+                <td class="aligncenter"><div class="phone3">5.7 inches</div></td>
+                <td class="aligncenter"><div class="phone4">5.7 inches</div></td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="table table-bordered">
+           <thead>
+            <tr>
+              <th scope="col" class="aligncenter">Display</th>
+            </tr>
+          </thead>
+        </table>
+        <table class="table table-bordered">
+          <colgroup>
+          <col class="colfixw1">
+          <col class="colfixw2">
+          <col class="colfixw2">
+          <col class="colfixw2">
+          <col class="colfixw2">
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col" class="aligncenter">CPU </th>
+            <td scope="col" class="aligncenter"><div class="phone1">Quad-core 2.7 GHz Krait 450</div></td>
+            <td scope="col" class="aligncenter"><div class="phone2">Quad-core 2.7 GHz Krait 450</div></td>
+            <td scope="col" class="aligncenter"><div class="phone3">Quad-core 2.3 GHz Krait 400</div></td>
+            <td scope="col" class="aligncenter"><div class="phone4">Quad-core 2.3 GHz Krait 400</div></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="aligncenter">GPU</th>
+            <td class="aligncenter"><div class="phone1">Adreno 420</div></td>
+            <td class="aligncenter"><div class="phone2">Adreno 420</div></td>
+            <td class="aligncenter"><div class="phone3">Adreno 330</div></td>
+            <td class="aligncenter"><div class="phone4">Adreno 330</div></td>
+          </tr>
+          <tr>
+            <th class="aligncenter">Cores Available</th>
+            <td class="aligncenter"><div class="phone1">Quad-Core</div></td>
+            <td class="aligncenter"><div class="phone2">Quad-Core</div></td>
+            <td class="aligncenter"><div class="phone3">Quad-Core</div></td>
+            <td class="aligncenter"><div class="phone4">Quad-Core</div></td>
+
+          </tr>
+          <tr>
+            <th class="aligncenter">Display Size</th>
+            <td class="aligncenter"><div class="phone1">5.6 inches</div></td>
+            <td class="aligncenter"><div class="phone2">5.96 inches</div></td>
+            <td class="aligncenter"><div class="phone3">5.7 inches</div></td>
+            <td class="aligncenter"><div class="phone4">5.7 inches</div></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane" id="UserExperienceTab">
+      <!--inside_table-->
+
+      <!--<h4 class="upper">BORDRED TABLE</h4>-->
+      <table class="table table-bordered">
+        <colgroup>
+        <col class="colfixw1">
+        <col class="colfixw2">
+        <col class="colfixw2">
+        <col class="colfixw2">
+        <col class="colfixw2">
+      </colgroup>
+      <thead>
+        <tr>
+          <th scope="col" class="aligncenter">Bluetooth </th>
+          <td scope="col" class="aligncenter"><div class="phone1 rate">5 / 5</div></td>
+          <td scope="col" class="aligncenter"><div class="phone2 rate">3.5 / 5</div></td>
+          <td scope="col" class="aligncenter"><div class="phone3 rate">5 / 5</div></td>
+          <td scope="col" class="aligncenter"><div class="phone4 rate">4 / 5</div></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="aligncenter">Camera</th>
+          <td class="aligncenter"><div class="phone1 rate">3.5 / 5</div></td>
+          <td class="aligncenter"><div class="phone2 rate">3.5 / 5</div></td>
+          <td class="aligncenter"><div class="phone3 rate">3.5 / 5</div></td>
+          <td class="aligncenter"><div class="phone4 rate">3.5 / 5</div></td>
+        </tr>
+        <tr>
+          <th class="aligncenter">Display</th>
+          <td class="aligncenter"><div class="phone1 rate">3.5 / 5</div></td>
+          <td class="aligncenter"><div class="phone2 rate">3.5 / 5</div></td>
+          <td class="aligncenter"><div class="phone3 rate">3.5 / 5</div></td>
+          <td class="aligncenter"><div class="phone4 rate">3.5 / 5</div></td>
+
+        </tr>
+        <tr>
+          <th class="aligncenter">Earphone</th>
+          <td class="aligncenter"><div class="phone1 rate">3.5 / 5</div></td>
+          <td class="aligncenter"><div class="phone2 rate">3.5 / 5</div></td>
+          <td class="aligncenter"><div class="phone3 rate">3.5 / 5</div></td>
+          <td class="aligncenter"><div class="phone4 rate">3.5 / 5</div></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="tab-pane" id="ProsConsTab">
+   <!--inside_table-->
+   <table class="table table-bordered">
+     <thead>
+      <tr>
+        <th scope="col" class="aligncenter">Battery</th>
+      </tr>
+    </thead>
+  </table>
+
+  <table class="table table-bordered">
+    <colgroup>
+    <col class="colfixw1">
+    <col class="colfixw2">
+    <col class="colfixw2">
+    <col class="colfixw2">
+    <col class="colfixw2">
+  </colgroup>
+  <thead>
+    <tr>
+      <th scope="col" class="aligncenter">PROS</th>
+      <td scope="col" class="aligncenter"><div class="phone1">Quad-core 2.7 GHz Krait 450</div></td>
+      <td scope="col" class="aligncenter"><div class="phone2">Quad-core 2.7 GHz Krait 450</div></td>
+      <td scope="col" class="aligncenter"><div class="phone3">Quad-core 2.3 GHz Krait 400</div></td>
+      <td scope="col" class="aligncenter"><div class="phone4">Quad-core 2.3 GHz Krait 400</div></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class="aligncenter">CONS</th>
+      <td class="aligncenter"><div class="phone1">Adreno 420</div></td>
+      <td class="aligncenter"><div class="phone2">Adreno 420</td>
+      <td class="aligncenter"><div class="phone3">Adreno 330</td>
+      <td class="aligncenter"><div class="phone4">Adreno 330</td>
+    </tr>
+  </tbody>
+  </table>
+  <table class="table table-bordered">
+   <thead>
+    <tr>
+      <th scope="col" class="aligncenter">Battery</th>
+    </tr>
+  </thead>
+  </table>
+
+  <table class="table table-bordered">
+    <colgroup>
+    <col class="colfixw1">
+    <col class="colfixw2">
+    <col class="colfixw2">
+    <col class="colfixw2">
+    <col class="colfixw2">
+  </colgroup>
+  <thead>
+    <tr>
+      <th scope="col" class="aligncenter">PROS</th>
+      <td scope="col" class="aligncenter"><div class="phone1">Quad-core 2.7 GHz Krait 450</div></td>
+      <td scope="col" class="aligncenter"><div class="phone2">Quad-core 2.7 GHz Krait 450</div></td>
+      <td scope="col" class="aligncenter"><div class="phone3">Quad-core 2.3 GHz Krait 400</div></td>
+      <td scope="col" class="aligncenter"><div class="phone4">Quad-core 2.3 GHz Krait 400</div></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class="aligncenter">CONS</th>
+      <td class="aligncenter"><div class="phone1">Adreno 420</div></td>
+      <td class="aligncenter"><div class="phone2">Adreno 420</td>
+      <td class="aligncenter"><div class="phone3">Adreno 330</td>
+      <td class="aligncenter"><div class="phone4">Adreno 330</td>
+    </tr>
+  </tbody>
+  </table>
+  </div>
+  </div>
+  </div>
+  <!--tabends-->
+  </div>
+  <!--Left Row-->
+
+
+  </div>
+  </div>
+  </section>
+  <div id="push"></div>
+  </div>
+
+  <div id="openModal" class="modalDialog">
+    <div>
+      <a href="#close" title="Close" class="close">X</a>
+      <center><h2>ADD PHONE TO COMPARE</h2></center>
+      <h4>BRAND</h4>
+
+      <div class="select_wrapper fullwidth">
+        <input name="thebrand" id="thebrand" type="text" class="widthf" value="Select Brand..." onblur="if (this.value == '') {this.value = 'Select Brand...';}" onfocus="if(this.value == 'Select Brand...') {this.value = '';}"/>
+      </div>
+      <hr>
+      <h4>MODEL</h4>
+      <div class="select_wrapper fullwidth">
+       <input name="themodel" id="themodel" type="text" class="widthf" value="Select Model..." onblur="if (this.value == '') {this.value = 'Select Model...';}" onfocus="if(this.value == 'Select Model...') {this.value = '';}"/>
+     </div>
+
+     <div class="wrapper">
+      <div class="pull-left"><a href="#" class="button button-2x">CHOOSE</a></div>
+    </div>
+  </div>
+  </div> 
+
+  {% endblock %}

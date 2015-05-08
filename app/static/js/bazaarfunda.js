@@ -33,3 +33,80 @@ jQuery(document).ready(function(){
 
 
 });
+
+function removeDiv(divId) {
+   $("#"+divId).remove();
+}
+
+function removeByClass(className) {
+   $("."+className).remove();
+}
+
+function click1(theLink) {
+    var data=theLink.className.split(' ')[0];
+    //var data = ev.dataTransfer.getData("text");
+    //ev.target.appendChild(document.getElementById(data));
+      //document.getElementById("demo").innerHTML = res;
+      removeByClass(data);
+      var last = data.slice(-1);
+      var str ="hide";
+      var res = str.concat(last);
+      //var elem = document.getElementByClassName(res);
+      //elem.style.display='block';
+	console.log(res);
+      $("."+res).show();
+}
+
+ $(document).ready(function() {
+            BindControls();
+        });
+
+        function BindControls() {
+            var brand = ['ARGENTINA', 
+                'AUSTRALIA', 
+                'BRAZIL', 
+                'BELARUS', 
+                'BHUTAN',
+                'CHILE', 
+                'CAMBODIA', 
+                'CANADA', 
+                'CHILE', 
+                'DENMARK', 
+                'DOMINICA'];
+                  
+                  var model = ['MI3', 
+                'MI4', 
+                'XT1033', 
+                'REDMI1S', 
+                'MOTO-G',
+                'MOTO-G2', 
+                'CAMBODIA', 
+                'CANADA', 
+                'CHILE', 
+                'DENMARK', 
+                'DOMINICA'];
+                        
+                   $('#themodel').autocomplete({
+                source: model,
+                minLength: 0,
+                scroll: true
+            }).focus(function() {
+                $(this).autocomplete("search", "");
+            });
+                  
+
+            $('#thebrand').autocomplete({
+                source: brand,
+                minLength: 0,
+                scroll: true
+            }).focus(function() {
+                $(this).autocomplete("search", "");
+            });
+                  
+                  $(window).resize(function() {
+                  $(".ui-autocomplete").css('display', 'none');
+                  
+                  });
+        }
+            
+            
