@@ -52,10 +52,11 @@ def compareProducts():
 		app.logger.info("getting phoneIds from cart")
 		app.logger.info(len(phoneIds))
 	phoneDetails = [getPhoneInfo(phoneId) for phoneId in phoneIds]
+	sampleProductDetail = getPhoneInfo("553171f5b7e36a714fd0bed5");
 	app.logger.info(phoneIds)
 	for phones in phoneDetails:
 		app.logger.info(phones["Brand"])
-	return render_template("compare.html", title="Compare Your Options", phoneDetails = phoneDetails, cartDetails = phoneIds)
+	return render_template("compare.html", title="Compare Your Options", phoneDetails = phoneDetails, cartDetails = phoneIds, sampleProductDetail = sampleProductDetail)
 
 
 
