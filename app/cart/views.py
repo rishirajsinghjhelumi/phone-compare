@@ -62,7 +62,6 @@ def getCart():
 
 def getCartDetails():
 	before_request()
-	cartDetails = {}
 	cartDetails =  session[CART].keys()
 	app.logger.info(cartDetails)
 	return cartDetails

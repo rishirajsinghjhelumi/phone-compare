@@ -27,6 +27,7 @@ def getPhoneInfo(phoneID):
 	phone = mongo.phones.find_one({
 		"_id" : ObjectId(phoneID)
 	})
+	
 	try:
 		phone["Reviews"] = mongo.reviews.find_one({
 			"Brand" : phone["Brand"],
@@ -128,8 +129,9 @@ def phoneDetail(phoneID):
 def phones():
 
 	phoneIds = getArgAsList(request, 'ids')
-        priceRange = getArgAsList(request, 'pricerange')
+	priceRange = getArgAsList(request, 'pricerange')
 	keywords = getArgAsList(request, 'keywords')
+	brands = getArgAsList(request, 'brands')
 	if phoneIds:
 		return [getPhoneInfo(phone) for phone in phoneIds]
 	elif priceRange or keywords:
@@ -138,7 +140,6 @@ def phones():
 		for keyword in keywords:
 			phoneIds.extend(getPhoneIdListFromKeywordPreference(keyword))
 		phoneIds = list(set(phoneIds))
-		app.logger.info("########All keyWord prefered Phones")
 		app.logger.info(phoneIds)
 		priceFilterPhoneId = getPhoneIdListFromPriceRange(priceRange)
 		if keywords:
