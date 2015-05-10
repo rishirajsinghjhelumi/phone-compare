@@ -1,0 +1,109 @@
+ {
+    "specification": [
+            {
+                "GENERAL FEATURES": {
+                    "Model ID": "730", 
+                    "Form": "Bar", 
+                    "SIM Type": "Dual Sim, GSM + WCDMA, (Dual Standby)", 
+                    "Brand": "Nokia", 
+                    "In the Box": "Headset, Handset, Quick Guide, Charger", 
+                    "Call Features": "Conference Call, Speed Dialing, Loudspeaker, Call Divert", 
+                    "Business Features": "Document Viewer, Document Editor, Pushmail  (Microsoft Exchange ActiveSync), Excel, Word, PowerPoint, OneNote, OneDrive Storage, Adobe Reader, PDF, Outlook, Office 365", 
+                    "Handset Color": "Bright Green", 
+                    "Model Name": "Lumia 730", 
+                    "Touch Screen": "Yes", 
+                    "SIM Size": "Micro SIM"
+                }
+            }, 
+            {
+                "Camera": {
+                    "Other Camera Features": "", 
+                    "Flash": "LED", 
+                    "Zoom": "Digital Zoom - 4x", 
+                    "Video Recording": "Yes, 1920 x 1080", 
+                    "HD Recording": "HD, Full HD", 
+                    "Secondary Camera": "Yes, 5 Megapixel", 
+                    "Primary Camera": "Yes, 6.7 Megapixel"
+                }
+            }, 
+            {
+                "Multimedia": {
+                    "Music Player": "Yes, Supports GSM FR, AAC, WMA, M4A, ASF, AMR-NB, HE-AAC, AAC-LC, MP3, 3G2, AMR", 
+                    "Video Player": "Yes, Supports 3GP, 3G2, MP4, H.263, AVI, MPEG4, VC-1, MOV, H.264, AVC, Windows Video, WMV, M4V, Full HD", 
+                    "Sound Enhancement": "Integrated Hands-free Speakers, Noise Cancellation", 
+                    "FM": "Yes", 
+                    "Ringtone": "MP3"
+                }
+            }, 
+            {
+                "Internet & Connectivity": {
+                    "GPRS": "Yes", 
+                    "Navigation Technology": "A-GPS, A-GLONASS, BeiDou, with HERE Drive, HERE Maps, HERE Transit", 
+                    "NFC": "Yes", 
+                    "Tethering": "Wi-fi Hotspot", 
+                    "USB Connectivity": "Yes, micro USB, v2", 
+                    "Internet Features": "Email", 
+                    "Wifi": "Yes, 802.11 b/g/n", 
+                    "Charging Point": "Micro USB", 
+                    "DLNA": "Yes", 
+                    "EDGE": "Yes, 236.8 kbps", 
+                    "Bluetooth": "Yes, v4, Supported Profiles (HFP, AVRCP, OPP, PBAP, PAN, A2DP, GATT)", 
+                    "Audio Jack": "3.5 mm", 
+                    "Preinstalled Browser": "Internet Explorer 11", 
+                    "3G": "Yes, 21.1 Mbps HSDPA; 5.76 Mbps HSUPA"
+                }
+            }, 
+            {
+                "Other Features": {
+                    "Call Memory": "Yes", 
+                    "Phone Book Memory": "Yes", 
+                    "Important Apps": "Lync (Corporate IM) Free Download, Company Hub for Enterprise Application, Windows Phone Apps, Nokia Photo Transfer for Mac, Game Features: Touch UI, XBox-Live Hub, DirectX 11, WhatsApp, Skype IM, WeChat, Viber, LINE, Twitter, Yahoo Messenger, Facebook, LinkedIn", 
+                    "SMS Memory": "Yes", 
+                    "Additional Features": "Voice Input", 
+                    "Sensors": "Proximity Sensor, Ambient Light Sensor, Accelerometer, Magnetometer"
+                }
+            }, 
+            {
+                "Display": {
+                    "Color": "16 M", 
+                    "Resolution": "HD, 1280 x 720 Pixels", 
+                    "Other Display Features": "High Brightness Mode, Easy to Clean, Wide Viewing Angle, Scratch Resistant Glass, Corning Gorilla Glass 3, Double-tap to Wake, Refresh Rate 60 Hz, Brightness Control, Sunlight Readability Enhancements", 
+                    "Type": "OLED", 
+                    "Size": "4.7 Inches"
+                }
+            }, 
+            {
+                "Dimensions": {
+                    "Weight": "130.4 g", 
+                    "Size": "68.5x134.7x8.7 mm"
+                }
+            }, 
+            {
+                "Warranty": {
+                    "Warranty Summary": "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+                }
+            }, 
+            {
+                "Battery": {
+                    "Talk Time": "22 hrs (2G), 17 hrs (3G)", 
+                    "Type": "2220 mAh", 
+                    "Standby Time": "600 hrs (2G)"
+                }
+            }, 
+            {
+                "Memory and Storage": {
+                    "Expandable Memory": "microSD, upto 128 GB", 
+                    "Internal": "8", 
+                    "Memory": "1 GB RAM, 8 GB ROM"
+                }
+            }, 
+            {
+                "Platform": {
+                    "Operating Freq": "GSM - 850, 900, 1800, 1900; WCDMA - 2100", 
+                    "OS": "Windows v8.1", 
+                    "Processor": "1.2 GHz + Snapdragon 400, Quad Core"
+                }
+            }
+            ]
+        }
+     

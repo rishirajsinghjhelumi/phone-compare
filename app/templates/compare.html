@@ -2,7 +2,6 @@
     {% block content %}
 
     <!--CONTENT-->
-
     <section id="content">
       <div class="container top">
         <div class="row">
@@ -37,7 +36,7 @@
                   {%endif%}
                   {%endfor%}
                   <div class="span3 product" style = "border-radius: 0px">
-                    <div class="phone{{i + 1}} closefix closewrapper" onclick="click1(this)"><i class="icon-cancel"></i></div>
+                    <div class="phone{{i + 1}} closefix closewrapper" onclick="click1(this, '{{phoneDetails[i]._id}}')"><i class="icon-cancel"></i></div>
 
                     <div class="product-image-wrapper"><a href='../pdp/{{phoneDetails[i]["_id"]}}'><img class="phone{{i + 1}}" src="static/img/product_page_img_big1.jpg" alt="">
                     </a><a href="#openModal"><img class="hide{{i + 1}}" src="static/img/addnew1.png" alt=""></a> </div>
@@ -145,7 +144,7 @@
                   
                   <tbody>
                     <tr>
-                      <th scope="col" class="aligncenter">{% filter upper %} {{kFet}} {% endfilter %}</th>
+                      <th scope="col" class="aligncenter" style="color:#AAAAAA">{% filter upper %} {{kFet}} {% endfilter %}</th>
                       {%for i in range(4)%}
 
                         {%if phoneDetails[i] is defined %}
@@ -183,113 +182,117 @@
           <col class="colfixw2">
           <col class="colfixw2">
         </colgroup>
-        <thead>
-          <tr>
-            <th scope="col" class="aligncenter">Bluetooth </th>
-            <td scope="col" class="aligncenter"><div class="phone1 rate">5 / 5</div></td>
-            <td scope="col" class="aligncenter"><div class="phone2 rate">3.5 / 5</div></td>
-            <td scope="col" class="aligncenter"><div class="phone3 rate">5 / 5</div></td>
-            <td scope="col" class="aligncenter"><div class="phone4 rate">4 / 5</div></td>
-          </tr>
-        </thead>
+        {%for keywords in sampleProductDetail["Keywords"]%}
+
         <tbody>
           <tr>
-            <th class="aligncenter">Camera</th>
-            <td class="aligncenter"><div class="phone1 rate">3.5 / 5</div></td>
-            <td class="aligncenter"><div class="phone2 rate">3.5 / 5</div></td>
-            <td class="aligncenter"><div class="phone3 rate">3.5 / 5</div></td>
-            <td class="aligncenter"><div class="phone4 rate">3.5 / 5</div></td>
-          </tr>
-          <tr>
-            <th class="aligncenter">Display</th>
-            <td class="aligncenter"><div class="phone1 rate">3.5 / 5</div></td>
-            <td class="aligncenter"><div class="phone2 rate">3.5 / 5</div></td>
-            <td class="aligncenter"><div class="phone3 rate">3.5 / 5</div></td>
-            <td class="aligncenter"><div class="phone4 rate">3.5 / 5</div></td>
-
-          </tr>
-          <tr>
-            <th class="aligncenter">Earphone</th>
-            <td class="aligncenter"><div class="phone1 rate">3.5 / 5</div></td>
-            <td class="aligncenter"><div class="phone2 rate">3.5 / 5</div></td>
-            <td class="aligncenter"><div class="phone3 rate">3.5 / 5</div></td>
-            <td class="aligncenter"><div class="phone4 rate">3.5 / 5</div></td>
+            <th class="aligncenter" style="color:#AAAAAA">{% filter upper %}{{keywords["Keyword"]}}{%endfilter%}</th>
+            {%for i in range(4)%}
+                {%set keywordFlag = []%}
+                {%if phoneDetails[i] is defined %}
+                   
+                  {%for pKey in phoneDetails[i]["Keywords"]%}
+                        {%if pKey["Keyword"] == keywords["Keyword"]%}
+                            {%set _ = keywordFlag.append(1)%}
+                            <td class="aligncenter "><div class="phone{{i+1}} rate">
+                              <div class="skillbar clearfix " data-percent={{pKey["Rating"]*20|round|int}}%>
+                                <div class="skillbar-title" style="background: #d35400; width:20%"><span></span></div> 
+                                <div class="skillbar-bar" style="background: #e67e22;"></div>
+                                <div class="skill-bar-percent">{{pKey["Rating"]*20|round(1, 'floor') }}% </div>
+                              </div>
+                            </div></td>
+                        {%endif%}
+                  {%endfor%}
+                  {%if keywordFlag[0] != 1%}
+                     <td class="aligncenter"><div class="phone{{i+1}} rate"></div></td>
+                  {%endif%}
+                {%else%}
+                    <td class="aligncenter"><div class="phone{{i+1}} rate" style="color:red"></div></td>
+                {%endif%}
+            {%endfor%}
+              
+            
           </tr>
         </tbody>
+        {%endfor%} 
+
       </table>
     </div>
     <div class="tab-pane" id="ProsConsTab">
      <!--inside_table-->
-     <table class="table table-bordered">
-       <thead>
-        <tr>
-          <th scope="col" class="aligncenter">Battery</th>
-        </tr>
-      </thead>
-    </table>
+    <!--<h4 class="upper">BORDRED TABLE</h4>-->
+        <table class="table table-bordered">
+          <colgroup>
+          <col class="colfixw1">
+          <col class="colfixw2">
+          <col class="colfixw2">
+          <col class="colfixw2">
+          <col class="colfixw2">
+        </colgroup>
+        {%for keywords in sampleProductDetail["Reviews"]%}
 
-    <table class="table table-bordered">
-      <colgroup>
-      <col class="colfixw1">
-      <col class="colfixw2">
-      <col class="colfixw2">
-      <col class="colfixw2">
-      <col class="colfixw2">
-    </colgroup>
-    <thead>
-      <tr>
-        <th scope="col" class="aligncenter">PROS</th>
-        <td scope="col" class="aligncenter"><div class="phone1">Quad-core 2.7 GHz Krait 450</div></td>
-        <td scope="col" class="aligncenter"><div class="phone2">Quad-core 2.7 GHz Krait 450</div></td>
-        <td scope="col" class="aligncenter"><div class="phone3">Quad-core 2.3 GHz Krait 400</div></td>
-        <td scope="col" class="aligncenter"><div class="phone4">Quad-core 2.3 GHz Krait 400</div></td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th class="aligncenter">CONS</th>
-        <td class="aligncenter"><div class="phone1">Adreno 420</div></td>
-        <td class="aligncenter"><div class="phone2">Adreno 420</td>
-        <td class="aligncenter"><div class="phone3">Adreno 330</td>
-        <td class="aligncenter"><div class="phone4">Adreno 330</td>
-      </tr>
-    </tbody>
-    </table>
-    <table class="table table-bordered">
-     <thead>
-      <tr>
-        <th scope="col" class="aligncenter">Battery</th>
-      </tr>
-    </thead>
-    </table>
+        <tbody>
+          <tr>
+            <th class="aligncenter" style="color:#AAAAAA;">{% filter upper %}{{keywords["About"]}}{%endfilter%}</th>
+            {%for i in range(4)%}
+                {%set keywordFlag = []%}
+                {%if phoneDetails[i] is defined %}
+                   
+                  {%for pKey in phoneDetails[i]["Reviews"]%}
+                        {%if pKey["About"] == keywords["About"]%}
+                            {%set _ = keywordFlag.append(1)%}
+                            <td style="border-top:0px; border-bottom:0px">
+                              <div class="dropdown aligncenter" style="width:100%">
+                                {% if pKey["Positive"]|length != 0 %}
+                                  <div class="dropdownPC" id="dropdownPC" style="width:80%">
+                                          <input type="checkbox" id="dropPros{{pKey["About"]}}{{i}}" />
+                                          <label for="dropPros{{pKey["About"]}}{{i}}" class="dropdown_button" style="width:100%">Pros</label>
+                                          
+                                          <ul class="dropdown_content" style="z-index: 8; width:100%;">
+                                              {%for pros in pKey["Positive"]%}
+                                                <li style="width:100%">{{pros["Review"]}} ({{pros["Users"]}})</li>
+                                              {%endfor%}
+                                          </ul>
+                                          
+                                          
+                                      </div>
+                                    {%endif%}
+                                    {% if pKey["Negative"]|length != 0 %}
+                                  <div class="dropdownPC" id="dropdownPC" style="width:80%">
+                                          <input type="checkbox" id="dropCons{{pKey["About"]}}{{i}}" />
+                                          <label for="dropCons{{pKey["About"]}}{{i}}" class="dropdown_button" style="width:100%">Cons</label>
+                                          <ul class="dropdown_content" style="z-index: 8;">
+                                              {%for pros in pKey["Negative"]%}
+                                                <li style="width:100%">{{pros["Review"]}} ({{pros["Users"]}})</li>
+                                              {%endfor%}
+                                          </ul>
+                                          
+                                          
+                                      </div>
+                                      {%endif%}
+                                  
+                                </div>
+                              
+                              
+                            </td>
+                        {%endif%}
+                  {%endfor%}
+                  {%if keywordFlag[0] != 1%}
+                     <td class="aligncenter" style="border-top:0px; border-bottom:0px"><div class="phone{{i+1}} rate"></div></td>
+                  {%endif%}
+                {%else%}
+                    <td class="aligncenter" style="border-top:0px; border-bottom:0px"><div class="phone{{i+1}} rate" style="color:red"></div></td>
+                {%endif%}
+            {%endfor%}
+              
+            
+          </tr>
+        </tbody>
+        {%endfor%} 
 
-    <table class="table table-bordered">
-      <colgroup>
-      <col class="colfixw1">
-      <col class="colfixw2">
-      <col class="colfixw2">
-      <col class="colfixw2">
-      <col class="colfixw2">
-    </colgroup>
-    <thead>
-      <tr>
-        <th scope="col" class="aligncenter">PROS</th>
-        <td scope="col" class="aligncenter"><div class="phone1">Quad-core 2.7 GHz Krait 450</div></td>
-        <td scope="col" class="aligncenter"><div class="phone2">Quad-core 2.7 GHz Krait 450</div></td>
-        <td scope="col" class="aligncenter"><div class="phone3">Quad-core 2.3 GHz Krait 400</div></td>
-        <td scope="col" class="aligncenter"><div class="phone4">Quad-core 2.3 GHz Krait 400</div></td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th class="aligncenter">CONS</th>
-        <td class="aligncenter"><div class="phone1">Adreno 420</div></td>
-        <td class="aligncenter"><div class="phone2">Adreno 420</td>
-        <td class="aligncenter"><div class="phone3">Adreno 330</td>
-        <td class="aligncenter"><div class="phone4">Adreno 330</td>
-      </tr>
-    </tbody>
-    </table>
+      </table>
+   
+    
     </div>
     </div>
     </div>

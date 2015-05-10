@@ -43,7 +43,7 @@ def addToCart(phoneID):
 		app.logger.info(len(session[CART]))
 		return {"status" : 200, "count": len(session[CART]), "phoneId" : session[CART].keys()}
 
-	return {"status" : 256}
+	return {"status" : 256, "phoneId" : session[CART].keys() }
 
 @mod.route('/remove/<phoneID>', methods=['GET'])
 @jsonResponse
@@ -53,7 +53,7 @@ def removeFromCart(phoneID):
 		return {"status" : "Not in Cart!", "phoneId" : session[CART].keys()}
 
 	session[CART].pop(phoneID, None)
-	return {"status" : "true"}
+	return {"status" : 200, "phoneId" : session[CART].keys()}
 
 @mod.route('/get', methods=['GET'])
 @jsonResponse

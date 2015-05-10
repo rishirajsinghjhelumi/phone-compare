@@ -8,28 +8,46 @@ jQuery(document).ready(function(){
 	// Increase the count of the compare bucket
 	$( "#add_to_compare" ).click(function() {
 		$phoneID = $("div.PhoneObjectID").eq(0).text();
-		$url = "../cart/add/" + $phoneID;
+		$comarePath = "../cart/add/" + $phoneID;
+    $currentURL = window.location.href
+    $path = window.location.pathname
+    
+    $url = $currentURL.replace($path, "/cart/add/" + $phoneID); 
+    $compareURL = $currentURL.replace($path, "/compare");
+    console.log($url);
 		$.ajax({url:$url ,
 		dataType: 'json',
 		success: function(data, status){
             if (data.status == 200) {
             	$( "span.badge" ).empty();
-            	$( "span.badge" ).append(data.count);
+            	$( "span.badge" ).append(data.phoneId.count);
+              window.open($compareURL);
+            }
+
+            else if (data.status == 256) {
+              $( "span.badge" ).empty();
+              $( "span.badge" ).append(data.phoneId.count);
+              window.open($compareURL);
             }
 
             else if (data.status == 512) {
-            	// $("id.form-add_to_cart").append( 
-            	// 	<div class="alert alert-success alert-dismissable" style="display: none;">
-             //          <button class="close" data-dismiss="alert" type="button">×</button>
-             //          <h3>Sorry!</h3>
-             //           We can accomodate only 4 mobiles to be compared. Please remove one to add more.
-             //        </div> 
-             //        );
             	$("div.alert").css("display", "");
             }
 
-        }});
+        },
+        
+      });
+    
+
 	})
+
+  $(".dropdown .title").click(function () {
+  $(this).parent().toggleClass("closed");
+});
+
+$(".dropdown li").click(function () {
+  $(this).parent().parent().toggleClass("closed").find(".title").text($(this).text());
+});
 
 
 });
@@ -42,7 +60,8 @@ function removeByClass(className) {
    $("."+className).remove();
 }
 
-function click1(theLink) {
+function click1(theLink, id) {
+    console.log(id);
     var data=theLink.className.split(' ')[0];
     //var data = ev.dataTransfer.getData("text");
     //ev.target.appendChild(document.getElementById(data));
@@ -55,6 +74,28 @@ function click1(theLink) {
       //elem.style.display='block';
 	console.log(res);
       $("."+res).show();
+      $currentURL = window.location.href
+      $path = window.location.pathname
+
+      $removeURL = $currentURL.replace($path, "/cart/remove/" + id);
+      console.log($removeURL);
+      $.ajax({url:$removeURL ,
+      dataType: 'json',
+      success: function(data, status){
+              if (data.status == 200) {
+                $( "span.badge" ).empty();
+                $( "span.badge" ).append(phoneId.count);
+                
+              }
+
+              else if (data.status == 512) {
+                $("div.alert").css("display", "");
+              }
+
+          },
+          
+        });
+
 }
 
  $(document).ready(function() {
@@ -108,5 +149,7 @@ function click1(theLink) {
                   
                   });
         }
+
+
             
             
