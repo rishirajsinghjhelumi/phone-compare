@@ -364,7 +364,7 @@ position:relative;
     cursor: pointer;
     width: auto;
     display: inline-block;
-    padding: 4px 5px;
+    padding: 4px 0px;
     border: 1px solid #AAA;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
