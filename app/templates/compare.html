@@ -244,7 +244,7 @@
                             <td style="border-top:0px; border-bottom:0px">
                               <div class="dropdown aligncenter" style="width:100%">
                                 {% if pKey["Positive"]|length != 0 %}
-                                  <div class="dropdownPC" id="dropdownPC" style="width:80%">
+                                  <div class="dropdownPC phone{{i + 1}}" id="dropdownPC" style="width:80%">
                                           <input type="checkbox" id="dropPros{{pKey["About"]}}{{i}}" />
                                           <label for="dropPros{{pKey["About"]}}{{i}}" class="dropdown_button" style="width:100%">Pros</label>
                                           
@@ -258,7 +258,7 @@
                                       </div>
                                     {%endif%}
                                     {% if pKey["Negative"]|length != 0 %}
-                                  <div class="dropdownPC" id="dropdownPC" style="width:80%">
+                                  <div class="dropdownPC phone{{i + 1}}" id="dropdownPC" style="width:80%">
                                           <input type="checkbox" id="dropCons{{pKey["About"]}}{{i}}" />
                                           <label for="dropCons{{pKey["About"]}}{{i}}" class="dropdown_button" style="width:100%">Cons</label>
                                           <ul class="dropdown_content" style="z-index: 8; width:100%;">
