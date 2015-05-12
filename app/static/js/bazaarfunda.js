@@ -1,4 +1,7 @@
 jQuery(document).ready(function(){
+
+
+
 	jQuery('.skillbar').each(function(){
 		jQuery(this).find('.skillbar-bar').animate({
 			width:jQuery(this).attr('data-percent')
@@ -14,19 +17,18 @@ jQuery(document).ready(function(){
     
     $url = $currentURL.replace($path, "/cart/add/" + $phoneID); 
     $compareURL = $currentURL.replace($path, "/compare");
-    console.log($url);
 		$.ajax({url:$url ,
 		dataType: 'json',
 		success: function(data, status){
             if (data.status == 200) {
             	$( "span.badge" ).empty();
-            	$( "span.badge" ).append(data.phoneId.count);
+            	$( "span.badge" ).append(data.phoneId.length);
               window.open($compareURL);
             }
 
             else if (data.status == 256) {
               $( "span.badge" ).empty();
-              $( "span.badge" ).append(data.phoneId.count);
+              $( "span.badge" ).append(data.phoneId.length);
               window.open($compareURL);
             }
 
@@ -61,7 +63,6 @@ function removeByClass(className) {
 }
 
 function click1(theLink, id) {
-    console.log(id);
     var data=theLink.className.split(' ')[0];
     //var data = ev.dataTransfer.getData("text");
     //ev.target.appendChild(document.getElementById(data));
@@ -72,19 +73,17 @@ function click1(theLink, id) {
       var res = str.concat(last);
       //var elem = document.getElementByClassName(res);
       //elem.style.display='block';
-	console.log(res);
       $("."+res).show();
       $currentURL = window.location.href
       $path = window.location.pathname
 
       $removeURL = $currentURL.replace($path, "/cart/remove/" + id);
-      console.log($removeURL);
       $.ajax({url:$removeURL ,
       dataType: 'json',
       success: function(data, status){
               if (data.status == 200) {
                 $( "span.badge" ).empty();
-                $( "span.badge" ).append(phoneId.count);
+                $( "span.badge" ).append(data.phoneId.length);
                 
               }
 
@@ -100,20 +99,21 @@ function click1(theLink, id) {
 
  $(document).ready(function() {
             BindControls();
+
         });
 
         function BindControls() {
-            var brand = ['ARGENTINA', 
-                'AUSTRALIA', 
-                'BRAZIL', 
-                'BELARUS', 
-                'BHUTAN',
-                'CHILE', 
-                'CAMBODIA', 
-                'CANADA', 
-                'CHILE', 
-                'DENMARK', 
-                'DOMINICA'];
+            var brand = ['Nokia', 
+                'Apple', 
+                'ASUS', 
+                'HTC', 
+                'Blackberry',
+                'BQ', 
+                'Samsung', 
+                'Micromax', 
+                'Karbonn', 
+                'Spice', 
+                'Xolo'];
                   
                   var model = ['MI3', 
                 'MI4', 
@@ -127,10 +127,11 @@ function click1(theLink, id) {
                 'DENMARK', 
                 'DOMINICA'];
                         
-                   $('#themodel').autocomplete({
+                $('#themodel').autocomplete({
                 source: model,
                 minLength: 0,
                 scroll: true
+
             }).focus(function() {
                 $(this).autocomplete("search", "");
             });
@@ -148,6 +149,27 @@ function click1(theLink, id) {
                   $(".ui-autocomplete").css('display', 'none');
                   
                   });
+        }
+
+        function loadModelForBrand($brand) {
+          console.log($(this).text());
+          $currentURL = window.location.href
+          $path = window.location.pathname
+
+          $getModelURL = $currentURL.replace($path, "/phone/brand/" + $brand);
+
+          $.ajax({url:$getModelURL ,
+          dataType: 'json',
+          success: function(data, status){
+                  if (status == 200) {
+                    console.log(data);
+                    
+                  }
+
+                  
+              },
+              
+            });
         }
 
 
