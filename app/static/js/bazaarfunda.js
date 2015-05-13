@@ -193,6 +193,7 @@ function click1(theLink, id) {
           console.log($brand);
           $currentURL = window.location.href
           $path = window.location.pathname
+          $path = $path + "#";
 
           $getModelURL = $currentURL.replace($path, "/phone/brand/" + $brand);
           $getModelURL = $getModelURL.replace("#openModal", "");
