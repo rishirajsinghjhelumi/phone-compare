@@ -39,7 +39,7 @@
                     <div class="phone{{i + 1}} closefix closewrapper" onclick="click1(this, '{{phoneDetails[i]._id}}')"><i class="icon-cancel"></i></div>
 
                     <div class="product-image-wrapper"><a href='../pdp/{{phoneDetails[i]["_id"]}}'><img class="phone{{i + 1}}" src="static/img/product_page_img_big1.jpg" alt="">
-                    </a><a href="#openModal"><img class="hide{{i + 1}}" src="static/img/addnew1.png" alt=""></a> </div>
+                    </a><a data-toggle="modal" href="#myModal" onclick="location.href='#';"><img class="hide{{i + 1}}" src="static/img/addnew1.png" alt=""></a> </div>
                     <div class="phone{{i+ 1}} wrapper-hover">
                      <div class="product-name namealign"><a href='../pdp/{{phoneDetails[i]["_id"]}}'><h4>{{phoneDetails[i]["Brand"]}} 
                       {{phoneDetails[i]["specification"]|length}}  {{phoneDetails[i]["Model Name"]}}</h4></a></div>
@@ -62,7 +62,7 @@
                   <div class="wrapper">
                     <div class="col-2">
                       <div class="phone{{i}} closefix hoverclosewrapper" onclick="click1(this)"><i class="icon-cancel"></i></div>
-                      <div class="big_image"><a href='../pdp/{{phoneDetails[i]["_id"]}}'><img class="phone{{i}}" src="static/img/product_page_img_big1.jpg"  alt="" /></a><a href="#openModal"><img class="hide{{i}}" src="static/img/addnew1.png" alt=""></a></div> 
+                      <div class="big_image"><a href='../pdp/{{phoneDetails[i]["_id"]}}'><img class="phone{{i}}" src="static/img/product_page_img_big1.jpg"  alt="" /></a><a data-toggle="modal" href="#myModal"><img class="hide{{i}}" src="static/img/addnew1.png" alt="" style="display: inline;"></a></div> 
                       <div class="phone{{i}} wrapper-hover">
                        <div class="product-name namealign"><a href="product.html">XIAOMI</a></div>
                        <div class="wrapper"><span class="sort-rating hidden">2</span>
@@ -81,7 +81,7 @@
               <!-- One Product Block Starts-->
               <div class="span3 product" style = "border-radius: 0px">
                 <div class="product-image-wrapper "><a href="product.html"></a>
-                  <a href="#openModal"><img class="" src="static/img/addnew1.png" alt=""></a> </div>
+                  <a data-toggle="modal" href="#myModal" onclick="location.href='#';"><img class="hide{{i+1}}" src="static/img/addnew1.png" alt="" style="display: inline;"></a> </div>
                 </div>
                 <!--OneProduct Block Ends-->
 
@@ -90,7 +90,7 @@
                   <div class="wrapper">
                     <div class="col-2">
                       <div class="phone{{i}} closefix hoverclosewrapper" onclick="click1(this)"><i class="icon-cancel"></i></div>
-                      <div class="big_image"><a href="product.html"><img class="phone{{i}}" src="static/img/product_page_img_big1.jpg"  alt="" /></a><a href="#openModal"><img class="hide{{i}}" src="static/img/addnew1.png" alt=""></a></div> 
+                      <div class="big_image"><a href="product.html"><img class="phone{{i}}" src="static/img/product_page_img_big1.jpg"  alt="" /></a><a href="#myModal" onclick="location.href='#';"><img class="hide{{i}}" src="static/img/addnew1.png" alt=""></a></div> 
                       <div class="phone{{i}} wrapper-hover">
                        <div class="product-name namealign"><a href="product.html">XIAOMI</a></div>
                        <div class="wrapper"><span class="sort-rating hidden">2</span>
@@ -242,12 +242,12 @@
                         {%if pKey["About"] == keywords["About"]%}
                             {%set _ = keywordFlag.append(1)%}
                             <td >
-                              <div class="dropdown aligncenter" style="width:100%">
+                              <div class="dropdown aligncenter phone{{i+1}}" style="width:100%">
                                 {% if pKey["Positive"]|length != 0 %}
                                 <h4 style="margin:10px">Pros</h4>
-                                <ul class="dropdown_content" style="z-index: 8; width:100%;">
+                                <ul class="dropdown_content phone{{i+1}}" style="z-index: 8; width:100%;">
                                               {%for pros in pKey["Positive"]%}
-                                                <li style="width:100%;font-size:130%">{{pros["Review"]}} ({{pros["Users"]}})</li>
+                                                <li class = "phone{{i+1}}" style="width:100%;font-size:130%">{{pros["Review"]}} ({{pros["Users"]}})</li>
                                               {%endfor%}
                                 </ul>
                                   <!-- <div class="dropdownPC phone{{i + 1}}" id="dropdownPC" style="width:80%">
@@ -265,9 +265,9 @@
                                     {%endif%}
                                     {% if pKey["Negative"]|length != 0 %}
                                     <h4 style="margin:10px">Cons</h4>
-                                    <ul class="dropdown_content" style="z-index: 8; width:100%;">
+                                    <ul class="dropdown_content phone{{i+1}}" style="z-index: 8; width:100%;">
                                               {%for pros in pKey["Negative"]%}
-                                                <li style="width:100%; font-size:130%">{{pros["Review"]}} ({{pros["Users"]}})</li>
+                                                <li class = "phone{{i+1}}" style="width:100%; font-size:130%">{{pros["Review"]}} ({{pros["Users"]}})</li>
                                               {%endfor%}
                                     </ul>
                                   <!-- <div class="dropdownPC phone{{i + 1}}" id="dropdownPC" style="width:80%">
@@ -319,25 +319,30 @@
     <div id="push"></div>
     </div>
 
-    <div id="openModal" class="modalDialog">
-      <div>
-        <a href="#close" title="Close" class="close">X</a>
-        <center><h2>ADD PHONE TO COMPARE</h2></center>
-        <h4>BRAND</h4>
-
-        <div class="select_wrapper fullwidth">
-          <input name="thebrand" id="thebrand" type="text" class="widthf" value="Select Brand..." onblur="if (this.value == '') {this.value = 'Select Brand...';} else {loadModelForBrand(this.value);} " onfocus="if(this.value == 'Select Brand...') {this.value = '';}" onkeypress = "loadModelForBrand()" />
-        </div>
-        <hr>
-        <h4>MODEL</h4>
-        <div class="select_wrapper fullwidth">
-         <input name="themodel" id="themodel" type="text" class="widthf" value="Select Model..." onblur="if (this.value == '') {this.value = 'Select Model...';}" onfocus="if(this.value == 'Select Model...') {this.value = '';}"/>
-       </div>
-
-       <div class="wrapper">
-        <div class="pull-left"><a href="#" class="button button-2x">CHOOSE</a></div>
-      </div>
-    </div>
-    </div> 
+    <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                  <h4 class="modal-title"><center>ADD PHONE TO COMPARE</center></h4>
+                </div>
+                <div class="modal-body">
+          <h4>BRAND</h4>
+          <div class="select_wrapper fullwidth">
+            <input name="thebrand" id="thebrand" type="text" class="widthf" value="Select Brand..."  onblur="if (this.value == '') {this.value = 'Select Brand...';} else if( this.value != '' && this.value != 'Select Brand...') { loadModelForBrand(this.value);} " onfocus="if(this.value == 'Select Brand...') {this.value = '';}"  />
+          </div>
+              
+          <h4>MODEL</h4>
+          <div class="select_wrapper fullwidth">
+            <input name="themodel" id="themodel" type="text" class="widthf" value="Select Model..." onblur="if (this.value == '') {this.value = 'Select Model...';}" onfocus="this.value = '';"/>
+          </div>
+            
+          
+                  
+                </div>
+                <div class="modal-footer" > <a href="#" data-dismiss="modal" class="btn" id="choosePhone">CHOOSE</a> </div>
+              </div>
+            </div>
+          </div>
 
     {% endblock %}

@@ -1,3 +1,4 @@
+var modelModelIDMap = {};
 jQuery(document).ready(function(){
 
 
@@ -41,8 +42,52 @@ jQuery(document).ready(function(){
       });
     
 
-	})
+	});
 
+  $('#choosePhone').click(function(){
+    var brand  = document.getElementById("thebrand").value;
+    var model =  document.getElementById("themodel").value;
+    $phoneID = modelModelIDMap[model]["$oid"];
+    console.log($phoneID);
+
+    $currentURL = window.location.href
+    $path = window.location.pathname
+    
+    $url = $currentURL.replace($path, "/cart/add/" + $phoneID); 
+    $compareURL = $currentURL.replace($path, "/compare");
+    $.ajax({url:$url ,
+    dataType: 'json',
+    success: function(data, status){
+            if (data.status == 200) {
+              $( "span.badge" ).empty();
+              $( "span.badge" ).append(data.phoneId.length);
+              location.reload(); 
+              window.open($compareURL, "_self");
+            }
+
+            else if (data.status == 256) {
+              $( "span.badge" ).empty();
+              $( "span.badge" ).append(data.phoneId.length);
+              location.reload(); 
+              window.open($compareURL, "_self");
+            }
+
+            else { 
+              location.reload(); 
+            }
+
+            
+
+        },
+        
+      });
+      window.open($compareURL, "_self");
+
+  }); 
+          
+
+
+       
   $(".dropdown .title").click(function () {
   $(this).parent().toggleClass("closed");
 });
@@ -74,8 +119,10 @@ function click1(theLink, id) {
       //var elem = document.getElementByClassName(res);
       //elem.style.display='block';
       $("."+res).show();
-      $currentURL = window.location.href
-      $path = window.location.pathname
+      $currentURL = window.location.href;
+      $currentURL = $currentURL.replace("#","");
+      $currentURL = $currentURL + "/";
+      $path = window.location.pathname + "/";
 
       $removeURL = $currentURL.replace($path, "/cart/remove/" + id);
       $.ajax({url:$removeURL ,
@@ -115,17 +162,7 @@ function click1(theLink, id) {
                 'Spice', 
                 'Xolo'];
                   
-                  var model = ['MI3', 
-                'MI4', 
-                'XT1033', 
-                'REDMI1S', 
-                'MOTO-G',
-                'MOTO-G2', 
-                'CAMBODIA', 
-                'CANADA', 
-                'CHILE', 
-                'DENMARK', 
-                'DOMINICA'];
+                  var model = [];
                         
                 $('#themodel').autocomplete({
                 source: model,
@@ -152,25 +189,47 @@ function click1(theLink, id) {
         }
 
         function loadModelForBrand($brand) {
-          console.log($(this).text());
+          // $('#themodel').html("Select Model...");
+          console.log($brand);
           $currentURL = window.location.href
           $path = window.location.pathname
 
           $getModelURL = $currentURL.replace($path, "/phone/brand/" + $brand);
+          $getModelURL = $getModelURL.replace("#openModal", "");
+          var data = httpGet($getModelURL);
+          
+          var key = "Model Name";
+          var modelList = [];
+          var jsonData = JSON.parse(data);
+          for (var i = 0; i < jsonData.length; i++) {
+              var modelName = jsonData[i][key];
+              var modelID = jsonData[i]["_id"]
+              modelList.push($brand + " " + modelName);
+              modelModelIDMap[$brand + " " + modelName] = modelID;
+          }
+          console.log(modelModelIDMap);
+          modelList.sort();
 
-          $.ajax({url:$getModelURL ,
-          dataType: 'json',
-          success: function(data, status){
-                  if (status == 200) {
-                    console.log(data);
-                    
-                  }
+          $('#themodel').autocomplete({
+                source: modelList,
+                minLength: 0,
+                scroll: true
 
-                  
-              },
-              
+            }).focus(function() {
+                $(this).autocomplete("search", "");
             });
+          
         }
+
+        function httpGet(theUrl)
+        {
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.open( "GET", theUrl, false );
+            xmlHttp.send( null );
+            return xmlHttp.responseText;
+        }
+
+        
 
 
             
