@@ -52,36 +52,37 @@ jQuery(document).ready(function(){
 
     $currentURL = window.location.href
     $path = window.location.pathname
+    $path = $path + "#";
     
     $url = $currentURL.replace($path, "/cart/add/" + $phoneID); 
+    httpGet($url);
+    location.reload();
     $compareURL = $currentURL.replace($path, "/compare");
-    $.ajax({url:$url ,
-    dataType: 'json',
-    success: function(data, status){
-            if (data.status == 200) {
-              $( "span.badge" ).empty();
-              $( "span.badge" ).append(data.phoneId.length);
-              location.reload(); 
-              window.open($compareURL, "_self");
-            }
+    // $.ajax({url:$url ,
+    // dataType: 'json',
+    // success: function(data, status){
+    //         if (data.status == 200) {
+    //           $( "span.badge" ).empty();
+    //           $( "span.badge" ).append(data.phoneId.length);
+    //           location.reload(); 
+    //           window.open($compareURL, "_self");
+    //         }
 
-            else if (data.status == 256) {
-              $( "span.badge" ).empty();
-              $( "span.badge" ).append(data.phoneId.length);
-              location.reload(); 
-              window.open($compareURL, "_self");
-            }
+    //         else if (data.status == 256) {
+    //           $( "span.badge" ).empty();
+    //           $( "span.badge" ).append(data.phoneId.length);
+    //           location.reload(); 
+    //           window.open($compareURL, "_self");
+    //         }
 
-            else { 
-              location.reload(); 
-            }
+           
 
             
 
-        },
+    //     },
         
-      });
-      window.open($compareURL, "_self");
+    //   });
+      // window.open($compareURL, "_self");
 
   }); 
           
