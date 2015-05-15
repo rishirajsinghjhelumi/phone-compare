@@ -35,27 +35,33 @@
                   {%endif%}
                   {%endif%}
                   {%endfor%}
-                  <div class="span3 product" style = "border-radius: 0px">
-                    <div class="phone{{i + 1}} closefix closewrapper" onclick="click1(this, '{{phoneDetails[i]._id}}')"><i class="icon-cancel"></i></div>
+                    <div class="span3 product" style = "border-radius: 0px">
+                      <div class="phone{{i + 1}} closefix closewrapper" onclick="click1(this, '{{phoneDetails[i]._id}}')"><i class="icon-cancel"></i></div>
 
-                    <div class="product-image-wrapper"><a href='../pdp/{{phoneDetails[i]["_id"]}}'><img class="phone{{i + 1}}" src="static/img/product_page_img_big1.jpg" alt="">
-                    </a><a data-toggle="modal" href="#myModal" onclick="location.href='#';"><img class="hide{{i + 1}}" src="static/img/addnew1.png" alt=""></a> </div>
-                    <div class="phone{{i+ 1}} wrapper-hover">
-                     <div class="product-name namealign"><a href='../pdp/{{phoneDetails[i]["_id"]}}'><h4>{{phoneDetails[i]["Brand"]}} 
-                      {{phoneDetails[i]["specification"]|length}}  {{phoneDetails[i]["Model Name"]}}</h4></a></div>
-                     <div class="wrapper"><span class="sort-rating hidden">4</span>
-                      <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket" title="Compare Prices"></i></a> </div>
+                      <div class="product-image-wrapper"><a href='../pdp/{{phoneDetails[i]["_id"]}}'><img class="phone{{i + 1}}" src="static/img/product_page_img_big1.jpg" alt="">
+                      </a><a data-toggle="modal" href="#myModal" onclick="location.href='#';"><img class="hide{{i + 1}}" src="static/img/addnew1.png" alt=""></a> </div>
+                      <div class="phone{{i+ 1}} wrapper-hover">
+                       <div class="product-name namealign" style="margin-bottom:0px; margin-top:0px"><a href='../pdp/{{phoneDetails[i]["_id"]}}'><h4 style="color:#383838;">{{phoneDetails[i]["Brand"]}} 
+                        {{phoneDetails[i]["specification"]|length}}  {{phoneDetails[i]["Model Name"]}}</h4></a></div>
+                       <div class="wrapper"><span class="sort-rating hidden">4</span>
+                        <!-- <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket" title="Compare Prices"></i></a> </div> -->
 
-                      {%if lowestWebsite[0] == "Out of Stock"  %}
-                      <div class="product-price"><div style="color: #B40404"><h4 class="aligncenter">{{"Price Not Available"}}</h4></div></span></a></div>
-                      {% else %}
-                      <div class="product-price aligncenter" ><a href="{{lowestWebsiteURL[0]}}">Lowest Price&nbsp;₹<span class="sort-price">{{lowestPrice[0]}} &nbsp&nbsp</span></a></div>
-                      {%endif%}
+                        {%if lowestWebsite[0] == "Out of Stock"  %}
+                        <div class="product-price"><div style="color: #B40404"><h4 class="aligncenter" >{{"Price Not Available"}}</h4></div></span></a></div>
+                        {% else %}
+                        <div class="product-price aligncenter" ><a href="{{lowestWebsiteURL[0]}}" class="aligncenter">Lowest Price&nbsp;₹&nbsp{{lowestPrice[0]}}<!-- <span class="sort-price"></span> --></a> &nbsp&nbsp</div>
+                        {%endif%}
 
-                      <div class="rating-listing rating "> <strong><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a></strong><a><i class="icon-star-empty"></i></a> </div>
+                        <div class="rating-listing rating "> <strong><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a></strong><a><i class="icon-star-empty"></i></a> </div>
+                      </div>
                     </div>
+                    <div class="phone{{i+ 1}} wrapper-hover aligncenter">
+                      <button onclick="location.href='#';" class="btn-mini border aligncenter product-name" style="padding-left: 10%;">Compare Prices</button>
+                    </div>
+                    
                   </div>
-                </div>
+                 
+
 
                 <!--This is the hover element -->
                 <div class="preview hidden-tablet hidden-phone">
@@ -66,7 +72,7 @@
                       <div class="phone{{i}} wrapper-hover">
                        <div class="product-name namealign"><a href="product.html">XIAOMI</a></div>
                        <div class="wrapper"><span class="sort-rating hidden">2</span>
-                        <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket" title="Compare Prices"></i></a> </div>
+                        <!-- <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket" title="Compare Prices"></i></a> </div> -->
                         <div class="product-price"><a href="https://www.flipkart.com/">Lowest Price&nbsp;₹<span class="sort-price"><b>8000.00</b></span></a></div>
                       </div>
                     </div>
@@ -94,7 +100,7 @@
                       <div class="phone{{i}} wrapper-hover">
                        <div class="product-name namealign"><a href="product.html">XIAOMI</a></div>
                        <div class="wrapper"><span class="sort-rating hidden">2</span>
-                        <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket" title = "Compare Prices"></i></a> </div>
+                        <!-- <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket" title = "Compare Prices"></i></a> </div> -->
                         <div class="product-price"><a href="https://www.flipkart.com/">Lowest Price&nbsp;₹<span class="sort-price"><b>8000.00</b></span></a></div>
                       </div>
                     </div>
@@ -329,7 +335,7 @@
                 <div class="modal-body">
           <h4>BRAND</h4>
           <div class="select_wrapper fullwidth">
-            <input name="thebrand" id="thebrand" type="text" class="widthf" value="Select Brand..."  onblur="if (this.value == '') {this.value = 'Select Brand...';} else if( this.value != '' && this.value != 'Select Brand...') { loadModelForBrand(this.value);} " onfocus="if(this.value == 'Select Brand...') {this.value = '';}"  />
+            <input name="thebrand" id="thebrand" type="text" class="widthf" value="Select Brand..." onload="this.value != 'Select Brand...';"  onblur="if (this.value == '') {this.value = 'Select Brand...';} else if( this.value != '' && this.value != 'Select Brand...') { loadModelForBrand(this.value);} " onfocus="if(this.value == 'Select Brand...') {this.value = '';}"  />
           </div>
               
           <h4>MODEL</h4>
