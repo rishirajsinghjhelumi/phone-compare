@@ -44,6 +44,25 @@ jQuery(document).ready(function(){
 
 	});
 
+	$("#myModal").on("show", function () {
+      $("body").addClass("modal-open");
+    }).on("hidden", function () {
+      $("body").removeClass("modal-open")
+    });
+
+    $("#recmodal").on("show", function () {
+      $("body").addClass("modal-open");
+    }).on("hidden", function () {
+      $("body").removeClass("modal-open")
+    });
+
+    $("#compare_price").on("show", function () {
+      $("body").addClass("modal-open");
+    }).on("hidden", function () {
+      $("body").removeClass("modal-open")
+    });
+
+
   $('#choosePhone').click(function(){
     var brand  = document.getElementById("thebrand").value;
     var model =  document.getElementById("themodel").value;
@@ -229,6 +248,52 @@ function click1(theLink, id) {
             xmlHttp.open( "GET", theUrl, false );
             xmlHttp.send( null );
             return xmlHttp.responseText;
+        }
+
+        function addToCompareFromListing(phoneID) {
+
+            $domain = location.host
+
+
+            $url =  "http://" + $domain + "/cart/add/" + phoneID;
+            $compareURL = "http://" +  $domain +  "/compare";
+            console.log($url)
+            console.log($compareURL)
+
+            $.ajax({url:$url ,
+            dataType: 'json',
+            success: function(data, status){
+                if (data.status == 200) {
+                    $( "span.badge" ).empty();
+                    $( "span.badge" ).append(data.phoneId.length);
+                  window.open($compareURL);
+                }
+
+                else if (data.status == 256) {
+                  $( "span.badge" ).empty();
+                  $( "span.badge" ).append(data.phoneId.length);
+                  window.open($compareURL);
+                }
+
+                else if (data.status == 512) {
+                    $("div.alert").css("display", "");
+                }
+
+            },
+
+          });
+
+            console.log(phoneID)
+        }
+
+        function searchForItems() {
+            queryString = document.getElementById("search_query").value;
+            console.log(queryString);
+            domain = location.host
+            searchUrl =  "http://" + domain + "/query?queryText=" + queryString;
+            window.open(searchUrl, "_self");
+//            query?queryText="Apple Iphone 6"
+//            setTimeout(continueExecution, 10000);
         }
 
         

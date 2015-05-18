@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Bazaar Funda for {{title}}</title>
+<title>Bazaar Funda: {{title}}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <meta name="description" content="">
@@ -63,8 +63,8 @@
     </div>
     <div class="search_wrapper">
       <form class="form-search" id="form-search-right">
-        <button type="submit" class="btn" onClick="document.getElementById('form-search-right').submit()"><i class="icon-search-2 icon-large"></i></button>
-        <input type="text" class="input-medium search-query" value="search" onblur="if (this.value == '') {this.value = 'search';}" onfocus="if(this.value == 'search') {this.value = '';}">
+        <button class="btn" onClick="searchForItems()"><i class="icon-search-2 icon-large"></i></button>
+        <input type="text" class="input-medium search-query searching-query1" value="search" onblur="if (this.value == '') {this.value = 'search';}" onfocus="if(this.value == 'search') {this.value = '';}">
       </form>
     </div>
     <div id="back-top"> <a href="#top"><i class="icon-up-2"></i></a> </div>
@@ -128,8 +128,8 @@
           <div class="spy-right">
             <div class="spyshop_search  hidden-tablet">
               <form class="form-search" id="form-search-spy">
-                <input type="text" class="search-query" value="search here..." onblur="if (this.value == '') {this.value = 'search here...';}" onfocus="if(this.value == 'search here...') {this.value = '';}">
-                <button type="submit" class="btn" onclick="document.getElementById('form-search').submit()"><i class="icon-search-2 icon-large"></i></button>
+                <input type="text" class="search-query searching-query2" value="search here..." onblur="if (this.value == '') {this.value = 'search here...';}" onfocus="if(this.value == 'search here...') {this.value = '';}">
+                <button class="btn" onClick="searchForItems()"><i class="icon-search-2 icon-large"></i></button>
               </form>
             </div>
             <div class="spyshop"> </div>
@@ -161,8 +161,8 @@
           <div class="form-search-wrapper">
             <div id="search">
               <form class="form-search" id="form-search">
-                <input type="text" class="search-query" value="search entire store here..." onblur="if (this.value == '') {this.value = 'search entire store here...';}" onfocus="if(this.value == 'search entire store here...') {this.value = '';}">
-                <button type="submit" class="btn" onClick="document.getElementById('form-search').submit()"><i class="icon-search-2 icon-large"></i></button>
+                <input type="text" class="search-query searching-query3" id="search_query" value="search entire store here..." onblur="if (this.value == '') {this.value = 'search entire store here...';}" onfocus="if(this.value == 'search entire store here...') {this.value = '';}">
+                <button  class="btn" onClick="searchForItems()"><i class="icon-search-2 icon-large"></i></button>
               </form>
             </div>
           </div>

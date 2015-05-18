@@ -79,14 +79,17 @@ def getPhoneInfo(phoneID):
 
 	return phone
 
-def getPhoneIdListFromPriceRange(priceRange):
+def getPhoneIdListFromPriceRange(priceRange, brand):
 	low = float(priceRange[0])
 	app.logger.error(low)
 	high = float(priceRange[1])
 	phones = mongo.prices.find({ 'ECommercePrice' : {'$gte':low, '$lt':high}})
 	phoneList = []
 	phoneList = [phone["Model Name"].replace(phone["Brand"] + " ", "") for phone in phones]
-	phoneDetailList = [mongo.phones.find({"Model Name" : phoneName}) for phoneName in phoneList]
+        if brand:
+	        phoneDetailList = [mongo.phones.find({"Model Name" : phoneName, "Brand":{"$in": brand}}) for phoneName in phoneList]
+        else:
+            phoneDetailList = [mongo.phones.find({"Model Name" : phoneName}) for phoneName in phoneList]
 	phoneIdList = []
         for phoneDetail in phoneDetailList:
 		for resultObj in phoneDetail:
@@ -95,7 +98,7 @@ def getPhoneIdListFromPriceRange(priceRange):
 	return  phoneIdList
 
 def getPhoneIdListFromKeywordPreference(keyword):
-	phones = mongo.keywords.find({"Keyword":keyword, "Rating": {'$gte': 5}})
+	phones = mongo.keywords.find({"Keyword":keyword, "Rating": {'$gte': 3.5}})
 	phoneList = []
         phoneList = [[phone["Brand"],phone["Model Name"].replace(phone["Brand"] + " ", "")] for phone in phones]
         phoneDetailList = [mongo.phones.find({"Model Name" : phoneName[1], "Brand":phoneName[0]}) for phoneName in phoneList]
@@ -104,7 +107,7 @@ def getPhoneIdListFromKeywordPreference(keyword):
                 for resultObj in phoneDetail:
                         phoneIdList.append(resultObj['_id'])
                         app.logger.info(resultObj['_id'])
-	app.logger.info("PhoneIds for keyword " , keyword)
+	app.logger.info("PhoneIds for keyword {}" , keyword)
         return  phoneIdList
 
 @mod.route('/brand/<brandName>', methods=['GET'])
@@ -127,7 +130,6 @@ def phoneDetail(phoneID):
 @mod.route('/details', methods=['GET'])
 @jsonResponse
 def phones():
-
 	phoneIds = getArgAsList(request, 'ids')
 	priceRange = getArgAsList(request, 'pricerange')
 	keywords = getArgAsList(request, 'keywords')
@@ -141,7 +143,7 @@ def phones():
 			phoneIds.extend(getPhoneIdListFromKeywordPreference(keyword))
 		phoneIds = list(set(phoneIds))
 		app.logger.info(phoneIds)
-		priceFilterPhoneId = getPhoneIdListFromPriceRange(priceRange)
+		priceFilterPhoneId = getPhoneIdListFromPriceRange(priceRange, brands)
 		if keywords:
 			phoneIds = set(phoneIds) & set(priceFilterPhoneId)
 		elif priceRange:
@@ -150,4 +152,48 @@ def phones():
 		return [getPhoneInfo(phone) for phone in phoneIds]
         else :
                 return keywords
+
+def defineIndex():
+    #mongo.phones.create_index( [{ 'Brand': 'text'}] )
+
+#     mongo.Keywords.create_index([
+#       ('Brand', 'text')
+#   ],
+#   name="search_index",
+#   weights={
+#       'Keyword':100
+#   }
+# )
+    mongo.phones.drop_indexes()
+    mongo.phones.create_index([
+     ('Brand', 'text'),
+     ('Model Name', 'text'),
+     ('specification.GENERAL FEATURES.SIM Type', 'text'),
+     ('specification.GENERAL FEATURES.Handset Color', 'text')
+  ],
+        cache_for=300,
+
+  name="search_index",
+  weights={
+      'Brand':100,
+      'Model Name':100,
+      'specification.GENERAL FEATURES.SIM Type':100,
+      'specification.GENERAL FEATURES.Handset Color':100
+  }
+)
+
+def searchQuery(queryText):
+    defineIndex()
+    queryList = queryText.  split(" ")
+    app.logger.info(queryList)
+    idList = []
+    for queryText in queryList:
+        text_results = mongo.command('text', 'phones', search=queryText, limit=100)
+        idList.extend([phone["obj"]["_id"] for phone in text_results["results"]])
+    #idList = [ids[$oid] for ids in idList]
+    idList = list(set(idList))
+    return idList
+
+
+
 		

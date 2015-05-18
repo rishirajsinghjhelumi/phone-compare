@@ -127,7 +127,7 @@
                        We can accomodate only 4 mobiles to be compared. Please remove one to add more.
                     </div>
                     <button class="button btn-small" title="Add to Compare" type="button" id ="add_to_compare" ><i class="icon-chart-bar"></i>{{" "}}Add to Compare</button>
-                    <button class="button btn-small" title="Compare Prices" type="button" onClick="document.getElementById('form-add_to_cart').submit()"><i class="icon-shop"></i>{{" "}}Compare Prices</button>
+                    <button class="button btn-small" title="Compare Prices" type="button" onclick="location.href='#';" href="#compare_price" data-toggle="modal" ><i class="icon-shop"></i>{{" "}}Compare Prices</button>
                   </form>
                 </div>
                 <!-- <div class="add-to-links">
@@ -542,5 +542,51 @@
   </section>
   <div id="push"></div>
 </div>
+
+<!--Compare prices Pop Up -->
+		 <div class="modal fade" id="compare_price">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                  <h4 class="modal-title" style="color:#AAAAAA"><center>Compare Prices for {{phoneDetails['Brand']}} {{phoneDetails['Model Name']}}</center></h4>
+                </div>
+                <div class="modal-body">
+			<table class="table">
+			<colgroup>
+			<col class="colfixw25">
+			<col class="colfixw25">
+			<col class="colfixw20">
+			<col class="colfixw10">
+			<col class="colfixw20">
+		  </colgroup>
+            <thead>
+              <tr>
+                <!--<td scope="col" class="aligncenter backgrey font_table_fix ">Product Name </td>-->
+                <td scope="col" class="aligncenter backgrey font_table_fix">Seller</td>
+                <td scope="col" class="aligncenter backgrey font_table_fix">Availability</td>
+                <td scope="col" class="aligncenter backgrey font_table_fix">Price</td>
+				<td scope="col" class="aligncenter backgrey font_table_fix">Buy Option</td>
+              </tr>
+            </thead>
+            <tbody>
+                {% for price in phoneDetails["Prices"] %}
+                    <tr>
+                        <!--<td class="aligncenter 0_margin"><h5>Xiaomi</td>-->
+                        <td class="aligncenter 0_margin"><img src="img/amazon.jpg"  alt={{price['website']}} height="25px" width="100px"> </td>
+                        <td class="aligncenter 0_margin"><h5>Yes</h5></td>
+                        <td class="aligncenter 0_margin"><h5>{{price["price"]}}</h5></td>
+                        <td class="aligncenter 0_margin"><a href={{price['productUrl']}} data-dismiss="modal" class="btn btn-mini">BUY</a></td>
+                    </tr>
+                {%endfor%}
+
+
+            </tbody>
+          </table>
+				</div>
+
+              </div>
+            </div>
+          </div>
 
 {% endblock %}

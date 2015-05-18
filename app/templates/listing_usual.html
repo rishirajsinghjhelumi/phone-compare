@@ -55,198 +55,60 @@
 		  
           <div class="product-listing product-grid" style="height:relative">
             <div class="row big_with_description isotope-outer" style=" position: relative; height: relative;">
-			<!-- One Product Block Starts-->
+
+          {%for i in range(phoneDetails|length)%}
+            {%if phoneDetails[i] is defined %}
+                  <!-- One Product Block Starts-->
+                  {%set counter = 0 %}
+                  {%set lowestPrice = [1000000] %}
+                  {% set lowestWebsite = ["Out of Stock"] %}
+                  {% set lowestWebsiteURL = ["#"] %}
+                  {% for price in phoneDetails[i]["Prices"] %}
+                  {%set counter = counter + 1%}
+                  {%if price["price"]|int < lowestPrice[0] %}
+                  {%if price["stock status"]|int > 0 %}
+                  {% set _ = lowestPrice.append(price["price"]) %}
+                  {% set _ = lowestWebsite.append(price["website"]|string) %}
+                  {% set _ = lowestWebsiteURL.append( price["productUrl"]|string) %}
+                  {% set _ = lowestPrice.pop(0) %}
+                  {% set _ = lowestWebsite.pop(0) %}
+                  {% set _ = lowestWebsiteURL.pop(0) %}
+                  {%endif%}
+                  {%endif%}
+                  {%endfor%}
+
               <div class="span3 product hover " style= "border-radius:0px; box-shadow: 0 0 0">
-                <div class="product-image-wrapper " style= "border-radius:0px; box-shadow: 0 0 0"><a href="product.html"><img src="static/img/product_page_img_big1.jpg" alt=""><img src="static/img/product_page_img_big1.jpg" class="roll_over_img" alt=""></a> </div>
+                <div class="product-image-wrapper " style= "border-radius:0px; box-shadow: 0 0 0"><a href='../pdp/{{phoneDetails[i]["_id"]}}'><img src="static/img/product_page_img_big1.jpg" alt=""><img src="static/img/product_page_img_big1.jpg" class="roll_over_img" alt=""></a> </div>
                 <div class="wrapper-hover">
-                  <div class="product-name aligncenter"><a href="product.html">Apple IPhone 4S</a></div>
+                  <div class="product-name aligncenter"><a href='../pdp/{{phoneDetails[i]["_id"]}}'>{{phoneDetails[i]["Brand"]}} {{phoneDetails[i]["Model Name"]}}</a></div>
                   <div class="wrapper"><span class="sort-rating hidden">4</span>
                     <!--<div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>-->
-                        <div class="product-price aligncenter" style = "padding-bottom:10px"><a class="aligncenter"  href="http://www.flipkart.com/htc-a310e-explorer/p/itme6g4yxaa7s8zu?pid=MOBDB8Z7QCGZSPDF">Lowest Price ₹ 190</a>
+                        <div class="product-price aligncenter" style = "padding-bottom:10px">
+                            {%if lowestWebsite[0] == "Out of Stock"  %}
+                            <a class="aligncenter"  href="#" style="color: #B40404">{{"Price Not Available"}}</a>
+                            {% else %}
+                            <a class="aligncenter"  href="http://www.flipkart.com/htc-a310e-explorer/p/itme6g4yxaa7s8zu?pid=MOBDB8Z7QCGZSPDF">Lowest Price&nbsp;₹&nbsp{{lowestPrice[0]}}</a>
+                            {%endif%}
                         </div>
                     <div class="rating-listing rating"> <strong><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a></strong><a><i class="icon-star-empty"></i></a> </div>
                   </div>
-                    <div class="skillbar clearfix " data-percent=75%>
-                    <div class="skillbar-title" style="background: #d35400; width:20%;"><span>75/100</span></div>
+                    <div class="skillbar clearfix " data-percent={{scoreList[i]}}%>
+                    <div class="skillbar-title" style="background: #d35400; width:5%;"><span style="color: #AAAAAA">{{scoreList[i]}}/100</span></div>
                     <div class="skillbar-bar" style="background: #e67e22;"></div>
-                    <div class="skill-bar-percent">75/100</div>
+                    <div class="skill-bar-percent"></div>
                   </div>
                     <div class="add-to-links">
                       <ul>
-                        <li style = "padding-bottom:10px;"> <a href="#" class="small_icon_color" ><i class="icon-shop"></i></a><a class="small_icon_color" href="#">Compare Prices</a></li>
-                        <li> <a href="#" class="small_icon_color"><i class="icon-chart-bar"></i></a><a class="small_icon_color" href="#">Add to Compare</a> </li>
+                        <li style = "padding-bottom:10px;"><a href="#" class="small_icon_color" ><i class="icon-shop"></i></a><a class="small_icon_color" href="#">Compare Prices</a></li>
+                        <li> <a href="#" class="small_icon_color" onclick="addToCompareFromListing('{{phoneDetails[i]["_id"]}}');"><i class="icon-chart-bar"></i>Add to Compare</a> </li>
                       </ul>
                     </div>
                 </div>
               </div>
+          {%endif%}
+          {%endfor%}
 
                 <!--Product blockends here-->
-
-                <!-- One Product Block Starts-->
-              <div class="span3 product hover " style= "border-radius:0px; box-shadow: 0 0 0">
-                <div class="product-image-wrapper " style= "border-radius:0px; box-shadow: 0 0 0"><a href="product.html"><img src="static/img/product_page_img_big1.jpg" alt=""><img src="static/img/product_page_img_big1.jpg" class="roll_over_img" alt=""></a> </div>
-                <div class="wrapper-hover">
-                  <div class="product-name aligncenter"><a href="product.html">Apple IPhone 4S</a></div>
-                  <div class="wrapper"><span class="sort-rating hidden">4</span>
-                    <!--<div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>-->
-                        <div class="product-price aligncenter" style = "padding-bottom:10px"><a class="aligncenter"  href="http://www.flipkart.com/htc-a310e-explorer/p/itme6g4yxaa7s8zu?pid=MOBDB8Z7QCGZSPDF">Lowest Price ₹ 190</a>
-                        </div>
-                    <div class="rating-listing rating"> <strong><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a></strong><a><i class="icon-star-empty"></i></a> </div>
-                  </div>
-                    <div class="skillbar clearfix " data-percent=75%>
-                    <div class="skillbar-title" style="background: #d35400; width:20%;"><span>75/100</span></div>
-                    <div class="skillbar-bar" style="background: #e67e22;"></div>
-                    <div class="skill-bar-percent">75/100</div>
-                  </div>
-                    <div class="add-to-links">
-                      <ul>
-                        <li style = "padding-bottom:10px;"> <a href="#" class="small_icon_color" ><i class="icon-shop"></i></a><a class="small_icon_color" href="#">Compare Prices</a></li>
-                        <li> <a href="#" class="small_icon_color"><i class="icon-chart-bar"></i></a><a class="small_icon_color" href="#">Add to Compare</a> </li>
-                      </ul>
-                    </div>
-                </div>
-              </div>
-
-                <!--Product blockends here-->
-
-                <!-- One Product Block Starts-->
-              <div class="span3 product hover " style= "border-radius:0px; box-shadow: 0 0 0">
-                <div class="product-image-wrapper " style= "border-radius:0px; box-shadow: 0 0 0"><a href="product.html"><img src="static/img/product_page_img_big1.jpg" alt=""><img src="static/img/product_page_img_big1.jpg" class="roll_over_img" alt=""></a> </div>
-                <div class="wrapper-hover">
-                  <div class="product-name aligncenter"><a href="product.html">Apple IPhone 4S</a></div>
-                  <div class="wrapper"><span class="sort-rating hidden">4</span>
-                    <!--<div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>-->
-                        <div class="product-price aligncenter" style = "padding-bottom:10px"><a class="aligncenter"  href="http://www.flipkart.com/htc-a310e-explorer/p/itme6g4yxaa7s8zu?pid=MOBDB8Z7QCGZSPDF">Lowest Price ₹ 190</a>
-                        </div>
-                    <div class="rating-listing rating"> <strong><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a></strong><a><i class="icon-star-empty"></i></a> </div>
-                  </div>
-                    <div class="skillbar clearfix " data-percent=75%>
-                    <div class="skillbar-title" style="background: #d35400; width:20%;"><span>75/100</span></div>
-                    <div class="skillbar-bar" style="background: #e67e22;"></div>
-                    <div class="skill-bar-percent">75/100</div>
-                  </div>
-                    <div class="add-to-links">
-                      <ul>
-                        <li style = "padding-bottom:10px;"> <a href="#" class="small_icon_color" ><i class="icon-shop"></i></a><a class="small_icon_color" href="#">Compare Prices</a></li>
-                        <li> <a href="#" class="small_icon_color"><i class="icon-chart-bar"></i></a><a class="small_icon_color" href="#">Add to Compare</a> </li>
-                      </ul>
-                    </div>
-                </div>
-              </div>
-
-                <!--Product blockends here-->
-
-                <!-- One Product Block Starts-->
-              <div class="span3 product hover " style= "border-radius:0px; box-shadow: 0 0 0">
-                <div class="product-image-wrapper " style= "border-radius:0px; box-shadow: 0 0 0"><a href="product.html"><img src="static/img/product_page_img_big1.jpg" alt=""><img src="static/img/product_page_img_big1.jpg" class="roll_over_img" alt=""></a> </div>
-                <div class="wrapper-hover">
-                  <div class="product-name aligncenter"><a href="product.html">Apple IPhone 4S</a></div>
-                  <div class="wrapper"><span class="sort-rating hidden">4</span>
-                    <!--<div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>-->
-                        <div class="product-price aligncenter" style = "padding-bottom:10px"><a class="aligncenter"  href="http://www.flipkart.com/htc-a310e-explorer/p/itme6g4yxaa7s8zu?pid=MOBDB8Z7QCGZSPDF">Lowest Price ₹ 190</a>
-                        </div>
-                    <div class="rating-listing rating"> <strong><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a></strong><a><i class="icon-star-empty"></i></a> </div>
-                  </div>
-                    <div class="skillbar clearfix " data-percent=75%>
-                    <div class="skillbar-title" style="background: #d35400; width:20%;"><span>75/100</span></div>
-                    <div class="skillbar-bar" style="background: #e67e22;"></div>
-                    <div class="skill-bar-percent">75/100</div>
-                  </div>
-                    <div class="add-to-links">
-                      <ul>
-                        <li style = "padding-bottom:10px;"> <a href="#" class="small_icon_color" ><i class="icon-shop"></i></a><a class="small_icon_color" href="#">Compare Prices</a></li>
-                        <li> <a href="#" class="small_icon_color"><i class="icon-chart-bar"></i></a><a class="small_icon_color" href="#">Add to Compare</a> </li>
-                      </ul>
-                    </div>
-                </div>
-              </div>
-
-                <!--Product blockends here-->
-
-                <!-- One Product Block Starts-->
-              <div class="span3 product hover " style= "border-radius:0px; box-shadow: 0 0 0">
-                <div class="product-image-wrapper " style= "border-radius:0px; box-shadow: 0 0 0"><a href="product.html"><img src="static/img/product_page_img_big1.jpg" alt=""><img src="static/img/product_page_img_big1.jpg" class="roll_over_img" alt=""></a> </div>
-                <div class="wrapper-hover">
-                  <div class="product-name aligncenter"><a href="product.html">Apple IPhone 4S</a></div>
-                  <div class="wrapper"><span class="sort-rating hidden">4</span>
-                    <!--<div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>-->
-                        <div class="product-price aligncenter" style = "padding-bottom:10px"><a class="aligncenter"  href="http://www.flipkart.com/htc-a310e-explorer/p/itme6g4yxaa7s8zu?pid=MOBDB8Z7QCGZSPDF">Lowest Price ₹ 190</a>
-                        </div>
-                    <div class="rating-listing rating"> <strong><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a></strong><a><i class="icon-star-empty"></i></a> </div>
-                  </div>
-                    <div class="skillbar clearfix " data-percent=75%>
-                    <div class="skillbar-title" style="background: #d35400; width:20%;"><span>75/100</span></div>
-                    <div class="skillbar-bar" style="background: #e67e22;"></div>
-                    <div class="skill-bar-percent">75/100</div>
-                  </div>
-                    <div class="add-to-links">
-                      <ul>
-                        <li style = "padding-bottom:10px;"> <a href="#" class="small_icon_color" ><i class="icon-shop"></i></a><a class="small_icon_color" href="#">Compare Prices</a></li>
-                        <li> <a href="#" class="small_icon_color"><i class="icon-chart-bar"></i></a><a class="small_icon_color" href="#">Add to Compare</a> </li>
-                      </ul>
-                    </div>
-                </div>
-              </div>
-
-                <!--Product blockends here-->
-
-                <!-- One Product Block Starts-->
-              <div class="span3 product hover " style= "border-radius:0px; box-shadow: 0 0 0">
-                <div class="product-image-wrapper " style= "border-radius:0px; box-shadow: 0 0 0"><a href="product.html"><img src="static/img/product_page_img_big1.jpg" alt=""><img src="static/img/product_page_img_big1.jpg" class="roll_over_img" alt=""></a> </div>
-                <div class="wrapper-hover">
-                  <div class="product-name aligncenter"><a href="product.html">Apple IPhone 4S</a></div>
-                  <div class="wrapper"><span class="sort-rating hidden">4</span>
-                    <!--<div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>-->
-                        <div class="product-price aligncenter" style = "padding-bottom:10px"><a class="aligncenter"  href="http://www.flipkart.com/htc-a310e-explorer/p/itme6g4yxaa7s8zu?pid=MOBDB8Z7QCGZSPDF">Lowest Price ₹ 190</a>
-                        </div>
-                    <div class="rating-listing rating"> <strong><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a></strong><a><i class="icon-star-empty"></i></a> </div>
-                  </div>
-                    <div class="skillbar clearfix " data-percent=75%>
-                    <div class="skillbar-title" style="background: #d35400; width:20%;"><span>75/100</span></div>
-                    <div class="skillbar-bar" style="background: #e67e22;"></div>
-                    <div class="skill-bar-percent">75/100</div>
-                  </div>
-                    <div class="add-to-links">
-                      <ul>
-                        <li style = "padding-bottom:10px;"> <a href="#" class="small_icon_color" ><i class="icon-shop"></i></a><a class="small_icon_color" href="#">Compare Prices</a></li>
-                        <li> <a href="#" class="small_icon_color"><i class="icon-chart-bar"></i></a><a class="small_icon_color" href="#">Add to Compare</a> </li>
-                      </ul>
-                    </div>
-                </div>
-              </div>
-
-                <!--Product blockends here-->
-
-                <!-- One Product Block Starts-->
-              <div class="span3 product hover " style= "border-radius:0px; box-shadow: 0 0 0">
-                <div class="product-image-wrapper " style= "border-radius:0px; box-shadow: 0 0 0"><a href="product.html"><img src="static/img/product_page_img_big1.jpg" alt=""><img src="static/img/product_page_img_big1.jpg" class="roll_over_img" alt=""></a> </div>
-                <div class="wrapper-hover">
-                  <div class="product-name aligncenter"><a href="product.html">Apple IPhone 4S</a></div>
-                  <div class="wrapper"><span class="sort-rating hidden">4</span>
-                    <!--<div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>-->
-                        <div class="product-price aligncenter" style = "padding-bottom:10px"><a class="aligncenter"  href="http://www.flipkart.com/htc-a310e-explorer/p/itme6g4yxaa7s8zu?pid=MOBDB8Z7QCGZSPDF">Lowest Price ₹ 190</a>
-                        </div>
-                    <div class="rating-listing rating"> <strong><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a></strong><a><i class="icon-star-empty"></i></a> </div>
-                  </div>
-                    <div class="skillbar clearfix " data-percent=75%>
-                    <div class="skillbar-title" style="background: #d35400; width:20%;"><span>75/100</span></div>
-                    <div class="skillbar-bar" style="background: #e67e22;"></div>
-                    <div class="skill-bar-percent">75/100</div>
-                  </div>
-                    <div class="add-to-links">
-                      <ul>
-                        <li style = "padding-bottom:10px;"> <a href="#" class="small_icon_color" ><i class="icon-shop"></i></a><a class="small_icon_color" href="#">Compare Prices</a></li>
-                        <li> <a href="#" class="small_icon_color"><i class="icon-chart-bar"></i></a><a class="small_icon_color" href="#">Add to Compare</a> </li>
-                      </ul>
-                    </div>
-                </div>
-              </div>
-
-                <!--Product blockends here-->
-
-
-
-
 
             </div>
           </div>
