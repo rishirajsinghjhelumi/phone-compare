@@ -41,6 +41,8 @@
 <script src="{{ url_for('static', filename='js/scripts.js')}}"></script>
 <script src="{{ url_for('static', filename='js/doubletaptogo.js')}}"></script>
 <script src="{{ url_for('static', filename='js/navigation.js')}}"></script> 
+<script src="{{ url_for('static', filename='js/jquery.fastLiveFilter.js')}}"></script> 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.js"></script>
 </head>
 <body>
 <div id="wrap">
@@ -64,7 +66,7 @@
     <div class="search_wrapper">
       <form class="form-search" id="form-search-right">
         <button class="btn" onClick="searchForItems()"><i class="icon-search-2 icon-large"></i></button>
-        <input type="text" class="input-medium search-query searching-query1" value="search" onblur="if (this.value == '') {this.value = 'search';}" onfocus="if(this.value == 'search') {this.value = '';}">
+        <input type="text" id= "search-query" class="input-medium search-query searching-query1" value="search" onblur="if (this.value == '') {this.value = 'search';}" onfocus="if(this.value == 'search') {this.value = '';}">
       </form>
     </div>
     <div id="back-top"> <a href="#top"><i class="icon-up-2"></i></a> </div>
@@ -127,8 +129,8 @@
           </div>
           <div class="spy-right">
             <div class="spyshop_search  hidden-tablet">
-              <form class="form-search" id="form-search-spy">
-                <input type="text" class="search-query searching-query2" value="search here..." onblur="if (this.value == '') {this.value = 'search here...';}" onfocus="if(this.value == 'search here...') {this.value = '';}">
+              <form class="form-search" id="form-search-spy" action="searchForItems()">
+                <input type="text" id="search-query" class="search-query searching-query2" value="search here..." onblur="if (this.value == '') {this.value = 'search here...';}" onfocus="if(this.value == 'search here...') {this.value = '';}">
                 <button class="btn" onClick="searchForItems()"><i class="icon-search-2 icon-large"></i></button>
               </form>
             </div>
@@ -160,9 +162,9 @@
         <div class="pull-right padding-1">
           <div class="form-search-wrapper">
             <div id="search">
-              <form class="form-search" id="form-search">
-                <input type="text" class="search-query searching-query3" id="search_query" value="search entire store here..." onblur="if (this.value == '') {this.value = 'search entire store here...';}" onfocus="if(this.value == 'search entire store here...') {this.value = '';}">
-                <button  class="btn" onClick="searchForItems()"><i class="icon-search-2 icon-large"></i></button>
+              <form class="form-search" id="form-search" action="javascript:searchForItems()">
+                <input type="text" id="main-search-query" class="search-query searching-query3" id="search_query" value="search entire store here..." onblur="if (this.value == '') {this.value = 'search entire store here...';}" onfocus="if(this.value == 'search entire store here...') {this.value = '';}">
+                <button  class="btn" ><i class="icon-search-2 icon-large"></i></button>
               </form>
             </div>
           </div>

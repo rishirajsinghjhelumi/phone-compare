@@ -1,7 +1,7 @@
 from flask import Blueprint, request, render_template, flash, g, session, redirect, url_for
 from flask import jsonify
 from bson.objectid import ObjectId
-
+from pymongo import ASCENDING
 from bson import json_util
 import json
 
@@ -106,8 +106,6 @@ def getPhoneIdListFromKeywordPreference(keyword):
         for phoneDetail in phoneDetailList:
                 for resultObj in phoneDetail:
                         phoneIdList.append(resultObj['_id'])
-                        app.logger.info(resultObj['_id'])
-	app.logger.info("PhoneIds for keyword {}" , keyword)
         return  phoneIdList
 
 @mod.route('/brand/<brandName>', methods=['GET'])
@@ -120,6 +118,20 @@ def brandModels(brandName):
 		"Model Name" : 1
 	})
 	return [phone for phone in phones]
+
+@mod.route('/autocomplete', methods=['GET'])
+def autoCompletePhones():
+
+	try:
+		if not session["autoComplete"]:
+			raise Exception()
+		return session["autoComplete"]
+	except:
+		app.logger.info("session empty")
+		allPhoneNameCursor = mongo.autoCompletePhones.find()             
+		allPhoneNames = [phone["Name"] for phone in allPhoneNameCursor]
+		session["autoComplete"] = allPhoneNames
+	return jsonify(results=session["autoComplete"])
 
 @mod.route('/detail/<phoneID>', methods=['GET'])
 @jsonResponse
@@ -154,44 +166,22 @@ def phones():
                 return keywords
 
 def defineIndex():
-    #mongo.phones.create_index( [{ 'Brand': 'text'}] )
-
-#     mongo.Keywords.create_index([
-#       ('Brand', 'text')
-#   ],
-#   name="search_index",
-#   weights={
-#       'Keyword':100
-#   }
-# )
-    mongo.phones.drop_indexes()
-    mongo.phones.create_index([
-     ('Brand', 'text'),
-     ('Model Name', 'text'),
-     ('specification.GENERAL FEATURES.SIM Type', 'text'),
-     ('specification.GENERAL FEATURES.Handset Color', 'text')
+    mongo.autoCompletePhones.drop_indexes()
+    mongo.autoCompletePhones.create_index([("Name","text")])
+    mongo.autoCompletePhones.ensure_index([
+     ('Name', 'text')
   ],
         cache_for=300,
-
-  name="search_index",
   weights={
-      'Brand':100,
-      'Model Name':100,
-      'specification.GENERAL FEATURES.SIM Type':100,
-      'specification.GENERAL FEATURES.Handset Color':100
+      'Name':100
   }
 )
 
 def searchQuery(queryText):
-    defineIndex()
-    queryList = queryText.  split(" ")
-    app.logger.info(queryList)
-    idList = []
-    for queryText in queryList:
-        text_results = mongo.command('text', 'phones', search=queryText, limit=100)
-        idList.extend([phone["obj"]["_id"] for phone in text_results["results"]])
-    #idList = [ids[$oid] for ids in idList]
-    idList = list(set(idList))
+    text_results = mongo.command('text', 'autoCompletePhones', search=queryText, limit=100)
+    app.logger.info(text_results)
+    idList = [phones["obj"]["_id"] for phones in text_results["results"]]
+    app.logger.info(len(idList))
     return idList
 
 

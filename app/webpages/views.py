@@ -4,7 +4,6 @@ from bson.objectid import ObjectId
 
 from bson import json_util
 import json
-
 from app import mongo
 from app import app
 from app.phones.views import *
@@ -60,12 +59,12 @@ def compareProducts():
 
 @mod.route('/search',methods=['GET'])
 def searchResults():
-	cartList = getCartDetails()
 	phoneIds = getArgAsList(request, 'ids')
 	priceRange = getArgAsList(request, 'pricerange')
 	keywords = getArgAsList(request, 'keywords')
 	brands = getArgAsList(request, 'brands')
         weights = getArgAsList(request, 'weights')
+        
 	phoneList = []
 	if phoneIds:
 		phoneList =  [getPhoneInfo(phone) for phone in phoneIds]
@@ -84,45 +83,76 @@ def searchResults():
 			phoneIds = priceFilterPhoneId
 		phoneList =  [getPhoneInfo(phone) for phone in phoneIds]
 
-        sortedPhoneList = sortPhoneList(phoneList, keywords, weights)
-        phoneList = [sorted[0] for sorted in sortedPhoneList]
-        scoreList = [sorted[1] for sorted in sortedPhoneList]
-	return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList)
+        phoneList = addBazaarFundaScore(phoneList, keywords, weights)
+        sortedPhoneList = sorted(phoneList,key=lambda l:l[1],reverse=True)
+        page = getArgAsList(request, 'page')
+        app.logger.info(page)
+        if page:
+            app.logger.info(page)
+        return displaySearchResults(sortedPhoneList, page)
+        # return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList)
 
-def sortPhoneList(phoneList, keywords, weights):
+        
+def displaySearchResults(sortedPhoneList, pageNo):
+    currentURL = request.url
+    if pageNo:
+        currentURL = currentURL[:-1]
+    else:
+        currentURL = currentURL + "&page="
+    app.logger.info(currentURL)
+    app.logger.info(pageNo)
+    cartList = getCartDetails()
+    items = len(sortedPhoneList)
+    if items % 15 == 0:
+        totalPages = items/15
+    else:
+        totalPages = items/15 + 1
+    phoneList = [sort[0] for sort in sortedPhoneList]
+    scoreList = [sort[1] for sort in sortedPhoneList]
+    app.logger.info(items)
+    if not pageNo:
+        if items > 15:
+            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList[0:15], cartDetails = cartList, scoreList = scoreList[0:15], prev = 0, next = 2, totItem = items, page = 1, fromItem = 1, toItem = 15, currentURL = currentURL,totalPages = totalPages)
+        else :
+            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList, prev = 0, next = 0, totItem = items, page=0, fromItem = 1, toItem = items, currentURL = currentURL, totalPages = totalPages)
+    else:
+        pageNo = int(pageNo[0])
+        if items > 15*pageNo:
+            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList[15*(pageNo-1):(15*(pageNo))], cartDetails = cartList, scoreList = scoreList[15*(pageNo-1):15*(pageNo)], prev = 1, next = pageNo + 1, totItem = items, page = pageNo, fromItem = 15*(pageNo-1) + 1, toItem = 15*pageNo, currentURL = currentURL, totalPages = totalPages)
+        else:
+            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList[(15*(pageNo-1)):items], cartDetails = cartList, scoreList = scoreList[(15*pageNo-1):items], prev = 1, next = 0, totItem = items, page = pageNo, fromItem = 15*(pageNo-1) + 1, toItem = items, currentURL = currentURL, totalPages = totalPages)
+    
+    
+    return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList)
+
+def addBazaarFundaScore(phoneList, keywords, weights):
     app.logger.info("in sorting")
-    app.logger.info(weights)
     sortedPhoneList = []
     phoneScoreList = []
-
-    maxPopulation = 0
+    app.logger.info(len(phoneList))
+    maxPopulation = 6000
     if weights == []:
         for key in keywords:
             weights.extend([5])
 
-    for phIter in range(len(phoneList)):
-        keyCount = 0
-        keySum = 0
-        population = 0
-        phoneKeyWords = phoneList[phIter]["Keywords"]
-        if len(keywords) == 0:
-            app.logger.info("without keywords")
-            for keys in phoneKeyWords:
-                    population = population + keys["Positive"] + keys["Neutral"] + keys["Negative"]
-            if maxPopulation < population:
-                        app.logger.info("calculating maxPopulation")
-                        app.logger.info(phoneList[phIter]["Model Name"])
-                        app.logger.info(population)
-                        maxPopulation = population
-        else:
-            app.logger.info("keywords")
-            for keyIter in range(len(keywords)):
-                phoneKeyWords = phoneList[phIter]["Keywords"]
-                for keys in phoneKeyWords:
-                    if keys["Keyword"] == keywords[keyIter]:
-                        population = population + keys["Positive"] + keys["Neutral"] + keys["Negative"]
-                if maxPopulation < population:
-                            maxPopulation = population
+    # for phIter in range(len(phoneList)):
+    #     keyCount = 0
+    #     keySum = 0
+    #     population = 0
+    #     phoneKeyWords = phoneList[phIter]["Keywords"]
+    #     if len(keywords) == 0:
+    #         for keys in phoneKeyWords:
+    #                 population = population + keys["Positive"] + keys["Neutral"] + keys["Negative"]
+    #         if maxPopulation < population:
+    #                     maxPopulation = population
+    #     else:
+    #         for keyIter in range(len(keywords)):
+    #             phoneKeyWords = phoneList[phIter]["Keywords"]
+    #             for keys in phoneKeyWords:
+    #                 if keys["Keyword"] == keywords[keyIter]:
+    #                     population = population + keys["Positive"] + keys["Neutral"] + keys["Negative"]
+    #             if maxPopulation < population:
+    #                         maxPopulation = population
 
 
     for phIter in range(len(phoneList)):
@@ -131,7 +161,6 @@ def sortPhoneList(phoneList, keywords, weights):
         population = 0
         phoneKeyWords = phoneList[phIter]["Keywords"]
         if len(keywords) == 0:
-            app.logger.info("without keywords")
             for keys in phoneKeyWords:
                     population = population + keys["Positive"] + keys["Neutral"] + keys["Negative"]
                     try:
@@ -141,7 +170,6 @@ def sortPhoneList(phoneList, keywords, weights):
 
                     keyCount = keyCount + 1
         else:
-            app.logger.info("keywords")
             for keyIter in range(len(keywords)):
                 for keys in phoneKeyWords:
                     if keys["Keyword"] == keywords[keyIter]:
@@ -151,26 +179,27 @@ def sortPhoneList(phoneList, keywords, weights):
         try:
                 keyAvgScrore = ((keySum/keyCount) + ((population*5)/maxPopulation))/2
         except:
-            keyAvgScrore = -1
-        app.logger.info(keyAvgScrore*20)
+            keyAvgScrore = (population*5)/(maxPopulation)/2
+            # keyAvgScrore = -1
         if keyAvgScrore!= -1:
             phoneScoreList.append([phoneList[phIter] ,int(keyAvgScrore*20)])
-            phoneScoreList = sorted(phoneScoreList,key=lambda l:l[1],reverse=True)
-
+            #phoneScoreList = sorted(phoneScoreList,key=lambda l:l[1],reverse=True)
+    app.logger.info(len(phoneScoreList))
     return phoneScoreList
 
 @mod.route('/query', methods=['GET'])
 def search():
+
     cartList = getCartDetails()
     queryText = getArgAsList(request, 'queryText')
     queryText = queryText[0]
+    
     text_results = searchQuery(queryText)
     phoneList =  [getPhoneInfo(phone) for phone in text_results]
-    sortedPhoneList = sortPhoneList(phoneList, [], [])
-    phoneList = [sorted[0] for sorted in sortedPhoneList]
-    scoreList = [sorted[1] for sorted in sortedPhoneList]
-    return render_template("listing_usual.html", title = "Search result for " + queryText, phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList)
-    # return phoneList
-
+    sortedPhoneList = addBazaarFundaScore(phoneList, [], [])
+    page = getArgAsList(request, 'page')
+    app.logger.info(page)
+    
+    return displaySearchResults(sortedPhoneList, page)
 
 

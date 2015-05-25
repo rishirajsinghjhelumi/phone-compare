@@ -444,3 +444,111 @@ position:relative;
 .dropdownPC input[type="checkbox"] { display: none }
 
 /*CSS for Pros and cons DropDown*/
+
+/*css for Listing and HomePage*/
+#choose_brand{
+ display:none;
+}
+
+.display_none{
+display:none;
+position:relative;
+right: 1000px;
+
+
+}
+
+#choose_brand{
+margin:0px 0px 15px 0px;
+position:relative;
+right:1000px;
+
+}
+
+.backgrey{
+background:#fafafa;
+}
+
+.0_margin{
+margin:0px 0px 0px 0px;
+}
+
+.font_table_fix{
+ font-weight: 100;
+ font-size:12px;
+ }
+ 
+.font_listing_fix{
+ font-weight:bold;
+ font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-size:20px;
+ color:black;
+
+}
+
+.listing-height{
+ height:200px;
+ overflow-y:scroll;
+}
+
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  0px; }
+.right-addon input { padding-right: 0px; }
+
+.comp-prod-img{
+  width: 30%;
+  height: 80px;
+  text-align: center;
+  float:left;
+}
+
+.comp-prod-img img{
+	width:60px;
+}
+.comp-prod{
+
+}
+
+.comp-prod-name span{
+ position:relative;
+ top:25px;
+}
+
+
+.comp-prod-name{
+	text-align:center;
+	width:70%;
+	height:80px;
+	overflow:hidden;
+	float:left;
+	display: block;
+  
+}
+
+.comapre-vs{
+ 
+  text-align:center;
+  margin-top:3px;
+  
+}
+
+.comp-prod-foot{
+text-align:center;
+}
+/*CSS for listing and homepage*/

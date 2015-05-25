@@ -22,7 +22,7 @@ app.logger.addHandler(handler)
 app.logger.setLevel(logging.DEBUG)
 
 CART = "CART"
-
+ 
 @mod.before_request
 def before_request():
   if CART not in session:

@@ -9,6 +9,7 @@ jQuery(document).ready(function(){
 		},6000);
 	});
 
+
 	// Increase the count of the compare bucket
 	$( "#add_to_compare" ).click(function() {
 		$phoneID = $("div.PhoneObjectID").eq(0).text();
@@ -166,8 +167,37 @@ function click1(theLink, id) {
 
  $(document).ready(function() {
             BindControls();
+            populateAutoComplete()
 
         });
+
+        function populateAutoComplete() {
+          $domain = location.host
+            $url =  "http://" + $domain + "/phone/autocomplete";
+            // data = httpGet($url).results;
+            // var jsonData = JSON.parse(data);
+            // phoneList = jsonData.results
+            // console.log(phoneList)
+            // $('#search-query').autocomplete({
+            //     source: phoneList,
+            //     minLength: 0,
+            //     scroll: true
+            // }).focus(function() {
+            //     $(this).autocomplete("search", "");
+            // });
+
+            $.ajax({
+                url: $url
+                }).done(function (data) {
+                    $('#main-search-query').autocomplete({
+                        source: data.results,
+                        minLength: 2
+                    }).focus(function() {
+                $(this).autocomplete("search", "");
+            });
+                });
+            };
+
 
         function BindControls() {
             var brand = ['Nokia', 
@@ -228,7 +258,6 @@ function click1(theLink, id) {
               modelList.push($brand + " " + modelName);
               modelModelIDMap[$brand + " " + modelName] = modelID;
           }
-          console.log(modelModelIDMap);
           modelList.sort();
 
           $('#themodel').autocomplete({
@@ -287,11 +316,13 @@ function click1(theLink, id) {
         }
 
         function searchForItems() {
-            queryString = document.getElementById("search_query").value;
+            queryString = document.getElementById("main-search-query").value;
             console.log(queryString);
             domain = location.host
-            searchUrl =  "http://" + domain + "/query?queryText=" + queryString;
-            window.open(searchUrl, "_self");
+            searchUrl =  "http://" + (domain + "/query?queryText=" + queryString);
+            setTimeout(10000)
+            window.location = searchUrl
+            // window.open(searchUrl, "_self");
 //            query?queryText="Apple Iphone 6"
 //            setTimeout(continueExecution, 10000);
         }
