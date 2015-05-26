@@ -327,6 +327,14 @@ function click1(theLink, id) {
 //            setTimeout(continueExecution, 10000);
         }
 
+        <!-- Initialize the Filter Plugin: -->
+ $(function() {
+        $('#filter_search_1').fastLiveFilter('#filter_brand');
+    $('#filter_search_2').fastLiveFilter('#filter_keyword');
+    $('#filter_search_3').fastLiveFilter('#filter_model');
+    
+    });
+
         
 
 

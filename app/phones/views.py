@@ -120,18 +120,22 @@ def brandModels(brandName):
 	return [phone for phone in phones]
 
 @mod.route('/autocomplete', methods=['GET'])
+@jsonResponse
 def autoCompletePhones():
-
+	results = {}
 	try:
 		if not session["autoComplete"]:
 			raise Exception()
-		return session["autoComplete"]
+		results["results"] = session["autoComplete"]
+		return results
 	except:
 		app.logger.info("session empty")
 		allPhoneNameCursor = mongo.autoCompletePhones.find()             
 		allPhoneNames = [phone["Name"] for phone in allPhoneNameCursor]
 		session["autoComplete"] = allPhoneNames
-	return jsonify(results=session["autoComplete"])
+		results["results"] = session["autoComplete"]
+		app.logger.info(results)
+	return results
 
 @mod.route('/detail/<phoneID>', methods=['GET'])
 @jsonResponse
