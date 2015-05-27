@@ -15,7 +15,8 @@ from logging.handlers import RotatingFileHandler
 import jinja2
 
 mod = Blueprint('webpage', __name__, url_prefix='')
-
+allBrands = ['Apple','Blackberry','Celkon','Gionee','HTC','Huawei','Karbonn','Lava','Lenovo','LG','Micromax','Motorola','Microsoft','Nokia','Panasonic','Samsung','Sony','Spice','XOLO','A&K','Adcom','Agtel','Akai','Acer','Alcatel','AirTyme','Aiek','Alpha','Ambrane','Anand','Andi','AOC','Apollo','Arise','AsiaFone','a-star','Asus','ATOM','Beetel','Best','Beven','Beyond','Binatone','Bingo','Bloom','Blu','BQ','Brillon','BSNL','BY2','Byond','Camerii','Cfore','Cheers','Chilli','CLOUD','Coolwave','Croma','Cubit','Daimond','Datawind','Devante','Iball']
+allKeywords = ['price worthiness','delivery and service','applications','sound','design and build quality','battery','bluetooth','screen','internet and browsing','camera','front camera','gaming','lag','earphone','low heating','UI','music','video','others']
 formatter = logging.Formatter(
         "[%(asctime)s] {%(pathname)s:%(lineno)d} %(levelname)s - %(message)s")
 handler = RotatingFileHandler("./logs/application.log", maxBytes=10000000, backupCount=5)
@@ -89,11 +90,11 @@ def searchResults():
         app.logger.info(page)
         if page:
             app.logger.info(page)
-        return displaySearchResults(sortedPhoneList, page)
+        return displaySearchResults(sortedPhoneList, page,priceRange,keywords,brands,allKeywords,allBrands)
         # return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList)
 
         
-def displaySearchResults(sortedPhoneList, pageNo):
+def displaySearchResults(sortedPhoneList, pageNo, priceRange,keywords,brands,allKeywords,allBrands):
     currentURL = request.url
     if pageNo:
         currentURL = currentURL[:-1]
@@ -112,15 +113,15 @@ def displaySearchResults(sortedPhoneList, pageNo):
     app.logger.info(items)
     if not pageNo:
         if items > 15:
-            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList[0:15], cartDetails = cartList, scoreList = scoreList[0:15], prev = 0, next = 2, totItem = items, page = 1, fromItem = 1, toItem = 15, currentURL = currentURL,totalPages = totalPages)
+            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList[0:15], cartDetails = cartList, scoreList = scoreList[0:15], prev = 0, next = 2, totItem = items, page = 1, fromItem = 1, toItem = 15, currentURL = currentURL,totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords)
         else :
-            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList, prev = 0, next = 0, totItem = items, page=0, fromItem = 1, toItem = items, currentURL = currentURL, totalPages = totalPages)
+            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList, prev = 0, next = 0, totItem = items, page=0, fromItem = 1, toItem = items, currentURL = currentURL, totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords)
     else:
         pageNo = int(pageNo[0])
         if items > 15*pageNo:
-            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList[15*(pageNo-1):(15*(pageNo))], cartDetails = cartList, scoreList = scoreList[15*(pageNo-1):15*(pageNo)], prev = 1, next = pageNo + 1, totItem = items, page = pageNo, fromItem = 15*(pageNo-1) + 1, toItem = 15*pageNo, currentURL = currentURL, totalPages = totalPages)
+            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList[15*(pageNo-1):(15*(pageNo))], cartDetails = cartList, scoreList = scoreList[15*(pageNo-1):15*(pageNo)], prev = 1, next = pageNo + 1, totItem = items, page = pageNo, fromItem = 15*(pageNo-1) + 1, toItem = 15*pageNo, currentURL = currentURL, totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords)
         else:
-            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList[(15*(pageNo-1)):items], cartDetails = cartList, scoreList = scoreList[(15*pageNo-1):items], prev = 1, next = 0, totItem = items, page = pageNo, fromItem = 15*(pageNo-1) + 1, toItem = items, currentURL = currentURL, totalPages = totalPages)
+            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList[(15*(pageNo-1)):items], cartDetails = cartList, scoreList = scoreList[(15*pageNo-1):items], prev = 1, next = 0, totItem = items, page = pageNo, fromItem = 15*(pageNo-1) + 1, toItem = items, currentURL = currentURL, totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords)
     
     
     return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList)

@@ -157,7 +157,7 @@
                 <!-- , currentURL = currentURL -->
                 {%for iter in range(totalPages)%}
                 <a href="{{currentURL}}{{iter+1}}">{{iter + 1}}</a>
-                {%endfor%} 
+                {%endfor%}  
                 {%if next == 0%}
                   <a class="small_icon"><i class="icon-right-thin"></i></a>
                 {%else%}
@@ -167,109 +167,40 @@
             </div>
           </div>
         </div>
-        <div class="span3" id="column_left">
+        <div class="span3" id="column_left" >
            <!-- ##### -->
          <div class="row">
             <div class="span3">
-       <div class="block">
+            <div class="block">
                 <div class="block-title"><strong><span>Price</span></strong></div>
                 <div class="block-content">
-                  <div id="price_slider_wrapper">
-                    <div id="noUiSlider" class="noUiSlider"></div>
+                  <div id="price_slider_wrapper" onclick = "filterOptions(this)">
+                    <div id="noUiSlider" class="noUiSlider" onclick = "filterOptions(this)" ></div>
                   </div>
                 </div>
               </div>
-              <div class="block_listing">
-                <div class="block block-layered-nav">
-                 <div class="block-title "><strong><span>Brand</span></strong></div>
-                  <div class="block-content">
-          
-          <div class="inner-addon right-addon">
-          <i class="glyphicon icon-search-2 icon-small"></i>
-          <input name="filter_search_1" type="text" id="filter_search_1" class="widthf" value="Search by Brand" onblur="if (this.value == '') {this.value = 'Search by Brand';}" onfocus="if(this.value == 'Search by Brand') {this.value = '';}"/>
-          </div>
-                    
-          <div class="listing-height">
-                     <ul id="filter_brand" class="list-group">
-                       <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Motorola</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Xiaomi</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Samsung</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Motorola</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Xiaomi</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Samsung</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Motorola</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Xiaomi</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Samsung</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Motorola</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Xiaomi</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Samsung</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Motorola</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Xiaomi</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Samsung</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Motorola</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Xiaomi</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Samsung</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Motorola</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Xiaomi</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Samsung</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Motorola</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Xiaomi</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Samsung</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Motorola</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Xiaomi</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Samsung</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Motorola</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Xiaomi</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Samsung</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;check</li>
-            
-          </ul>     
-                    </div>
-                  </div>
-          <hr>
-          <div class="block-title "><strong><span>Model</span></strong></div>
+            <div class="block_listing">
+          <div class="block block-layered-nav">
+                
+          <div class="block-title "><strong><span>Brand</span></strong></div>
            <div class="block-content">
           
           <div class="inner-addon right-addon">
           <i class="glyphicon icon-search-2 icon-small"></i>
-          <input name="filter_search_3" type="text" id="filter_search_3" class="widthf" value="Search by Model" onblur="if (this.value == '') {this.value = 'Search by Model';}" onfocus="if(this.value == 'Search by Model') {this.value = '';}"/>
+          <input name="filter_search_3" type="text" id="filter_search_3" class="widthf" value="Search by Model" onblur="if (this.value == '') {this.value = 'Search by Model';}" onfocus="if(this.value == 'Search by Model') {this.value = '';}" />
           </div>
                     
-          <div class="listing-height">
+          <div class="listing-height" >
                      <ul id="filter_model" class="list-group">
-                       <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Motorola</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Xiaomi</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Samsung</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Motorola</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Xiaomi</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Samsung</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Motorola</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Xiaomi</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Samsung</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Motorola</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Xiaomi</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Samsung</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Motorola</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Xiaomi</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Samsung</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Motorola</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Xiaomi</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Samsung</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Motorola</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Xiaomi</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Samsung</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Motorola</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Xiaomi</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Samsung</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Motorola</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Xiaomi</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Samsung</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Motorola</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Xiaomi</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Samsung</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;check</li>
-            
-          </ul>     
+                      {%for brand in allBrands%}
+                      {%if brand in selectedBrands%}
+                       <li><input type="checkbox" id = {{brand}} name = "brand" class="checkbox"  checked="checked" onclick = "filterOptions(this)"/>&nbsp;&nbsp;{{brand}}</li>
+                       {%else%}
+                       <li><input type="checkbox" id = {{brand}} name = "brand" class="checkbox" onclick = "filterOptions(this)"/>&nbsp;&nbsp;{{brand}}</li>
+                       {%endif%}
+                       {%endfor%}
+             
+                      </ul>     
                     </div>
                   </div>
           <hr>
@@ -284,33 +215,16 @@
           
                    <div class="listing-height">
                      <ul id="filter_keyword" class="list_group">
-                       <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Design</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Battery</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Camera</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Display</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Design</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Battery</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Camera</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Display</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Design</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Battery</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Camera</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Display</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Design</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Battery</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Camera</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Display</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Design</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Battery</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Camera</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Display</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Design</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Battery</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Camera</li>
-             <li><input type="checkbox" class="checkbox" />&nbsp;&nbsp;Display</li>
-             
+                      {%for keyword in allKeywords%}
+                      {%if keyword in selectedKeywords%}
+                       <li><input type="checkbox" id= {{keyword}} name = "keyword" class="checkbox" checked=checked onclick = "filterOptions(this)"/>&nbsp;&nbsp;{{keyword}}</li>
+                       {%else%}
+                       <li><input type="checkbox" id= {{keyword}} name = "keyword" class="checkbox" onclick = "filterOptions(this)"/>&nbsp;&nbsp;{{keyword}}</li>
+                       {%endif%}
+                       {%endfor%}
+                          
             
-          </ul>     
+                     </ul>     
                     </div>
                   </div>
                 </div>

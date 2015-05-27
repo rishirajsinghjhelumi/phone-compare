@@ -200,6 +200,16 @@
         var brands = $('#brands0 ul');
         var brandsImg = $(".brands_block a img");
 
+        var currentURL = window.location.href;
+        var priceRange = currentURL.match(/pricerange=(.*?)&/i)[1];
+        var priceArray = priceRange.split(","); 
+        if (priceArray == []){
+            priceArray[0] = 0;
+            priceArray[1] = 50000;
+        }
+        console.log(priceArray);
+        
+
         var productsRow = $(".big_with_description");
 		productsRow.each(function () {
 			calculateProductsInRow(this);
@@ -366,18 +376,20 @@
         // price slider
 
         priceSlider.empty().noUiSlider('init', {
-            scale: [0, 2000],
-            start: [0, 800],
+		
+            scale: [0, 50000],
+            start: [priceArray[0], priceArray[1]],
             step: false,
             change: function () {
                 var values = $(this).noUiSlider('value');
-                $(this).find('.noUi-lowerHandle .infoBox').text('$' + values[0]);
-                $(this).find('.noUi-upperHandle .infoBox').text('$' + values[1]);
+                $(this).find('.noUi-lowerHandle .infoBox').text('₹' + values[0]);
+                $(this).find('.noUi-upperHandle .infoBox').text('₹' + values[1]);
+                
 
             }
         }).find('.noUi-handle div').each(function (index) {
 
-            $(this).append('<span class="infoBox">$' + $(this).parent().parent().noUiSlider('value')[index] + '</span>');
+            $(this).append('<span class="infoBox" onclick = "filterOptions(this);">₹' + $(this).parent().parent().noUiSlider('value')[index] + '</span>');
 
         });
 

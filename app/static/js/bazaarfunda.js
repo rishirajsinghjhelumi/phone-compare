@@ -128,6 +128,51 @@ function removeByClass(className) {
    $("."+className).remove();
 }
 
+function filterOptions(leftColumn) {
+  var brands = document.getElementsByName("brand");
+  var newBrandList = []
+  for (var i =0; i<brands.length; i++) {
+    if (brands[i].checked) {
+      newBrandList.push(brands[i].id)
+    }
+  }
+  var keywords = document.getElementsByName("keyword");
+  var newKeywordList = []
+  for (var i =0; i<keywords.length; i++) {
+    if (keywords[i].checked) {
+      newKeywordList.push(keywords[i].id)
+    }
+  }
+  var newpriceRange = []
+  var prices = document.getElementsByClassName("infoBox");
+  for (var i =0; i<prices.length; i++) {
+      newpriceRange.push(prices[i].innerHTML)
+    
+  }
+  $domain = location.host
+  $url =  "http://" + $domain + "/search?pricerange=";
+  for (var i =0; i<newpriceRange.length; i++) { 
+    $url = $url + newpriceRange[i].replace('₹','') + ",";
+  }
+  $url = $url.slice(0,-1)
+  $url = $url + "&keywords="
+  for (var i =0; i<newKeywordList.length; i++) { 
+    $url = $url + newKeywordList[i] + ",";
+  }
+  $url = $url.slice(0,-1)
+  $url = $url + "&brands="
+  for (var i =0; i<newBrandList.length; i++) { 
+    $url = $url + newBrandList[i] + ",";
+  }
+  $url = $url.slice(0,-1)
+  window.location = $url
+  console.log($url)
+  console.log(newBrandList)
+  console.log(newpriceRange)
+  console.log(newKeywordList)
+
+}
+
 function click1(theLink, id) {
     var data=theLink.className.split(' ')[0];
     //var data = ev.dataTransfer.getData("text");
