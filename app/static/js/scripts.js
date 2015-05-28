@@ -200,14 +200,19 @@
         var brands = $('#brands0 ul');
         var brandsImg = $(".brands_block a img");
 
-        var currentURL = window.location.href;
-        var priceRange = currentURL.match(/pricerange=(.*?)&/i)[1];
-        var priceArray = priceRange.split(","); 
-        if (priceArray == []){
-            priceArray[0] = 0;
-            priceArray[1] = 50000;
-        }
-        console.log(priceArray);
+        try {
+            var currentURL = window.location.href;
+            var priceRange = currentURL.match(/pricerange=(.*?)&/i)[1];
+            var priceArray = priceRange.split(","); 
+            if (priceArray == []) {
+                priceArray[0] = 0;
+                priceArray[1] = 50000;
+            }
+            console.log(priceArray);
+        } catch(err) {
+            var priceArray = [0, 50000]
+            }
+        
         
 
         var productsRow = $(".big_with_description");
