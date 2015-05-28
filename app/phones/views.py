@@ -98,7 +98,7 @@ def getPhoneIdListFromPriceRange(priceRange, brand):
 	return  phoneIdList
 
 def getPhoneIdListFromKeywordPreference(keyword):
-	phones = mongo.keywords.find({"Keyword":keyword, "Rating": {'$gte': 3.5}})
+	phones = mongo.keywords.find({"Keyword":keyword, "Rating": {'$gte': 2.5}})
 	phoneList = []
         phoneList = [[phone["Brand"],phone["Model Name"].replace(phone["Brand"] + " ", "")] for phone in phones]
         phoneDetailList = [mongo.phones.find({"Model Name" : phoneName[1], "Brand":phoneName[0]}) for phoneName in phoneList]
