@@ -62,6 +62,11 @@ jQuery(document).ready(function(){
     }).on("hidden", function () {
       $("body").removeClass("modal-open")
     });
+    $("#compare_price0").on("show", function () {
+      $("body").addClass("modal-open");
+    }).on("hidden", function () {
+      $("body").removeClass("modal-open")
+    });
 
 
   $('#choosePhone').click(function(){
