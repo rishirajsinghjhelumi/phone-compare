@@ -135,6 +135,10 @@ def autoCompletePhones():
 		session["autoComplete"] = allPhoneNames
 		results["results"] = session["autoComplete"]
 		app.logger.info(results)
+	print "Content-Type: text/plain;charset=utf-8"
+
+	
+	print
 	return results
 
 @mod.route('/detail/<phoneID>', methods=['GET'])
