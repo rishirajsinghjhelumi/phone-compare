@@ -181,7 +181,9 @@
         <div class="span12">
           <nav>
             <ul class="nav nav-list">
-              <li class="nav-header"> <a href="#level0" title="" data-toggle="collapse" class="collapsed"><i class="icon-th"></i>&nbsp;&nbsp;MENU<i class="icon-up pull-right"></i><i class="icon-down pull-right"></i> </a>
+              <li class="nav-header">
+              <a href="#level0" title="" data-toggle="collapse" class="collapsed"><i class="icon-th"></i>&nbsp;&nbsp;MENU<i class="icon-up pull-right"></i><i class="icon-down pull-right"></i>
+              </a>
                 <ul class="collapse in" id="level0" >
                   <li> <a href="/">HOME </a></li>
                   <li> <a href="/">BRANDS </a> <a class="icon-collapse collapsed" href="#level1" title="" data-toggle="collapse" ><i class="icon-up pull-right"></i><i class="icon-down pull-right"></i></a>                    <ul class="collapse in" id="level1">
@@ -281,26 +283,37 @@
             <!--MENU-->
             <ul class="menu" id="nav">
               <li class="menu_home_link"><a href="/"><i class="icon-home"></i></a></li>
-              <li class="dropdown"> <a href="index.html">BRANDS</a>
+              <li class="dropdown"> <a href="listing_usual.html">Brands</a>
                 <ul class="level0 one-column">
                   <li>
                     <ul class="shadow">
-                      <li class="list_column">                        <ul class="list_in_column">
-                          <li class="level1"> <a href="index-creative.html"> <span>All</span> </a> </li>
-                          <li class="level1"> <a href="index-dark.html"> <span>Samsung</span> </a> </li>
-                          <li class="level1"> <a href="index.html"> <span>Motorola</span> </a> </li>
-                          <li class="level1"> <a href="index-amazing.html"> <span>Xiaomi</span> </a> </li>
-                          <li class="level1"> <a href="index-slider_fullscreen.html"> <span>I-Phone</span> </a> </li>
-                          <li class="level1"> <a href="index-boxed.html"> <span>Asus</span> </a> </li>
-                          <li class="level1"> <a href="index-footer_maxi.html"> <span>Yureka</span> </a> </li>
-                          <li class="level1"> <a href="megamenu.html"> <span>Nokia</span> </a> </li>
+                      <li class="list_column">
+                        <ul class="list_in_column">
+                          <li class="level1"> <a href="listing_usual.html"> <span><strong>Top Brands</strong></span> </a>
+                            <ul>
+                              {%for brand in allTopBrands%}
+                              <li class="level2"> <a href="/search?pricerange=0,50000&brands={{brand}}"> <span>{{brand}}</span> </a> </li>
+                              {%endfor%}
+                              </ul>
+                          </li>
                         </ul>
-</li>
+                      </li>
+                      <li class="list_column">
+                        <ul class="list_in_column">
+                          <li class="level1"> <a href="product.html"> <span><strong>Product</strong></span> </a>
+                            <ul>
+                              {%for brand in allNonTopBrands%}
+                              <li class="level2"> <a href="/search?pricerange=0,50000&brands={{brand}}"> <span>{{brand}}</span> </a> </li>
+                              {%endfor%}
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
                     </ul>
                   </li>
                 </ul>
               </li>
-         <li> <a href="contact.html">COMPARE MOBILE</a> </li>
+         <li> <a href="compare">COMPARE MOBILE</a> </li>
             
               <li class="dropdown"> <a href="blog_listing_view.html">BLOG</a>
                 <ul class="level0 one-column">
