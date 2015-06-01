@@ -159,15 +159,20 @@ function filterOptions(leftColumn) {
   for (var i =0; i<newpriceRange.length; i++) { 
     $url = $url + newpriceRange[i].replace('₹','') + ",";
   }
-  $url = $url.slice(0,-1)
-  $url = $url + "&keywords="
-  for (var i =0; i<newKeywordList.length; i++) { 
-    $url = $url + newKeywordList[i] + ",";
+  
+  if (newKeywordList.length != 0){
+    $url = $url.slice(0,-1)
+    $url = $url + "&keywords="
+    for (var i =0; i<newKeywordList.length; i++) { 
+      $url = $url + newKeywordList[i] + ",";
+    }
   }
-  $url = $url.slice(0,-1)
-  $url = $url + "&brands="
-  for (var i =0; i<newBrandList.length; i++) { 
-    $url = $url + newBrandList[i] + ",";
+  if (newBrandList.length != 0) {
+    $url = $url.slice(0,-1)
+    $url = $url + "&brands="
+    for (var i =0; i<newBrandList.length; i++) { 
+      $url = $url + newBrandList[i] + ",";
+    }
   }
   $url = $url.slice(0,-1)
   window.location = $url
@@ -369,7 +374,7 @@ function click1(theLink, id) {
             queryString = document.getElementById("main-search-query").value;
             console.log(queryString);
             domain = location.host
-            searchUrl =  "http://" + (domain + "/query?queryText=" + queryString);
+            searchUrl =  "http://" + (domain + "/search/query?queryText=" + queryString);
             setTimeout(10000)
             window.location = searchUrl
             // window.open(searchUrl, "_self");

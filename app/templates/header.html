@@ -22,6 +22,7 @@
 <link href="{{ url_for('static', filename='css/animate.css')}}" rel="stylesheet" type="text/css">
 <link href="{{ url_for('static', filename='css/bazaarfunda.css')}}" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type="text/css">
+<link href="{{ url_for('static', filename='css/revolution.css')}}" rel="stylesheet" type="text/css">
 <!--[if IE 9 ]><link href="css/styleie9.css" rel="stylesheet"> <![endif]-->
 <!--[if lte IE 8 ]> <link href="css/styleie8.css" rel="stylesheet"> <script src="js/html5.js"></script><![endif]-->
 <script src="{{ url_for('static', filename='js/modernizr-2.6.2.min.js')}}"></script>
@@ -42,6 +43,9 @@
 <script src="{{ url_for('static', filename='js/doubletaptogo.js')}}"></script>
 <script src="{{ url_for('static', filename='js/navigation.js')}}"></script> 
 <script src="{{ url_for('static', filename='js/jquery.fastLiveFilter.js')}}"></script> 
+<script src="{{ url_for('static', filename='js/jquery.themepunch.plugins.min.js')}}"></script> 
+<script src="{{ url_for('static', filename='js/jquery.themepunch.revolution.js')}}"></script> 
+<script src="{{ url_for('static', filename='js/js/revolution_ini.js')}}"></script> 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.js"></script>
 </head>
 <body>
@@ -72,7 +76,8 @@
     <div id="back-top"> <a href="#top"><i class="icon-up-2"></i></a> </div>
   </div>
   <!--HEADER-->
-  <div id="topline">
+  <!--Top Crap-->
+  <!-- <div id="topline">
     <div class="container">
       <div class="wrapper_w">
         <div class="pull-left hidden-phone hidden-tablet ">
@@ -116,7 +121,8 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
+  <!--Top Crap-->
   <div id="header">
     <div id="spy" class="visible-desktop visible-tablet">
       <div class="container">
@@ -125,10 +131,10 @@
             <nav></nav>
           </div>
           <div class="spy-left">
-            <div class="spy_logo"> <a href="index.html" class="logo_inner"><img src="img/logo.png" alt=""></a></div>
+            <div class="spy_logo"> <a href="/" class="logo_inner"><img src="img/logo.png" alt=""></a></div>
           </div>
           <div class="spy-right">
-            <div class="spyshop_search  hidden-tablet">
+            <div class="spyshop_search">
               <form class="form-search" id="form-search-spy" action="searchForItems()">
                 <input type="text" id="search-query" class="search-query searching-query2" value="search here..." onblur="if (this.value == '') {this.value = 'search here...';}" onfocus="if(this.value == 'search here...') {this.value = '';}">
                 <button class="btn" onClick="searchForItems()"><i class="icon-search-2 icon-large"></i></button>
@@ -141,7 +147,7 @@
     </div>
     <div class="container">
       <div class="wrapper_w">
-        <div id="logo"> <a href="index.html" class="logo_inner"><img src="img/logo.png" width="250" height="85" alt=""></a> </div>
+        <div id="logo"> <a href="/" class="logo_inner"><img src="img/logo.png" width="250" height="85" alt=""></a> </div>
         <div class="pull-right padding-1" id="cart">
           <div class="shoppingcart">
             <div class="fadelink"><span class="pull-right"> <a href="../compare" class="btn"><i class="icon-chart-bar icon-large"></i></a> </span><span class="badge  badge-inverse">{{cartDetails|length}}</span>
@@ -171,21 +177,24 @@
         </div>
       </div>
       <div class="row">
+        <!-- Nav Bar-->
         <div class="span12">
           <nav>
             <ul class="nav nav-list">
-              <li class="nav-header"> <a href="#level0" title="" data-toggle="collapse" class="collapsed"><i class="icon-th"></i>&nbsp;&nbsp;MENU<i class="icon-up pull-right"></i><i class="icon-down pull-right"></i> </a>
+              <li class="nav-header">
+              <a href="#level0" title="" data-toggle="collapse" class="collapsed"><i class="icon-th"></i>&nbsp;&nbsp;MENU<i class="icon-up pull-right"></i><i class="icon-down pull-right"></i>
+              </a>
                 <ul class="collapse in" id="level0" >
-                  <li> <a href="index.html">HOME </a></li>
-                  <li> <a href="index.html">LAYOUT </a> <a class="icon-collapse collapsed" href="#level1" title="" data-toggle="collapse" ><i class="icon-up pull-right"></i><i class="icon-down pull-right"></i></a>                    <ul class="collapse in" id="level1">
-                      <li> <a href="index-creative.html"> <span>Creative Layout</span> </a> </li>
-                      <li> <a href="index-dark.html"> <span>Dark Layout</span> </a> </li>
-                      <li> <a href="index.html"> <span>Header - classic</span> </a> </li>
-                      <li> <a href="index-amazing.html"> <span>Header - amazing</span> </a> </li>
-                      <li> <a href="index-slider_fullscreen.html"> <span>Slider - full screen / flex</span> </a> </li>
-                      <li> <a href="index-boxed.html"> <span>Slider - boxed / revolution</span> </a> </li>
-                      <li> <a href="index-footer_maxi.html"> <span>Footer - maxi</span> </a> </li>
-                      <li> <a href="megamenu.html"> <span>Megamenu</span> </a> </li>
+                  <li> <a href="/">HOME </a></li>
+                  <li> <a href="/">BRANDS </a> <a class="icon-collapse collapsed" href="#level1" title="" data-toggle="collapse" ><i class="icon-up pull-right"></i><i class="icon-down pull-right"></i></a>                    <ul class="collapse in" id="level1">
+                      <li> <a href="index-creative.html"> <span>All</span> </a> </li>
+                      <li> <a href="index-dark.html"> <span>Nokia</span> </a> </li>
+                      <li> <a href="index.html"> <span>Samsung</span> </a> </li>
+                      <li> <a href="index-amazing.html"> <span>I-Phone</span> </a> </li>
+                      <li> <a href="index-slider_fullscreen.html"> <span>Motorola</span> </a> </li>
+                      <li> <a href="index-boxed.html"> <span>Xiaomi</span> </a> </li>
+                      <li> <a href="index-footer_maxi.html"> <span>Asus</span> </a> </li>
+                      <li> <a href="megamenu.html"> <span>Yureka</span> </a> </li>
                     </ul>
 </li>
                   <li> <a href="listing_usual.html"> Catalogue </a> <a class="icon-collapse collapsed" href="#level2" title="" data-toggle="collapse" ><i class="icon-up pull-right"></i><i class="icon-down pull-right"></i></a>
@@ -273,40 +282,19 @@
           <nav> 
             <!--MENU-->
             <ul class="menu" id="nav">
-              <li class="menu_home_link"><a href="index.html"><i class="icon-home"></i></a></li>
-              <li class="dropdown"> <a href="index.html">Layout</a>
-                <ul class="level0 one-column">
-                  <li>
-                    <ul class="shadow">
-                      <li class="list_column">                        <ul class="list_in_column">
-                          <li class="level1"> <a href="index-creative.html"> <span>Creative Layout</span> </a> </li>
-                          <li class="level1"> <a href="index-dark.html"> <span>Dark Layout</span> </a> </li>
-                          <li class="level1"> <a href="index.html"> <span>Header - classic</span> </a> </li>
-                          <li class="level1"> <a href="index-amazing.html"> <span>Header - amazing</span> </a> </li>
-                          <li class="level1"> <a href="index-slider_fullscreen.html"> <span>Slider - full screen / flex</span> </a> </li>
-                          <li class="level1"> <a href="index-boxed.html"> <span>Slider - boxed / revolution</span> </a> </li>
-                          <li class="level1"> <a href="index-footer_maxi.html"> <span>Footer - maxi</span> </a> </li>
-                          <li class="level1"> <a href="megamenu.html"> <span>Megamenu</span> </a> </li>
-                        </ul>
-</li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown"> <a href="listing_usual.html">Catalogue</a>
+              <li class="menu_home_link"><a href="/"><i class="icon-home"></i></a></li>
+              <li class="dropdown"> <a href="listing_usual.html">Brands</a>
                 <ul class="level0 one-column">
                   <li>
                     <ul class="shadow">
                       <li class="list_column">
                         <ul class="list_in_column">
-                          <li class="level1"> <a href="listing_usual.html"> <span><strong>Listing</strong></span> </a>
+                          <li class="level1"> <a href="listing_usual.html"> <span><strong>Top Brands</strong></span> </a>
                             <ul>
-                              <li class="level2"> <a href="listing_usual.html"> <span>Usual</span> </a> </li>
-                              <li class="level2"> <a href="listing_without_left_column.html"> <span>Without Left Column</span> </a> </li>
-                              <li class="level2"> <a href="listing_small_prev.html"> <span>Small Previews</span> </a> </li>
-                              <li class="level2"> <a href="listing_small_prev_without_left_column.html"> <span>Small Previews Without Left Column</span> </a> </li>
-                              <li class="level2"> <a href="listing_catalogue_mode.html"> <span>Catalogue Mode </span> </a> </li>
-                            </ul>
+                              {%for brand in allTopBrands%}
+                              <li class="level2"> <a href="/search?pricerange=0,50000&brands={{brand}}"> <span>{{brand}}</span> </a> </li>
+                              {%endfor%}
+                              </ul>
                           </li>
                         </ul>
                       </li>
@@ -314,11 +302,9 @@
                         <ul class="list_in_column">
                           <li class="level1"> <a href="product.html"> <span><strong>Product</strong></span> </a>
                             <ul>
-                              <li class="level2"> <a href="product.html"> <span>Product Page</span> </a> </li>
-                              <li class="level2"> <a href="product_custom.html"> <span>Product + Custom Block</span> </a> </li>
-                              <li class="level2"> <a href="product_related.html"> <span>Product + Related Block</span> </a> </li>
-                              <li class="level2"> <a href="product-elevatezoom.html"> <span>Product Page + ElevateZoom </span> </a> </li>
-                              <li class="level2"> <a href="product-elevatezoom-fancybox.html"> <span>Product Page + Fancybox</span> </a> </li>
+                              {%for brand in allNonTopBrands%}
+                              <li class="level2"> <a href="/search?pricerange=0,50000&brands={{brand}}"> <span>{{brand}}</span> </a> </li>
+                              {%endfor%}
                             </ul>
                           </li>
                         </ul>
@@ -327,6 +313,8 @@
                   </li>
                 </ul>
               </li>
+         <li> <a href="compare">COMPARE MOBILE</a> </li>
+            
               <li class="dropdown"> <a href="blog_listing_view.html">BLOG</a>
                 <ul class="level0 one-column">
                   <li>
@@ -342,85 +330,18 @@
                   </li>
                 </ul>
               </li>
-              <li class="dropdown"> <a href="gallery_3d.html">gallery</a>
-                <ul class="level0 one-column">
-                  <li>
-                    <ul class="shadow">
-                      <li class="list_column">
-                        <ul class="list_in_column">
-                          <li class="level1"> <a href="gallery_3d.html"> <span>Gallery: 3D Effect</span> </a> </li>
-                          <li class="level1"> <a href="gallery_2_columns.html"> <span>Gallery: 2 Columns</span> </a> </li>
-                          <li class="level1"> <a href="gallery_3_columns.html"> <span>Gallery: 3 Columns</span> </a> </li>
-                          <li class="level1"> <a href="gallery_4_columns.html"> <span>Gallery: 4 Columns</span> </a> </li>
-                          <li class="level1"> <a href="gallery_4_columns_no_space.html"> <span>Gallery: 4 Columns no space</span> </a> </li>
-                          <li class="level1"> <a href="gallery_single_page.html"> <span>Gallery: Single Page</span> </a> </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown"> <a href="shortcodes_headings.html">Shortcodes</a>
-                <ul class="level0 one-column">
-                  <li>
-                    <ul class="shadow">
-                      <li class="list_column">
-                        <ul class="list_in_column">
-                          <li class="level1"> <a href="shortcodes_headings.html"><span> Headings</span> </a> </li>
-                          <li class="level1"> <a href="shortcodes_alerts.html"><span> Alerts</span> </a> </li>
-                          <li class="level1"> <a href="shortcodes_buttons.html"><span>Buttons</span> </a> </li>
-                          <li class="level1"> <a href="shortcodes_dropcap.html"><span> Dropcap</span> </a> </li>
-                          <li class="level1"> <a href="shortcodes_call_to_action.html"><span> Call To Action</span> </a> </li>
-                          <li class="level1"> <a href="shortcodes_columns.html"><span> Columns</span> </a> </li>
-                          <li class="level1"> <a href="shortcodes_icons.html"><span> Icons</span> </a> </li>
-                          <li class="level1"> <a href="shortcodes_list.html"> <span>List styles</span> </a> </li>
-                          <li class="level1"> <a href="shortcodes_popup.html"> <span>Modal Popup</span> </a> </li>
-                          <li class="level1"> <a href="shortcodes_pricing_tables.html"><span> Pricing Tables</span> </a> </li>
-                          <li class="level1"> <a href="shortcodes_tabs.html"><span> Tabs</span> </a> </li>
-                          <li class="level1"> <a href="shortcodes_team_members.html"><span> Team Members</span> </a> </li>
-                          <li class="level1"> <a href="shortcodes_testimonials.html"><span> Testimonials</span> </a> </li>
-                          <li class="level1"> <a href="shortcodes_toggle.html"> <span>Toggle</span> </a> </li>
-                          <li class="level1"> <a href="shortcodes_video.html"><span> Video</span> </a> </li>
-                          <li class="level1"> <a href="shortcodes_tables.html"><span> Tables</span> </a> </li>
-                          <li class="level1"> <a href="shortcodes_quotes.html"><span> Quotes</span> </a> </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown"> <a href="typography.html">Pages</a>
-                <ul class="level0 one-column">
-                  <li>
-                    <ul class="shadow">
-                      <li class="list_column">
-                        <ul class="list_in_column">
-                          <li class="level1"> <a href="typography.html"> <span>Typography</span> </a> </li>
-                          <li class="level1"> <a href="infographic.html"> <span>Infographic</span> </a> </li>
-                          <li class="level1"> <a href="404.html"> <span>Page 404</span> </a> </li>
-                          <li class="level1"> <a href="about_us.html"> <span>About us</span> </a> </li>
-                          <li class="level1"> <a href="our_office.html"> <span>Our office</span> </a> </li>
-                          <li class="level1"> <a href="faq.html"> <span>FAQ</span> </a> </li>
-                          <li class="level1"> <a href="team_members.html"> <span>Team Members</span> </a> </li>
-                          <li class="level1"> <a href="our_store.html"> <span>Our store</span> </a> </li>
-                          <li class="level1"> <a href="pricing_tables.html"> <span>Pricing table</span> </a> </li>
-                          <li class="level1"> <a href="our_services.html"> <span>Our services</span> </a> </li>
-                          <li class="level1"> <a href="delivery.html"> <span>Delivery</span> </a> </li>
-                          <li class="level1"> <a href="video_section.html"> <span>Video section</span> </a> </li>
-                          <li class="level1"> <a href="sitemap.html"> <span>Sitemap</span> </a> </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li> <a href="contact.html">contact us</a> </li>
-              <li> <a href="#">buy theme</a> </li>
+         <li> <a href="contact.html">ABOUT US</a> </li>
+             
+             
+             
+             
             </ul>
             <!--MENU--> 
           </nav>
         </div>
       </div>
+
+      <!-- Nav Bar-->
     </div>
   </div>
 

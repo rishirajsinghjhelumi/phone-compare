@@ -3,7 +3,7 @@
 <section id="content">
     <div class="container top">
       <div class="row">
-        <div class="span9" id="column_right">
+        <div class="span12" id="column">
           
           <div class="listing_header_row1">
             
@@ -57,7 +57,7 @@
                   
 
               <div class="span3 product hover " style= "border-radius:0px; box-shadow: 0 0 0">
-                <div class="product-image-wrapper " style= "border-radius:0px; box-shadow: 0 0 0"><a href='../pdp/{{phoneDetails[i]["_id"]}}'><img src="static/img/product_page_img_big1.jpg" alt=""><img src="static/img/product_page_img_big1.jpg" class="roll_over_img" alt=""></a> </div>
+                <div class="product-image-wrapper " style= "border-radius:0px; box-shadow: 0 0 0"><a href='../pdp/{{phoneDetails[i]["_id"]}}'><img src="../static/img/product_page_img_big1.jpg" alt=""><img src="../static/img/product_page_img_big1.jpg" class="roll_over_img" alt=""></a> </div>
                 <div class="wrapper-hover">
                   <div class="product-name aligncenter"><a href='../pdp/{{phoneDetails[i]["_id"]}}'>{{phoneDetails[i]["Brand"]}} {{phoneDetails[i]["Model Name"]}}</a></div>
                   <div class="wrapper"><span class="sort-rating hidden">4</span>
@@ -116,93 +116,12 @@
         </div>
 
         <!-- Left Filter Block-->
-        <div class="span3" id="column_left" >
-           <!-- ##### -->
-         <div class="row">
-            <div class="span3">
-            <div class="block">
-                <div class="block-title"><strong><span>Price</span></strong></div>
-                <div class="block-content">
-                  <div id="price_slider_wrapper" onclick = "filterOptions(this)">
-                    <div id="noUiSlider" class="noUiSlider" onclick = "filterOptions(this)" ></div>
-                  </div>
-                </div>
-              </div>
-            <div class="block_listing">
-          <div class="block block-layered-nav">
-                
-          <div class="block-title "><strong><span>Brand</span></strong></div>
-           <div class="block-content">
-          
-          <div class="inner-addon right-addon">
-          <i class="glyphicon icon-search-2 icon-small"></i>
-          <input name="filter_search_3" type="text" id="filter_search_3" class="widthf" value="Search by Model" onblur="if (this.value == '') {this.value = 'Search by Model';}" onfocus="if(this.value == 'Search by Model') {this.value = '';}" />
-          </div>
-                    
-          <div class="listing-height" >
-                     <ul id="filter_model" class="list-group">
-                      {%for brand in allBrands%}
-                      {%if brand in selectedBrands%}
-                       <li><input type="checkbox" id = {{brand}} name = "brand" class="checkbox"  checked="checked" onclick = "filterOptions(this)"/>&nbsp;&nbsp;{{brand}}</li>
-                       {%else%}
-                       <li><input type="checkbox" id = {{brand}} name = "brand" class="checkbox" onclick = "filterOptions(this)"/>&nbsp;&nbsp;{{brand}}</li>
-                       {%endif%}
-                       {%endfor%}
-             
-                      </ul>     
-                    </div>
-                  </div>
-          <hr>
-                  <div class="block-title"><strong><span>KEYWORD</span></strong></div>
-                  <div class="block-content">
-          
-          
-          <div class="inner-addon right-addon">
-          <i class="glyphicon icon-search-2 icon-small"></i>
-          <input name="filter_search_2" id="filter_search_2" type="text" class="widthf" value="Search by Keyword" onblur="if (this.value == '') {this.value = 'Search by Keyword';}" onfocus="if(this.value == 'Search by Keyword') {this.value = '';}"/>
-          </div>
-          
-                   <div class="listing-height">
-                     <ul id="filter_keyword" class="list_group">
-                      {%for keyword in allKeywords%}
-                      {%if keyword in selectedKeywords%}
-                       <li><input type="checkbox" id= {{keyword}} name = "keyword" class="checkbox" checked=checked onclick = "filterOptions(this)"/>&nbsp;&nbsp;{{keyword}}</li>
-                       {%else%}
-                       <li><input type="checkbox" id= {{keyword}} name = "keyword" class="checkbox" onclick = "filterOptions(this)"/>&nbsp;&nbsp;{{keyword}}</li>
-                       {%endif%}
-                       {%endfor%}
-                          
-            
-                     </ul>     
-                    </div>
-                  </div>
-                </div>
-              </div>
-             
-              
-              
-              
-            </div>
-            <!-- <div class="span3">
-              <div class="banners_outer">
-                <div class="flexslider banners">
-                  <ul class="slides">
-                    <li> <a href="product.html"><img src="img/banner1.jpg" alt="" ></a> </li>
-                    <li> <a href="product.html"><img src="img/banner2.jpg" alt="" ></a> </li>
-                    <li> <a href="product.html"><img src="img/banner3.jpg" alt="" ></a> </li>
-                  </ul>
-                </div>
-              </div>
-            </div> -->
-          </div>
-           <!-- ##### -->
-        </div>
+        
         <!-- Left Filter Block-->
       </div>
     </div>
   </section>
-  <div id="push"></div>
-</div>
+  
     
 
     {%for i in range(phoneDetails|length)%}

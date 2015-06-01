@@ -49,8 +49,7 @@ def getPhoneInfo(phoneID):
 			eCom["productUrl"] = price["ECommercePdURL"]
 			eComList.extend([eCom])
 		phone["Prices"] = eComList
-		app.logger.info("Prices Data====>")
-		app.logger.info(phone["Prices"])
+		
         except:
                 app.logger.error("Price data not found for phone with ID: ")
                 app.logger.error(phoneID)
@@ -70,8 +69,7 @@ def getPhoneInfo(phoneID):
 			eCom["Rating"] = keyword["Rating"]
 			eComList.extend([eCom])
 		phone["Keywords"] = eComList
-		app.logger.info("Keywords Data ======>")
-		app.logger.info(phone["Keywords"])
+		
 		
 	except:
 		app.logger.error("Sentiment data not found for phone with ID: ")
@@ -134,11 +132,8 @@ def autoCompletePhones():
 		allPhoneNames = [phone["Name"] for phone in allPhoneNameCursor]
 		session["autoComplete"] = allPhoneNames
 		results["results"] = session["autoComplete"]
-		app.logger.info(results)
-	print "Content-Type: text/plain;charset=utf-8"
 
 	
-	print
 	return results
 
 @mod.route('/detail/<phoneID>', methods=['GET'])
