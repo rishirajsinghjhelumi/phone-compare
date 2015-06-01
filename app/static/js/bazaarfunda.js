@@ -369,7 +369,7 @@ function click1(theLink, id) {
             queryString = document.getElementById("main-search-query").value;
             console.log(queryString);
             domain = location.host
-            searchUrl =  "http://" + (domain + "/query?queryText=" + queryString);
+            searchUrl =  "http://" + (domain + "/search/query?queryText=" + queryString);
             setTimeout(10000)
             window.location = searchUrl
             // window.open(searchUrl, "_self");

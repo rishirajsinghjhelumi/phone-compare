@@ -90,11 +90,11 @@ def searchResults():
         app.logger.info(page)
         if page:
             app.logger.info(page)
-        return displaySearchResults(sortedPhoneList, page,priceRange,keywords,brands,allKeywords,allBrands)
+        return displaySearchResults("search",sortedPhoneList, page,priceRange,keywords,brands,allKeywords,allBrands)
         # return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList)
 
         
-def displaySearchResults(sortedPhoneList, pageNo, priceRange,keywords,brands,allKeywords,allBrands):
+def displaySearchResults(pageType, sortedPhoneList, pageNo, priceRange,keywords,brands,allKeywords,allBrands):
     currentURL = request.url
     if pageNo:
         currentURL = currentURL[:-1]
@@ -113,17 +113,15 @@ def displaySearchResults(sortedPhoneList, pageNo, priceRange,keywords,brands,all
     app.logger.info(items)
     if not pageNo:
         if items > 15:
-            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList[0:15], cartDetails = cartList, scoreList = scoreList[0:15], prev = 0, next = 2, totItem = items, page = 1, fromItem = 1, toItem = 15, currentURL = currentURL,totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords)
+            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList[0:15], cartDetails = cartList, scoreList = scoreList[0:15], prev = 0, next = 2, totItem = items, page = 1, fromItem = 1, toItem = 15, currentURL = currentURL,totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords, pageType=pageType)
         else :
-            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList, prev = 0, next = 0, totItem = items, page=0, fromItem = 1, toItem = items, currentURL = currentURL, totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords)
+            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList, prev = 0, next = 0, totItem = items, page=0, fromItem = 1, toItem = items, currentURL = currentURL, totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords,pageType=pageType)
     else:
         pageNo = int(pageNo[0])
         if items > 15*pageNo:
-            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList[15*(pageNo-1):(15*(pageNo))], cartDetails = cartList, scoreList = scoreList[15*(pageNo-1):15*(pageNo)], prev = 1, next = pageNo + 1, totItem = items, page = pageNo, fromItem = 15*(pageNo-1) + 1, toItem = 15*pageNo, currentURL = currentURL, totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords)
+            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList[15*(pageNo-1):(15*(pageNo))], cartDetails = cartList, scoreList = scoreList[15*(pageNo-1):15*(pageNo)], prev = 1, next = pageNo + 1, totItem = items, page = pageNo, fromItem = 15*(pageNo-1) + 1, toItem = 15*pageNo, currentURL = currentURL, totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords, pageType=pageType)
         else:
-            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList[(15*(pageNo-1)):items], cartDetails = cartList, scoreList = scoreList[(15*pageNo-1):items], prev = 1, next = 0, totItem = items, page = pageNo, fromItem = 15*(pageNo-1) + 1, toItem = items, currentURL = currentURL, totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords)
-    
-    
+            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList[(15*(pageNo-1)):items], cartDetails = cartList, scoreList = scoreList[(15*pageNo-1):items], prev = 1, next = 0, totItem = items, page = pageNo, fromItem = 15*(pageNo-1) + 1, toItem = items, currentURL = currentURL, totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords,pageType=pageType)
     return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList)
 
 def addBazaarFundaScore(phoneList, keywords, weights):
@@ -180,7 +178,7 @@ def addBazaarFundaScore(phoneList, keywords, weights):
         try:
                 keyAvgScrore = ((keySum/keyCount) + ((population*5)/maxPopulation))/2
         except:
-            keyAvgScrore = (population*5)/(maxPopulation)/2
+            keyAvgScrore = (population*5)/(maxPopulation)
             # keyAvgScrore = -1
         if keyAvgScrore!= -1:
             phoneScoreList.append([phoneList[phIter] ,int(keyAvgScrore*20)])
@@ -188,10 +186,10 @@ def addBazaarFundaScore(phoneList, keywords, weights):
     app.logger.info(len(phoneScoreList))
     return phoneScoreList
 
-@mod.route('/query', methods=['GET'])
+@mod.route('/search/query', methods=['GET'])
 def search():
 
-    cartList = getCartDetails()
+    
     queryText = getArgAsList(request, 'queryText')
     queryText = queryText[0]
     
@@ -201,6 +199,55 @@ def search():
     page = getArgAsList(request, 'page')
     app.logger.info(page)
     
-    return displaySearchResults(sortedPhoneList, page)
+    return displayQueryResults("query", sortedPhoneList, page, [])
+
+def displayQueryResults(pageType, sortedPhoneList, pageNo, priceRange):
+    currentURL = request.url
+    if pageNo:
+        currentURL = currentURL[:-1]
+    else:
+        currentURL = currentURL + "&page="
+    app.logger.info(currentURL)
+    app.logger.info(pageNo)
+    cartList = getCartDetails()
+    items = len(sortedPhoneList)
+    if items % 20 == 0:
+        totalPages = items/20
+    else:
+        totalPages = items/20 + 1
+    phoneList = [sort[0] for sort in sortedPhoneList]
+    scoreList = [sort[1] for sort in sortedPhoneList]
+    app.logger.info(items)
+    if not pageNo:
+        if items > 20:
+            return render_template("queryResult.html", title = "Your choice Your Device", phoneDetails = phoneList[0:20], cartDetails = cartList, scoreList = scoreList[0:20], prev = 0, next = 2, totItem = items, page = 1, fromItem = 1, toItem = 20, currentURL = currentURL,totalPages = totalPages, pageType=pageType)
+        else :
+            return render_template("queryResult.html", title = "Your choice Your Device", phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList, prev = 0, next = 0, totItem = items, page=0, fromItem = 1, toItem = items, currentURL = currentURL, totalPages = totalPages,pageType=pageType)
+    else:
+        pageNo = int(pageNo[0])
+        if items > 20*pageNo:
+            return render_template("queryResult.html", title = "Your choice Your Device", phoneDetails = phoneList[20*(pageNo-1):(20*(pageNo))], cartDetails = cartList, scoreList = scoreList[20*(pageNo-1):20*(pageNo)], prev = 1, next = pageNo + 1, totItem = items, page = pageNo, fromItem = 20*(pageNo-1) + 1, toItem = 20*pageNo, currentURL = currentURL, totalPages = totalPages, pageType=pageType)
+        else:
+            return render_template("queryResult.html", title = "Your choice Your Device", phoneDetails = phoneList[(20*(pageNo-1)):items], cartDetails = cartList, scoreList = scoreList[(20*pageNo-1):items], prev = 1, next = 0, totItem = items, page = pageNo, fromItem = 20*(pageNo-1) + 1, toItem = items, currentURL = currentURL, totalPages = totalPages, pageType=pageType)
+    
+    
+    return render_template("queryResult.html", title = "Your choice Your Device", phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList)
 
 
+@mod.route('/', methods=['GET'])
+def homePage():
+    cartList = getCartDetails()
+    cameraPhoneList = getPhoneIdListFromKeywordPreference("camera")
+    cameraPhoneList =  [getPhoneInfo(phone) for phone in cameraPhoneList]
+    cameraPhoneScoreList = addBazaarFundaScore(cameraPhoneList,['camera'],[5])
+    cameraSortedPhoneList = sorted(cameraPhoneScoreList,key=lambda l:l[1],reverse=True)
+    cameraPhoneList = [sort[0] for sort in cameraSortedPhoneList]
+    cameraScoreList = [sort[1] for sort in cameraSortedPhoneList]
+    
+    batteryPhoneList = getPhoneIdListFromKeywordPreference("battery")
+    batteryPhoneList =  [getPhoneInfo(phone) for phone in batteryPhoneList]
+    batteryPhoneScoreList = addBazaarFundaScore(batteryPhoneList,['camera'],[5])
+    batterySortedPhoneList = sorted(batteryPhoneScoreList,key=lambda l:l[1],reverse=True)
+    batteryPhoneList = [sort[0] for sort in batterySortedPhoneList]
+    batteryScoreList = [sort[1] for sort in batterySortedPhoneList]
+    return render_template("index-boxed.html", title = "Your choice Your Device",cartDetails = cartList, batteryPhoneList = batteryPhoneList[0:10],batteryScoreList = batteryScoreList[0:10], cameraPhoneList = cameraPhoneList[0:10], cameraScoreList= cameraScoreList[0:10])
