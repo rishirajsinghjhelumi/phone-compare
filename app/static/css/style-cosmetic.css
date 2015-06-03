@@ -137,7 +137,7 @@ button, .button {
 }
 #nav>li.hover>a, #nav>li>a:hover {
 	-webkit-tap-highlight-color: transparent;
-	background:#1191db;
+	background:#3b5998;
 	color:#fff
 }
 #nav>li.menu_home_link>a {
@@ -179,7 +179,7 @@ button, .button {
 }
 #nav>li>ul {
 	width:auto;
-	border-top:5px solid #1191db;
+	border-top:5px solid #3b5998;
 	background:#fff;
 }
 #nav li.hover .menu_custom_block {
@@ -364,7 +364,7 @@ color: #ff0000;
 #nav span.inside i {
 	font-size:18px;
 	margin:-2px 5px 0 0;
-	color: #1191db;
+	color: #3b5998;
 }
 #nav li.row_middle > ul {
 	margin: 0 30px;
@@ -430,7 +430,7 @@ color: #ff0000;
 	padding: 0 5px;
 	color:#fff;
 	border-radius:3px;
-	background-color:#1191db;
+	background-color:#3b5998;
 }
 #nav ul.rows_outer ul.menu_row li.col li:hover {
 	background-color: #f0f0f0;

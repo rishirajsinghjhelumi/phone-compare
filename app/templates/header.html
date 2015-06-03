@@ -53,9 +53,9 @@
   <div id="right_toolbar" class="hidden-phone hidden-tablet">
     <div><a href="#"><img src="img/logo_small.png" width="52" height="142" alt=""></a></div>
     <div class="shoppingcart">
-      <div class="fadelink"><span class="pull-right"> <a href="../compare" class="btn"><i class="icon-chart-bar icon-large"></i></a> </span><span class="badge  badge-inverse">{{cartDetails}}</span>
+      <div class="fadelink"><span class="pull-right"> <a href="/compare" class="btn"><i class="icon-chart-bar icon-large"></i></a> </span><span class="badge  badge-inverse">{{cartDetails|length}}</span>
         <div class="shopping_cart_mini hidden-phone hidden-tablet">
-          <div class="inner-wrapper">Recently added item(s)
+          <!-- <div class="inner-wrapper">Recently added item(s)
             <div class="item"> <a href="#" class="product-image"><img src="img/product-image-minicart.png" alt=""></a>
               <div class="product-detailes"> <a href="#" class="product-name">Mauris et ligula quis </a>
                 <div class="product-price">1 x $400.00</div>
@@ -63,14 +63,14 @@
               <div class="alignright"> <a href="#"><i class="icon-edit-1"></i></a> <a href="#"><i class="icon-trash-3"></i></a> </div>
             </div>
             <div class="wrapper"> <a href="../compare" class="button">View shopping cart</a> <a href="checkout.html" class="button">Proceed to Checkout</a> </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
     <div class="search_wrapper">
-      <form class="form-search" id="form-search-right">
+      <form class="form-search" id="form-search-right" action="javascript:searchForItemsSide()">
         <button class="btn" onClick="searchForItems()"><i class="icon-search-2 icon-large"></i></button>
-        <input type="text" id= "search-query" class="input-medium search-query searching-query1" value="search" onblur="if (this.value == '') {this.value = 'search';}" onfocus="if(this.value == 'search') {this.value = '';}">
+        <input type="text" id= "side-search-query" class="input-medium search-query searching-query1" value="search" onblur="if (this.value == '') {this.value = 'search';}" onfocus="if(this.value == 'search') {this.value = '';}">
       </form>
     </div>
     <div id="back-top"> <a href="#top"><i class="icon-up-2"></i></a> </div>
@@ -135,8 +135,8 @@
           </div>
           <div class="spy-right">
             <div class="spyshop_search">
-              <form class="form-search" id="form-search-spy" action="searchForItems()">
-                <input type="text" id="search-query" class="search-query searching-query2" value="search here..." onblur="if (this.value == '') {this.value = 'search here...';}" onfocus="if(this.value == 'search here...') {this.value = '';}">
+              <form class="form-search" id="form-search-spy" action="javascript:searchForItemsSpy()">
+                <input type="text" id="search-query-spy" class="search-query searching-query2" value="search here..." onblur="if (this.value == '') {this.value = 'search here...';}" onfocus="if(this.value == 'search here...') {this.value = '';}">
                 <button class="btn" onClick="searchForItems()"><i class="icon-search-2 icon-large"></i></button>
               </form>
             </div>
@@ -150,9 +150,9 @@
         <div id="logo"> <a href="/" class="logo_inner"><img src="img/logo.png" width="250" height="85" alt=""></a> </div>
         <div class="pull-right padding-1" id="cart">
           <div class="shoppingcart">
-            <div class="fadelink"><span class="pull-right"> <a href="../compare" class="btn"><i class="icon-chart-bar icon-large"></i></a> </span><span class="badge  badge-inverse">{{cartDetails|length}}</span>
+            <div class="fadelink"><span class="pull-right"> <a href="/compare" class="btn"><i class="icon-chart-bar icon-large"></i></a> </span><span class="badge  badge-inverse">{{cartDetails|length}}</span>
               <div class="shopping_cart_mini hidden-phone hidden-tablet">
-                <div class="inner-wrapper">Recently added item(s)
+                <!-- <div class="inner-wrapper">Recently added item(s)
                   <div class="item"> <a href="#" class="product-image"><img src="img/product-image-minicart.png" alt=""></a>
                     <div class="product-detailes"> <a href="#" class="product-name">Mauris et ligula quis </a>
                       <div class="product-price">1 x $400.00</div>
@@ -160,7 +160,7 @@
                     <div class="alignright"> <a href="#"><i class="icon-edit-1"></i></a> <a href="#"><i class="icon-trash-3"></i></a> </div>
                   </div>
                   <div class="wrapper"> <a href="../compare" class="button">View shopping cart</a> <a href="checkout.html" class="button">Proceed to Checkout</a> </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -168,7 +168,7 @@
         <div class="pull-right padding-1">
           <div class="form-search-wrapper">
             <div id="search">
-              <form class="form-search" id="form-search" action="javascript:searchForItems()">
+              <form class="form-search" id="form-search" action="javascript:searchForItemsMain()">
                 <input type="text" id="main-search-query" class="search-query searching-query3" id="search_query" value="search entire store here..." onblur="if (this.value == '') {this.value = 'search entire store here...';}" onfocus="if(this.value == 'search entire store here...') {this.value = '';}">
                 <button  class="btn" ><i class="icon-search-2 icon-large"></i></button>
               </form>

@@ -370,8 +370,20 @@ function click1(theLink, id) {
             console.log(phoneID)
         }
 
-        function searchForItems() {
+        function searchForItemsMain() {
             queryString = document.getElementById("main-search-query").value;
+            console.log(queryString);
+            domain = location.host
+            searchUrl =  "http://" + (domain + "/search/query?queryText=" + queryString);
+            setTimeout(10000)
+            window.location = searchUrl
+            // window.open(searchUrl, "_self");
+//            query?queryText="Apple Iphone 6"
+//            setTimeout(continueExecution, 10000);
+        }
+
+        function searchForItemsSpy() {
+            queryString = document.getElementById("search-query-spy").value;
             console.log(queryString);
             domain = location.host
             searchUrl =  "http://" + (domain + "/search/query?queryText=" + queryString);

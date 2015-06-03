@@ -202,6 +202,8 @@
 
         try {
             var currentURL = window.location.href;
+		currentURL = currentURL + '&';
+		console.log(currentURL);
             var priceRange = currentURL.match(/pricerange=(.*?)&/i)[1];
             var priceArray = priceRange.split(","); 
             if (priceArray == []) {
@@ -382,7 +384,7 @@
 
         priceSlider.empty().noUiSlider('init', {
 		
-            scale: [0, 50000],
+            scale: [0, 70000],
             start: [priceArray[0], priceArray[1]],
             step: false,
             change: function () {
