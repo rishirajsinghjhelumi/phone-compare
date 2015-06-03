@@ -150,7 +150,7 @@
                   
                   <tbody>
                     <tr>
-                      <th scope="col" class="aligncenter" style="color:#AAAAAA">{% filter upper %} {{kFet}} {% endfilter %}</th>
+                      <th scope="col" class="aligncenter" style="color:#000000">{% filter upper %} {{kFet}} {% endfilter %}</th>
                       {%for i in range(4)%}
 
                         {%if phoneDetails[i] is defined %}
@@ -192,7 +192,7 @@
 
         <tbody >
           <tr>
-            <th class="aligncenter" style="color:#AAAAAA">{% filter upper %}{{keywords["Keyword"]}}{%endfilter%}</th>
+            <th class="aligncenter" style="color:#000000">{% filter upper %}{{keywords["Keyword"]}}{%endfilter%}</th>
             {%for i in range(4)%}
                 {%set keywordFlag = []%}
                 {%if phoneDetails[i] is defined %}
@@ -239,7 +239,7 @@
 
         <tbody>
           <tr>
-            <th class="aligncenter" style="color:#AAAAAA;">{% filter upper %}{{keywords["About"]}}{%endfilter%}</th>
+            <th class="aligncenter" style="color:#000000; background:#FFEFE7;">{% filter upper %}{{keywords["About"]}}{%endfilter%}</th>
             {%for i in range(4)%}
                 {%set keywordFlag = []%}
                 {%if phoneDetails[i] is defined %}
