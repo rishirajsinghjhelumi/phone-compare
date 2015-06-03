@@ -112,7 +112,7 @@
 	z-index:10000;
 }
 .view:hover {
-	border: 5px solid #1191db;
+	border: 5px solid #3b5998;
 }
 .view .s4 > .overlay {
 	background: -moz-linear-gradient(right, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);

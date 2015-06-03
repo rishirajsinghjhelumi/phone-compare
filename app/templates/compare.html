@@ -131,14 +131,14 @@
                <!--inside_tab-->
                {%for specs in sampleProductDetail["specification"]%}
                   {%for key, value in specs.iteritems()%}
-                   <table class="table table-bordered">
+                   <table class="table table-bordered" style="background:#FFEFE7;">
                      <thead>
                       <tr>
                         <th scope="col" class="aligncenter">{% filter upper %} {{key}} {% endfilter %}</th>
                       </tr>
                     </thead>
                   </table>
-                  <table class="table table-bordered">
+                  <table class="table table-bordered" style="background:#FFFFFF;">
                     <colgroup>
                     <col class="colfixw1">
                     <col class="colfixw2">
@@ -180,7 +180,7 @@
         <!--inside_table-->
 
         <!--<h4 class="upper">BORDRED TABLE</h4>-->
-        <table class="table table-bordered">
+        <table class="table table-bordered" style="background:#FFFFFF;">
           <colgroup>
           <col class="colfixw1">
           <col class="colfixw2">
@@ -190,7 +190,7 @@
         </colgroup>
         {%for keywords in sampleProductDetail["Keywords"]%}
 
-        <tbody>
+        <tbody >
           <tr>
             <th class="aligncenter" style="color:#AAAAAA">{% filter upper %}{{keywords["Keyword"]}}{%endfilter%}</th>
             {%for i in range(4)%}
@@ -202,15 +202,15 @@
                             {%set _ = keywordFlag.append(1)%}
                             <td class="aligncenter "><div class="phone{{i+1}} rate">
                               <div class="skillbar clearfix " data-percent={{pKey["Rating"]*20|round|int}}%>
-                                <div class="skillbar-title" style="background: #d35400; width:20%"><span></span></div> 
-                                <div class="skillbar-bar" style="background: #e67e22;"></div>
+                                <div class="skillbar-title" style="background: #3b5998; width:20%"><span></span></div> 
+                                <div class="skillbar-bar" style="background: #8b9dc3;"></div>
                                 <div class="skill-bar-percent">{{pKey["Rating"]*20|round(1, 'floor') }}% </div>
                               </div>
                             </div></td>
                         {%endif%}
                   {%endfor%}
                   {%if keywordFlag[0] != 1%}
-                     <td class="aligncenter"><div class="phone{{i+1}} rate"></div></td>
+                     <td class="aligncenter" ><div class="phone{{i+1}} rate"></div></td>
                   {%endif%}
                 {%else%}
                     <td class="aligncenter"><div class="phone{{i+1}} rate" style="color:red"></div></td>
@@ -227,7 +227,7 @@
     <div class="tab-pane" id="ProsConsTab">
      <!--inside_table-->
     <!--<h4 class="upper">BORDRED TABLE</h4>-->
-        <table class="table table-bordered">
+        <table class="table table-bordered" style="background:#FFFFFF;">
           <colgroup>
           <col class="colfixw1">
           <col class="colfixw2">
