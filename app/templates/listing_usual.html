@@ -166,9 +166,9 @@
                      <ul id="filter_keyword" class="list_group">
                       {%for keyword in allKeywords%}
                       {%if keyword in selectedKeywords%}
-                       <li><input type="checkbox" id= {{keyword}} name = "keyword" class="checkbox" checked=checked onclick = "filterOptions(this)"/>&nbsp;&nbsp;{{keyword}}</li>
+                       <li><input type="checkbox" id= "{{keyword}}" name = "keyword" class="checkbox" checked=checked onclick = "filterOptions(this)"/>&nbsp;&nbsp;{{keyword}}</li>
                        {%else%}
-                       <li><input type="checkbox" id= {{keyword}} name = "keyword" class="checkbox" onclick = "filterOptions(this)"/>&nbsp;&nbsp;{{keyword}}</li>
+                       <li><input type="checkbox" id= "{{keyword}}" name = "keyword" class="checkbox" onclick = "filterOptions(this)"/>&nbsp;&nbsp;{{keyword}}</li>
                        {%endif%}
                        {%endfor%}
                           
