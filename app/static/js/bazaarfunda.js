@@ -149,6 +149,7 @@ function filterOptions(leftColumn) {
       newKeywordList.push(keywords[i].id)
     }
   }
+
   var newpriceRange = []
   var prices = document.getElementsByClassName("infoBox");
   for (var i =0; i<prices.length; i++) {
@@ -177,10 +178,10 @@ function filterOptions(leftColumn) {
   }
   $url = $url.slice(0,-1)
   window.location = $url
-  console.log($url)
-  console.log(newBrandList)
-  console.log(newpriceRange)
-  console.log(newKeywordList)
+  // console.log($url)
+  // console.log(newBrandList)
+  // console.log(newpriceRange)
+  // console.log(newKeywordList)
 
 }
 
