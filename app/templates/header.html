@@ -45,7 +45,8 @@
 <script src="{{ url_for('static', filename='js/jquery.fastLiveFilter.js')}}"></script> 
 <script src="{{ url_for('static', filename='js/jquery.themepunch.plugins.min.js')}}"></script> 
 <script src="{{ url_for('static', filename='js/jquery.themepunch.revolution.js')}}"></script> 
-<script src="{{ url_for('static', filename='js/js/revolution_ini.js')}}"></script> 
+<script src="{{ url_for('static', filename='js/js/revolution_ini.js')}}"></script>
+<script src="{{ url_for('static', filename='js/bootstrap-multiselect.js')}}"></script> 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.js"></script>
 </head>
 <body>
@@ -131,7 +132,7 @@
             <nav></nav>
           </div>
           <div class="spy-left">
-            <div class="spy_logo"> <a href="/" class="logo_inner"><img src="img/logo.png" alt=""></a></div>
+            <div class="spy_logo"> <a href="/" class="logo_inner"><img src="static/img/logo.png" alt=""></a></div>
           </div>
           <div class="spy-right">
             <div class="spyshop_search">
@@ -147,7 +148,11 @@
     </div>
     <div class="container">
       <div class="wrapper_w">
-        <div id="logo"> <a href="/" class="logo_inner"><img src="img/logo.png" width="250" height="85" alt=""></a> </div>
+        <div id="logo"> <a href="/" class="logo_inner"><img src="static/img/logo.png" width="250" height="85" alt=""></a> </div>
+        <div id="logo" class="row animate-delay-outer">
+          <div class="span3 block_img animate-delay scale"> <a data-toggle="modal" onclick = "reset_1();" href="#recmodal">
+            <img src="static/img/Reccomendation.png" alt=""></a> </div>
+        </div>
         <div class="pull-right padding-1" id="cart">
           <div class="shoppingcart">
             <div class="fadelink"><span class="pull-right"> <a href="/compare" class="btn"><i class="icon-chart-bar icon-large"></i></a> </span><span class="badge  badge-inverse">{{cartDetails|length}}</span>
@@ -280,6 +285,112 @@
             </ul>
           </nav>
           <nav> 
+          <!--Recommendation Page Pop Up -->
+      <div class="modal fade" id="recmodal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                  <h4 class="modal-title"><center>RECCOMENDATION PAGE</center></h4>
+                </div>
+                <div class="modal-body">
+        
+
+          <h5><span class="color_blue">1.</span> SELECT YOUR PRICE RANGE</h5>
+              
+               <div class="block">
+                <div id="price_slider_wrapper">
+                  <div id="noUiSlider" class="noUiSlider"></div>
+                </div>
+               </div>
+               <hr>
+          <h5><span class="color_blue">2. </span>DO YOU HAVE A BRAND PREFERENCE</h5>
+              
+              <input type="radio" name="choice" value="Yes" onclick="enable_brand()"><span>Yes</span> 
+              <input type="radio" name="choice" value="No" onclick="disable_brand()"><span>No</span>
+              
+          <div id="choose_brand">
+            <!--<h5>CHOOSE YOUR BRAND</h5>--> 
+            <select id="brand-list" multiple="multiple">
+              <option value="Motorola">Motorola</option>
+              <option value="Xiaomi">Xiaomi</option>
+              <option value="Asus">Asus</option>
+              <option value="I-Phone">I-Phone</option>
+              <option value="Samsung">Samsung</option>
+              <option value="LG">LG</option>
+            </select>
+          
+          </div>
+          <hr>
+          <h5><span class="color_blue">3. </span>CHOOSE YOUR PREFERENCES OR GET OUR BAZZAR FUNDA PREFERENCES</h5>
+          
+          <div id="pref-1" style="position:relative;" >
+          
+          <h6>&nbsp;&nbsp;&nbsp;<span class="color_blue">1st Preference</span></h6>
+              <input type="radio" name="pref-1" value="1" class="camera" onclick="enable_buttons(this)" id="pref1_r1"><span class="camera">Camera</span>
+              <input type="radio" name="pref-1" value="2"  class="design" onclick="enable_buttons(this)" id="pref1_r2"><span class="design">Design</span>
+              <input type="radio" name="pref-1" value="3"  class="display" onclick="enable_buttons(this)" id="pref1_r3"><span class="display">Display</span>
+              <input type="radio" name="pref-1" value="4" class="hardware" onclick="enable_buttons(this)" id="pref1_r4"><span class="hardware">Hardware</span>
+              <input type="radio" name="pref-1" value="5" class="comfort" onclick="enable_buttons(this)" id="pref1_r5"><span class="comfort">Comfort</span>
+              <input type="radio" name="pref-1" value="6"  class="battery" onclick="enable_buttons(this)" id="pref1_r6"><span class="battery">Battery</span>
+              
+              <label id="pref_l1" class="display_none"></label>
+          </div>
+          
+          <div id="pref-2" class="display_none">
+          <h6>&nbsp;&nbsp;&nbsp;<span class="color_blue">2nd Preference</span></h6>
+              <input type="radio" name="pref-2" value="1" class="camera" onclick="enable_buttons(this)" id="pref2_r1"><span class="camera">Camera</span>
+              <input type="radio" name="pref-2" value="2" class="design" onclick="enable_buttons(this)" id="pref2_r2"><span class="design">Design</span>
+              <input type="radio" name="pref-2" value="3" class="display" onclick="enable_buttons(this)" id="pref2_r3"><span class="display">Display</span>
+              <input type="radio" name="pref-2" value="4" class="hardware" onclick="enable_buttons(this)" id="pref2_r4"><span class="hardware">Hardware</span>
+              <input type="radio" name="pref-2" value="5" class="comfort" onclick="enable_buttons(this)" id="pref2_r5"><span class="comfort">Comfort</span>
+              <input type="radio" name="pref-2" value="6" class="battery" onclick="enable_buttons(this)" id="pref2_r6"><span class="battery">Battery</span>
+              <label id="pref_l2" class="display_none"></label>
+          
+          </div>
+          <div id="pref-3" class="display_none">
+          <h6>&nbsp;&nbsp;&nbsp;<span class="color_blue">3rd Preference</span></h6>
+              <input type="radio" name="pref-3" value="1" class="camera" onclick="enable_buttons(this)" id="pref3_r1"><span class="camera">Camera</span>
+              <input type="radio" name="pref-3" value="2" class="design" onclick="enable_buttons(this)" id="pref3_r2"><span class="design">Design</span>
+              <input type="radio" name="pref-3" value="3" class="display" onclick="enable_buttons(this)" id="pref3_r3"><span class="display">Display</span>
+              <input type="radio" name="pref-3" value="4" class="hardware" onclick="enable_buttons(this)" id="pref3_r4"><span class="hardware">Hardware</span>
+              <input type="radio" name="pref-3" value="5" class="comfort" onclick="enable_buttons(this)" id="pref3_r5"><span class="comfort">Comfort</span>
+              <input type="radio" name="pref-3" value="6" class="battery" onclick="enable_buttons(this)" id="pref3_r6"><span class="battery">Battery</span>
+              <label id="pref_l3" class="display_none"></label>
+          </div>
+          <div id="pref-4" class="display_none">
+          <h6>&nbsp;&nbsp;&nbsp;<span class="color_blue">4th Preference</span></h6>
+              <input type="radio" name="pref-4" value="1" class="camera" onclick="enable_buttons(this)" id="pref4_r1"><span class="camera">Camera</span>
+              <input type="radio" name="pref-4" value="2" class="design" onclick="enable_buttons(this)" id="pref4_r2"><span class="design">Design</span>
+              <input type="radio" name="pref-4" value="3" class="display" onclick="enable_buttons(this)" id="pref4_r3"><span class="display">Display</span>
+              <input type="radio" name="pref-4" value="4" class="hardware" onclick="enable_buttons(this)" id="pref4_r4"><span class="hardware">Hardware</span>
+              <input type="radio" name="pref-4" value="5" class="comfort" onclick="enable_buttons(this)" id="pref4_r5"><span class="comfort">Comfort</span>
+              <input type="radio" name="pref-4" value="6" class="battery" onclick="enable_buttons(this)" id="pref4_r6"><span class="battery">Battery</span>
+              <label id="pref_l4" class="display_none"></label>
+          </div>
+          <div id="pref-5" class="display_none">
+          <h6>&nbsp;&nbsp;&nbsp;<span class="color_blue">5th Preference</span></h6>
+              <input type="radio" name="pref" value="1" class="camera" onclick="enable_buttons(this)" id="pref5_r1"><span class="camera">Camera</span>
+              <input type="radio" name="pref" value="2" class="design" onclick="enable_buttons(this)" id="pref5_r2"><span class="design">Design</span>
+              <input type="radio" name="pref" value="3" class="display" onclick="enable_buttons(this)" id="pref5_r3"><span class="display">Display</span>
+              <input type="radio" name="pref" value="4" class="hardware" onclick="enable_buttons(this)" id="pref5_r4"><span class="hardware">Hardware</span>
+              <input type="radio" name="pref" value="5" class="comfort" onclick="enable_buttons(this)" id="pref5_r5"><span class="comfort">Comfort</span> 
+              <input type="radio" name="pref" value="6" class="battery" onclick="enable_buttons(this)" id="pref5_r6"><span class="battery">Battery</span>
+              <label id="pref_l5" class="display_none"></label>
+          </div>
+          
+          
+          
+            
+          
+                  
+                </div>
+                <div class="modal-footer"> <div class="show_button"><a  class="btn" onclick="reset_1()">RESET</a></div><a href="#" data-dismiss="modal" class="btn" onclick="reccomendMe();">RECCOMEND</a> </div>
+              </div>
+            </div>
+          </div>
+          <!-- onclick="reccomendMe(); -->
+          <!-- Reccomendation Popup-->
             <!--MENU-->
             <ul class="menu" id="nav">
               <li class="menu_home_link"><a href="/"><i class="icon-home"></i></a></li>

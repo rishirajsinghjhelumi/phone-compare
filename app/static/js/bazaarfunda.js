@@ -1,4 +1,5 @@
 var modelModelIDMap = {};
+var prefQueue = [];
 jQuery(document).ready(function(){
 
 
@@ -11,7 +12,7 @@ jQuery(document).ready(function(){
 
 
 	// Increase the count of the compare bucket
-	$( "#add_to_compare" ).click(function() {
+	$("#add_to_compare").click(function() {
 		$phoneID = $("div.PhoneObjectID").eq(0).text();
 		$comarePath = "../cart/add/" + $phoneID;
     $currentURL = window.location.href
@@ -394,6 +395,8 @@ function click1(theLink, id) {
 //            setTimeout(continueExecution, 10000);
         }
 
+
+
         <!-- Initialize the Filter Plugin: -->
  $(function() {
         $('#filter_search_1').fastLiveFilter('#filter_brand');
@@ -402,6 +405,160 @@ function click1(theLink, id) {
     
     });
 
+
+function enable_buttons(theLink) {
+  
+  var str ="show_button";
+  $("."+str).css("display","inline");
+  
+  var child=theLink.className;
+  prefQueue.push(child)
+  $("."+child).hide();
+  //$("#"+name).parent().children().prop("disabled",true);
+  //var last = parent.slice(-1);
+  //$("#"+parent).prop("disabled",true);
+  var name=theLink.id; //Taking ID
+  var parent=$("#"+name).parent().attr("id"); //Taking Parent ID
+  var lb_val=$("#"+name).val()//Taking value of radio
+  $("#"+parent).hide().animate({right: '1000px'});  //Animate Parent ID
+  var last = parent.slice(-1);//last char
+  var lab="pref_l";
+  var lb_id=lab.concat(last);//concat
+  $("#"+lb_id).html(lb_val);//setting label text
+  //alert(lb_val);
+  var last=Number(last)+1;
+  //alert(last);
+  var parent="pref-"
+  var res = parent.concat(last);
+  $("#"+res).show().animate({right: '0px'});
+  
+}
+
+function enable_brand(theLink) {
+  // console.log(theLink);
+  // theLink.setAttribute("checked", "checked"); 
+  var str ="choose_brand";
+  
+  $("#"+str).show().animate({right: '0px'});
+}
+
+function disable_brand(theLink) {
+  // console.log(theLink);
+  // theLink.setAttribute("checked", "checked"); 
+  var str ="choose_brand";
+  $("#"+str).hide().animate({right: '1000px'});
+}
+
+
+
+function reset_1() {
+  prefQueue = []
+  var child="camera";
+  $("."+child).parent().children().prop("disabled",false);
+  $("."+child).parent().children().prop("checked", false);
+  $("."+child).parent().children().show();
+  //var str=$("#pref_l3").html();
+  //alert(str);
+  $("#pref-1").hide().animate({right: '1000px'});
+  $("#pref-2").hide().animate({right: '1000px'});
+  $("#pref-3").hide().animate({right: '1000px'});
+  $("#pref-4").hide().animate({right: '1000px'});
+  $("#pref-5").hide().animate({right: '1000px'});
+  $("#pref-1").show().animate({right: '0px'});
+  $("#pref_l1").html("");
+  $("#pref_l2").html("");
+  $("#pref_l3").html("");
+  $("#pref_l4").html("");
+  $("#pref_l5").html("");
+  //var str=$("#pref_l1").html();
+  //alert(str);
+}
+
+<!-- Initialize the multiselect plugin: -->
+
+    $(document).ready(function() {
+        $('#brand-list').multiselect();
+    });
+
+function enable_pref() {
+  $("#pref-1").show().animate({right: '0px'});
+}
+
+<!-- Initialize the Filter Plugin: -->
+ $(function() {
+        $('#filter_search_1').fastLiveFilter('#filter_brand');
+    $('#filter_search_2').fastLiveFilter('#filter_keyword');
+    $('#filter_search_3').fastLiveFilter('#filter_model');
+    
+    });
+
+ function reccomendMe() {
+    var chooseBrand = document.getElementById("choose_brand");
+    var display = chooseBrand.style.display
+    brandList = []
+    if (display == "block") {
+      brandList = document.getElementsByClassName("multiselect dropdown-toggle btn btn-default");
+      var brandText = brandList[0].title;
+      var brandList = brandText.split(",");
+      if (!brandList) {
+        brandList = [brandText]
+      }
+    }
+    var newpriceRange = []
+    var prices = document.getElementsByClassName("infoBox");
+    for (var i =0; i<prices.length; i++) {
+        priceWithSign = prices[i].innerHTML
+        newpriceRange.push(priceWithSign.replace("₹",""))
+    }
+    console.log(brandList)
+    console.log(prefQueue)
+    console.log(newpriceRange)
+
+    $domain = location.host
+    $url =  "http://" + $domain + "/search?pricerange=";
+    for (var i =0; i<newpriceRange.length; i++) { 
+      $url = $url + newpriceRange[i].replace('₹','') + ",";
+    }
+    weights = [];
+    highest = 5;
+    console.log(prefQueue)
+    if (prefQueue.length != 0){
+      $url = $url.slice(0,-1)
+      $url = $url + "&keywords="
+      for (var i =0; i<prefQueue.length; i++) { 
+        weights.push(highest)
+        highest --;
+        $url = $url + prefQueue[i] + ",";
+      }
+    }
+    if (brandList.length != 0) {
+      $url = $url.slice(0,-1)
+      $url = $url + "&brands="
+      for (var i =0; i<brandList.length; i++) { 
+        brand = brandList[i]
+        brand = brand.trim()
+        $url = $url + brand + ",";
+      }
+    }
+
+    if (weights.length != 0){
+      $url = $url.slice(0,-1)
+      $url = $url + "&weights="
+      for (var i =0; i<weights.length; i++) { 
+        
+        $url = $url + weights[i] + ",";
+      }
+    }
+    $url = $url.slice(0,-1)
+    window.location = $url
+    console.log($url)
+
+ }
+
+ 
+
+
+  
         
 
 
