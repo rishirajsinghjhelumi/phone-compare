@@ -1,11 +1,7 @@
 import json
 from dbConn import getMongoDBConn
 
-REVIEW_FILES = [
-	"ParametricAnalysis/ProsCons/Amazon.csv",
-	"ParametricAnalysis/ProsCons/Flipkart.csv",
-	"ParametricAnalysis/ProsCons/Snapdeal.csv"
-]
+REVIEW_FILES = ["/home/stratdecider/ScrapperOutput/TextAnalysis/ProsCons/ProsCons.csv"]
 reviewJSON = {}
 
 def getAbout(about):
@@ -24,6 +20,7 @@ def getReviewJSON(review):
 
 	brand = fields[0]
 	model = fields[1]
+	model = model.replace("|","")
 	about = fields[2]
 	numPos, reviewPos = getAbout(fields[3])
 	numNeg, reviewNeg = getAbout(fields[4])

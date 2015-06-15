@@ -57,7 +57,7 @@
                   
 
               <div class="span3 product hover " style= "border-radius:0px; box-shadow: 0 0 0">
-                <div class="product-image-wrapper " style= "border-radius:0px; box-shadow: 0 0 0"><a href='../pdp/{{phoneDetails[i]["_id"]}}'><img src="../static/img/product_page_img_big1.jpg" alt=""><img src="../static/img/product_page_img_big1.jpg" class="roll_over_img" alt=""></a> </div>
+                <div class="product-image-wrapper " style= "border-radius:0px; height: 201px"><a href='../pdp/{{phoneDetails[i]["_id"]}}'><img src="/static/img/ImageScrappers/{{phoneDetails[i]["Brand"]}} {{phoneDetails[i]["Model Name"]}}.jpg" alt="" style="height:100%"><img src="../static/img/product_page_img_big1.jpg" class="roll_over_img" alt=""></a> </div>
                 <div class="wrapper-hover">
                   <div class="product-name aligncenter"><a href='../pdp/{{phoneDetails[i]["_id"]}}'>{{phoneDetails[i]["Brand"]}} {{phoneDetails[i]["Model Name"]}}</a></div>
                   <div class="wrapper"><span class="sort-rating hidden">4</span>
@@ -158,7 +158,7 @@
                         <td class="aligncenter 0_margin"><img src="img/amazon.jpg"  alt={{price['website']}} height="25px" width="100px"> </td>
                         <td class="aligncenter 0_margin"><h5>Yes</h5></td>
                         <td class="aligncenter 0_margin"><h5>{{price["price"]}}</h5></td>
-                        <td class="aligncenter 0_margin"><a href={{price['productUrl']}} data-dismiss="modal" class="btn btn-mini">BUY</a></td>
+                        <td class="aligncenter 0_margin"><a href={{price['productUrl']}}  class="btn btn-mini">BUY</a></td>
                     </tr>
                 {%endfor%}
 

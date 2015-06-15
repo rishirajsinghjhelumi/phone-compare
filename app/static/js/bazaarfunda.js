@@ -1,5 +1,6 @@
 var modelModelIDMap = {};
 var prefQueue = [];
+
 jQuery(document).ready(function(){
 
 
@@ -12,7 +13,7 @@ jQuery(document).ready(function(){
 
 
 	// Increase the count of the compare bucket
-	$("#add_to_compare").click(function() {
+	jQuery("#add_to_compare").click(function() {
 		$phoneID = $("div.PhoneObjectID").eq(0).text();
 		$comarePath = "../cart/add/" + $phoneID;
     $currentURL = window.location.href
@@ -134,7 +135,7 @@ function removeByClass(className) {
    $("."+className).remove();
 }
 
-function filterOptions(leftColumn) {
+function filterOptions(leftColumn,price1,price2) {
   var brands = document.getElementsByName("brand");
   var newBrandList = []
   for (var i =0; i<brands.length; i++) {
@@ -150,16 +151,52 @@ function filterOptions(leftColumn) {
     }
   }
 
-  var newpriceRange = []
-  var prices = document.getElementsByClassName("infoBox");
-  for (var i =0; i<prices.length; i++) {
-      newpriceRange.push(prices[i].innerHTML)
+  var newpriceRange = [] 
+  console.log(price1)
+  if (price1 ) {
+    newpriceRange.push(price1);
+    newpriceRange.push(price2);
     
   }
+  else {
+      $currentURL = window.location.href;
+      $priceRangeList = $currentURL.match(/pricerange=(.+)\&keyword/);
+      if (!$priceRangeList){
+        $priceRangeList = $currentURL.match(/pricerange=(.+)\&brands/); 
+      } 
+      if (!$priceRangeList){
+        $currentURL = $currentURL + "&keyword";
+        $priceRangeList = $currentURL.match(/pricerange=(.+)\&keyword/); 
+      }
+      if (!$priceRangeList){
+        $currentURL = $currentURL + "&keyword";
+        $priceRangeList = $currentURL.match(/pricerange=(.+)\#&keyword/); 
+      }
+      if (!$priceRangeList){
+        $priceRangeList = $currentURL.match(/pricerange=(.+)\#&brands/); 
+      } 
+      if ($priceRangeList.length > 1) {
+        $priceRange =  $priceRangeList[1]
+        $priceRangeList = $priceRange.split(',');
+        console.log($priceRangeList)
+        var newPrice1 = $priceRangeList[0].replace("#","")
+        var newPrice2 = $priceRangeList[1].replace("#","")
+        newpriceRange.push(newPrice1.toString());
+        newpriceRange.push(newPrice2.toString());
+        }
+      
+      else {
+        var newPrice1 = 200
+        var newPrice2 = 60000
+        newpriceRange.push(newPrice1.toString());
+        newpriceRange.push(newPrice2.toString());
+      }
+  }
+  console.log(newpriceRange)
   $domain = location.host
   $url =  "http://" + $domain + "/search?pricerange=";
   for (var i =0; i<newpriceRange.length; i++) { 
-    $url = $url + newpriceRange[i].replace('₹','') + ",";
+    $url = $url + newpriceRange[i] + ",";
   }
   
   if (newKeywordList.length != 0){

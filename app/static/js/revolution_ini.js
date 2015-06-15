@@ -1,13 +1,13 @@
-var tpj = jQuery;
-tpj.noConflict();
 
-tpj(document).ready(function() {
+jQuery.noConflict();
+
+jQuery(document).ready(function() {
 	console.log('rev begin');
 
-    if (tpj.fn.cssOriginal != undefined)
-        tpj.fn.css = tpj.fn.cssOriginal;
+    if (jQuery.fn.cssOriginal != undefined)
+        jQuery.fn.css = jQuery.fn.cssOriginal;
 
-    tpj('.banner').revolution({
+    jQuery('.banner').revolution({
         delay: 9000,
         startheight: 500,
         startwidth: 1167,
