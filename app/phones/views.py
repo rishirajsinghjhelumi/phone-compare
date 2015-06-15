@@ -19,11 +19,10 @@ formatter = logging.Formatter(
 handler = RotatingFileHandler("./logs/application.log", maxBytes=10000000, backupCount=5)
 #handler.setLevel(logging.INFO)
 handler.setFormatter(formatter)
-app.logger.addHandler(handler)
-app.logger.setLevel(logging.DEBUG)
+# app.logger.addHandler(handler)
+# app.logger.setLevel(logging.DEBUG)
 
 def getPhoneInfo(phoneID):
-	app.logger.info(phoneID)
 	phone = mongo.phones.find_one({
 		"_id" : ObjectId(phoneID)
 	})
@@ -34,13 +33,14 @@ def getPhoneInfo(phoneID):
 			"Model Name" : phone["Brand"] + " " + phone["Model Name"]
 		})["Reviews"]
 	except:
-		 app.logger.error("Review data not found for phone with ID: ")
+		pass
+		 # app.logger.error("Review data not found for phone with ID: ")
 	try:
 		prices = mongo.prices.find({
                         "Model Name" : phone["Brand"] + " " + phone["Model Name"]
                 })
 		eComList = []
-		app.logger.info(prices)
+		# app.logger.info(prices)
 		for price in prices:
 			eCom = {}
 			eCom["website"] = price["ECommerceName"]
@@ -51,8 +51,9 @@ def getPhoneInfo(phoneID):
 		phone["Prices"] = eComList
 		
         except:
-                app.logger.error("Price data not found for phone with ID: ")
-                app.logger.error(phoneID)
+        	pass
+                # app.logger.error("Price data not found for phone with ID: ")
+                # app.logger.error(phoneID)
 
 	try:
 		keywords = mongo.keywords.find({
@@ -72,14 +73,14 @@ def getPhoneInfo(phoneID):
 		
 		
 	except:
-		app.logger.error("Sentiment data not found for phone with ID: ")
-                app.logger.error(phoneID)
+		pass
+		# app.logger.error("Sentiment data not found for phone with ID: ")
+  #               app.logger.error(phoneID)
 
 	return phone
 
 def getPhoneIdListFromPriceRange(priceRange, brand):
 	low = float(priceRange[0])
-	app.logger.error(low)
 	high = float(priceRange[1])
 	phones = mongo.prices.find({ 'ECommercePrice' : {'$gte':low, '$lt':high}})
 	phoneList = []
@@ -92,7 +93,7 @@ def getPhoneIdListFromPriceRange(priceRange, brand):
         for phoneDetail in phoneDetailList:
 		for resultObj in phoneDetail:
 			phoneIdList.append(resultObj['_id'])
-			app.logger.info(resultObj['_id'])
+			# app.logger.info(resultObj['_id'])
 	return  phoneIdList
 
 def getPhoneIdListFromKeywordPreference(keyword):
@@ -121,13 +122,14 @@ def brandModels(brandName):
 @jsonResponse
 def autoCompletePhones():
 	results = {}
+	session["autoComplete"] = None
 	try:
 		if not session["autoComplete"]:
 			raise Exception()
 		results["results"] = session["autoComplete"]
 		return results
 	except:
-		app.logger.info("session empty")
+		# app.logger.info("session empty")
 		allPhoneNameCursor = mongo.autoCompletePhones.find()             
 		allPhoneNames = [phone["Name"] for phone in allPhoneNameCursor]
 		session["autoComplete"] = allPhoneNames
@@ -150,17 +152,17 @@ def phones():
 	if phoneIds:
 		return [getPhoneInfo(phone) for phone in phoneIds]
 	elif priceRange or keywords:
-		app.logger.info("Price range with keywords")
+		# app.logger.info("Price range with keywords")
 		phoneIds = []
 		for keyword in keywords:
 			phoneIds.extend(getPhoneIdListFromKeywordPreference(keyword))
 		phoneIds = list(set(phoneIds))
-		app.logger.info(phoneIds)
+		# app.logger.info(phoneIds)
 		priceFilterPhoneId = getPhoneIdListFromPriceRange(priceRange, brands)
 		if keywords:
 			phoneIds = set(phoneIds) & set(priceFilterPhoneId)
 		elif priceRange:
-			app.logger.info("only PriceRange")
+			# app.logger.info("only PriceRange")
 			phoneIds = priceFilterPhoneId
 		return [getPhoneInfo(phone) for phone in phoneIds]
         else :
@@ -179,11 +181,12 @@ def defineIndex():
 )
 
 def searchQuery(queryText):
-    text_results = mongo.command('text', 'autoCompletePhones', search=queryText, limit=100)
-    app.logger.info(text_results)
-    idList = [phones["obj"]["_id"] for phones in text_results["results"]]
-    app.logger.info(len(idList))
-    return idList
+	defineIndex()
+	text_results = mongo.command('text', 'autoCompletePhones', search=queryText, limit=100)
+	idList = [phones["obj"]["_id"] for phones in text_results["results"]]
+	return idList
+    # app.logger.info(len(idList))
+    
 
 
 

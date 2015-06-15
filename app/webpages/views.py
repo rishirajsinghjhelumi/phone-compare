@@ -13,10 +13,11 @@ import logging
 from app.util import getArgAsList
 from logging.handlers import RotatingFileHandler
 import jinja2
+import os.path
 
 mod = Blueprint('webpage', __name__, url_prefix='')
-allBrands = ['Apple','Blackberry','Celkon','Gionee','HTC','Huawei','Karbonn','Lava','Lenovo','LG','Micromax','Motorola','Microsoft','Nokia','Panasonic','Samsung','Sony','Spice','XOLO','A&K','Adcom','Agtel','Akai','Acer','Alcatel','AirTyme','Aiek','Alpha','Ambrane','Anand','Andi','AOC','Apollo','Arise','AsiaFone','a-star','Asus','ATOM','Beetel','Best','Beven','Beyond','Binatone','Bingo','Bloom','Blu','BQ','Brillon','BSNL','BY2','Byond','Camerii','Cfore','Cheers','Chilli','CLOUD','Coolwave','Croma','Cubit','Daimond','Datawind','Devante','Iball']
-allKeywords = ['price worthiness','delivery and service','applications','sound','design and build quality','battery','bluetooth','screen','internet and browsing','camera','front camera','gaming','lag','earphone','low heating','UI','music','video','others']
+allBrands = ['Apple','Blackberry','Celkon','Gionee','HTC','Huawei','Karbonn','Lava','Lenovo','LG','Micromax','Motorola','Microsoft','Nokia','Panasonic','Samsung','Sony','Spice','XOLO','Adcom','Agtel','Akai','Acer','Alcatel','AirTyme','Aiek','Alpha','Ambrane','Anand','Andi','AOC','Apollo','Arise','AsiaFone','a-star','Asus','ATOM','Beetel','Best','Beven','Beyond','Binatone','Bingo','Bloom','Blu','BQ','Brillon','BSNL','BY2','Byond','Camerii','Cfore','Cheers','Chilli','CLOUD','Coolwave','Croma','Cubit','Daimond','Datawind','Devante','Iball']
+allKeywords = ['Applications', 'Battery', 'Camera', 'Delivery and service', 'Design and build quality','Earphone', 'Front Camera', 'Gaming', 'Internet and Browsing', 'Less lag', 'Low heating', 'Music', 'Others', 'Price worthiness', 'Screen', 'Sound', 'UI', 'Video']
 formatter = logging.Formatter(
         "[%(asctime)s] {%(pathname)s:%(lineno)d} %(levelname)s - %(message)s")
 handler = RotatingFileHandler("./logs/application.log", maxBytes=10000000, backupCount=5)
@@ -37,7 +38,7 @@ def productDetail(phoneID):
 	title = phoneBrand + " " + phoneName
 	cartDetails = getCartDetails()
 
-	app.logger.info(cartDetails)
+	app.logger.info(phoneDetails)
 	for ids in cartDetails:
 		app.logger.info(ids)
 	return render_template("product-elevatezoom.html", title=title, phoneDetails = phoneDetails, cartDetails = cartDetails,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18])
@@ -52,7 +53,7 @@ def compareProducts():
 		app.logger.info("getting phoneIds from cart")
 		app.logger.info(len(phoneIds))
 	phoneDetails = [getPhoneInfo(phoneId) for phoneId in phoneIds]
-	sampleProductDetail = getPhoneInfo("553171f5b7e36a714fd0bed5")
+	sampleProductDetail = getPhoneInfo("557e55600c677c1bd4b187d6")
 	app.logger.info(phoneIds)
 	for phones in phoneDetails:
 		app.logger.info(phones["Brand"])
@@ -83,9 +84,11 @@ def searchResults():
 		elif priceRange:
 			app.logger.info("only PriceRange")
 			phoneIds = priceFilterPhoneId
-		phoneList =  [getPhoneInfo(phone) for phone in phoneIds]
-
+        phoneIds = list(set(phoneIds))
+        phoneList =  [getPhoneInfo(phone) for phone in phoneIds]
+        #phoneList = getListWhoseImageExist(phoneList)
         phoneList = addBazaarFundaScore(phoneList, keywords, weights)
+
         sortedPhoneList = sorted(phoneList,key=lambda l:l[1],reverse=True)
         if len(sortedPhoneList) > 120 :
             sortedPhoneList = sortedPhoneList[0:120]
@@ -97,7 +100,24 @@ def searchResults():
         return displaySearchResults("search",sortedPhoneList, page,priceRange,keywords,brands,allKeywords,allBrands)
         # return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList)
 
-        
+
+def get_unique_items(list_of_dicts):
+    # Count how many times each key occurs.
+    key_count = collections.defaultdict(lambda: 0)
+    for d in list_of_dicts:
+        key_count[d[key]] += 1
+
+    # Now return a list of only those dicts with a unique key.
+    return [d for d in list_of_dicts if key_count[d[key]] == 1]
+
+def getListWhoseImageExist(phoneList):
+    for phones in phoneList:
+        modelName = phones["Brand"] + " " + phones["Model Name"]
+        imagePath = "/static/img/ImageScrappers/" + modelName.strip() + ".jpg"
+        print imagePath
+        if os.path.isfile(imagePath):
+            print modelName
+    return phoneList
 def displaySearchResults(pageType, sortedPhoneList, pageNo, priceRange,keywords,brands,allKeywords,allBrands):
     currentURL = request.url
     if pageNo:
@@ -133,31 +153,32 @@ def addBazaarFundaScore(phoneList, keywords, weights):
     sortedPhoneList = []
     phoneScoreList = []
     app.logger.info(len(phoneList))
-    maxPopulation = 6000
+    maxPopulation = 1
     if weights == []:
         for key in keywords:
             weights.extend([5])
 
-    # for phIter in range(len(phoneList)):
-    #     keyCount = 0
-    #     keySum = 0
-    #     population = 0
-    #     phoneKeyWords = phoneList[phIter]["Keywords"]
-    #     if len(keywords) == 0:
-    #         for keys in phoneKeyWords:
-    #                 population = population + keys["Positive"] + keys["Neutral"] + keys["Negative"]
-    #         if maxPopulation < population:
-    #                     maxPopulation = population
-    #     else:
-    #         for keyIter in range(len(keywords)):
-    #             phoneKeyWords = phoneList[phIter]["Keywords"]
-    #             for keys in phoneKeyWords:
-    #                 if keys["Keyword"] == keywords[keyIter]:
-    #                     population = population + keys["Positive"] + keys["Neutral"] + keys["Negative"]
-    #             if maxPopulation < population:
-    #                         maxPopulation = population
+    for phIter in range(len(phoneList)):
+        keyCount = 0
+        keySum = 0
+        population = 0
+        phoneKeyWords = phoneList[phIter]["Keywords"]
+        if len(keywords) == 0:
+            for keys in phoneKeyWords:
+                    population = population + keys["Positive"] + keys["Neutral"] + keys["Negative"]
+            if maxPopulation < population:
+                        maxPopulation = population
+        else:
+            for keyIter in range(len(keywords)):
+                phoneKeyWords = phoneList[phIter]["Keywords"]
+                for keys in phoneKeyWords:
+                    if keys["Keyword"] == keywords[keyIter]:
+                        population = population + keys["Positive"] + keys["Neutral"] + keys["Negative"]
+                if maxPopulation < population:
+                            maxPopulation = population
 
-
+    app.logger.info("maxPopulation ")
+    app.logger.info(maxPopulation )
     for phIter in range(len(phoneList)):
         keyCount = 0
         keySum = 0.0
@@ -187,7 +208,7 @@ def addBazaarFundaScore(phoneList, keywords, weights):
         if keyAvgScrore!= -1:
             phoneScoreList.append([phoneList[phIter] ,int(keyAvgScrore*20)])
             #phoneScoreList = sorted(phoneScoreList,key=lambda l:l[1],reverse=True)
-    app.logger.info(len(phoneScoreList))
+    # app.logger.info(len(phoneScoreList))
     return phoneScoreList
 
 @mod.route('/search/query', methods=['GET'])
@@ -241,16 +262,16 @@ def displayQueryResults(pageType, sortedPhoneList, pageNo, priceRange):
 @mod.route('/', methods=['GET'])
 def homePage():
     cartList = getCartDetails()
-    cameraPhoneList = getPhoneIdListFromKeywordPreference("camera")
+    cameraPhoneList = getPhoneIdListFromKeywordPreference("Camera")
     cameraPhoneList =  [getPhoneInfo(phone) for phone in cameraPhoneList]
-    cameraPhoneScoreList = addBazaarFundaScore(cameraPhoneList,['camera'],[5])
+    cameraPhoneScoreList = addBazaarFundaScore(cameraPhoneList,['Camera'],[5])
     cameraSortedPhoneList = sorted(cameraPhoneScoreList,key=lambda l:l[1],reverse=True)
     cameraPhoneList = [sort[0] for sort in cameraSortedPhoneList]
     cameraScoreList = [sort[1] for sort in cameraSortedPhoneList]
     
-    batteryPhoneList = getPhoneIdListFromKeywordPreference("battery")
+    batteryPhoneList = getPhoneIdListFromKeywordPreference("Battery")
     batteryPhoneList =  [getPhoneInfo(phone) for phone in batteryPhoneList]
-    batteryPhoneScoreList = addBazaarFundaScore(batteryPhoneList,['camera'],[5])
+    batteryPhoneScoreList = addBazaarFundaScore(batteryPhoneList,['Battery'],[5])
     batterySortedPhoneList = sorted(batteryPhoneScoreList,key=lambda l:l[1],reverse=True)
     batteryPhoneList = [sort[0] for sort in batterySortedPhoneList]
     batteryScoreList = [sort[1] for sort in batterySortedPhoneList]

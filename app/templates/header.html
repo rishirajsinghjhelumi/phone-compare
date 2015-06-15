@@ -25,9 +25,12 @@
 <link href="{{ url_for('static', filename='css/revolution.css')}}" rel="stylesheet" type="text/css">
 <!--[if IE 9 ]><link href="css/styleie9.css" rel="stylesheet"> <![endif]-->
 <!--[if lte IE 8 ]> <link href="css/styleie8.css" rel="stylesheet"> <script src="js/html5.js"></script><![endif]-->
+<!-- <script src="{{ url_for('static', filename='js/revolution_ini.js')}}"></script> -->
 <script src="{{ url_for('static', filename='js/modernizr-2.6.2.min.js')}}"></script>
+
 <script src="http://code.jquery.com/jquery-latest.min.js"></script> 
 <script src="{{ url_for('static', filename='js/jquery-ui.min.js')}}"></script>
+
 <script src="{{ url_for('static', filename='js/bazaarfunda.js')}}"></script> 
 <script src="{{ url_for('static', filename='js/bootstrap.js')}}"></script> 
 <script src="{{ url_for('static', filename='js/jquery.easing.js')}}"></script> 
@@ -45,9 +48,21 @@
 <script src="{{ url_for('static', filename='js/jquery.fastLiveFilter.js')}}"></script> 
 <script src="{{ url_for('static', filename='js/jquery.themepunch.plugins.min.js')}}"></script> 
 <script src="{{ url_for('static', filename='js/jquery.themepunch.revolution.js')}}"></script> 
-<script src="{{ url_for('static', filename='js/js/revolution_ini.js')}}"></script>
+
 <script src="{{ url_for('static', filename='js/bootstrap-multiselect.js')}}"></script> 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.js"></script>
+
+<!--FaceBook Script-->
+<script>
+(function(d, s, id) {
+ var js, fjs = d.getElementsByTagName(s)[0];
+ if (d.getElementById(id)) return;
+ js = d.createElement(s); js.id = id;
+ js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=1435721096655907";
+ fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!--Twitter Script-->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </head>
 <body>
 <div id="wrap">
@@ -132,7 +147,7 @@
             <nav></nav>
           </div>
           <div class="spy-left">
-            <div class="spy_logo"> <a href="/" class="logo_inner"><img src="static/img/logo.png" alt=""></a></div>
+            <div class="spy_logo"> <a href="/" class="logo_inner"><img src="/static/img/logo-1.png" alt=""></a></div>
           </div>
           <div class="spy-right">
             <div class="spyshop_search">
@@ -148,10 +163,10 @@
     </div>
     <div class="container">
       <div class="wrapper_w">
-        <div id="logo"> <a href="/" class="logo_inner"><img src="static/img/logo.png" width="250" height="85" alt=""></a> </div>
+        <div id="logo"> <a href="/" class="logo_inner"><img src="/static/img/logo-1.png" width="250" height="85" alt=""></a> </div>
         <div id="logo" class="row animate-delay-outer">
           <div class="span3 block_img animate-delay scale"> <a data-toggle="modal" onclick = "reset_1();" href="#recmodal">
-            <img src="static/img/Reccomendation.png" alt=""></a> </div>
+            <img src="/static/img/Reccomendation.png" alt=""></a> </div>
         </div>
         <div class="pull-right padding-1" id="cart">
           <div class="shoppingcart">
@@ -191,7 +206,7 @@
               </a>
                 <ul class="collapse in" id="level0" >
                   <li> <a href="/">HOME </a></li>
-                  <li> <a href="/">BRANDS </a> <a class="icon-collapse collapsed" href="#level1" title="" data-toggle="collapse" ><i class="icon-up pull-right"></i><i class="icon-down pull-right"></i></a>                    <ul class="collapse in" id="level1">
+                  <li> <a href="/search?pricerange=0,60000">BRANDS </a> <a class="icon-collapse collapsed" href="#level1" title="" data-toggle="collapse" ><i class="icon-up pull-right"></i><i class="icon-down pull-right"></i></a>                    <ul class="collapse in" id="level1">
                       <li> <a href="index-creative.html"> <span>All</span> </a> </li>
                       <li> <a href="index-dark.html"> <span>Nokia</span> </a> </li>
                       <li> <a href="index.html"> <span>Samsung</span> </a> </li>
@@ -291,7 +306,7 @@
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                  <h4 class="modal-title"><center>RECCOMENDATION PAGE</center></h4>
+                  <h4 class="modal-title"><center>RECOMMENDATION PAGE</center></h4>
                 </div>
                 <div class="modal-body">
         
@@ -312,12 +327,16 @@
           <div id="choose_brand">
             <!--<h5>CHOOSE YOUR BRAND</h5>--> 
             <select id="brand-list" multiple="multiple">
-              <option value="Motorola">Motorola</option>
-              <option value="Xiaomi">Xiaomi</option>
-              <option value="Asus">Asus</option>
-              <option value="I-Phone">I-Phone</option>
+              <option value="Apple">Apple</option>
               <option value="Samsung">Samsung</option>
-              <option value="LG">LG</option>
+              <option value="HTC">HTC</option>
+              <option value="Micromax">Micomax</option>
+              <option value="Motorola">Motorola</option>
+              <option value="Nokia">Nokia</option>
+              <option value="Micosoft">Micosoft</option>
+              <option value="Sony">Sony</option>
+              <option value="Karbonn">Karbonn</option>
+              <option value="Lenovo">Lenovo</option>
             </select>
           
           </div>
@@ -327,63 +346,57 @@
           <div id="pref-1" style="position:relative;" >
           
           <h6>&nbsp;&nbsp;&nbsp;<span class="color_blue">1st Preference</span></h6>
-              <input type="radio" name="pref-1" value="1" class="camera" onclick="enable_buttons(this)" id="pref1_r1"><span class="camera">Camera</span>
-              <input type="radio" name="pref-1" value="2"  class="design" onclick="enable_buttons(this)" id="pref1_r2"><span class="design">Design</span>
-              <input type="radio" name="pref-1" value="3"  class="display" onclick="enable_buttons(this)" id="pref1_r3"><span class="display">Display</span>
-              <input type="radio" name="pref-1" value="4" class="hardware" onclick="enable_buttons(this)" id="pref1_r4"><span class="hardware">Hardware</span>
-              <input type="radio" name="pref-1" value="5" class="comfort" onclick="enable_buttons(this)" id="pref1_r5"><span class="comfort">Comfort</span>
-              <input type="radio" name="pref-1" value="6"  class="battery" onclick="enable_buttons(this)" id="pref1_r6"><span class="battery">Battery</span>
+              <input type="radio" name="pref-1" value="1" class="UI" onclick="enable_buttons(this)" id="pref1_r1"><span class="UI">UI</span>
+              <input type="radio" name="pref-1" value="2"  class="Battery" onclick="enable_buttons(this)" id="pref1_r2"><span class="Battery">Battery</span>
+              <input type="radio" name="pref-1" value="3"  class="Camera" onclick="enable_buttons(this)" id="pref1_r3"><span class="Camera">Camera</span>
+              <input type="radio" name="pref-1" value="4" class="Gaming" onclick="enable_buttons(this)" id="pref1_r4"><span class="Gaming">Gaming</span>
+              <input type="radio" name="pref-1" value="5" class="Screen" onclick="enable_buttons(this)" id="pref1_r5"><span class="Screen">Screen</span>
+              <input type="radio" name="pref-1" value="6"  class="Low heating" onclick="enable_buttons(this)" id="pref1_r6"><span class="Low heating">Low heating</span>
               
               <label id="pref_l1" class="display_none"></label>
           </div>
           
           <div id="pref-2" class="display_none">
           <h6>&nbsp;&nbsp;&nbsp;<span class="color_blue">2nd Preference</span></h6>
-              <input type="radio" name="pref-2" value="1" class="camera" onclick="enable_buttons(this)" id="pref2_r1"><span class="camera">Camera</span>
-              <input type="radio" name="pref-2" value="2" class="design" onclick="enable_buttons(this)" id="pref2_r2"><span class="design">Design</span>
-              <input type="radio" name="pref-2" value="3" class="display" onclick="enable_buttons(this)" id="pref2_r3"><span class="display">Display</span>
-              <input type="radio" name="pref-2" value="4" class="hardware" onclick="enable_buttons(this)" id="pref2_r4"><span class="hardware">Hardware</span>
-              <input type="radio" name="pref-2" value="5" class="comfort" onclick="enable_buttons(this)" id="pref2_r5"><span class="comfort">Comfort</span>
-              <input type="radio" name="pref-2" value="6" class="battery" onclick="enable_buttons(this)" id="pref2_r6"><span class="battery">Battery</span>
+              <input type="radio" name="pref-2" value="1" class="UI" onclick="enable_buttons(this)" id="pref2_r1"><span class="UI">UI</span>
+              <input type="radio" name="pref-2" value="2" class="Battery" onclick="enable_buttons(this)" id="pref2_r2"><span class="Battery">Battery</span>
+              <input type="radio" name="pref-2" value="3" class="Camera" onclick="enable_buttons(this)" id="pref2_r3"><span class="Camera">Camera</span>
+              <input type="radio" name="pref-2" value="4" class="Gaming" onclick="enable_buttons(this)" id="pref2_r4"><span class="Gaming">Gaming</span>
+              <input type="radio" name="pref-2" value="5" class="Screen" onclick="enable_buttons(this)" id="pref2_r5"><span class="Screen">Screen</span>
+              <input type="radio" name="pref-2" value="6" class="Low heating" onclick="enable_buttons(this)" id="pref2_r6"><span class="Low heating">Low heating</span>
               <label id="pref_l2" class="display_none"></label>
           
           </div>
           <div id="pref-3" class="display_none">
           <h6>&nbsp;&nbsp;&nbsp;<span class="color_blue">3rd Preference</span></h6>
-              <input type="radio" name="pref-3" value="1" class="camera" onclick="enable_buttons(this)" id="pref3_r1"><span class="camera">Camera</span>
-              <input type="radio" name="pref-3" value="2" class="design" onclick="enable_buttons(this)" id="pref3_r2"><span class="design">Design</span>
-              <input type="radio" name="pref-3" value="3" class="display" onclick="enable_buttons(this)" id="pref3_r3"><span class="display">Display</span>
-              <input type="radio" name="pref-3" value="4" class="hardware" onclick="enable_buttons(this)" id="pref3_r4"><span class="hardware">Hardware</span>
-              <input type="radio" name="pref-3" value="5" class="comfort" onclick="enable_buttons(this)" id="pref3_r5"><span class="comfort">Comfort</span>
-              <input type="radio" name="pref-3" value="6" class="battery" onclick="enable_buttons(this)" id="pref3_r6"><span class="battery">Battery</span>
+              <input type="radio" name="pref-3" value="1" class="UI" onclick="enable_buttons(this)" id="pref3_r1"><span class="UI">UI</span>
+              <input type="radio" name="pref-3" value="2" class="Battery" onclick="enable_buttons(this)" id="pref3_r2"><span class="Battery">Battery</span>
+              <input type="radio" name="pref-3" value="3" class="Camera" onclick="enable_buttons(this)" id="pref3_r3"><span class="Camera">Camera</span>
+              <input type="radio" name="pref-3" value="4" class="Gaming" onclick="enable_buttons(this)" id="pref3_r4"><span class="Gaming">Gaming</span>
+              <input type="radio" name="pref-3" value="5" class="Screen" onclick="enable_buttons(this)" id="pref3_r5"><span class="Screen">Screen</span>
+              <input type="radio" name="pref-3" value="6" class="Low heating" onclick="enable_buttons(this)" id="pref3_r6"><span class="Low heating">Low heating</span>
               <label id="pref_l3" class="display_none"></label>
           </div>
           <div id="pref-4" class="display_none">
           <h6>&nbsp;&nbsp;&nbsp;<span class="color_blue">4th Preference</span></h6>
-              <input type="radio" name="pref-4" value="1" class="camera" onclick="enable_buttons(this)" id="pref4_r1"><span class="camera">Camera</span>
-              <input type="radio" name="pref-4" value="2" class="design" onclick="enable_buttons(this)" id="pref4_r2"><span class="design">Design</span>
-              <input type="radio" name="pref-4" value="3" class="display" onclick="enable_buttons(this)" id="pref4_r3"><span class="display">Display</span>
-              <input type="radio" name="pref-4" value="4" class="hardware" onclick="enable_buttons(this)" id="pref4_r4"><span class="hardware">Hardware</span>
-              <input type="radio" name="pref-4" value="5" class="comfort" onclick="enable_buttons(this)" id="pref4_r5"><span class="comfort">Comfort</span>
-              <input type="radio" name="pref-4" value="6" class="battery" onclick="enable_buttons(this)" id="pref4_r6"><span class="battery">Battery</span>
+              <input type="radio" name="pref-4" value="1" class="UI" onclick="enable_buttons(this)" id="pref4_r1"><span class="UI">UI</span>
+              <input type="radio" name="pref-4" value="2" class="Battery" onclick="enable_buttons(this)" id="pref4_r2"><span class="Battery">Battery</span>
+              <input type="radio" name="pref-4" value="3" class="Camera" onclick="enable_buttons(this)" id="pref4_r3"><span class="Camera">Camera</span>
+              <input type="radio" name="pref-4" value="4" class="Gaming" onclick="enable_buttons(this)" id="pref4_r4"><span class="Gaming">Gaming</span>
+              <input type="radio" name="pref-4" value="5" class="Screen" onclick="enable_buttons(this)" id="pref4_r5"><span class="Screen">Screen</span>
+              <input type="radio" name="pref-4" value="6" class="Low heating" onclick="enable_buttons(this)" id="pref4_r6"><span class="Low heating">Low heating</span>
               <label id="pref_l4" class="display_none"></label>
           </div>
           <div id="pref-5" class="display_none">
           <h6>&nbsp;&nbsp;&nbsp;<span class="color_blue">5th Preference</span></h6>
-              <input type="radio" name="pref" value="1" class="camera" onclick="enable_buttons(this)" id="pref5_r1"><span class="camera">Camera</span>
-              <input type="radio" name="pref" value="2" class="design" onclick="enable_buttons(this)" id="pref5_r2"><span class="design">Design</span>
-              <input type="radio" name="pref" value="3" class="display" onclick="enable_buttons(this)" id="pref5_r3"><span class="display">Display</span>
-              <input type="radio" name="pref" value="4" class="hardware" onclick="enable_buttons(this)" id="pref5_r4"><span class="hardware">Hardware</span>
-              <input type="radio" name="pref" value="5" class="comfort" onclick="enable_buttons(this)" id="pref5_r5"><span class="comfort">Comfort</span> 
-              <input type="radio" name="pref" value="6" class="battery" onclick="enable_buttons(this)" id="pref5_r6"><span class="battery">Battery</span>
+              <input type="radio" name="pref" value="1" class="UI" onclick="enable_buttons(this)" id="pref5_r1"><span class="UI">UI</span>
+              <input type="radio" name="pref" value="2" class="Battery" onclick="enable_buttons(this)" id="pref5_r2"><span class="Battery">Battery</span>
+              <input type="radio" name="pref" value="3" class="Camera" onclick="enable_buttons(this)" id="pref5_r3"><span class="Camera">Camera</span>
+              <input type="radio" name="pref" value="4" class="Gaming" onclick="enable_buttons(this)" id="pref5_r4"><span class="Gaming">Gaming</span>
+              <input type="radio" name="pref" value="5" class="Screen" onclick="enable_buttons(this)" id="pref5_r5"><span class="Screen">Screen</span> 
+              <input type="radio" name="pref" value="6" class="Low heating" onclick="enable_buttons(this)" id="pref5_r6"><span class="Low heating">Low heating</span>
               <label id="pref_l5" class="display_none"></label>
           </div>
-          
-          
-          
-            
-          
-                  
                 </div>
                 <div class="modal-footer"> <div class="show_button"><a  class="btn" onclick="reset_1()">RESET</a></div><a href="#" data-dismiss="modal" class="btn" onclick="reccomendMe();">RECCOMEND</a> </div>
               </div>
@@ -394,13 +407,13 @@
             <!--MENU-->
             <ul class="menu" id="nav">
               <li class="menu_home_link"><a href="/"><i class="icon-home"></i></a></li>
-              <li class="dropdown"> <a href="listing_usual.html">Brands</a>
+              <li class="dropdown"> <a href="/search?pricerange=0,60000">Brands</a>
                 <ul class="level0 one-column">
                   <li>
                     <ul class="shadow">
                       <li class="list_column">
                         <ul class="list_in_column">
-                          <li class="level1"> <a href="listing_usual.html"> <span><strong>Top Brands</strong></span> </a>
+                          <li class="level1"> <a href="/search?pricerange=0,60000"> <span><strong>Top Brands</strong></span> </a>
                             <ul>
                               {%for brand in allTopBrands%}
                               <li class="level2"> <a href="/search?pricerange=0,50000&brands={{brand}}"> <span>{{brand}}</span> </a> </li>
@@ -411,7 +424,7 @@
                       </li>
                       <li class="list_column">
                         <ul class="list_in_column">
-                          <li class="level1"> <a href="product.html"> <span><strong>Product</strong></span> </a>
+                          <li class="level1"> <!-- <a href="/search?pricerange=0,60000"> <span><strong>Top Brands</strong></span> </a> -->
                             <ul>
                               {%for brand in allNonTopBrands%}
                               <li class="level2"> <a href="/search?pricerange=0,50000&brands={{brand}}"> <span>{{brand}}</span> </a> </li>
@@ -424,10 +437,10 @@
                   </li>
                 </ul>
               </li>
-         <li> <a href="compare">COMPARE MOBILE</a> </li>
+         <li> <a href="/compare">COMPARE MOBILE</a> </li>
             
-              <li class="dropdown"> <a href="blog_listing_view.html">BLOG</a>
-                <ul class="level0 one-column">
+              <li class="dropdown"> <a href="/search?pricerange=200,50000&keywords=Camera">Best Camera</a>
+                <!-- <ul class="level0 one-column">
                   <li>
                     <ul class="shadow">
                       <li class="list_column">
@@ -439,9 +452,9 @@
                       </li>
                     </ul>
                   </li>
-                </ul>
+                </ul> -->
               </li>
-         <li> <a href="contact.html">ABOUT US</a> </li>
+         <li> <a href="/search?pricerange=200,50000&keywords=Battery">Best Battery</a> </li>
              
              
              
@@ -459,7 +472,7 @@
 {% block content %}{% endblock %}
 
   <!--FOOTER-->
-<div  id="footer">
+<!-- <div  id="footer">
   <div id="footer_line">
     <div id="footer_popup" class="footer_bg allowHover">
       <div class="container">
@@ -512,7 +525,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <!--[if lt IE 9]>
     <script type="text/javascript" src="js/html5.js"></script>

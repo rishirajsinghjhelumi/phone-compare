@@ -12,6 +12,7 @@ def store(filename):
 	brand, model = None, None
 
 	specs = json.loads(open(filename).read())["specification"]
+	# specs = list(reversed(specs))
 	for spec in specs:
 		if "GENERAL FEATURES" in spec:
 			brand = spec["GENERAL FEATURES"]["Brand"]
@@ -23,6 +24,7 @@ def store(filename):
 
 	
 	phones = mongo.phones
+
 	phones.insert({
 		"Brand" : brand,
 		"Model Name" : model,
@@ -39,6 +41,7 @@ def storeInDB():
 		try:
 			store(SPECIFICATIONS_FOLDER + "/" + fil)
 		except:
+			print fil
 			faults += 1
 
 	print faults

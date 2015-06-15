@@ -23,10 +23,10 @@
             <div class="product-img-box noselect">
               <div class="row">
                 <div class="span5">
-                  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flip-container1" ontouchstart="this.classList.toggle('hover');" style = "height:480px; width:320px;">
                     <div class="flipper">
                        <div class="front">
-                           <div id="zoom-big-image" class="elevate-zoom"> <img src={{ url_for('static', filename='img/product_page_img_big1.jpg')}}  alt="" data-zoom-image="img/product_page_img_big1_zoom.jpg" class="elevatezoom" /></div>
+                           <div id="zoom-big-image" class="elevate-zoom"> <img style = "width:200px;height:330px" src="/static/img/ImageScrappers/{{phoneDetails["Brand"]}} {{phoneDetails["Model Name"]}}.jpg"  alt="" data-zoom-image="img/product_page_img_big1_zoom.jpg" class="elevatezoom" /></div>
                         </div>
                     <div class="back">
                          <div id="zoom-big-image" class="elevate-zoom"> <img src={{ url_for('static', filename='img/product_page_img_big1-Recovered_Back.jpg')}}  alt="" data-zoom-image="img/product_page_img_big1_zoom.jpg" class="elevatezoom" /></div>
@@ -61,25 +61,48 @@
                 <span class="row">
                 <div class="span3"><p>
                   <ul class="styled-list dash">
-                    <li><b>SIM Type</b>: {{phoneDetails["specification"][0]["GENERAL FEATURES"]["SIM Type"]}}</li>
-                    <li><b>Touch Screen</b>: {{phoneDetails["specification"][0]["GENERAL FEATURES"]["Touch Screen"]}}</li>
+                    {%for specs in phoneDetails["specification"]%}
+                      {%if specs["GENERAL FEATURES"]%}
+                          {%if specs["GENERAL FEATURES"]["SIM Type"]%}
+                              <li><b>SIM Type</b>: {{specs["GENERAL FEATURES"]["SIM Type"]}}</li>
+                              {%endif%}
+                              {%if specs["GENERAL FEATURES"]["Touch Screen"]%}
+                              <li><b>Touch Screen</b>: {{specs["GENERAL FEATURES"]["Touch Screen"]}}</li>
+                              {%endif%}
+                    {% endif %}
+                    {%if specs["Memory and Storage"]%}
+                        {%if specs["Memory and Storage"]["Memory"]%}
+                        <li><b>Memory</b>: {{specs["Memory and Storage"]["Memory"]}}</li>
+                        {%endif%}
+                        {%if specs["Memory and Storage"]["Internal"]%}
+                        <li><b>Internal Memory</b>: {{specs["Memory and Storage"]["Internal"]}}</li>
+                        {%endif%}
+                    {%endif%}
 
-                    <li><b>Touch Screen</b>: {{phoneDetails["specification"][0]["GENERAL FEATURES"]["Touch Screen"]}}</li>
-                    <li><b>Touch Screen</b>: {{phoneDetails["specification"][0]["GENERAL FEATURES"]["Touch Screen"]}}</li>
+               {% endfor %}
                   </ul>
                </p></div>
                <div class="span3"><p>
                   <ul class="styled-list dash">
                {% for specs in phoneDetails["specification"] %}
-               {% if specs["Memory and Storage"]%}
-                 <li> <b>Memory</b>: {{specs["Memory and Storage"]["Memory"]}}</li>
-
-               {% elif specs["Display"] %}
-                 <li> <b>Display</b>: {{specs["Display"]["Resolution"]}}</li>
-                 <li><b>Touch Screen</b>: {{phoneDetails["specification"][0]["GENERAL FEATURES"]["Touch Screen"]}}</li>
-                 <li><b>Touch Screen</b>: {{phoneDetails["specification"][0]["GENERAL FEATURES"]["Touch Screen"]}}</li>
-               {% endif %}
-
+                    {%if specs["Camera"]%}
+                        {%if specs["Camera"]["Front Facing Camera"]%}
+                        <li><b>Front Camera</b>: {{specs["Camera"]["Front Facing Camera"]}}</li>
+                        {%endif%}
+                        {%if specs["Camera"]["Rear Camera"]%}
+                        <li><b>Rear Camera</b>: {{specs["Camera"]["Rear Camera"]}}</li>
+                        {%endif%}
+                    {%endif%}
+                    {%if specs["Platform"]%}
+                        {%if specs["Platform"]["Processor"]%}
+                        <li><b>Processor</b>: {{specs["Platform"]["Processor"]}}</li>
+                        {%endif%}
+                    {%endif%}
+                    {%if specs["Dimensions"]%}
+                        {%if specs["Dimensions"]["Size"]%}
+                        <li><b>Size</b>: {{specs["Dimensions"]["Size"]}}</li>
+                        {%endif%}
+                    {%endif%}
                {% endfor %}
              </ul>
            </p></div>
@@ -303,7 +326,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <!-- <div class="container">
       <h3 class="padding">upsell products</h3>
       <div class="carousel es-carousel-wrapper style0">
         <div class="es-carousel">
@@ -538,7 +561,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
   <div id="push"></div>
 </div>
@@ -576,7 +599,7 @@
                         <td class="aligncenter 0_margin"><img src="img/amazon.jpg"  alt={{price['website']}} height="25px" width="100px"> </td>
                         <td class="aligncenter 0_margin"><h5>Yes</h5></td>
                         <td class="aligncenter 0_margin"><h5>{{price["price"]}}</h5></td>
-                        <td class="aligncenter 0_margin"><a href={{price['productUrl']}} data-dismiss="modal" class="btn btn-mini">BUY</a></td>
+                        <td class="aligncenter 0_margin"><a href={{price['productUrl']}}  class="btn btn-mini">BUY</a></td>
                     </tr>
                 {%endfor%}
 

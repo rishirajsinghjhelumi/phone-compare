@@ -7,10 +7,13 @@ mongo = getMongoDBConn()
 phonesDB = mongo.phones.find()
 autoCompletePhones = mongo.autoCompletePhones
 for phones in phonesDB:
-	autoCompletePhones.insert({
-		"Name" : phones["Brand"] + " " + phones["Model Name"] ,
-		"_id" : phones["_id"]
-	}) 
+	try:
+		autoCompletePhones.insert({
+			"Name" : phones["Brand"] + " " + phones["Model Name"] ,
+			"_id" : phones["_id"]
+		})
+	except:
+		pass
 
 for phones in phonesDB:
 	autoCompletePhones.insert({
