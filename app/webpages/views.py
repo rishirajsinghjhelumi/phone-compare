@@ -262,17 +262,17 @@ def displayQueryResults(pageType, sortedPhoneList, pageNo, priceRange):
 @mod.route('/', methods=['GET'])
 def homePage():
     cartList = getCartDetails()
-    cameraPhoneList = getPhoneIdListFromKeywordPreference("Camera")
-    cameraPhoneList =  [getPhoneInfo(phone) for phone in cameraPhoneList]
-    cameraPhoneScoreList = addBazaarFundaScore(cameraPhoneList,['Camera'],[5])
-    cameraSortedPhoneList = sorted(cameraPhoneScoreList,key=lambda l:l[1],reverse=True)
-    cameraPhoneList = [sort[0] for sort in cameraSortedPhoneList]
-    cameraScoreList = [sort[1] for sort in cameraSortedPhoneList]
+    cameraPhoneList = mongo.bestCollection.find_one({'keyword':"Camera"})
+    cameraPhoneList = cameraPhoneList['short']
+    cameraScoreList = []
+    for allPhones in cameraPhoneList:
+        finalRating = allPhones['finalRating']
+        cameraScoreList.append(finalRating)
     
-    batteryPhoneList = getPhoneIdListFromKeywordPreference("Battery")
-    batteryPhoneList =  [getPhoneInfo(phone) for phone in batteryPhoneList]
-    batteryPhoneScoreList = addBazaarFundaScore(batteryPhoneList,['Battery'],[5])
-    batterySortedPhoneList = sorted(batteryPhoneScoreList,key=lambda l:l[1],reverse=True)
-    batteryPhoneList = [sort[0] for sort in batterySortedPhoneList]
-    batteryScoreList = [sort[1] for sort in batterySortedPhoneList]
+    batteryPhoneList = mongo.bestCollection.find_one({'keyword':"Battery"})
+    batteryPhoneList =  batteryPhoneList['short']
+    batteryScoreList = []
+    for allPhones in batteryPhoneList:
+        finalRating = allPhones['finalRating']
+        batteryScoreList.append(finalRating)
     return render_template("index-boxed.html", title = "Your choice Your Device",cartDetails = cartList, batteryPhoneList = batteryPhoneList[0:10],batteryScoreList = batteryScoreList[0:10], cameraPhoneList = cameraPhoneList[0:10], cameraScoreList= cameraScoreList[0:10],allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18])
