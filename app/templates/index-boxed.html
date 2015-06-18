@@ -303,15 +303,15 @@
         <div class="es-carousel">
           <div class="row">
             <div class="product_outer carousel_items">
-              {%for i in range(batteryPhoneList|length)%}
-              {%if batteryPhoneList[i] is defined %}
+              {%for i in range(allPhoneList|length)%}
+              {%if allPhoneList[i] is defined %}
               <!--Compare Prices PoUp -->
-              <div class="modal fade" id="compare_price{{i}}_battery">
+              <div class="modal fade" id="compare_price{{i}}_all">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                        <h4 class="modal-title" style="color:#AAAAAA"><center>Compare Prices for {{batteryPhoneList[i]['Brand']}} {{batteryPhoneList[i]['Model Name']}}</center></h4>
+                        <h4 class="modal-title" style="color:#AAAAAA"><center>Compare Prices for {{allPhoneList[i]['Brand']}} {{allPhoneList[i]['Model Name']}}</center></h4>
                       </div>
                       <div class="modal-body">
             <table class="table">
@@ -332,7 +332,7 @@
                     </tr>
                   </thead>
                   <tbody>
-                      {% for price in batteryPhoneList[i]["Prices"] %}
+                      {% for price in allPhoneList[i]["Prices"] %}
                           <tr>
                               <!--<td class="aligncenter 0_margin"><h5>Xiaomi</td>-->
                               <td class="aligncenter 0_margin"><img src="img/amazon.jpg"  alt={{price['website']}} height="25px" width="100px"> </td>
@@ -353,13 +353,13 @@
           {%endif%}
 
               <!--Compare Prices PoUp -->
-            {%if batteryPhoneList[i] is defined %}
+            {%if allPhoneList[i] is defined %}
                   <!-- One Product Block Starts-->
                   {%set counter = 0 %}
                   {%set lowestPrice = [1000000] %}
                   {% set lowestWebsite = ["Out of Stock"] %}
                   {% set lowestWebsiteURL = ["#"] %}
-                  {% for price in batteryPhoneList[i]["Prices"] %}
+                  {% for price in allPhoneList[i]["Prices"] %}
                   {%set counter = counter + 1%}
                   {%if price["price"]|int < lowestPrice[0] %}
                   {%if price["stock status"]|int > 0 %}
@@ -375,9 +375,9 @@
                   
 
               <div class="span3 product hover carousel_item" style= "border-radius:0px; box-shadow: 0 0 0">
-                <div class="product-image-wrapper " style= "border-radius:0px; height: 201px"><a href='../pdp/{{batteryPhoneList[i]["_id"]}}'><img src="static/img/ImageScrappers/{{batteryPhoneList[i]["Brand"]}} {{batteryPhoneList[i]["Model Name"]}}.jpg" style="height:100%" alt=""><img src="static/img/product_page_img_big1.jpg" class="roll_over_img" alt=""></a> </div>
+                <div class="product-image-wrapper " style= "border-radius:0px; height: 201px"><a href='../pdp/{{allPhoneList[i]["_id"]}}'><img src="static/img/ImageScrappers/{{allPhoneList[i]["Brand"]}} {{allPhoneList[i]["Model Name"]}}.jpg" style="height:100%" alt=""><img src="static/img/product_page_img_big1.jpg" class="roll_over_img" alt=""></a> </div>
                 <div class="wrapper-hover">
-                  <div class="product-name aligncenter"><a href='../pdp/{{batteryPhoneList[i]["_id"]}}'>{{batteryPhoneList[i]["Brand"]}} {{batteryPhoneList[i]["Model Name"]}}</a></div>
+                  <div class="product-name aligncenter"><a href='../pdp/{{allPhoneList[i]["_id"]}}'>{{allPhoneList[i]["Brand"]}} {{allPhoneList[i]["Model Name"]}}</a></div>
                   <div class="wrapper"><span class="sort-rating hidden">4</span>
                     <!--<div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>-->
                         <div class="product-price aligncenter" style = "padding-bottom:10px">
@@ -389,15 +389,15 @@
                         </div>
                     
                   </div>
-                  <div class="skillbar clearfix " data-percent={{batteryScoreList[i]}}%>
-                    <div class="skillbar-title" style="background: #3b5998; width:22%;"><span style="color: #FFFFFF">{{batteryScoreList[i]}}/100</span></div>
+                  <div class="skillbar clearfix " data-percent={{allScoreList[i]}}%>
+                    <div class="skillbar-title" style="background: #3b5998; width:22%;"><span style="color: #FFFFFF">{{allScoreList[i]}}/100</span></div>
                     <div class="skillbar-bar" style="background: #8b9dc3;"></div>
                     <div class="skill-bar-percent"></div>
                   </div>
                     <div class="add-to-links">
                       <ul>
-                        <li style = "padding-bottom:10px;"><a href="#" class="small_icon_color" ><i class="icon-shop"></i></a><a class="small_icon_color" data-toggle="modal" onclick="location.href='#';" href="#compare_price{{i}}_battery">Compare Prices</a></li>
-                        <li> <a href="#" class="small_icon_color" onclick="addToCompareFromListing('{{batteryPhoneList[i]["_id"]}}');"><i class="icon-chart-bar"></i>Add to Compare</a> </li>
+                        <li style = "padding-bottom:10px;"><a href="#" class="small_icon_color" ><i class="icon-shop"></i></a><a class="small_icon_color" data-toggle="modal" onclick="location.href='#';" href="#compare_price{{i}}_all">Compare Prices</a></li>
+                        <li> <a href="#" class="small_icon_color" onclick="addToCompareFromListing('{{allPhoneList[i]["_id"]}}');"><i class="icon-chart-bar"></i>Add to Compare</a> </li>
                       </ul>
                     </div>
                 </div>
