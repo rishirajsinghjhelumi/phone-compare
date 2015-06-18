@@ -275,4 +275,11 @@ def homePage():
     for allPhones in batteryPhoneList:
         finalRating = allPhones['finalRating']
         batteryScoreList.append(finalRating)
-    return render_template("index-boxed.html", title = "Your choice Your Device",cartDetails = cartList, batteryPhoneList = batteryPhoneList[0:10],batteryScoreList = batteryScoreList[0:10], cameraPhoneList = cameraPhoneList[0:10], cameraScoreList= cameraScoreList[0:10],allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18])
+
+    allPhoneList = mongo.bestCollection.find_one({'keyword':"All"})
+    allPhoneList =  allPhoneList['short']
+    allScoreList = []
+    for allPhones in allPhoneList:
+        finalRating = allPhones['finalRating']
+        allScoreList.append(finalRating)
+    return render_template("index-boxed.html", title = "Your choice Your Device",cartDetails = cartList, batteryPhoneList = batteryPhoneList[0:10],batteryScoreList = batteryScoreList[0:10],allPhoneList = allPhoneList[0:10],allScoreList = allScoreList[0:10], cameraPhoneList = cameraPhoneList[0:10], cameraScoreList= cameraScoreList[0:10],allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18])
