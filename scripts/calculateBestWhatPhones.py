@@ -60,7 +60,6 @@ def getPhoneInfo(phoneID):
 		pass
 		# app.logger.error("Sentiment data not found for phone with ID: ")
   #               app.logger.error(phoneID)
-
 	return phone
 
 def getUnSortedPhoneListForKeywordWithFinalRating(keyword, phoneList):
@@ -115,8 +114,9 @@ def getUnSortedPhoneListForKeywordWithFinalRating(keyword, phoneList):
 		finalRating = 0
 		
 		finalRating = allPhones['finalRating'] = allPhones['Rating']*(1+1.7*(allPhones['Negative'] + allPhones['Positive'])/maxPosPlusNeg)*allPhones["Pricefact"]*10
-		if finalRating > 100:
-			finalRating = 100
+		finalRating = round(finalRating,2)
+		if finalRating >=  100.00:
+			finalRating = 99.95
 		if maxfinalRat < finalRating:
 			maxfinalRat = finalRating
 			maxfinalRatName = allPhones['ECommercePrice']
@@ -140,7 +140,7 @@ def computeListAndPutToDB(finalPhoneList, keyword):
 		try:
 			modelID = mongo.phones.find_one({'Model Name': brandName})['_id']
 			tempPhoneDetail = getPhoneInfo(modelID)
-			tempPhoneDetail['finalRating'] = allPhones['finalRating']
+			tempPhoneDetail['finalRating'] = round(allPhones['finalRating'],2)
 			finalPhoneListWithScore.append(tempPhoneDetail)
 			
 		except:
@@ -166,8 +166,6 @@ def computeListAndPutToDB(finalPhoneList, keyword):
 	for allPhones in bestKeyWordPhones:
 		print allPhones['_id']
 	print "Best" , keyword , "Uploaded"
-
-	
 
 argList = []
 argList =  sys.argv
@@ -207,7 +205,7 @@ if keyword == "All":
 
 			modelName = allPhoneWithKeyWordList[iter]['Model Name']
 			finaRating = allPhoneWithKeyWordList[iter]['finalRating']
-			localList = [modelName,localList[1]+finaRating*bestKeyword[keyword]]
+			localList = [modelName,round(localList[1]+finaRating*bestKeyword[keyword],2)]
 			keyPhoneDictWithFinalRating[iter] = localList
 	finalPhoneList = []
 	for phones in keyPhoneDictWithFinalRating:
