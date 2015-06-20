@@ -16,7 +16,7 @@ import jinja2
 import os.path
 
 mod = Blueprint('webpage', __name__, url_prefix='')
-allBrands = ['Apple','Blackberry','Celkon','Gionee','HTC','Huawei','Karbonn','Lava','Lenovo','LG','Micromax','Motorola','Microsoft','Nokia','Panasonic','Samsung','Sony','Spice','XOLO','Adcom','Agtel','Akai','Acer','Alcatel','AirTyme','Aiek','Alpha','Ambrane','Anand','Andi','AOC','Apollo','Arise','AsiaFone','a-star','Asus','ATOM','Beetel','Best','Beven','Beyond','Binatone','Bingo','Bloom','Blu','BQ','Brillon','BSNL','BY2','Byond','Camerii','Cfore','Cheers','Chilli','CLOUD','Coolwave','Croma','Cubit','Daimond','Datawind','Devante','Iball']
+allBrands = ['Apple','Blackberry','Xiaomi','OnePlus','A&K','Celkon','Gionee','HTC','Huawei','Karbonn','Lava','Lenovo','LG','Micromax','Motorola','Microsoft','Nokia','Panasonic','Samsung','Sony','Spice','XOLO','Adcom','Agtel','Akai','Acer','Alcatel','AirTyme','AIEK','Alpha','Ambrane','Anand','Andi','AOC','Apollo','Arise','AsiaFone','a-star','Asus','ATOM','Beetel','Best','Beven','Beyond','Binatone','Bingo','Bloom','Blu','BQ','Brillon','BSNL','BY2','Byond','Camerii','Cfore','Cheers','Chilli','CLOUD','Coolwave','Croma','Cubit','Daimond','Datawind','Devante','Iball']
 allKeywords = ['Applications', 'Battery', 'Camera', 'Delivery and service', 'Design and build quality','Earphone', 'Front Camera', 'Gaming', 'Internet and Browsing', 'Less lag', 'Low heating', 'Music', 'Others', 'Price worthiness', 'Screen', 'Sound', 'UI', 'Video']
 formatter = logging.Formatter(
         "[%(asctime)s] {%(pathname)s:%(lineno)d} %(levelname)s - %(message)s")
@@ -65,42 +65,92 @@ def searchResults():
 	priceRange = getArgAsList(request, 'pricerange')
 	keywords = getArgAsList(request, 'keywords')
 	brands = getArgAsList(request, 'brands')
+        
+        sortedPhoneList = []
+        page = getArgAsList(request, 'page')
         weights = getArgAsList(request, 'weights')
-        app.logger.info(priceRange)
-        if priceRange ==[]:
-            priceRange = [0,50000]
-	phoneList = []
+        if priceRange == []:
+            priceRange = [0,70000]
+        else:
+            priceRange = [int(priceRange[0]), int(priceRange[1])]
+        sortedPhoneList = []
 	if phoneIds:
 		phoneList =  [getPhoneInfo(phone) for phone in phoneIds]
-	elif priceRange or keywords:
-		app.logger.info("Price range with keywords")
-		phoneIds = []
-		for keyword in keywords:
-			phoneIds.extend(getPhoneIdListFromKeywordPreference(keyword))
-		phoneIds = list(set(phoneIds))
-		priceFilterPhoneId = getPhoneIdListFromPriceRange(priceRange,brands)
-		if keywords:
-			phoneIds = set(phoneIds) & set(priceFilterPhoneId)
-		elif priceRange:
-			app.logger.info("only PriceRange")
-			phoneIds = priceFilterPhoneId
-        phoneIds = list(set(phoneIds))
-        phoneList =  [getPhoneInfo(phone) for phone in phoneIds]
-        #phoneList = getListWhoseImageExist(phoneList)
-        phoneList = addBazaarFundaScore(phoneList, keywords, weights)
+        elif keywords == []:
+            phoneList = mongo.bestCollection.find_one({'keyword':'All'})
+            phoneList = phoneList['long']
 
-        sortedPhoneList = sorted(phoneList,key=lambda l:l[1],reverse=True)
-        if len(sortedPhoneList) > 120 :
-            sortedPhoneList = sortedPhoneList[0:120]
-        page = getArgAsList(request, 'page')
-        app.logger.info(page)
-        if page:
-            app.logger.info(page)
-        app.logger.info(priceRange)
+            sortedPhoneList = applyBrandAndPriceFilters(phoneList,brands, keywords,priceRange)
+            sortedPhoneList = sortedPhoneList[:120]
+        else:
+            if weights == []:
+                weights = [0 for key in keywords]
+            divFactor = len(keywords)
+            if divFactor == 0:
+                divFactor = 1
+            phoneDict = {}
+            allKeyWordPhoneList = []
+            for keyword in keywords:
+                keyWordPhoneList = mongo.bestCollection.find_one({'keyword': keyword})
+                keyWordPhoneList = keyWordPhoneList['long']
+                # keyWordPhoneList = applyBrandAndPriceFilters(keyWordPhoneList,brands, keywords,priceRange)
+                allKeyWordPhoneList.extend(keyWordPhoneList)
+            for phones in allKeyWordPhoneList:
+                localDict = {}
+                try:
+                    localDict = phoneDict[phones['Model Name']]
+                    localRating = phones['finalRating']/divFactor
+                    localDict['finalRating'] = localDict['finalRating']/divFactor + localRating
+                except:
+                    localDict = phones
+                    localRating = phones['finalRating']/divFactor
+                    localDict['finalRating'] = localRating
+                
+                
+                localDict['finalRating'] = round(localDict['finalRating'],2)
+                phoneDict[phones['Model Name']] = localDict
+            for phone in phoneDict:
+                sortedPhoneList.append(phoneDict[phone])
+            sortedPhoneList = applyBrandAndPriceFilters(sortedPhoneList,brands, keywords,priceRange)
+            sortedPhoneList = sorted(sortedPhoneList,key=lambda l:l[1],reverse=True) 
+
+            sortedPhoneList = sortedPhoneList[:120]
+                
         return displaySearchResults("search",sortedPhoneList, page,priceRange,keywords,brands,allKeywords,allBrands)
         # return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList)
 
+def applyBrandAndPriceFilters(phoneList, brands, keywords, priceRange):
+    print brands
+    print priceRange
+    sortedPhoneList = []
+    app.logger.info(brands)
+    for allPhones in phoneList:
+        brandFlag = 0
+        priceFlag = 0
+        phBrand = allPhones['Brand']
+        phPrice = allPhones['Prices']
+        if brands == []:
+            brandFlag = 1
+        elif phBrand in brands:
+            brandFlag = 1
+        else:
+            brandFlag = 0
 
+        if priceRange == [0,70000]:
+            priceFlag = 1
+        else:
+            lowestPrice = 100000
+            for prices in phPrice:
+                if lowestPrice > prices['price'] and prices['price'] != 0:
+                    lowestPrice = prices['price']
+            if lowestPrice == 0 :
+                app.logger.info("lowestPrice is zero")
+                priceFlag = 0
+            elif lowestPrice > priceRange[0] and lowestPrice <= priceRange[1]:
+                priceFlag = 1                
+        if brandFlag and priceFlag:
+            sortedPhoneList.append([allPhones, allPhones['finalRating']])
+    return sortedPhoneList
 def get_unique_items(list_of_dicts):
     # Count how many times each key occurs.
     key_count = collections.defaultdict(lambda: 0)
@@ -124,8 +174,6 @@ def displaySearchResults(pageType, sortedPhoneList, pageNo, priceRange,keywords,
         currentURL = currentURL[:-1]
     else:
         currentURL = currentURL + "&page="
-    app.logger.info(currentURL)
-    app.logger.info(pageNo)
     cartList = getCartDetails()
     items = len(sortedPhoneList)
     if items % 15 == 0:
@@ -177,8 +225,6 @@ def addBazaarFundaScore(phoneList, keywords, weights):
                 if maxPopulation < population:
                             maxPopulation = population
 
-    app.logger.info("maxPopulation ")
-    app.logger.info(maxPopulation )
     for phIter in range(len(phoneList)):
         keyCount = 0
         keySum = 0.0

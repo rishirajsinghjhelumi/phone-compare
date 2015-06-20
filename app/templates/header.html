@@ -416,7 +416,7 @@
                           <li class="level1"> <a href="/search?pricerange=0,60000"> <span><strong>Top Brands</strong></span> </a>
                             <ul>
                               {%for brand in allTopBrands%}
-                              <li class="level2"> <a href="/search?pricerange=0,50000&brands={{brand}}"> <span>{{brand}}</span> </a> </li>
+                              <li class="level2"> <a href="/search?pricerange=0,80000&brands={{brand}}"> <span>{{brand}}</span> </a> </li>
                               {%endfor%}
                               </ul>
                           </li>
@@ -427,8 +427,9 @@
                           <li class="level1"> <!-- <a href="/search?pricerange=0,60000"> <span><strong>Top Brands</strong></span> </a> -->
                             <ul>
                               {%for brand in allNonTopBrands%}
-                              <li class="level2"> <a href="/search?pricerange=0,50000&brands={{brand}}"> <span>{{brand}}</span> </a> </li>
+                              <li class="level2"> <a href="/search?pricerange=0,80000&brands={{brand}}"> <span>{{brand}}</span> </a> </li>
                               {%endfor%}
+                              <li class="level2"> <a href="/search?pricerange=0,80000"> <span>All</span> </a> </li>
                             </ul>
                           </li>
                         </ul>
@@ -437,9 +438,9 @@
                   </li>
                 </ul>
               </li>
-         <li> <a href="/compare">COMPARE MOBILE</a> </li>
+         <li> <a href="/compare">COMPARE MOBILES</a> </li>
             
-              <li class="dropdown"> <a href="/search?pricerange=200,50000&keywords=Camera">Best Camera</a>
+              <li class="dropdown"> <a href="/search?pricerange=200,80000&keywords=Camera">Popular Camera Phones</a>
                 <!-- <ul class="level0 one-column">
                   <li>
                     <ul class="shadow">
@@ -454,7 +455,7 @@
                   </li>
                 </ul> -->
               </li>
-         <li> <a href="/search?pricerange=200,50000&keywords=Battery">Best Battery</a> </li>
+         <li> <a href="/search?pricerange=200,80000&keywords=Battery">Popular Battery Phones</a> </li>
              
              
              

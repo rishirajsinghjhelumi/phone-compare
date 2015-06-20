@@ -14,3 +14,4 @@ python calculateBestWhatPhones.py Sound
 python calculateBestWhatPhones.py Camera
 python calculateBestWhatPhones.py Video
 python calculateBestWhatPhones.py UI
+python calculateBestWhatPhones.py All
