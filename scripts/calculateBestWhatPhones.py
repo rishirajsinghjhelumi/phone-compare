@@ -113,10 +113,11 @@ def getUnSortedPhoneListForKeywordWithFinalRating(keyword, phoneList):
 	for allPhones in allKeywordPhoneList:
 		finalRating = 0
 		
-		finalRating = allPhones['finalRating'] = allPhones['Rating']*(1+1.7*(allPhones['Negative'] + allPhones['Positive'])/maxPosPlusNeg)*allPhones["Pricefact"]*10
+		finalRating =  allPhones['Rating']*(1+1.7*(allPhones['Negative'] + allPhones['Positive'])/maxPosPlusNeg)*allPhones["Pricefact"]*10
 		finalRating = round(finalRating,2)
 		if finalRating >=  100.00:
-			finalRating = 99.95
+			finalRating = 99.99
+		allPhones['finalRating'] = finalRating
 		if maxfinalRat < finalRating:
 			maxfinalRat = finalRating
 			maxfinalRatName = allPhones['ECommercePrice']
