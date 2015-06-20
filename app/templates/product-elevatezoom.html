@@ -175,7 +175,7 @@
             <li><a href="#tab2">User Experience</a></li>
             <li><a href="#tab3">Pros and Cons</a></li>
           </ul>
-          <div class="tab-content">
+          <div class="tab-content" style="height:relative">
             <div class="tab-pane active" id="tab1">
               <div class="box-collateral box-description">
                 <h2>Details</h2>
@@ -219,7 +219,7 @@
                 <h2>Details</h2>
                 {%for keywords in phoneDetails["Keywords"]%}
                   <div class="skillbar clearfix " data-percent={{keywords["Rating"]*20|round|int}}%>
-                    <div class="skillbar-title" style="background: #3b5998;"><span>{{keywords["Keyword"]}}</span></div>
+                    <div class="skillbar-title" style="background: #3b5998; width:22%"><span>{{keywords["Keyword"]}}</span></div>
                     <div class="skillbar-bar" style="background: #8b9dc3;"></div>
                     <div class="skill-bar-percent">{{keywords["Rating"]*20|round(1, 'floor') }}% junta says positive</div>
                   </div>
@@ -232,6 +232,8 @@
                 <h2>Details</h2>
                 
                   {%for reviews in phoneDetails["Reviews"]%}
+                  {%if reviews["Positive"]|length + reviews["Positive"]|length > 0 %}
+                  <!--Pros And Cons  -->
                   <table class="table table-bordered table-striped ">
                   <thead>
                     <tr>
@@ -249,7 +251,7 @@
                   
                       <div class="accordion-group">
                       <div class="accordion-heading">
-                         <a class="accordion-toggle-Cons collapsed c" href="#collapseOnePros{{reviews["About"]}}" data-parent="#accordion" data-toggle="collapse">
+                         <a class="accordion-toggle-Cons collapsed c" href="#collapseOnePros{{reviews["About"].split()[0]}}" data-parent="#accordion" data-toggle="collapse">
                           <span class="open">
                           <i class="icon-minus"></i>
                           </span>
@@ -258,9 +260,10 @@
                           </span>PROS
                           </a>
                       </div>
-                      <div id="collapseOnePros{{reviews["About"]}}" class="accordion-body collapse" style="height: 0px;">
+                      <div id="collapseOnePros{{reviews["About"].split()[0]}}" class="accordion-body collapse" style="height: 0px;">
                       <div class="accordion-inner">
                        <ul class="styled-list arrow">
+                        
                         {%for pros in reviews["Positive"]%}
                            <h4><li style="font-family: Oswald";> {{pros["Review"]}} ({{pros["Users"]}})</li></h4>
                            {%endfor%}
@@ -277,7 +280,7 @@
                   
                       <div class="accordion-group">
                       <div class="accordion-heading">
-                        <a class="accordion-toggle-Cons " href="#collapseOneCons{{reviews["About"]}}" data-parent="#accordion" data-toggle="collapse">
+                        <a class="accordion-toggle-Cons " href="#collapseOneCons{{reviews["About"].split()[0]}}" data-parent="#accordion" data-toggle="collapse">
                           <span class="open">
                           <i class="icon-minus"></i>
                           </span>
@@ -286,10 +289,11 @@
                           </span>CONS
                           </a>
                       </div>
-                      <div id="collapseOneCons{{reviews["About"]}}" class="accordion-body collapse" style="height: 0px;">
+                      <div id="collapseOneCons{{reviews["About"].split()[0]}}" class="accordion-body collapse" style="height: 0px;">
                       <div class="accordion-inner"> 
                         <ul class="styled-list arrow">
-                        {%for cons in reviews["Negative"]%}
+
+                        {%for cons in reviews["Negative"]%} 
                            <h4><li style="font-family: Oswald";> {{cons["Review"]}} ({{cons["Users"]}}) </li></h4>
                         {%endfor%}
                         </ul>
@@ -298,6 +302,8 @@
                       </div>
                   </div>
                   </div>
+                  <!--Pros And Cons  -->
+                  {%endif%}
                   {% endfor %}
 
                 
