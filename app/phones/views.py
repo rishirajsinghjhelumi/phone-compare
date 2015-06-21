@@ -1,133 +1,128 @@
-from flask import Blueprint, request, render_template, flash, g, session, redirect, url_for
-from flask import jsonify
-from bson.objectid import ObjectId
-from pymongo import ASCENDING
-from bson import json_util
-import json
+	from flask import Blueprint, request, render_template, flash, g, session, redirect, url_for
+	from flask import jsonify
+	from bson.objectid import ObjectId
+	from pymongo import ASCENDING
+	from bson import json_util
+	import json
 
-from app import mongo
-from app import app
-from app.decorators import mongoJsonify, jsonResponse
-import logging
-from app.util import getArgAsList
-from logging.handlers import RotatingFileHandler
+	from app import mongo
+	from app import app
+	from app.decorators import mongoJsonify, jsonResponse
+	import logging
+	from app.util import getArgAsList
+	from logging.handlers import RotatingFileHandler
 
-mod = Blueprint('phones', __name__, url_prefix='/phone')
+	mod = Blueprint('phones', __name__, url_prefix='/phone')
 
-formatter = logging.Formatter(
-        "[%(asctime)s] {%(pathname)s:%(lineno)d} %(levelname)s - %(message)s")
-handler = RotatingFileHandler("./logs/application.log", maxBytes=10000000, backupCount=5)
-#handler.setLevel(logging.INFO)
-handler.setFormatter(formatter)
-# app.logger.addHandler(handler)
-# app.logger.setLevel(logging.DEBUG)
+	formatter = logging.Formatter(
+		"[%(asctime)s] {%(pathname)s:%(lineno)d} %(levelname)s - %(message)s")
+	handler = RotatingFileHandler("./logs/application.log", maxBytes=10000000, backupCount=5)
+	#handler.setLevel(logging.INFO)
+	handler.setFormatter(formatter)
+	# app.logger.addHandler(handler)
+	# app.logger.setLevel(logging.DEBUG)
 
-def getPhoneInfo(phoneID):
-	phone = mongo.phones.find_one({
-		"_id" : ObjectId(phoneID)
-	})
-	
-	try:
-		phone["Reviews"] = mongo.reviews.find_one({
-			"Brand" : phone["Brand"],
-			"Model Name" : phone["Brand"] + " " + phone["Model Name"]
-		})["Reviews"]
-	except:
-		pass
-		 # app.logger.error("Review data not found for phone with ID: ")
-	try:
-		prices = mongo.prices.find({
-                        "Model Name" : phone["Brand"] + " " + phone["Model Name"]
-                })
-		eComList = []
-		# app.logger.info(prices)
-		for price in prices:
-			eCom = {}
-			eCom["website"] = price["ECommerceName"]
-			eCom["price"] = price["ECommercePrice"]
-			eCom["stock status"] = price["ECommerceStatus"]
-			eCom["productUrl"] = price["ECommercePdURL"]
-			eComList.extend([eCom])
-		phone["Prices"] = eComList
-		
-        except:
-        	pass
-                # app.logger.error("Price data not found for phone with ID: ")
-                # app.logger.error(phoneID)
-
-	try:
-		keywords = mongo.keywords.find({
-			"Brand" : phone["Brand"],
-			"Model Name" : phone["Brand"] + " " + phone["Model Name"]
+	def getPhoneInfo(phoneID):
+		phone = mongo.phones.find_one({
+			"_id" : ObjectId(phoneID)
 		})
-		eComList = []
-		for keyword in keywords:
-			eCom = {}
-			eCom["Keyword"] = keyword["Keyword"]
-			eCom["Negative"] = keyword["Negative"]
-			eCom["Positive"] = keyword["Positive"]
-			eCom["Neutral"] = keyword["Neutral"]
-			eCom["Rating"] = keyword["Rating"]
-			eComList.extend([eCom])
-		phone["Keywords"] = eComList
 		
-		
-	except:
-		pass
-		# app.logger.error("Sentiment data not found for phone with ID: ")
-  #               app.logger.error(phoneID)
+		try:
+			phone["Reviews"] = mongo.reviews.find_one({
+				"Brand" : phone["Brand"],
+				"Model Name" : phone["Brand"] + " " + phone["Model Name"]
+			})["Reviews"]
+		except:
+			pass
+			 # app.logger.error("Review data not found for phone with ID: ")
+		try:
+			prices = mongo.prices.find({
+				"Model Name" : phone["Brand"] + " " + phone["Model Name"]
+			})
+			eComList = []
+			# app.logger.info(prices)
+			for price in prices:
+				eCom = {}
+				eCom["website"] = price["ECommerceName"]
+				eCom["price"] = price["ECommercePrice"]
+				eCom["stock status"] = price["ECommerceStatus"]
+				eCom["productUrl"] = price["ECommercePdURL"]
+				eComList.extend([eCom])
+			phone["Prices"] = eComList
+			
+		except:
+			pass
+			# app.logger.error("Price data not found for phone with ID: ")
+			# app.logger.error(phoneID)
 
-	return phone
+		try:
+			keywords = mongo.keywords.find({
+				"Brand" : phone["Brand"],
+				"Model Name" : phone["Brand"] + " " + phone["Model Name"]
+			})
+			eComList = []
+			for keyword in keywords:
+				eCom = {}
+				eCom["Keyword"] = keyword["Keyword"]
+				eCom["Negative"] = keyword["Negative"]
+				eCom["Positive"] = keyword["Positive"]
+				eCom["Neutral"] = keyword["Neutral"]
+				eCom["Rating"] = keyword["Rating"]
+				eComList.extend([eCom])
+			phone["Keywords"] = eComList
+			
+			
+		except:
+			pass
+			# app.logger.error("Sentiment data not found for phone with ID: ")
+	  #               app.logger.error(phoneID)
 
-def getPhoneIdListFromPriceRange(priceRange, brand):
-	low = float(priceRange[0])
-	high = float(priceRange[1])
-	phones = mongo.prices.find({ 'ECommercePrice' : {'$gte':low, '$lt':high}})
-	phoneList = []
-	phoneList = [phone["Model Name"].replace(phone["Brand"] + " ", "") for phone in phones]
-        if brand:
-	        phoneDetailList = [mongo.phones.find({"Model Name" : phoneName, "Brand":{"$in": brand}}) for phoneName in phoneList]
-        else:
-            phoneDetailList = [mongo.phones.find({"Model Name" : phoneName}) for phoneName in phoneList]
-	phoneIdList = []
-        for phoneDetail in phoneDetailList:
-		for resultObj in phoneDetail:
-			phoneIdList.append(resultObj['_id'])
-			# app.logger.info(resultObj['_id'])
-	return  phoneIdList
+		return phone
 
-def getPhoneIdListFromKeywordPreference(keyword):
-	phones = mongo.keywords.find({"Keyword":keyword, "Rating": {'$gte': 2.5}})
-	phoneList = []
-        phoneList = [[phone["Brand"],phone["Model Name"].replace(phone["Brand"] + " ", "")] for phone in phones]
-        phoneDetailList = [mongo.phones.find({"Model Name" : phoneName[1], "Brand":phoneName[0]}) for phoneName in phoneList]
-        phoneIdList = []
-        for phoneDetail in phoneDetailList:
-                for resultObj in phoneDetail:
-                        phoneIdList.append(resultObj['_id'])
-        return  phoneIdList
+	def getPhoneIdListFromPriceRange(priceRange, brand):
+		low = float(priceRange[0])
+		high = float(priceRange[1])
+		phones = mongo.prices.find({ 'ECommercePrice' : {'$gte':low, '$lt':high}})
+		phoneList = []
+		phoneList = [phone["Model Name"].replace(phone["Brand"] + " ", "") for phone in phones]
+		if brand:
+			phoneDetailList = [mongo.phones.find({"Model Name" : phoneName, "Brand":{"$in": brand}}) for phoneName in phoneList]
+		else:
+		    phoneDetailList = [mongo.phones.find({"Model Name" : phoneName}) for phoneName in phoneList]
+		phoneIdList = []
+		for phoneDetail in phoneDetailList:
+			for resultObj in phoneDetail:
+				phoneIdList.append(resultObj['_id'])
+				# app.logger.info(resultObj['_id'])
+		return  phoneIdList
 
-@mod.route('/autocomplete', methods=['GET'])
-@jsonResponse
-def autoCompletePhones():
-	# try:
-	# 	if not session["autoComplete"]:
-	# 		raise Exception()
-	# 	results["results"] = session["autoComplete"]
-	# 	return results
-	# except:
-	# 	# app.logger.info("session empty")
-	# 	allPhoneNameCursor = mongo.autoCompletePhones.find()             
-	# 	allPhoneNames = [phone["Name"] for phone in allPhoneNameCursor]
-	# 	session["autoComplete"] = allPhoneNames
-	# 	results["results"] = session["autoComplete"]
-	# return results
-	phones = mongo.phones.find({
-		"Brand" : brandName
-		}, {
-		"Model Name" : 1
-	})
-	return [phone for phone in phones]
+	def getPhoneIdListFromKeywordPreference(keyword):
+		phones = mongo.keywords.find({"Keyword":keyword, "Rating": {'$gte': 2.5}})
+		phoneList = []
+		phoneList = [[phone["Brand"],phone["Model Name"].replace(phone["Brand"] + " ", "")] for phone in phones]
+		phoneDetailList = [mongo.phones.find({"Model Name" : phoneName[1], "Brand":phoneName[0]}) for phoneName in phoneList]
+		phoneIdList = []
+		for phoneDetail in phoneDetailList:
+			for resultObj in phoneDetail:
+				phoneIdList.append(resultObj['_id'])
+		return  phoneIdList
+
+	@mod.route('/autocomplete/', methods=['GET'])
+	@jsonResponse
+	def autoCompletePhones():
+		results = {}
+		session["autoComplete"] = None
+		try:
+			if not session["autoComplete"]:
+				raise Exception()
+			results["results"] = session["autoComplete"]
+			return results
+		except:
+			allPhoneNameCursor = mongo.autoCompletePhones.find()             
+			allPhoneNames = [phone["Name"] for phone in allPhoneNameCursor]
+			session["autoComplete"] = allPhoneNames
+			results["results"] = session["autoComplete"]
+		return results["results"]
 
 @mod.route('/brand/<brandName>', methods=['GET'])
 @jsonResponse
