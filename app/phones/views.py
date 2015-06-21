@@ -106,9 +106,11 @@ def getPhoneIdListFromKeywordPreference(keyword):
                         phoneIdList.append(resultObj['_id'])
         return  phoneIdList
 
-@mod.route('/autocomplete/', methods=['GET'])
+
+
+@mod.route('/autocomplete1', methods=['GET'])
 @jsonResponse
-def autoCompletePhones():
+def autocomplete1():
 	results = {}
 	session["autoComplete"] = None
 	try:
@@ -121,15 +123,9 @@ def autoCompletePhones():
 		allPhoneNames = [phone["Name"] for phone in allPhoneNameCursor]
 		session["autoComplete"] = allPhoneNames
 		results["results"] = session["autoComplete"]
-	#return results["results"]
-	brandName = "Apple"
-	phones = mongo.phones.find({
-		"Brand" : brandName
-		}, {
-		"Model Name" : 1
-	})
-	return [phone for phone in phones]
+	return results
 
+	
 @mod.route('/brand/<brandName>', methods=['GET'])
 @jsonResponse
 def brandModels(brandName):
