@@ -128,7 +128,22 @@ def autoCompletePhones():
 	# 	"Model Name" : 1
 	# })
 	# return [phone for phone in phones]
-
+@mod.route('/autocomplete1', methods=['GET'])
+@jsonResponse
+def autocomplete1():
+	results = {}
+	session["autoComplete"] = None
+	try:
+		if not session["autoComplete"]:
+			raise Exception()
+		results["results"] = session["autoComplete"]
+		return results
+	except:
+		allPhoneNameCursor = mongo.autoCompletePhones.find()             
+		allPhoneNames = [phone["Name"] for phone in allPhoneNameCursor]
+		session["autoComplete"] = allPhoneNames
+		results["results"] = session["autoComplete"]
+	return results
 @mod.route('/brand/<brandName>', methods=['GET'])
 @jsonResponse
 def brandModels(brandName):
