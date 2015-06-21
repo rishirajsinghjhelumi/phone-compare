@@ -4,7 +4,6 @@ from bson.objectid import ObjectId
 from pymongo import ASCENDING
 from bson import json_util
 import json
-
 from app import mongo
 from app import app
 from app.decorators import mongoJsonify, jsonResponse
