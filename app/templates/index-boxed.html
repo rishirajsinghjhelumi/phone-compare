@@ -335,7 +335,7 @@
                       {% for price in allPhoneList[i]["Prices"] %}
                           <tr>
                               <!--<td class="aligncenter 0_margin"><h5>Xiaomi</td>-->
-                              <td class="aligncenter 0_margin"><img src="img/amazon.jpg"  alt={{price['website']}} height="25px" width="100px"> </td>
+                              <td class="aligncenter 0_margin"><img src="static/img/{{price['website']}}.jpg"  alt={{price['website']}} height="25px" width="100px"> </td>
                               <td class="aligncenter 0_margin"><h5>Yes</h5></td>
                               <td class="aligncenter 0_margin"><h5>{{price["price"]}}</h5></td>
                               <td class="aligncenter 0_margin"><a href={{price['productUrl']}}  class="btn btn-mini">BUY</a></td>
@@ -396,7 +396,7 @@
                   </div>
                     <div class="add-to-links">
                       <ul>
-                        <li style = "padding-bottom:10px;"><a href="#" class="small_icon_color" ><i class="icon-shop"></i></a><a class="small_icon_color" data-toggle="modal" onclick="location.href='#';" href="#compare_price{{i}}_all">Compare Prices</a></li>
+                        <li style = "padding-bottom:10px;"><a href="#compare_price{{i}}_all" class="small_icon_color" data-toggle="modal"><i class="icon-shop"></i></a><a class="small_icon_color" data-toggle="modal" onclick="location.href='#';" href="#compare_price{{i}}_all">Compare Prices</a></li>
                         <li> <a href="#" class="small_icon_color" onclick="addToCompareFromListing('{{allPhoneList[i]["_id"]}}');"><i class="icon-chart-bar"></i>Add to Compare</a> </li>
                       </ul>
                     </div>
@@ -448,7 +448,7 @@
                             {%if lowestWebsite[0] == "Out of Stock"  %}
                             <a class="aligncenter"  href="#" style="color: #B40404">{{"Price Not Available"}}</a>
                             {% else %}
-                            <a class="aligncenter"  href="http://www.flipkart.com/htc-a310e-explorer/p/itme6g4yxaa7s8zu?pid=MOBDB8Z7QCGZSPDF">Lowest Price&nbsp;₹&nbsp{{lowestPrice[0]}}</a>
+                            <a class="aligncenter"  href="{{lowestWebsiteURL[0]}}">Lowest Price&nbsp;₹&nbsp{{lowestPrice[0]}}</a>
                             {%endif%}
                         </div>
                     
@@ -460,7 +460,7 @@
                   </div>
                     <div class="add-to-links">
                       <ul>
-                        <li style = "padding-bottom:10px;"><a href="#" class="small_icon_color" ><i class="icon-shop"></i></a><a class="small_icon_color" data-toggle="modal" onclick="location.href='#';" href="#compare_price{{i}}_battery">Compare Prices</a></li>
+                        <li style = "padding-bottom:10px;"><a href="#compare_price{{i}}_battery" class="small_icon_color" data-toggle="modal"><i class="icon-shop"></i></a><a class="small_icon_color" data-toggle="modal" onclick="location.href='#';" href="#compare_price{{i}}_battery">Compare Prices</a></li>
                         <li> <a href="#" class="small_icon_color" onclick="addToCompareFromListing('{{batteryPhoneList[i]["_id"]}}');"><i class="icon-chart-bar"></i>Add to Compare</a> </li>
                       </ul>
                     </div>
@@ -513,7 +513,7 @@
                       {% for price in cameraPhoneList[i]["Prices"] %}
                           <tr>
                               <!--<td class="aligncenter 0_margin"><h5>Xiaomi</td>-->
-                              <td class="aligncenter 0_margin"><img src="img/amazon.jpg"  alt={{price['website']}} height="25px" width="100px"> </td>
+                              <td class="aligncenter 0_margin"><img src="static/img/{{price['website']}}.jpg"  alt={{price['website']}} height="25px" width="100px"> </td>
                               <td class="aligncenter 0_margin"><h5>Yes</h5></td>
                               <td class="aligncenter 0_margin"><h5>{{price["price"]}}</h5></td>
                               <td class="aligncenter 0_margin"><a href={{price['productUrl']}}  class="btn btn-mini">BUY</a></td>
@@ -574,7 +574,7 @@
                   </div>
                     <div class="add-to-links">
                       <ul>
-                        <li style = "padding-bottom:10px;"><a href="#" class="small_icon_color" ><i class="icon-shop"></i></a><a class="small_icon_color" data-toggle="modal" onclick="location.href='#';" href="#compare_price{{i}}_camera">Compare Prices</a></li>
+                        <li style = "padding-bottom:10px;"><a href="#compare_price{{i}}_camera" class="small_icon_color" data-toggle="modal"><i class="icon-shop"></i></a><a class="small_icon_color" data-toggle="modal" onclick="location.href='#';" href="#compare_price{{i}}_camera">Compare Prices</a></li>
                         <li> <a href="#" class="small_icon_color" onclick="addToCompareFromListing('{{cameraPhoneList[i]["_id"]}}');"><i class="icon-chart-bar"></i>Add to Compare</a> </li>
                       </ul>
                     </div>
