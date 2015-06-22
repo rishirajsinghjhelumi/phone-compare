@@ -456,12 +456,15 @@ function enable_buttons(theLink) {
   //var last = parent.slice(-1);
   //$("#"+parent).prop("disabled",true);
   var name=theLink.id; //Taking ID
+  console.log(prefQueue)
+  console.log(name)
   var parent=$("#"+name).parent().attr("id"); //Taking Parent ID
   var lb_val=$("#"+name).val()//Taking value of radio
   $("#"+parent).hide().animate({right: '1000px'});  //Animate Parent ID
   var last = parent.slice(-1);//last char
   var lab="pref_l";
   var lb_id=lab.concat(last);//concat
+  console.log(lb_id)
   $("#"+lb_id).html(lb_val);//setting label text
   //alert(lb_val);
   var last=Number(last)+1;
@@ -491,7 +494,7 @@ function disable_brand(theLink) {
 
 function reset_1() {
   prefQueue = []
-  var child="camera";
+  var child="Camera";
   $("."+child).parent().children().prop("disabled",false);
   $("."+child).parent().children().prop("checked", false);
   $("."+child).parent().children().show();
