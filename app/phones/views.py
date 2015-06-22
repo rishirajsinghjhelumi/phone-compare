@@ -105,9 +105,7 @@ def getPhoneIdListFromKeywordPreference(keyword):
                 for resultObj in phoneDetail:
                         phoneIdList.append(resultObj['_id'])
         return  phoneIdList
-
-
-
+        
 @mod.route('/autocomplete1', methods=['GET'])
 @jsonResponse
 def autocomplete1():
@@ -125,7 +123,7 @@ def autocomplete1():
 		results["results"] = session["autoComplete"]
 	return results
 
-	
+
 @mod.route('/brand/<brandName>', methods=['GET'])
 @jsonResponse
 def brandModels(brandName):
