@@ -417,7 +417,57 @@
           <div class="row">
             <div class="product_outer carousel_items">
               {%for i in range(batteryPhoneList|length)%}
+
+              {%if allPhoneList[i] is defined %}
+              <!--Compare Prices PoUp -->
+              <div class="modal fade" id="compare_price{{i}}_battery">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title" style="color:#AAAAAA"><center>Compare Prices for {{allPhoneList[i]['Brand']}} {{allPhoneList[i]['Model Name']}}</center></h4>
+                      </div>
+                      <div class="modal-body">
+            <table class="table">
+            <colgroup>
+            <col class="colfixw25">
+            <col class="colfixw25">
+            <col class="colfixw20">
+            <col class="colfixw10">
+            <col class="colfixw20">
+            </colgroup>
+                  <thead>
+                    <tr>
+                      <!--<td scope="col" class="aligncenter backgrey font_table_fix ">Product Name </td>-->
+                      <td scope="col" class="aligncenter backgrey font_table_fix">Seller</td>
+                      <td scope="col" class="aligncenter backgrey font_table_fix">Availability</td>
+                      <td scope="col" class="aligncenter backgrey font_table_fix">Price</td>
+              <td scope="col" class="aligncenter backgrey font_table_fix">Buy Option</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      {% for price in allPhoneList[i]["Prices"] %}
+                          <tr>
+                              <!--<td class="aligncenter 0_margin"><h5>Xiaomi</td>-->
+                              <td class="aligncenter 0_margin"><img src="static/img/{{price['website']}}.jpg"  alt={{price['website']}} height="25px" width="100px"> </td>
+                              <td class="aligncenter 0_margin"><h5>Yes</h5></td>
+                              <td class="aligncenter 0_margin"><h5>{{price["price"]}}</h5></td>
+                              <td class="aligncenter 0_margin"><a href={{price['productUrl']}}  class="btn btn-mini">BUY</a></td>
+                          </tr>
+                      {%endfor%}
+
+
+                  </tbody>
+                </table>
+              </div>
+
+                    </div>
+                  </div>
+          </div>
+          {%endif%}
+
             {%if batteryPhoneList[i] is defined %}
+
                   <!-- One Product Block Starts-->
                   {%set counter = 0 %}
                   {%set lowestPrice = [1000000] %}
