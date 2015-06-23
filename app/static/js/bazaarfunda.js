@@ -545,6 +545,9 @@ function enable_pref() {
         brandList = [brandText]
       }
     }
+    if (brandList.indexOf('All') != -1) {
+      brandList = [];
+    }
     var newpriceRange = []
     var prices = document.getElementsByClassName("infoBox");
     for (var i =0; i<prices.length; i++) {
