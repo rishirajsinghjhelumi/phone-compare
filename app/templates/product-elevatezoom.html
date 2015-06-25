@@ -115,9 +115,15 @@
                   {% set lowestWebsite = ["Out of Stock"] %}
                   {% set lowestWebsiteURL = ["#"] %}
                  {% for price in phoneDetails["Prices"] %}
+
                  {%set counter = counter + 1%}
+                 <!-- {% if 'amazon' in price["website"] %}
+                        {{price["stock status"]|int}}
+                        {{price["website"]}}
+                    {%endif%} -->
                   {%if price["price"]|int < lowestPrice[0] %}
                     {%if price["stock status"]|int > 0 %}
+
                       {% set _ = lowestPrice.append(price["price"]) %}
                       {% set _ = lowestWebsite.append(price["website"]|string) %}
                       {% set _ = lowestWebsiteURL.append( price["productUrl"]|string) %}
@@ -600,10 +606,19 @@
             </thead>
             <tbody>
                 {% for price in phoneDetails["Prices"] %}
+                {% if 'amazon' in price["website"] %}
+                        {{price["stock status"]|int}}
+                        {{price["website"]}}
+                    {%endif%}
                     <tr>
                         <!--<td class="aligncenter 0_margin"><h5>Xiaomi</td>-->
                         <td class="aligncenter 0_margin"><img src="/static/img/{{price['website']}}.jpg"  alt={{price['website']}} height="25px" width="100px"> </td>
+
+                        {%if price["stock status"]|int ==  1%}
                         <td class="aligncenter 0_margin"><h5>Yes</h5></td>
+                        {%else%}
+                        <td class="aligncenter 0_margin"><h5>No</h5></td>
+                        {%endif%}
                         <td class="aligncenter 0_margin"><h5>{{price["price"]}}</h5></td>
                         <td class="aligncenter 0_margin"><a href={{price['productUrl']}}  class="btn btn-mini">BUY</a></td>
                     </tr>
