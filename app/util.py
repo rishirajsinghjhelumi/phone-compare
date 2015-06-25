@@ -24,6 +24,12 @@ def install_secret_key(app, filename='secret_key'):
 def getArgAsList(request, arg):
     argument = request.args.get(arg)
     if argument != None:
-	return argument.split(',')
+	   listArg =  argument.split(',')
     else :
-	return []
+	   listArg =  []
+    finalListArg = []
+    for args in listArg:
+        if args == "A":
+            args = "A&K"
+        finalListArg.append(args)
+    return finalListArg
