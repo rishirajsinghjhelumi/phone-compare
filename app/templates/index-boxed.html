@@ -333,6 +333,7 @@
                   </thead>
                   <tbody>
                       {% for price in allPhoneList[i]["Prices"] %}
+                      {%if price["stock status"]|int !=  0%}
                           <tr>
                               <!--<td class="aligncenter 0_margin"><h5>Xiaomi</td>-->
                               <td class="aligncenter 0_margin"><img src="static/img/{{price['website']}}.jpg"  alt={{price['website']}} height="25px" width="100px"> </td>
@@ -344,6 +345,8 @@
                               <td class="aligncenter 0_margin"><h5>{{price["price"]}}</h5></td>
                               <td class="aligncenter 0_margin"><a href={{price['productUrl']}}  class="btn btn-mini">BUY</a></td>
                           </tr>
+                          {%endif%}
+
                       {%endfor%}
 
 
@@ -451,6 +454,7 @@
                   </thead>
                   <tbody>
                       {% for price in batteryPhoneList[i]["Prices"] %}
+                      {%if price["stock status"]|int !=  0%}
                           <tr>
                               <!--<td class="aligncenter 0_margin"><h5>Xiaomi</td>-->
                               <td class="aligncenter 0_margin"><img src="static/img/{{price['website']}}.jpg"  alt={{price['website']}} height="25px" width="100px"> </td>
@@ -462,6 +466,7 @@
                               <td class="aligncenter 0_margin"><h5>{{price["price"]}}</h5></td>
                               <td class="aligncenter 0_margin"><a href={{price['productUrl']}}  class="btn btn-mini">BUY</a></td>
                           </tr>
+                          {%endif%}
                       {%endfor%}
 
 
@@ -569,6 +574,7 @@
                   </thead>
                   <tbody>
                       {% for price in cameraPhoneList[i]["Prices"] %}
+                      {%if price["stock status"]|int !=  0%}
                           <tr>
                               <!--<td class="aligncenter 0_margin"><h5>Xiaomi</td>-->
                               <td class="aligncenter 0_margin"><img src="static/img/{{price['website']}}.jpg"  alt={{price['website']}} height="25px" width="100px"> </td>
@@ -580,6 +586,7 @@
                               <td class="aligncenter 0_margin"><h5>{{price["price"]}}</h5></td>
                               <td class="aligncenter 0_margin"><a href={{price['productUrl']}}  class="btn btn-mini">BUY</a></td>
                           </tr>
+                          {%endif%}
                       {%endfor%}
 
 
