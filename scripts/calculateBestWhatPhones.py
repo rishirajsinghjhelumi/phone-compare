@@ -128,7 +128,6 @@ def getUnSortedPhoneListForKeywordWithFinalRating(keyword, phoneList):
 def computeListAndPutToDB(finalPhoneList, keyword):
 	finalPhoneList = sorted(finalPhoneList, key=lambda k: k['finalRating']) 
 	finalPhoneList = finalPhoneList[::-1]
-	print finalPhoneList
 	finalPhoneListWithScore = []
 	tempFinalList = []
 	for allPhones in finalPhoneList:
@@ -164,8 +163,6 @@ def computeListAndPutToDB(finalPhoneList, keyword):
 		})
 
 	bestKeyWordPhones = mongo.bestCollection.find({'keyword':keyword})
-	for allPhones in bestKeyWordPhones:
-		print allPhones['_id']
 	print "Best" , keyword , "Uploaded"
 
 argList = []

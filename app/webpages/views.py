@@ -16,7 +16,7 @@ import jinja2
 import os.path
 
 mod = Blueprint('webpage', __name__, url_prefix='')
-allBrands = ['Apple','Blackberry','Xiaomi','OnePlus','A&K','Celkon','Gionee','HTC','Huawei','Karbonn','Lava','Lenovo','LG','Micromax','Motorola','Microsoft','Nokia','Panasonic','Samsung','Sony','Spice','XOLO','Adcom','Agtel','Akai','Acer','Alcatel','AirTyme','AIEK','Alpha','Ambrane','Anand','Andi','AOC','Apollo','Arise','AsiaFone','a-star','Asus','ATOM','Beetel','Best','Beven','Beyond','Binatone','Bingo','Bloom','Blu','BQ','Brillon','BSNL','BY2','Byond','Camerii','Cfore','Cheers','Chilli','CLOUD','Coolwave','Croma','Cubit','Daimond','Datawind','Devante','Iball']
+allBrands = ['Apple','Blackberry','Xiaomi','OnePlus','A&K','Celkon','Gionee','HTC','Huawei','Karbonn','Lava','Lenovo','LG','Micromax','Motorola','Microsoft','Nokia','Panasonic','Samsung','Sony','Spice','XOLO','Adcom','Agtel','Akai','Acer','Alcatel','AirTyme','AIEK','Alpha','Ambrane','Anand','Andi','AOC','Apollo','Arise','AsiaFone','a-star','Asus','ATOM','Beetel','Best','Beven','Beyond','Binatone','Bingo','Bloom','Blu','BQ','Brillon','Bsnl','BY2','Byond','Camerii','Cfore','Cheers','Chilli','CLOUD','Coolwave','Croma','Cubit','Daimond','Datawind','Devante','iball','YU']
 allKeywords = ['Applications', 'Battery', 'Camera', 'Delivery and service', 'Design and build quality','Earphone', 'Front Camera', 'Gaming', 'Internet and Browsing', 'Less lag', 'Low heating', 'Music', 'Others', 'Price worthiness', 'Screen', 'Sound', 'UI', 'Video']
 formatter = logging.Formatter(
         "[%(asctime)s] {%(pathname)s:%(lineno)d} %(levelname)s - %(message)s")
@@ -314,6 +314,7 @@ def displayQueryResults(pageType, sortedPhoneList, pageNo, priceRange):
 
 @mod.route('/', methods=['GET'])
 def homePage():
+    print "Hello"
     cartList = getCartDetails()
     cameraPhoneList = mongo.bestCollection.find_one({'keyword':"Camera"})
     cameraPhoneList = cameraPhoneList['short']
