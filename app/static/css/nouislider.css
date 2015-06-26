@@ -33,7 +33,7 @@
 .noUi-handle > div.noUi-activeHandle {
 }
 .disabled > .noUi-midBar {
-	background:				#999;
+	background:				#3b5998;
 }
 .disabled .noUi-handle > div {
 	border-color:			#CCC;
@@ -58,6 +58,12 @@ position: relative;
     display: block;
     position: relative;
 }
+.noUi-handle .infoBox2 {
+    bottom: -20px;
+    display: block;
+    position: relative;
+}
+
 @media (-webkit-min-device-pixel-ratio:1.2),-moz-touch-enabled,(max-device-width:1024px){
 	.noUi-handle > div {
 		height:				32px;

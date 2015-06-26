@@ -158,6 +158,7 @@
         var windowWidth = window.innerWidth || document.documentElement.clientWidth;
         var pageBody = $('body');
         var priceSlider = $("#noUiSlider");
+        var priceSlider1 = $("#noUiSlider1");
         var cloudZoom = $('#CloudZoom');
         var cloudGallery = $('.cloudzoom-gallery');
         var cloudGalleryOuter = $('.product-more-views ul');
@@ -389,9 +390,27 @@
             step: false,
             change: function () {
                 var values = $(this).noUiSlider('value');
+                $(this).find('.noUi-lowerHandle .infoBox2').text('₹' + values[0]);
+                $(this).find('.noUi-upperHandle .infoBox2').text('₹' + values[1]);
+                
+
+            }
+        }).find('.noUi-handle div').each(function (index) {
+
+            $(this).append('<span class="infoBox2" onclick = "filterOptions(this);">₹' + $(this).parent().parent().noUiSlider('value')[index] + '</span>');
+
+        });
+
+        priceSlider1.empty().noUiSlider('init', {
+        
+            scale: [0, 70000],
+            start: [priceArray[0], priceArray[1]],
+            step: false,
+            change: function () {
+                var values = $(this).noUiSlider('value');
                 $(this).find('.noUi-lowerHandle .infoBox').text('₹' + values[0]);
                 $(this).find('.noUi-upperHandle .infoBox').text('₹' + values[1]);
-                
+                filterOptions(this,values[0], values[1])
 
             }
         }).find('.noUi-handle div').each(function (index) {

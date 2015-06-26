@@ -603,7 +603,7 @@ function enable_pref() {
       brandList = [];
     }
     var newpriceRange = []
-    var prices = document.getElementsByClassName("infoBox");
+    var prices = document.getElementsByClassName("infoBox2");
     for (var i =0; i<prices.length; i++) {
         priceWithSign = prices[i].innerHTML
         newpriceRange.push(priceWithSign.replace("₹",""))

@@ -121,12 +121,12 @@
 
           <div class="horizontalTab">
             <ul class="nav-tabs contentTab">
-              <li class="active"><a href="#SpecificationTab">Specification</a></li>
-              <li><a href="#UserExperienceTab">User Experience</a></li>
+              <li ><a href="#SpecificationTab">Specification</a></li>
+              <li class="active"><a href="#UserExperienceTab">User Experience</a></li>
               <li><a href="#ProsConsTab">Pros and Cons</a></li>
             </ul>
             <div class="tab-content">
-              <div class="tab-pane active" id="SpecificationTab">
+              <div class="tab-pane " id="SpecificationTab">
                <!--inside_tab-->
                {%for specs in sampleProductDetail["specification"]%}
                   {%for key, value in specs.iteritems()%}
@@ -176,7 +176,7 @@
           {%endfor%}
         {%endfor%}
       </div>
-      <div class="tab-pane" id="UserExperienceTab">
+      <div class="tab-pane active" id="UserExperienceTab">
         <!--inside_table-->
 
         <!--<h4 class="upper">BORDRED TABLE</h4>-->

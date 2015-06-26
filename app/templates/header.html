@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <meta name="description" content="">
-<meta name="author" content="">
+<meta name="author" content="bazaarfunda">
 <link rel="shortcut icon" href="favicon.ico">
 <link href="{{ url_for('static', filename='css/reset.css')}}" rel="stylesheet" type="text/css"/>
 <link href="{{ url_for('static', filename='css/bootstrap.css')}}" rel="stylesheet" type="text/css"/>
@@ -25,6 +25,7 @@
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type="text/css">
 <link href="{{ url_for('static', filename='css/revolution.css')}}" rel="stylesheet" type="text/css">
 <link href="{{ url_for('static', filename='css/iThing.css')}}" rel="stylesheet" type="text/css">
+
 <!--[if IE 9 ]><link href="css/styleie9.css" rel="stylesheet"> <![endif]-->
 <!--[if lte IE 8 ]> <link href="css/styleie8.css" rel="stylesheet"> <script src="js/html5.js"></script><![endif]-->
 <!-- <script src="{{ url_for('static', filename='js/revolution_ini.js')}}"></script> -->
@@ -50,11 +51,19 @@
 <script src="{{ url_for('static', filename='js/jquery.fastLiveFilter.js')}}"></script> 
 <script src="{{ url_for('static', filename='js/jquery.themepunch.plugins.min.js')}}"></script> 
 <script src="{{ url_for('static', filename='js/jquery.themepunch.revolution.js')}}"></script> 
-<script src="{{ url_for('static', filename='js/jQEditRangeSlider-min.js')}}"></script>
 <script src="{{ url_for('static', filename='js/jquery-ui.custom.js')}}"></script> 
-
+<!-- <script src="{{ url_for('static', filename='js/jQEditRangeSlider-min.js')}}"></script> -->
+<!-- <script src="{{ url_for('static', filename='js/jquery-1.7.1.js')}}"></script> -->
 <script src="{{ url_for('static', filename='js/bootstrap-multiselect.js')}}"></script> 
+ 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.js"></script>
+
+
+
+
+
+
+
 
 <!--FaceBook Script-->
 <script>
@@ -203,7 +212,7 @@
       <div class="row">
         <!-- Nav Bar-->
         <div class="span12">
-          <nav>
+          <!-- <nav>
             <ul class="nav nav-list">
               <li class="nav-header">
               <a href="#level0" title="" data-toggle="collapse" class="collapsed"><i class="icon-th"></i>&nbsp;&nbsp;MENU<i class="icon-up pull-right"></i><i class="icon-down pull-right"></i>
@@ -302,7 +311,7 @@
                 </ul>
               </li>
             </ul>
-          </nav>
+          </nav> -->
           <nav> 
           <!--Recommendation Page Pop Up -->
       <div class="modal fade" id="recmodal">
@@ -400,7 +409,7 @@
           
           </div>
           <hr>
-          <h5><span class="color_blue">3. </span>CHOOSE YOUR PREFERENCES OR GET OUR BAZZAR FUNDA PREFERENCES</h5>
+          <h5><span class="color_blue">3. </span>CHOOSE YOUR PREFERENCES OR GET OUR BAZAAR FUNDA PREFERENCES</h5>
           
           <div id="pref-1" style="position:relative;" >
           
@@ -457,7 +466,7 @@
               <label id="pref_l5" class="display_none"></label>
           </div>
                 </div>
-                <div class="modal-footer"> <div class="show_button"><a  class="btn" onclick="reset_1()">RESET</a></div><a href="#" data-dismiss="modal" class="btn" onclick="reccomendMe();">RECCOMEND</a> </div>
+                <div class="modal-footer"> <div class="show_button"><a  class="btn" onclick="reset_1()">RESET</a></div><a href="#" data-dismiss="modal" class="btn" onclick="reccomendMe();">RECOMMEND</a> </div>
               </div>
             </div>
           </div>

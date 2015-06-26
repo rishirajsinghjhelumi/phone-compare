@@ -5,19 +5,14 @@
       <div class="row">
         <div class="span9" id="column_right">
           
-          <div class="listing_header_row1">
-            
-            <div class=" aligncenter hidden-phone">
-              <label> <span class="hidden-tablet">View as:</span></label>
-              <a href="#" class="icon-th view-grid active"></a><a href="#" class="icon-th-list view-list"></a> </div>
-            
-          </div>
-           <!-- <div id="slider"></div> -->
-           <script>
-              //<!--
-              $("#slider").editRangeSlider();
-              //-->
-              </script>
+          <div class="block">
+                <div id="price_slider_wrapper">
+                  <div id="noUiSlider1" class="noUiSlider"></div>
+                </div>
+               </div>
+
+
+
           {%if emptyResultsFlag == 1%}
           <div class="line1"></div>
           <div class="listing_header_row2">Oops!! could not find any recommendations with that filter...Showing results for all Price Range</div>
@@ -42,7 +37,7 @@
           </div>
           <div class="alert alert-info alert-dismissable">
             <button type="button" class="close" data-dismiss="alert">&times;</button>
-            <!-- <h3>Information</h3> -->
+            <!-- <h3>Information</h3>  -->
             Phones are recommended based on the text analysis of millions of reviews across the web because all 13 MP cameras are not the same!!</div>
           
 		  
@@ -156,6 +151,7 @@
                     <div id="noUiSlider" class="noUiSlider" onclick = "filterOptions(this)" ></div>
                   </div>
                 </div> -->
+                
               </div>
             <div class="block_listing">
           <div class="block block-layered-nav">
