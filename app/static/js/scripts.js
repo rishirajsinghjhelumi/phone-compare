@@ -385,7 +385,7 @@
 
         priceSlider.empty().noUiSlider('init', {
 		
-            scale: [0, 70000],
+            scale: [0, 80000],
             start: [priceArray[0], priceArray[1]],
             step: false,
             change: function () {
@@ -403,7 +403,7 @@
 
         priceSlider1.empty().noUiSlider('init', {
         
-            scale: [0, 70000],
+            scale: [0, 80000],
             start: [priceArray[0], priceArray[1]],
             step: false,
             change: function () {
