@@ -82,6 +82,7 @@ def searchResults():
             phoneList = phoneList['long']
 
             sortedPhoneList = applyBrandAndPriceFilters(phoneList,brands, keywords,priceRange)
+
             if sortedPhoneList == []:
                 emptyResultsFlag = 1
                 sortedPhoneList = applyBrandAndPriceFilters(phoneList,brands, keywords,[0,80000])
@@ -113,12 +114,15 @@ def searchResults():
                 
                 localDict['finalRating'] = round(localDict['finalRating'],2)
                 phoneDict[phones['Model Name']] = localDict
+            phoneList = []
             for phone in phoneDict:
-                sortedPhoneList.append(phoneDict[phone])
-            sortedPhoneList = applyBrandAndPriceFilters(sortedPhoneList,brands, keywords,priceRange)
+                phoneList.append(phoneDict[phone])
+            sortedPhoneList = applyBrandAndPriceFilters(phoneList,brands, keywords,priceRange)
+
+            
             if sortedPhoneList == []:
                 emptyResultsFlag = 1
-                sortedPhoneList = applyBrandAndPriceFilters(sortedPhoneList,brands, keywords,[0,80000])
+                sortedPhoneList = applyBrandAndPriceFilters(phoneList,brands, keywords,[0,80000])
             sortedPhoneList = sorted(sortedPhoneList,key=lambda l:l[1],reverse=True) 
 
             sortedPhoneList = sortedPhoneList[:120]
