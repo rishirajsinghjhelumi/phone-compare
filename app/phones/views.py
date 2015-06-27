@@ -106,7 +106,7 @@ def getPhoneIdListFromKeywordPreference(keyword):
                         phoneIdList.append(resultObj['_id'])
         return  phoneIdList
         
-@mod.route('/autocomplete1', methods=['GET'])
+@mod.route('/autocomplete', methods=['GET'])
 @jsonResponse
 def autocomplete1():
 	results = {}
