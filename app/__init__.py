@@ -1,7 +1,6 @@
 from flask import Flask, render_template, jsonify
 from flask.ext.sqlalchemy import SQLAlchemy
 from pymongo import MongoClient
-
 from util import install_secret_key
 
 app = Flask(__name__)
@@ -15,10 +14,6 @@ mongo = MongoClient('localhost', 27017)['compareDB']
 if not app.config['DEBUG']:
     install_secret_key(app)
 
-@app.errorhandler(404)
-def not_found(error):
-    # return render_template('404.html'), 404
-    return jsonify(status = "Page Not Found"), 404
 
 @app.errorhandler(403)
 def forbidden_page(error):

@@ -30,19 +30,36 @@ app.logger.setLevel(logging.DEBUG)
 def hello2():
 	return "hello2"
 
+    
+@app.errorhandler(404)
+def not_found(error):
+    cartList = getCartDetails()
+    # return render_template('404.html'), 404
+    return render_template("404.html", allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18], title = "Your choice Your Device", cartDetails = cartList)
+    # return jsonify(status = "Page Not Found"), 404
+@app.errorhandler(500)
+def not_found(error):
+    cartList = getCartDetails()
+    # return render_template('404.html'), 404
+    return render_template("404.html", allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18], title = "Your choice Your Device", cartDetails = cartList)
+    # return jsonify(status = "Page Not Found"), 404
+
 @mod.route('/pdp/<phoneID>', methods=['GET'])
 def productDetail(phoneID):
-	phoneDetails = getPhoneInfo(phoneID)
-	phoneName = phoneDetails["Model Name"]
-	phoneBrand = phoneDetails["Brand"]
-	title = phoneBrand + " " + phoneName
-	cartDetails = getCartDetails()
+    cartDetails = getCartDetails()
+    try:
+    	phoneDetails = getPhoneInfo(phoneID)
+    	phoneName = phoneDetails["Model Name"]
+    	phoneBrand = phoneDetails["Brand"]
+    	title = phoneBrand + " " + phoneName
+    	
 
-	app.logger.info(phoneDetails)
-	for ids in cartDetails:
-		app.logger.info(ids)
-	return render_template("product-elevatezoom.html", title=title, phoneDetails = phoneDetails, cartDetails = cartDetails,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18])
-
+    	app.logger.info(phoneDetails)
+    	for ids in cartDetails:
+    		app.logger.info(ids)
+    	return render_template("product-elevatezoom.html", title=title, phoneDetails = phoneDetails, cartDetails = cartDetails,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18])
+    except:
+        return render_template("404.html", allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18], title = "Your choice Your Device", cartDetails = cartDetails) 
 @mod.route('/compare', methods=['GET'])
 def compareProducts():
 	phoneIds = []
