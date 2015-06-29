@@ -117,6 +117,7 @@
 
 </head>
 <body>
+<div class="wrapper_w" style="align:center;">
   <!-- Google ADSense -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- bazaarfunda -->
@@ -128,6 +129,7 @@
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
 <!-- Google ADSense -->
 <div id="wrap">
   <div id="right_toolbar" class="hidden-phone hidden-tablet">
@@ -228,24 +230,21 @@
     <div class="container">
       <div class="wrapper_w">
         <div id="logo"> <a href="/" class="logo_inner"><img src="/static/img/logo-1.png" width="250" height="85" alt=""></a> </div>
-        <div id="logo" class="row animate-delay-outer">
+        <div id="logo" class="row animate-delay-outer" style="margin-top:-1.5%; margin-left:3%">
           <div class="span3 block_img animate-delay scale"> <a data-toggle="modal" onclick = "reset_1();" href="#recmodal">
             <img src="/static/img/Reccomendation.png" alt=""></a> </div>
         </div>
         <div class="pull-right padding-1" id="cart">
-          <div class="shoppingcart">
-            <div class="fadelink"><span class="pull-right"> <a href="/compare" class="btn"><i class="icon-chart-bar icon-large"></i></a> </span><span class="badge  badge-inverse">{{cartDetails|length}}</span>
+          <div class="shoppingcart" >
+            <div class="fadelink">
+              {%if cartDetails|length > 0%}
+              <span class="pull-right" title="{{cartDetails|length}} items in compare mobiles"> <a href="/compare" class="btn"><i class="icon-chart-bar icon-large"></i></a> </span>
+              {%else%}
+              <span class="pull-right" title="{{cartDetails|length}} item in compare mobiles"> <a href="/compare" class="btn"><i class="icon-chart-bar icon-large"></i></a> </span>
+              {%endif%}
+              <span class="badge  badge-inverse">{{cartDetails|length}}</span>
               <div class="shopping_cart_mini hidden-phone hidden-tablet">
-                <!-- <div class="inner-wrapper">Recently added item(s)
-                  <div class="item"> <a href="#" class="product-image"><img src="img/product-image-minicart.png" alt=""></a>
-                    <div class="product-detailes"> <a href="#" class="product-name">Mauris et ligula quis </a>
-                      <div class="product-price">1 x $400.00</div>
-                    </div>
-                    <div class="alignright"> <a href="#"><i class="icon-edit-1"></i></a> <a href="#"><i class="icon-trash-3"></i></a> </div>
-                  </div>
-                  <div class="wrapper"> <a href="../compare" class="button">View shopping cart</a> <a href="checkout.html" class="button">Proceed to Checkout</a> </div>
-                </div> -->
-              </div>
+                              </div>
             </div>
           </div>
         </div>
