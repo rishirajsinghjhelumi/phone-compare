@@ -267,7 +267,7 @@ function click1(theLink, id) {
 
         function populateAutoComplete() {
           $domain = location.host
-            $url =  "http://" + $domain + "/phone/autocomplete";
+            $url =  "http://" + $domain + "/static/autocomplete.json";
             // data = httpGet($url).results;
             // var jsonData = JSON.parse(data);
             // phoneList = jsonData.results
