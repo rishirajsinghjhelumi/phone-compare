@@ -65,23 +65,24 @@
                   {%endif%}
                   {%endfor%}
               
-              <div class="span3 product hover " style= "border-radius:0px; box-shadow: 0 0 0">
+              <div class="span3 product hover " itemscope itemtype="http://schema.org/Product" style= "border-radius:0px; box-shadow: 0 0 0">
                 <div class="product-image-wrapper " style= "border-radius:0px; height: 201px"><a href='../pdp/{{phoneDetails[i]["_id"]}}'><img src="static/img/ImageScrappers/{{phoneDetails[i]["Brand"]}} {{phoneDetails[i]["Model Name"]}}.jpg" style="height:100%" alt=""><img src="static/img/product_page_img_big1.jpg" class="roll_over_img" alt=""></a> </div>
                 <div class="wrapper-hover">
-                  <div class="product-name aligncenter" style="height:33px"><a href='../pdp/{{phoneDetails[i]["_id"]}}'>{{phoneDetails[i]["Brand"]}} {{phoneDetails[i]["Model Name"]}}</a></div>
+                  <div itemprop="name" class="product-name aligncenter" style="height:33px"><a href='../pdp/{{phoneDetails[i]["_id"]}}'>{{phoneDetails[i]["Brand"]}} {{phoneDetails[i]["Model Name"]}}</a></div>
                   <div class="wrapper"><span class="sort-rating hidden">4</span>
                     <!--<div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>-->
                         <div class="product-price aligncenter" style = "padding-bottom:10px">
                             {%if lowestWebsite[0] == "Out of Stock"  %}
                             <a class="aligncenter"  href="#" style="color: #B40404">Out of Stock</a>
                             {% else %}
-                            <a class="aligncenter"  href="{{lowestWebsiteURL[0]}}">Lowest Price&nbsp;₹&nbsp{{lowestPrice[0]}}</a>
+                            <a class="aligncenter"  href="{{lowestWebsiteURL[0]}}" itemprop="price">Lowest Price&nbsp;₹&nbsp{{lowestPrice[0]}}</a>
                             {%endif%}
                         </div>
                     <div class="rating-listing rating"> <strong><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a></strong><a><i class="icon-star-empty"></i></a> </div>
                   </div>
                     <div class="skillbar clearfix " data-percent={{scoreList[i]}}%>
-                    <div class="skillbar-title" style="background: #3b5998; width:22%;"><span style="color: #FFFFFF">{{scoreList[i]}}/100</span></div>
+                    <div itemprop="aggregateRating"
+    itemscope itemtype="http://schema.org/AggregateRating" class="skillbar-title" style="background: #3b5998; width:22%;"><span itemprop="ratingValue" style="color: #FFFFFF" >{{scoreList[i]}}/100</span></div>
                     <div class="skillbar-bar" style="background: #8b9dc3;"></div>
                     <div class="skill-bar-percent"></div>
                   </div>

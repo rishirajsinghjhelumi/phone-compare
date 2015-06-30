@@ -5076,8 +5076,8 @@ margin-left:20px;
 }
 .styled-list.star li:before {
 	margin: 0 10px 0 0;
-	content: "\2605";
-	font: 12px 'andepict';
+	content: "\f088";
+	font: 12px 'font-awesome';
 }
 .styled-list.square li {
 	text-indent:0;

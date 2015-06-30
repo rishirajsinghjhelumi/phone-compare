@@ -17,7 +17,7 @@
           </div>
         </div>
       </div>
-      <div class="product-box">
+      <div class="product-box" itemscope itemtype="http://schema.org/Product">
         <div class="row">
           <div class="span5">
             <div class="product-img-box noselect">
@@ -43,7 +43,7 @@
               <div class="product_info">
                 <div class="product-name">
                   
-                  <h1><span class="color">{{phoneDetails.Brand}} {{phoneDetails["Model Name"]}}</span></h1>
+                  <h1><span itemprop="name" class="color">{{phoneDetails.Brand}} {{phoneDetails["Model Name"]}}</span></h1>
                   <div class="star-ratings-css" style="unicode-bidi: bidi-override; color: #c5c5c5; font-size: 25px; height: 5px; width: 100px; margin: 0 auto; position: absolute; padding: 0; text-shadow: 0px 1px 0 #a2a2a2;">
 
                   <div class="star-ratings-css-top" style="width: 55%; color: #e7711b; padding: 0; text-shadow: 0px 1px 0 #ab5414; position: absolute; z-index: 1; display:block; left: 0px; overflow: hidden;">
@@ -140,7 +140,7 @@
                   {%if lowestWebsite[0] == "Out of Stock"  %}
                     <h4><div style="color: #B40404">{{"Not Available in our search"}}</div></h4>
                       {% else %}
-                    <h4> Lowest Price: ₹&nbsp {{lowestPrice[0]}} &nbsp&nbsp 
+                    <h4  itemprop="price"> Lowest Price: ₹&nbsp {{lowestPrice[0]}} &nbsp&nbsp 
                       <a href={{lowestWebsiteURL[0]}} target="_blank"><button class="btn-mini border" type="hidden"> Buy Now </button></a>
                     </h4> 
                   {%endif%}
@@ -225,9 +225,10 @@
                 <h2>Details</h2>
                 {%for keywords in phoneDetails["Keywords"]%}
                   <div class="skillbar clearfix " data-percent={{keywords["Rating"]*20|round|int}}%>
-                    <div class="skillbar-title" style="background: #3b5998; width:22%"><span>{{keywords["Keyword"]}}</span></div>
+                    <div class="skillbar-title" style="background: #3b5998; width:22%"><span itemprop="aggregateRating"
+    itemscope itemtype="http://schema.org/AggregateRating">{{keywords["Keyword"]}}</span></div>
                     <div class="skillbar-bar" style="background: #8b9dc3;"></div>
-                    <div class="skill-bar-percent">{{keywords["Rating"]*20|round(1, 'floor') }}% junta says positive</div>
+                    <div class="skill-bar-percent" itemprop="ratingValue">{{keywords["Rating"]*20|round(1, 'floor') }}% junta says positive</div>
                   </div>
                 {%endfor%}
               </div>
