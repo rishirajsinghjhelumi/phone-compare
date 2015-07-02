@@ -145,30 +145,54 @@
                     <col class="colfixw2">
                     <col class="colfixw2">
                   </colgroup>
+                  
                   {% for kFet, vFet in value.iteritems() %}
                   
                   <tbody>
                     <tr>
                       <th scope="col" class="aligncenter" style="color:#000000">{% filter upper %} {{kFet}} {% endfilter %}</th>
+                      
                       {%for i in range(4)%}
-
+                        {% set counter = []%}
                         {%if phoneDetails[i] is defined %}
                             {%for phoneSpecs in phoneDetails[i]["specification"]%}
+                              
+                                
                                 {%for pKey in phoneSpecs%}
-                                  {%if pKey == key%}
-                                      {%if phoneSpecs[key][kFet] is defined%}
-                                        <td scope="col" class="aligncenter"><div class="phone{{i+1}}">{{phoneSpecs[key][kFet]}}</div></td>
+                                
+                                  {%if pKey|upper == key|upper%}
+                                      {% set _ = counter.append(1)%}
+                                      
+                                        {%if phoneSpecs[pKey][kFet] is defined%}
+                                            <td scope="col" class="aligncenter">
+                                              <div class="phone{{i+1}}">
+                                                {{phoneSpecs[pKey][kFet]}}
+                                            </div></td>
                                         {%else%}
-                                        <td scope="col" class="aligncenter"><div class="phone{{i+1}}" style = "color:red">{{NA}}</div></td>
-                                      {%endif%}
+                                            <td scope="col" class="aligncenter">
+                                              <div class="phone{{i+1}}" style = ""> - </div>
+                                            </td>
+                                        {%endif%}
                                   {%endif%}
+
+
                                 {%endfor%}
+                                
+
                             {%endfor%}
                         {%else%}
 
-                            <td scope="col" class="aligncenter"><div class="phone{{i + 1}}"></div></td>
+                            <td scope="col" class="aligncenter">
+                              <div class="phone{{i + 1}}">{{i+1}}</div>&nbsp</td>
+                              
+                        {%endif%}
+                        {%if counter[0] is not defined%}
+                                    <td scope="col" class="aligncenter">
+                                          <div class="phone{{i+1}}" style = ""> - </div>
+                                        </td>
                         {%endif%}
                       {%endfor%}
+                      
                     </tr>
                     </tbody>
                   {%endfor%}

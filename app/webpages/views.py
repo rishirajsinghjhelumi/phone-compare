@@ -70,7 +70,7 @@ def compareProducts():
 		app.logger.info("getting phoneIds from cart")
 		app.logger.info(len(phoneIds))
 	phoneDetails = [getPhoneInfo(phoneId) for phoneId in phoneIds]
-	sampleProductDetail = getPhoneInfo("558b010a0c677c369b4676a2")
+	sampleProductDetail = getPhoneInfo("558b010a0c677c369b46747f")
 	app.logger.info(phoneIds)
 	for phones in phoneDetails:
 		app.logger.info(phones["Brand"])
