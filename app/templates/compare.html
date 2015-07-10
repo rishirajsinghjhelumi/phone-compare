@@ -12,8 +12,8 @@
               </div> -->
 
 
-              <div class="product-listing product-grid">
-                <div class="row big_with_description isotope-outer">
+              <div class="product-listing product-grid" style="margin-left:13%; margin-right:2.5%">
+                <div class="row big_with_description   ">
                   {%for i in range(4)%}
 
                   {%if phoneDetails[i] is defined %}
@@ -37,7 +37,7 @@
                   {%endif%}
                   {%endif%}
                   {%endfor%}
-                    <div class="span3 product" style = "border-radius: 0px">
+                    <div class="span3 product" style = "border-radius: 0px; width:25%; margin-left:0px; box-shadow: 0 0 1px;">
                       <div class="phone{{i + 1}} closefix closewrapper" onclick="click1(this, '{{phoneDetails[i]._id}}')"><i class="icon-cancel"></i></div>
 
                       <div class="product-image-wrapper" style="height: 201px" ><a href='../pdp/{{phoneDetails[i]["_id"]}}'><img class="phone{{i + 1}}" src="static/img/ImageScrappers/{{phoneDetails[i]["Brand"]}} {{phoneDetails[i]["Model Name"]}}.jpg" style= "height: 100%;" alt="">
@@ -48,7 +48,7 @@
                         <!-- <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket" title="Compare Prices"></i></a> </div> -->
 
                         {%if lowestWebsite[0] == "Out of Stock"  %}
-                        <div class="product-price"><div style="color: #B40404"><h4 class="aligncenter" >{{"Price Not Available"}}</h4></div></span></a></div>
+                        <div class="product-price"><div style="color: #B40404"><span class="aligncenter" >{{"Price Not Available"}}</span></div></span></a></div>
                         {% else %}
                         <div class="product-price aligncenter" ><a href="{{lowestWebsiteURL[0]}}" class="aligncenter">Lowest Price&nbsp;₹&nbsp{{lowestPrice[0]}}<!-- <span class="sort-price"></span> --></a> &nbsp&nbsp</div>
                         {%endif%}
@@ -86,7 +86,7 @@
               {%else%}
 
               <!-- One Product Block Starts-->
-              <div class="span3 product" style = "border-radius: 0px">
+              <div class="span3 product" style = "border-radius: 0px; width:25%; margin-left:0px; box-shadow: 1px 1px 1px 1px;">
                 <div class="product-image-wrapper "><a href="product.html"></a>
                   <a data-toggle="modal" href="#myModal" onclick="location.href='#';"><img class="hide{{i+1}}" src="static/img/addnew1.png" alt="" style="display: inline;"></a> </div>
                 </div>
@@ -116,6 +116,11 @@
 
             </div>
           </div>
+
+          
+
+
+    <div class
           <!--tab-->
           <!--what the fuck-->
           <h4>Phones are recommended based on the text analysis of millions of reviews across the web because all 13 MP cameras are not the same!!</h4>
@@ -430,7 +435,9 @@
               </div>
             </div>
           </div>
+            <div class="bottomMenu">
 
+            </div>
           <!--Compare prices Pop Up -->
           {%endif%}
           {%endfor%}
