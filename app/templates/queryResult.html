@@ -66,6 +66,9 @@
                             {%if lowestWebsite[0] == "Out of Stock"  %}
                             <a class="aligncenter"  href="#" style="color: #B40404">{{"Price Not Available"}}</a>
                             {% else %}
+                            {%if lowestPrice[0] == 0 %}
+                                <a class="aligncenter"  href="#" style="color: #B40404">{{"Price Not Available"}}</a>
+                            {%endif%}
                             <a class="aligncenter"  href="{{lowestWebsiteURL[0]}}">Lowest Price&nbsp;₹&nbsp{{lowestPrice[0]}}</a>
                             {%endif%}
                         </div>

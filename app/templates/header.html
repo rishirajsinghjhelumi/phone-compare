@@ -263,106 +263,42 @@
       <div class="row">
         <!-- Nav Bar-->
         <div class="span12">
-          <!-- <nav>
+          <nav>
             <ul class="nav nav-list">
               <li class="nav-header">
               <a href="#level0" title="" data-toggle="collapse" class="collapsed"><i class="icon-th"></i>&nbsp;&nbsp;MENU<i class="icon-up pull-right"></i><i class="icon-down pull-right"></i>
               </a>
                 <ul class="collapse in" id="level0" >
                   <li> <a href="/">HOME </a></li>
-                  <li> <a href="/search?pricerange=0,60000">BRANDS </a> <a class="icon-collapse collapsed" href="#level1" title="" data-toggle="collapse" ><i class="icon-up pull-right"></i><i class="icon-down pull-right"></i></a>                    <ul class="collapse in" id="level1">
-                      <li> <a href="index-creative.html"> <span>All</span> </a> </li>
-                      <li> <a href="index-dark.html"> <span>Nokia</span> </a> </li>
-                      <li> <a href="index.html"> <span>Samsung</span> </a> </li>
-                      <li> <a href="index-amazing.html"> <span>I-Phone</span> </a> </li>
-                      <li> <a href="index-slider_fullscreen.html"> <span>Motorola</span> </a> </li>
-                      <li> <a href="index-boxed.html"> <span>Xiaomi</span> </a> </li>
-                      <li> <a href="index-footer_maxi.html"> <span>Asus</span> </a> </li>
-                      <li> <a href="megamenu.html"> <span>Yureka</span> </a> </li>
+                  <li> <a href="/search?pricerange=0,80000"> BRANDS </a> <a class="icon-collapse collapsed" href="#level1" title="" data-toggle="collapse" ><i class="icon-up pull-right"></i><i class="icon-down pull-right"></i></a>                    
+                    <ul class="collapse in" id="level1">
+                      {%for brand in allTopBrands%}
+                        <li class="level2"> <a href="/search?pricerange=0,80000&brands={{brand}}"> <span>{{brand}}</span> </a> </li>
+                        {%endfor%}
+
+                      {%for brand in allNonTopBrands%}
+                      <li class="level2"> <a href="/search?pricerange=0,80000&brands={{brand}}"> <span>{{brand}}</span> </a> </li>
+                      {%endfor%}
+                      <li class="level2"> <a href="/search?pricerange=0,80000"> <span>All</span> </a>
                     </ul>
 </li>
-                  <li> <a href="listing_usual.html"> Catalogue </a> <a class="icon-collapse collapsed" href="#level2" title="" data-toggle="collapse" ><i class="icon-up pull-right"></i><i class="icon-down pull-right"></i></a>
-                    <ul class="collapse in" id="level2">
-                      <li> <a href="listing_usual.html"> <span>Listing</span> </a><a class="icon-collapse collapsed" href="#level2_1" title="" data-toggle="collapse" ><i class="icon-up pull-right"></i><i class="icon-down pull-right"></i></a>
-                        <ul class="collapse in" id="level2_1">
-                          <li class="level2"> <a href="listing_usual.html"> <span>Usual</span> </a> </li>
-                          <li class="level2"> <a href="listing_without_left_column.html"> <span>Without Left Column</span> </a> </li>
-                          <li class="level2"> <a href="listing_small_prev.html"> <span>Small Previews</span> </a> </li>
-                          <li class="level2"> <a href="listing_small_prev_without_left_column.html"> <span>Small Previews Without Left Column</span> </a> </li>
-                          <li class="level2"> <a href="listing_catalogue_mode.html"> <span>Catalogue Mode </span> </a> </li>
-                        </ul>
-                      <li> <a href="product.html"> <span>Product</span></a> <a class="icon-collapse collapsed" href="#level2_2" title="" data-toggle="collapse" ><i class="icon-up pull-right"></i><i class="icon-down pull-right"></i></a>
-                        <ul class="collapse in" id="level2_2">
-                          <li class="level2"> <a href="product.html"> <span>Product Page</span> </a> </li>
-                          <li class="level2"> <a href="product_custom.html"> <span>Product + Custom Block</span> </a> </li>
-                          <li class="level2"> <a href="product_related.html"> <span>Product + Related Block</span> </a> </li>
-                          <li class="level2"> <a href="product-elevatezoom.html"> <span>Product Page + ElevateZoom </span> </a> </li>
-                          <li class="level2"> <a href="product-elevatezoom-fancybox.html"> <span>Product Page + Fancybox</span> </a> </li>
-                        </ul>
-                      </li>
-                    </ul>
+                  <li> <a href="/compare"> Compare Mobiles </a> <a class="icon-collapse collapsed" href="/compare" title="" data-toggle="collapse" ><i class=" icon-right-open"></i></a>
                   </li>
-                  <li> <a href="blog_listing_view.html"> Blog </a> <a class="icon-collapse collapsed" href="#level3" title="" data-toggle="collapse" ><i class="icon-up pull-right"></i><i class="icon-down pull-right"></i></a>
-                    <ul class="collapse in" id="level3">
-                      <li> <a href="blog_listing_view.html"> <span>Listing View</span> </a> </li>
-                      <li> <a href="blog_table_view.html"> <span>Table View</span> </a> </li>
-                      <li> <a href="blog_single_post.html"> <span>Single Post</span> </a> </li>
-                    </ul>
+
+                  <li> <a href="/search?pricerange=200,80000&keywords=Camera"> Popular Camera Phones </a> <a class="icon-collapse collapsed" href="/search?pricerange=200,80000&keywords=Camera" title="" data-toggle="collapse" ><i class=" icon-right-open"></i></a>
                   </li>
-                  <li> <a href="gallery_3d.html"> Gallery </a> <a class="icon-collapse collapsed" href="#level4" title="" data-toggle="collapse" ><i class="icon-up pull-right"></i><i class="icon-down pull-right"></i></a>
-                    <ul class="collapse in" id="level4">
-                      <li> <a href="gallery_3d.html"> <span>Gallery: 3D Effect</span> </a> </li>
-                      <li> <a href="gallery_2_columns.html"> <span>Gallery: 2 Columns</span> </a> </li>
-                      <li> <a href="gallery_3_columns.html"> <span>Gallery: 3 Columns</span> </a> </li>
-                      <li> <a href="gallery_4_columns.html"> <span>Gallery: 4 Columns</span> </a> </li>
-                      <li> <a href="gallery_4_columns_no_space.html"> <span>Gallery: 4 Columns no space</span> </a> </li>
-                      <li> <a href="gallery_single_page.html"> <span>Gallery: Single Page</span> </a> </li>
-                    </ul>
+                    
+                  <li> <a href="/search?pricerange=200,80000&keywords=Battery"> Popular Battery Phones </a> <a class="icon-collapse collapsed" href="/search?pricerange=200,80000&keywords=Battery" title="" data-toggle="collapse" ><i class=" icon-right-open"></i></a>
                   </li>
-                  <li> <a href="shortcodes_headings.html"> Shortcodes </a> <a class="icon-collapse collapsed" href="#level5" title="" data-toggle="collapse" ><i class="icon-up pull-right"></i><i class="icon-down pull-right"></i></a>
-                    <ul class="collapse in" id="level5">
-                      <li> <a href="shortcodes_headings.html"><span> Headings</span> </a> </li>
-                      <li> <a href="shortcodes_alerts.html"><span> Alerts</span> </a> </li>
-                      <li> <a href="shortcodes_buttons.html"><span>Buttons</span> </a> </li>
-                      <li> <a href="shortcodes_dropcap.html"><span> Dropcap</span> </a> </li>
-                      <li> <a href="shortcodes_call_to_action.html"><span> Call To Action</span> </a> </li>
-                      <li> <a href="shortcodes_columns.html"><span> Columns</span> </a> </li>
-                      <li> <a href="shortcodes_icons.html"><span> Icons</span> </a> </li>
-                      <li> <a href="shortcodes_list.html"> <span>List styles</span> </a> </li>
-                      <li> <a href="shortcodes_popup.html"><span> Modal Popup</span> </a> </li>
-                      <li> <a href="shortcodes_pricing_tables.html"><span> Pricing Tables</span> </a> </li>
-                      <li> <a href="shortcodes_tabs.html"><span> Tabs</span> </a> </li>
-                      <li> <a href="shortcodes_team_members.html"><span> Team Members</span> </a> </li>
-                      <li> <a href="shortcodes_testimonials.html"><span> Testimonials</span> </a> </li>
-                      <li> <a href="shortcodes_toggle.html"> <span>Toggle</span> </a> </li>
-                      <li> <a href="shortcodes_video.html"><span> Video</span> </a> </li>
-                      <li> <a href="shortcodes_tables.html"><span> Tables</span> </a> </li>
-                      <li> <a href="shortcodes_quotes.html"><span> Quotes</span> </a> </li>
-                    </ul>
+                    
                   </li>
-                  <li> <a href="typography.html"> Pages </a> <a class="icon-collapse collapsed" href="#level6" title="" data-toggle="collapse" ><i class="icon-up pull-right"></i><i class="icon-down pull-right"></i></a>
-                    <ul class="collapse in" id="level6">
-                      <li> <a href="typography.html"> typography</a> </li>
-                      <li> <a href="infographic.html">infographic</a> </li>
-                      <li> <a href="404.html">Page 404</a> </li>
-                      <li> <a href="about_us.html"> <span>About us</span> </a> </li>
-                      <li > <a href="our_office.html"> <span>Our office</span> </a> </li>
-                      <li> <a href="faq.html"> <span>FAQ</span> </a> </li>
-                      <li> <a href="team_members.html"> <span>Team Members</span> </a> </li>
-                      <li> <a href="our_store.html"> <span>Our store</span> </a> </li>
-                      <li> <a href="pricing_tables.html"> <span>Pricing table</span> </a> </li>
-                      <li> <a href="our_services.html"> <span>Our services</span> </a> </li>
-                      <li> <a href="delivery.html"> <span>Delivery</span> </a> </li>
-                      <li class="hidden-phone"> <a href="video_section.html"> <span>Video section</span> </a> </li>
-                      <li> <a href="sitemap.html"> <span>Sitemap</span> </a> </li>
-                    </ul>
-                  </li>
-                  <li> <a href="contact.html"> contacts </a> </li>
-                  <li> <a href="#"> buy theme </a> </li>
+                  
                 </ul>
               </li>
             </ul>
-          </nav> -->
+          </nav>
+
+          <!-- mobileNav -->
           <nav> 
           <!--Recommendation Page Pop Up -->
       <div class="modal fade" id="recmodal">

@@ -24,6 +24,7 @@
                   {% set lowestWebsiteURL = ["#"] %}
                   {% for price in phoneDetails[i]["Prices"] %}
                   {%set counter = counter + 1%}
+                  {%if price["price"]|int > 0 %}
                   {%if price["price"]|int < lowestPrice[0] %}
                   {%if price["stock status"]|int > 0 %}
                   {% set _ = lowestPrice.append(price["price"]) %}
@@ -32,6 +33,7 @@
                   {% set _ = lowestPrice.pop(0) %}
                   {% set _ = lowestWebsite.pop(0) %}
                   {% set _ = lowestWebsiteURL.pop(0) %}                    
+                  {%endif%}
                   {%endif%}
                   {%endif%}
                   {%endfor%}

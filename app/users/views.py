@@ -1,11 +1,17 @@
 from flask import Blueprint, request, render_template, flash, g, session, redirect, url_for
 from flask import jsonify
 from werkzeug import check_password_hash, generate_password_hash
-
+from pymongo import MongoClient
 from app import db
 from app.users.forms import RegisterForm, LoginForm
 from app.users.models import User
 from app.users.decorators import requires_login
+from app import mongo
+from app import app
+from app.decorators import mongoJsonify, jsonResponse
+import logging
+from app.util import getArgAsList
+from logging.handlers import RotatingFileHandler
 
 mod = Blueprint('users', __name__, url_prefix='/users')
 
@@ -54,3 +60,26 @@ def register():
 
     return redirect(url_for('users.home'))
   return render_template("users/register.html", form=form)
+
+@mod.route('/subscribePrice', methods=['GET', 'POST'])
+@jsonResponse
+def subscribePrice():
+  email = getArgAsList(request, 'email')
+  productName = getArgAsList(request, 'productName')
+  productId = getArgAsList(request, 'productId')
+  priceCutOff = getArgAsList(request, 'priceCutOff')
+  mongo = MongoClient('localhost', 27017)['userRequests']
+  priceSubscribers = mongo.priceSubscribers
+  existEmail = priceSubscribers.find_one({'email':email, 'productName':productName})
+  
+  if not existEmail:
+    priceSubscribers.insert({
+    "email" : email,
+    "productName" : productName,
+    "productId" : productId,
+    "priceCutOff" : priceCutOff
+  })
+    return True
+  else:
+    return False
+
