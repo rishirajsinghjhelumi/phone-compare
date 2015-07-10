@@ -351,7 +351,7 @@
     <div id="push"></div>
     </div>
 
-    <div class="modal fade" id="myModal">
+    <div class="modal fade" id="myModal" style="position: absolute; z-index: 3">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
@@ -380,7 +380,7 @@
       {%for i in range(4)%}}
       {%if phoneDetails[i] is defined %}
     <!--Compare prices Pop Up -->
-     <div class="modal fade" id="compare_price{{i}}">
+     <div class="modal fade" id="compare_price{{i}}" >
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
