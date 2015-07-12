@@ -257,7 +257,24 @@ function click1(theLink, id) {
           
         });
 
-}
+} 
+
+//------------ Bottom Compare List PopUp
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 320) {
+    //$('.bottomMenu').fadeIn();
+    $('.bottomMenu').animate({
+                    'top': -10
+                },  10, 'linear');
+  } else {
+    //$('.bottomMenu').fadeOut();
+    $('.bottomMenu').animate({
+                    'top': -400
+                }, 10, 'linear');
+  }
+});
+//------------ Bottom Compare List PopUp
 
  $(document).ready(function() {
             BindControls();

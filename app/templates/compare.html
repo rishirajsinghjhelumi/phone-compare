@@ -4,15 +4,12 @@
     <!--CONTENT-->
     <section id="content">
       <div class="container top">
-        <div class="row">
-          <div class="span12">
 
-              <!--<div class="cleancode">
-                <p>Vestibulum justo. Nulla mauris ipsum, convallis ut, vestibulum eu, tincidunt vel, nisi. Curabitur molestie euismod erat. Proin eros odio, mattis rutrum. et, egestas vitae, magna. Integer semper, velit ut interNam lectus nulla, bibendum pretium, dictum a, mattis nec, dolor. Nullam id justo sed diam aliquam tincidunt. Duis sollicitudin, dui ac commodo iaculis, mi risus sagittis odio, vel ultrices enim sem ut pede. Aenean quam. Nulla neque purus, ullamcorper nec, eleifend at, fermentum ut, turpis. Nullam id justo sed labore diam diam aliquam nonumy. Integer ligula magna, dictum et, pulvinar non, ultricies ac, nibh. Vivamus euismod nulla vel nunc. Fusce tincidunt, justo congue egestas molestie, tortor tortor blandit erat, et scelerisque metus metus at ipsum.</p>
-              </div> -->
-
-
-              <div class="product-listing product-grid" style="margin-left:13%; margin-right:2.5%">
+        <!-- Bottom CompareList PopUp-->
+        <div class="row bottomMenu ">
+          <div class="span12" style="margin-left:0px">
+          <div style="top:-400px;margin-left:13.5%; margin-right:2%;">
+              <div class="product-listing product-grid " style=" ">
                 <div class="row big_with_description   ">
                   {%for i in range(4)%}
 
@@ -37,7 +34,7 @@
                   {%endif%}
                   {%endif%}
                   {%endfor%}
-                    <div class="span3 product" style = "border-radius: 0px; width:25%; margin-left:0px; box-shadow: 0 0 1px;">
+                    <div class="span3 product" style = "border-radius: 0px; width:25%; min-width:200px; margin-left:0px; box-shadow: 0 0 1px; min-height: 370px">
                       <div class="phone{{i + 1}} closefix closewrapper" onclick="click1(this, '{{phoneDetails[i]._id}}')"><i class="icon-cancel"></i></div>
 
                       <div class="product-image-wrapper" style="height: 201px" ><a href='../pdp/{{phoneDetails[i]["_id"]}}'><img class="phone{{i + 1}}" src="static/img/ImageScrappers/{{phoneDetails[i]["Brand"]}} {{phoneDetails[i]["Model Name"]}}.jpg" style= "height: 100%;" alt="">
@@ -48,7 +45,7 @@
                         <!-- <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket" title="Compare Prices"></i></a> </div> -->
 
                         {%if lowestWebsite[0] == "Out of Stock"  %}
-                        <div class="product-price"><div style="color: #B40404"><span class="aligncenter" >{{"Price Not Available"}}</span></div></span></a></div>
+                        <div class="product-price aligncenter"><div style="color: #B40404"><span class="aligncenter">{{"Price Not Available"}}</span></div></span></a></div>
                         {% else %}
                         <div class="product-price aligncenter" ><a href="{{lowestWebsiteURL[0]}}" class="aligncenter">Lowest Price&nbsp;₹&nbsp{{lowestPrice[0]}}<!-- <span class="sort-price"></span> --></a> &nbsp&nbsp</div>
                         {%endif%}
@@ -86,7 +83,123 @@
               {%else%}
 
               <!-- One Product Block Starts-->
-              <div class="span3 product" style = "border-radius: 0px; width:25%; margin-left:0px; box-shadow: 1px 1px 1px 1px;">
+              <div class="span3 product" style = "border-radius: 0px; width:25%; min-width:200px; margin-left: 0px; box-shadow: 0px 0px 1px ; position:relative; min-height: 370px;">
+                <div class="product-image-wrapper "><a href="product.html"></a>
+                  <a data-toggle="modal" href="#myModal" onclick="location.href='#';"><img class="hide{{i+1}}" src="static/img/addnew1.png" alt="" style="display: inline;"></a> </div>
+                </div>
+                <!--OneProduct Block Ends-->
+
+                <!--I dont know what this div does -->
+                <div class="preview hidden-tablet hidden-phone" style="display: none;">
+                  <div class="wrapper">
+                    <div class="col-2">
+                      <div class="phone{{i}} closefix hoverclosewrapper" onclick="click1(this)"><i class="icon-cancel"></i></div>
+                      <div class="big_image"><a href="product.html"><img class="phone{{i}}" src="static/img/product_page_img_big1.jpg"  alt="" /></a><a href="#myModal" onclick="location.href='#';"><img class="hide{{i}}" src="static/img/addnew1.png" alt=""></a></div> 
+                      <div class="phone{{i}} wrapper-hover">
+                       <div class="product-name namealign"><a href="product.html">XIAOMI</a></div>
+                       <div class="wrapper"><span class="sort-rating hidden">2</span>
+                        <!-- <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket" title = "Compare Prices"></i></a> </div> -->
+                        <div class="product-price"><a href="https://www.flipkart.com/">Lowest Price&nbsp;₹<span class="sort-price"><b>8000.00</b></span></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+              <!--I dont know what this div does --> 
+
+
+              {%endif%}
+              {%endfor%}  
+
+            </div>
+          </div>
+        </div>
+          </div>
+        </div>
+          
+          <!-- Bottom CpareList PopUp-->
+        <div class="row">
+          <div class="span12" style="margin-left:0px">
+
+            
+              
+
+
+              <div class="product-listing product-grid" style="margin-left:13.5%; margin-right:2%">
+                <div class="row big_with_description   ">
+                  {%for i in range(4)%}
+
+                  {%if phoneDetails[i] is defined %}
+                  <!-- One Product Block Starts-->
+                  {%set counter = 0 %}
+                  {%set lowestPrice = [1000000] %}
+                  {% set lowestWebsite = ["Out of Stock"] %}
+                  {% set lowestWebsiteURL = ["#"] %}
+                  {% for price in phoneDetails[i]["Prices"] %}
+                  {%set counter = counter + 1%}
+                  {%if price["price"]|int > 0 %}
+                  {%if price["price"]|int < lowestPrice[0] %}
+                  {%if price["stock status"]|int > 0 %}
+                  {% set _ = lowestPrice.append(price["price"]) %}
+                  {% set _ = lowestWebsite.append(price["website"]|string) %}
+                  {% set _ = lowestWebsiteURL.append( price["productUrl"]|string) %}
+                  {% set _ = lowestPrice.pop(0) %}
+                  {% set _ = lowestWebsite.pop(0) %}
+                  {% set _ = lowestWebsiteURL.pop(0) %}                    
+                  {%endif%}
+                  {%endif%}
+                  {%endif%}
+                  {%endfor%}
+                    <div class="span3 product" style = "border-radius: 0px; width:25%; min-width:200px; margin-left:0px; box-shadow: 0 0 1px; min-height:370px">
+                      <div class="phone{{i + 1}} closefix closewrapper" onclick="click1(this, '{{phoneDetails[i]._id}}')"><i class="icon-cancel"></i></div>
+
+                      <div class="product-image-wrapper" style="height: 201px" ><a href='../pdp/{{phoneDetails[i]["_id"]}}'><img class="phone{{i + 1}}" src="static/img/ImageScrappers/{{phoneDetails[i]["Brand"]}} {{phoneDetails[i]["Model Name"]}}.jpg" style= "height: 100%;" alt="">
+                      </a><a data-toggle="modal" href="#myModal" onclick="location.href='#';"><img class="hide{{i + 1}}" src="static/img/addnew1.png" alt=""></a> </div>
+                      <div class="phone{{i+ 1}} wrapper-hover">
+                       <div class="product-name namealign" style="max-height:43px"><a href='../pdp/{{phoneDetails[i]["_id"]}}'><h4 style="color:#383838;">{{phoneDetails[i]["Brand"]}}       {{phoneDetails[i]["Model Name"]}}</h4></a></div>
+                       <div class="wrapper"><span class="sort-rating hidden">4</span>
+                        <!-- <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket" title="Compare Prices"></i></a> </div> -->
+
+                        {%if lowestWebsite[0] == "Out of Stock"  %}
+                        <div class="product-price aligncenter"><div style="color: #B40404"><span class="aligncenter">{{"Price Not Available"}}</span></div></span></a></div>
+                        {% else %}
+                        <div class="product-price aligncenter" ><a href="{{lowestWebsiteURL[0]}}" class="aligncenter">Lowest Price&nbsp;₹&nbsp{{lowestPrice[0]}}<!-- <span class="sort-price"></span> --></a> &nbsp&nbsp</div>
+                        {%endif%}
+
+                        <div class="rating-listing rating "> <strong><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a></strong><a><i class="icon-star-empty"></i></a> </div>
+                      </div>
+                    </div>
+                    <div class="phone{{i+ 1}} wrapper-hover aligncenter">
+                      <button onclick="location.href='#';" class="btn-mini border aligncenter product-name" style="padding-left: 10%;" data-toggle="modal" onclick="location.href='#';" href="#compare_price{{i}}">Compare Prices</button>
+                    </div>
+                    
+                  </div>
+                 
+
+
+                <!--This is the hover element -->
+                <div class="preview hidden-tablet hidden-phone">
+                  <div class="wrapper">
+                    <div class="col-2">
+                      <div class="phone{{i}} closefix hoverclosewrapper" onclick="click1(this)"><i class="icon-cancel"></i></div>
+                      <div class="big_image"><a href='../pdp/{{phoneDetails[i]["_id"]}}'><img class="phone{{i}}" src="static/img/product_page_img_big1.jpg"  alt="" /></a><a data-toggle="modal" href="#myModal"><img class="hide{{i}}" src="static/img/addnew1.png" alt="" style="display: inline;"></a></div> 
+                      <div class="phone{{i}} wrapper-hover">
+                       <div class="product-name namealign"><a href="product.html">XIAOMI</a></div>
+                       <div class="wrapper"><span class="sort-rating hidden">2</span>
+                        <!-- <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket" title="Compare Prices"></i></a> </div> -->
+                        <div class="product-price"><a href="https://www.flipkart.com/">Lowest Price&nbsp;₹<span class="sort-price"><b>8000.00</b></span></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+              <!--This is the hover element --> 
+              <!--OneProduct Block Ends-->
+
+              {%else%}
+
+              <!-- One Product Block Starts-->
+              <div class="span3 product" style = "border-radius: 0px; width:25%; min-width:200px; margin-left:0px; box-shadow: 0 0 1px; position:relative; min-height:370px">
                 <div class="product-image-wrapper "><a href="product.html"></a>
                   <a data-toggle="modal" href="#myModal" onclick="location.href='#';"><img class="hide{{i+1}}" src="static/img/addnew1.png" alt="" style="display: inline;"></a> </div>
                 </div>
@@ -118,10 +231,10 @@
           </div>
 
           
+          
 
 
-    <div class
-          <!--tab-->
+    
           <!--what the fuck-->
           <h4>Phones are recommended based on the text analysis of millions of reviews across the web because all 13 MP cameras are not the same!!</h4>
 
@@ -435,10 +548,8 @@
               </div>
             </div>
           </div>
-            <div class="bottomMenu">
-
-            </div>
           <!--Compare prices Pop Up -->
+          
           {%endif%}
           {%endfor%}
 
