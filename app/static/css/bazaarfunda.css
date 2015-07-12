@@ -551,4 +551,11 @@ margin:0px 0px 0px 0px;
 .comp-prod-foot{
 text-align:center;
 }
+
 /*CSS for listing and homepage*/
+
+.bottomMenu {
+  top: -400;
+  z-index: 100001;
+  position:fixed;
+}
