@@ -270,7 +270,7 @@
                   
                   <tbody>
                     <tr>
-                      <th scope="col" class="aligncenter" style="color:#000000">{% filter upper %} {{kFet}} {% endfilter %}</th>
+                      <th scope="col" class="aligncenter" style="color:#000000; width:9.31%">{% filter upper %} {{kFet}} {% endfilter %}</th>
                       
                       {%for i in range(4)%}
                         {% set counter = []%}
@@ -284,12 +284,12 @@
                                       {% set _ = counter.append(1)%}
                                       
                                         {%if phoneSpecs[pKey][kFet] is defined%}
-                                            <td scope="col" class="aligncenter">
+                                            <td scope="col" class="aligncenter" style = "width:22.67%">
                                               <div class="phone{{i+1}}">
                                                 {{phoneSpecs[pKey][kFet]}}
                                             </div></td>
                                         {%else%}
-                                            <td scope="col" class="aligncenter">
+                                            <td scope="col" class="aligncenter" style = "width:22.67%">
                                               <div class="phone{{i+1}}" style = ""> - </div>
                                             </td>
                                         {%endif%}
@@ -552,5 +552,4 @@
           
           {%endif%}
           {%endfor%}
-
     {% endblock %}
