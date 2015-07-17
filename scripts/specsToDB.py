@@ -5,7 +5,7 @@ import json
 from dbConn import getMongoDBConn
 mongo = getMongoDBConn()
 
-SPECIFICATIONS_FOLDER = "PhoneSpecifications"
+SPECIFICATIONS_FOLDER = "SpecificationScrapper"
 
 def store(filename):
 
@@ -25,11 +25,18 @@ def store(filename):
 	
 	phones = mongo.phones
 
-	phones.insert({
+	if not phones.find_one({'Model Name':model}):
+		print "new "
+		print model
+		phones.insert({
 		"Brand" : brand,
 		"Model Name" : model,
 		"specification" : specs
 	})
+	else:
+		print "In"
+
+	
 
 
 def storeInDB():
