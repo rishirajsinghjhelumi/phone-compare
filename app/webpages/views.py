@@ -51,7 +51,7 @@ def productDetail(phoneID):
     	phoneDetails = getPhoneInfo(phoneID)
     	phoneName = phoneDetails["Model Name"]
     	phoneBrand = phoneDetails["Brand"]
-    	title = phoneBrand + " " + phoneName
+    	title = "Watch the User Experience of " + phoneBrand + " " + phoneName + " and get the best price"
     	
 
     	app.logger.info(phoneDetails)
@@ -62,6 +62,7 @@ def productDetail(phoneID):
         return render_template("404.html", allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18], title = "Your choice Your Device", cartDetails = cartDetails) 
 @mod.route('/compare', methods=['GET'])
 def compareProducts():
+        title = "Compare user experience and prices for"
 	phoneIds = []
 	phoneIds = getArgAsList(request, 'ids')
 	app.logger.info(phoneIds)
@@ -73,8 +74,8 @@ def compareProducts():
 	sampleProductDetail = getPhoneInfo("558b010a0c677c369b46747f")
 	app.logger.info(phoneIds)
 	for phones in phoneDetails:
-		app.logger.info(phones["Brand"])
-	return render_template("compare.html", title="Compare Your Options", phoneDetails = phoneDetails, cartDetails = phoneIds, sampleProductDetail = sampleProductDetail,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18])
+		title = title + " " + phones['Model Name']
+	return render_template("compare.html", title=title, phoneDetails = phoneDetails, cartDetails = phoneIds, sampleProductDetail = sampleProductDetail,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18])
 
 @mod.route('/search',methods=['GET'])
 def searchResults():
@@ -197,6 +198,7 @@ def getListWhoseImageExist(phoneList):
             print modelName
     return phoneList
 def displaySearchResults(pageType, sortedPhoneList, pageNo, priceRange,keywords,brands,allKeywords,allBrands, emptyResultsFlag):
+    title = "Get the best Price and User Exprience "
     currentURL = request.url
     if pageNo:
         currentURL = currentURL[:-1]
@@ -213,16 +215,16 @@ def displaySearchResults(pageType, sortedPhoneList, pageNo, priceRange,keywords,
     
     if not pageNo:
         if items > 15:
-            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList[0:15], cartDetails = cartList, scoreList = scoreList[0:15], prev = 0, next = 2, totItem = items, page = 1, fromItem = 1, toItem = 15, currentURL = currentURL,totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords, pageType=pageType,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18], emptyResultsFlag = emptyResultsFlag)
+            return render_template("listing_usual.html", title = title, phoneDetails = phoneList[0:15], cartDetails = cartList, scoreList = scoreList[0:15], prev = 0, next = 2, totItem = items, page = 1, fromItem = 1, toItem = 15, currentURL = currentURL,totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords, pageType=pageType,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18], emptyResultsFlag = emptyResultsFlag)
         else :
-            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList, prev = 0, next = 0, totItem = items, page=0, fromItem = 1, toItem = items, currentURL = currentURL, totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords,pageType=pageType,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18], emptyResultsFlag = emptyResultsFlag)
+            return render_template("listing_usual.html", title = title, phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList, prev = 0, next = 0, totItem = items, page=0, fromItem = 1, toItem = items, currentURL = currentURL, totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords,pageType=pageType,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18], emptyResultsFlag = emptyResultsFlag)
     else:
         pageNo = int(pageNo[0])
         if items > 15*pageNo:
-            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList[15*(pageNo-1):(15*(pageNo))], cartDetails = cartList, scoreList = scoreList[15*(pageNo-1):15*(pageNo)], prev = 1, next = pageNo + 1, totItem = items, page = pageNo, fromItem = 15*(pageNo-1) + 1, toItem = 15*pageNo, currentURL = currentURL, totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords, pageType=pageType, emptyResultsFlag = emptyResultsFlag)
+            return render_template("listing_usual.html", title = title, phoneDetails = phoneList[15*(pageNo-1):(15*(pageNo))], cartDetails = cartList, scoreList = scoreList[15*(pageNo-1):15*(pageNo)], prev = 1, next = pageNo + 1, totItem = items, page = pageNo, fromItem = 15*(pageNo-1) + 1, toItem = 15*pageNo, currentURL = currentURL, totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords, pageType=pageType, emptyResultsFlag = emptyResultsFlag)
         else:
-            return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList[(15*(pageNo-1)):items], cartDetails = cartList, scoreList = scoreList[(15*pageNo-1):items], prev = 1, next = 0, totItem = items, page = pageNo, fromItem = 15*(pageNo-1) + 1, toItem = items, currentURL = currentURL, totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords,pageType=pageType, emptyResultsFlag = emptyResultsFlag)
-    return render_template("listing_usual.html", title = "Your choice Your Device", phoneDetails = phoneList, cartDetails = cartList,priceRange = priceRange, scoreList = scoreList,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18], emptyResultsFlag = emptyResultsFlag)
+            return render_template("listing_usual.html", title = title, phoneDetails = phoneList[(15*(pageNo-1)):items], cartDetails = cartList, scoreList = scoreList[(15*pageNo-1):items], prev = 1, next = 0, totItem = items, page = pageNo, fromItem = 15*(pageNo-1) + 1, toItem = items, currentURL = currentURL, totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords,pageType=pageType, emptyResultsFlag = emptyResultsFlag)
+    return render_template("listing_usual.html", title = title, phoneDetails = phoneList, cartDetails = cartList,priceRange = priceRange, scoreList = scoreList,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18], emptyResultsFlag = emptyResultsFlag)
 
 def addBazaarFundaScore(phoneList, keywords, weights):
     app.logger.info("in sorting")
@@ -301,6 +303,7 @@ def search():
     return displayQueryResults("query", sortedPhoneList, page, [])
 
 def displayQueryResults(pageType, sortedPhoneList, pageNo, priceRange):
+    title = "Get the Best Price and User Exprience "
     currentURL = request.url
     if pageNo:
         currentURL = currentURL[:-1]
@@ -319,23 +322,22 @@ def displayQueryResults(pageType, sortedPhoneList, pageNo, priceRange):
     app.logger.info(items)
     if not pageNo:
         if items > 20:
-            return render_template("queryResult.html", title = "Your choice Your Device", phoneDetails = phoneList[0:20], cartDetails = cartList, scoreList = scoreList[0:20], prev = 0, next = 2, totItem = items, page = 1, fromItem = 1, toItem = 20, currentURL = currentURL,totalPages = totalPages, pageType=pageType,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18])
+            return render_template("queryResult.html", title = title, phoneDetails = phoneList[0:20], cartDetails = cartList, scoreList = scoreList[0:20], prev = 0, next = 2, totItem = items, page = 1, fromItem = 1, toItem = 20, currentURL = currentURL,totalPages = totalPages, pageType=pageType,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18])
         else :
-            return render_template("queryResult.html", title = "Your choice Your Device", phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList, prev = 0, next = 0, totItem = items, page=0, fromItem = 1, toItem = items, currentURL = currentURL, totalPages = totalPages,pageType=pageType,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18])
+            return render_template("queryResult.html", title = title, phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList, prev = 0, next = 0, totItem = items, page=0, fromItem = 1, toItem = items, currentURL = currentURL, totalPages = totalPages,pageType=pageType,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18])
     else:
         pageNo = int(pageNo[0])
         if items > 20*pageNo:
-            return render_template("queryResult.html", title = "Your choice Your Device", phoneDetails = phoneList[20*(pageNo-1):(20*(pageNo))], cartDetails = cartList, scoreList = scoreList[20*(pageNo-1):20*(pageNo)], prev = 1, next = pageNo + 1, totItem = items, page = pageNo, fromItem = 20*(pageNo-1) + 1, toItem = 20*pageNo, currentURL = currentURL, totalPages = totalPages, pageType=pageType,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18])
+            return render_template("queryResult.html", title = title, phoneDetails = phoneList[20*(pageNo-1):(20*(pageNo))], cartDetails = cartList, scoreList = scoreList[20*(pageNo-1):20*(pageNo)], prev = 1, next = pageNo + 1, totItem = items, page = pageNo, fromItem = 20*(pageNo-1) + 1, toItem = 20*pageNo, currentURL = currentURL, totalPages = totalPages, pageType=pageType,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18])
         else:
-            return render_template("queryResult.html", title = "Your choice Your Device", phoneDetails = phoneList[(20*(pageNo-1)):items], cartDetails = cartList, scoreList = scoreList[(20*pageNo-1):items], prev = 1, next = 0, totItem = items, page = pageNo, fromItem = 20*(pageNo-1) + 1, toItem = items, currentURL = currentURL, totalPages = totalPages, pageType=pageType,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18])
+            return render_template("queryResult.html", title = title, phoneDetails = phoneList[(20*(pageNo-1)):items], cartDetails = cartList, scoreList = scoreList[(20*pageNo-1):items], prev = 1, next = 0, totItem = items, page = pageNo, fromItem = 20*(pageNo-1) + 1, toItem = items, currentURL = currentURL, totalPages = totalPages, pageType=pageType,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18])
     
     
-    return render_template("queryResult.html", title = "Your choice Your Device", phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18])
+    return render_template("queryResult.html", title = title, phoneDetails = phoneList, cartDetails = cartList, scoreList = scoreList,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18])
 
 
 @mod.route('/', methods=['GET'])
 def homePage():
-    print "Hello"
     cartList = getCartDetails()
     cameraPhoneList = mongo.bestCollection.find_one({'keyword':"Camera"})
     cameraPhoneList = cameraPhoneList['short']
