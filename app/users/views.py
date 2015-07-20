@@ -64,20 +64,21 @@ def register():
 @mod.route('/subscribePrice', methods=['GET', 'POST'])
 @jsonResponse
 def subscribePrice():
-  email = getArgAsList(request, 'email')
-  productName = getArgAsList(request, 'productName')
-  productId = getArgAsList(request, 'productId')
-  priceCutOff = getArgAsList(request, 'priceCutOff')
+  email = getArgAsList(request, 'email')[0]
+  productName = getArgAsList(request, 'productName')[0]
+  productId = getArgAsList(request, 'productId')[0]
+  priceCutOff = getArgAsList(request, 'priceCutOff')[0]
   mongo = MongoClient('localhost', 27017)['userRequests']
   priceSubscribers = mongo.priceSubscribers
-  existEmail = priceSubscribers.find_one({'email':email, 'productName':productName})
-  
-  if not existEmail:
+  existEntry = priceSubscribers.find_one({'email':email, 'productName':productName,'priceCutOff':priceCutOff,'status':'A'})
+  print existEntry
+  if not existEntry:
     priceSubscribers.insert({
     "email" : email,
     "productName" : productName,
     "productId" : productId,
-    "priceCutOff" : priceCutOff
+    "priceCutOff" : priceCutOff,
+    "status" : 'A'
   })
     return True
   else:

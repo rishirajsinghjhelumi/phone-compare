@@ -1,0 +1,61 @@
+{% extends "header.html" %}
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=1435721096655907";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!--Twitter Script-->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+{% block content %}
+<section id="content">
+    <div class="container top">
+    	<div class="row">
+    		<div class="span12">
+    			<h3>POSTS</h3>
+    			<div class="post-view">
+    				<strong class="aligncenter dropcap color" color="red"> {% block content_title %}{{ entry.title }}{% endblock %} </strong>
+
+    				<div class="post-meta">
+    					<span class="meta-date"><i class="icon-clock-alt"></i>
+    						{{ entry.timestamp.strftime('%m/%d/%Y at %G:%I%p') }}
+    					</span>
+    				</div>
+    				<p >{{ entry.html_content }}
+    				</p>
+
+    			</div>
+    		</div>
+    	</div>
+    	<div class="post-tags">
+    		<div class="fb-like" data-href="{{url_for('.detail', slug=entry.slug)}}" data-layout="button" data-action="recommend" data-show-faces="true" data-share="true"></div>
+    		<a class="twitter-share-button"
+			  href="{{url_for('.detail', slug=entry.slug)}}?text=Hello%20world">
+			Tweet</a>
+    	</div>
+    	<div class="row">
+    	<div class="fb comments span9">
+    		<div class="fb-comments" data-href="{{request.url }}"></div>
+    	</div>
+    	<div class="span3">
+              <h3><i class="icon-twitter-bird" height="300"></i>TWITTER FEEDS</h3>
+              <a class="twitter-timeline" height="300" href="https://twitter.com/bazaarfunda" data-widget-id="610375028115402752">Tweets by @bazaarfunda</a>
+
+        </div>
+    </div>
+    </div>
+</section>
+    	{%endblock%}
+<!-- {% block title %}{{ entry.title }}{% endblock %} -->
+
+
+
+{% block extra_header %}
+  {% if session.logged_in %}
+    <li><a href="{{ url_for('.edit', slug=entry.slug) }}">Edit entry</a></li>
+  {% endif %}
+{% endblock %}
