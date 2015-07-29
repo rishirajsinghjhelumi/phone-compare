@@ -46,7 +46,7 @@ def getPhoneInfo(phoneID):
 			eCom["price"] = price["ECommercePrice"]
 			eCom["stock status"] = price["ECommerceStatus"]
 			eCom["productUrl"] = price["ECommercePdURL"]
-			eComList.extend([eCom])
+			eComList.extend	([eCom])
 		phone["Prices"] = eComList
 		
         except:
@@ -182,7 +182,7 @@ def defineIndex():
 )
 
 def searchQuery(queryText):
-	defineIndex()
+	# defineIndex()
 	text_results = mongo.command('text', 'autoCompletePhones', search=queryText, limit=100)
 	idList = [phones["obj"]["_id"] for phones in text_results["results"]]
 	return idList

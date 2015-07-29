@@ -1,5 +1,6 @@
 {% extends "header.html" %}
   {% block content %}
+
   <div class = "phone details" style="display: none;"><div class="PhoneObjectID">{{phoneDetails["_id"]}}</div></div>
   <section id="content">
     <div class="container top">
@@ -7,14 +8,10 @@
         <div class="wrapper_w">
           <div class="pull-left">
             <div class="breadcrumbs"><a href="/">Home</a> <span>&#8250;</span> <a href="/search?pricerange=0,50000&brands={{phoneDetails.Brand}}">{{phoneDetails.Brand}}</a> <span>&#8250;</span> <a href="#">{{phoneDetails.Brand}} {{phoneDetails["Model Name"]}}</a></div>
-          </div>
+          </div><!-- 
           <div class="pull-right">
-            <!-- <div class="direction-nav"><a href="#" class="prev"><i class="icon-left-thin"></i></a>
-              <div class="small_preview prev hidden-phone hidden-tablet"><img src="img/small_preview.jpg" width="85" height="85" alt=""></div>
-              <a href="#" class="next"><i class="icon-right-thin"></i></a>
-              <div class="small_preview next hidden-phone hidden-tablet"><img src="img/small_preview.jpg" width="85" height="85" alt=""></div>
-            </div> -->
-          </div>
+            
+          </div> -->
         </div>
       </div>
       <div class="product-box" itemscope itemtype="http://schema.org/Product">
@@ -44,7 +41,7 @@
                 <div class="product-name">
                   
                   <h1><span itemprop="name" class="color">{{phoneDetails.Brand}} {{phoneDetails["Model Name"]}}</span></h1>
-                  <div class="star-ratings-css" style="unicode-bidi: bidi-override; color: #c5c5c5; font-size: 25px; height: 5px; width: 100px; margin: 0 auto; position: absolute; padding: 0; text-shadow: 0px 1px 0 #a2a2a2;">
+                  <!-- <div class="star-ratings-css" style="unicode-bidi: bidi-override; color: #c5c5c5; font-size: 25px; height: 5px; width: 100px; margin: 0 auto; position: absolute; padding: 0; text-shadow: 0px 1px 0 #a2a2a2;">
 
                   <div class="star-ratings-css-top" style="width: 55%; color: #e7711b; padding: 0; text-shadow: 0px 1px 0 #ab5414; position: absolute; z-index: 1; display:block; left: 0px; overflow: hidden;">
                     <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
@@ -52,10 +49,7 @@
                   <div class="star-ratings-css-bottom" style="z-index: 0"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
 
                   </div>
-                </div>
-
-
-                <br>
+                </div> -->
                 <hr><br>
 
                 <span class="row">
@@ -161,7 +155,7 @@
                 </div>
                 <div class="add-to-links" >
                   <ul>
-                    <li><a href="#" class="small_icon_color"><i class=" icon-mail-1"></i></a><a href="#">Email me when price drops</a></li>
+                    <li><a href="#" class="small_icon_color"><i class=" icon-mail-1"></i></a><a class= "md-trigger" onclick="location.href='#';" data-toggle="modal" href="#emailMe">Email me when price drops</a></li>
                   </ul>
                 </div>
                 <!-- <p class="no-rating"> <a href="#">Be the first to review this product</a> </p> -->
@@ -314,20 +308,6 @@
                 
 
               </div>
-              <!-- <div class="box-collateral box-tags">
-                <h2>Product Tags</h2>
-                <form id="addTagForm" action="#" method="get">
-                  <div class="form-add">
-                    <label for="productTagName">Add Your Tags:</label>
-                    <div class="input-box">
-                      <input type="text" class="input-text required-entry" name="productTagName" id="productTagName">
-                    </div>
-                    <button type="submit" title="Add Tags" class="button"> <span> <span>Add Tags</span> </span> </button>
-                  </div>
-                </form>
-                <p class="note">Use spaces to separate tags. Use single quotes (') for phrases.</p>
-              </div>
-            </div> -->
           </div>
             <div class="tab-pane" id="tab4">
               <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
@@ -337,242 +317,6 @@
         </div>
       </div>
     </div>
-    <!-- <div class="container">
-      <h3 class="padding">upsell products</h3>
-      <div class="carousel es-carousel-wrapper style0">
-        <div class="es-carousel">
-          <div class="row">
-            <div class="product_outer carousel_items">
-              <div class="span3 product carousel_item">
-                <div class="product-image-wrapper onhover animate scale"><a href="product.html"><img src="img/product_img.jpg" alt=""><img src="img/product1_over.jpg" class="roll_over_img" alt=""></a> </div>
-                <div class="wrapper-hover">
-                  <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
-                  <div class="wrapper"><span class="sort-rating hidden">10</span>
-                    <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
-                    <div class="product-price">$<span class="sort-price">295.00</span></div>
-                  </div>
-                </div>
-              </div>
-              <div class="preview hidden-tablet hidden-phone">
-                <div class="wrapper">
-                  <div class="col-1 hidden"><a href="#" data-rel="img/preview_big_img1.jpg" class="image"><img src="img/preview_big_img1.jpg" alt="" class="thumb"/></a> <a href="#" data-rel="img/preview_big_img2.jpg" class="image"><img src="img/preview_big_img2.jpg" alt="" class="thumb"/></a> <a href="#" data-rel="img/preview_big_img3.jpg" class="image"><img src="img/preview_big_img3.jpg" alt="" class="thumb"/></a></div>
-                  <div class="col-2">
-                    <div class="big_image"><a href="product.html"><img src="img/preview_big_img1.jpg"  alt="" /></a></div>
-                    <div class="wrapper-hover">
-                      <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
-                      <div class="wrapper"><span class="sort-rating hidden">10</span>
-                        <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
-                        <div class="product-price">$<span class="sort-price">295.00</span></div>
-                      </div>
-                      <div class="product-link"> <a href="#">Add to Favorites</a> <br>
-                        <a href="#">Add to Compare</a> </div>
-                      <div class="rating"> <strong> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> </strong> <a href="#"><i class="icon-star"></i></a> </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="span3 product carousel_item">
-                <div class="product-image-wrapper onhover animate scale"><a href="product.html"><img src="img/product_img-08.jpg" alt=""><img src="img/product1_over.jpg" class="roll_over_img" alt=""></a> </div>
-                <div class="wrapper-hover">
-                  <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
-                  <div class="wrapper"><span class="sort-rating hidden">10</span>
-                    <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
-                    <div class="product-price">$<span class="sort-price">295.00</span></div>
-                  </div>
-                </div>
-              </div>
-              <div class="preview hidden-tablet hidden-phone">
-                
-                <div class="wrapper">
-                  <div class="col-1"><a href="#" data-rel="img/preview_big_img1.jpg" class="image"><img src="img/preview_big_img1.jpg" alt="" class="thumb"/></a> <a href="#" data-rel="img/preview_big_img2.jpg" class="image"><img src="img/preview_big_img2.jpg" alt="" class="thumb"/></a> <a href="#" data-rel="img/preview_big_img3.jpg" class="image"><img src="img/preview_big_img3.jpg" alt="" class="thumb"/></a></div>
-                  <div class="col-2">
-                    <div class="big_image"><a href="product.html"><img src="img/preview_big_img1.jpg"  alt="" /></a></div>
-                    <div class="wrapper-hover">
-                      <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
-                      <div class="wrapper"><span class="sort-rating hidden">10</span>
-                        <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
-                        <div class="product-price">$<span class="sort-price">295.00</span></div>
-                      </div>
-                      <div class="product-link"> <a href="#">Add to Favorites</a> <br>
-                        <a href="#">Add to Compare</a> </div>
-                      <div class="rating"> <strong> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> </strong> <a href="#"><i class="icon-star"></i></a> </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="span3 product carousel_item">
-                <div class="product-image-wrapper onhover animate scale"><a href="product.html"><img src="img/product_img-09.jpg" alt=""><img src="img/product1_over.jpg" class="roll_over_img" alt=""></a> </div>
-                <div class="wrapper-hover">
-                  <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
-                  <div class="wrapper"><span class="sort-rating hidden">10</span>
-                    <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
-                    <div class="product-price">$<span class="sort-price">295.00</span></div>
-                  </div>
-                </div>
-              </div>
-              <div class="preview hidden-tablet hidden-phone">
-                <div class="wrapper">
-                  <div class="col-1"><a href="#" data-rel="img/preview_big_img1.jpg" class="image"><img src="img/preview_big_img1.jpg" alt="" class="thumb"/></a> <a href="#" data-rel="img/preview_big_img2.jpg" class="image"><img src="img/preview_big_img2.jpg" alt="" class="thumb"/></a> <a href="#" data-rel="img/preview_big_img3.jpg" class="image"><img src="img/preview_big_img3.jpg" alt="" class="thumb"/></a></div>
-                  <div class="col-2">
-                    <div class="big_image"><a href="product.html"><img src="img/preview_big_img1.jpg"  alt="" /></a></div>
-                    <div class="wrapper-hover">
-                      <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
-                      <div class="wrapper"><span class="sort-rating hidden">10</span>
-                        <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
-                        <div class="product-price">$<span class="sort-price">295.00</span></div>
-                      </div>
-                      <div class="product-link"> <a href="#">Add to Favorites</a> <br>
-                        <a href="#">Add to Compare</a> </div>
-                      <div class="rating"> <strong> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> </strong> <a href="#"><i class="icon-star"></i></a> </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="span3 product carousel_item">
-                <div class="product-image-wrapper onhover animate scale"><a href="product.html"><img src="img/product_img-10.jpg" alt=""><img src="img/product1_over.jpg" class="roll_over_img" alt=""></a> </div>
-                <div class="wrapper-hover">
-                  <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
-                  <div class="wrapper"><span class="sort-rating hidden">10</span>
-                    <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
-                    <div class="product-price">$<span class="sort-price">295.00</span></div>
-                  </div>
-                </div>
-              </div>
-              <div class="preview hidden-tablet hidden-phone">
-                <div class="wrapper">
-                  <div class="col-1"><a href="#" data-rel="img/preview_big_img1.jpg" class="image"><img src="img/preview_big_img1.jpg" alt="" class="thumb"/></a> <a href="#" data-rel="img/preview_big_img2.jpg" class="image"><img src="img/preview_big_img2.jpg" alt="" class="thumb"/></a> <a href="#" data-rel="img/preview_big_img3.jpg" class="image"><img src="img/preview_big_img3.jpg" alt="" class="thumb"/></a></div>
-                  <div class="col-2">
-                    <div class="big_image"><a href="product.html"><img src="img/preview_big_img1.jpg"  alt="" /></a></div>
-                    <div class="wrapper-hover">
-                      <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
-                      <div class="wrapper"><span class="sort-rating hidden">10</span>
-                        <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
-                        <div class="product-price">$<span class="sort-price">295.00</span></div>
-                      </div>
-                      <div class="product-link"> <a href="#">Add to Favorites</a> <br>
-                        <a href="#">Add to Compare</a> </div>
-                      <div class="rating"> <strong> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> </strong> <a href="#"><i class="icon-star"></i></a> </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="span3 product carousel_item">
-                <div class="product-image-wrapper onhover animate scale"><a href="product.html"><img src="img/product_img-11.jpg" alt=""><img src="img/product1_over.jpg" class="roll_over_img" alt=""></a> </div>
-                <div class="wrapper-hover">
-                  <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
-                  <div class="wrapper"><span class="sort-rating hidden">10</span>
-                    <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
-                    <div class="product-price">$<span class="sort-price">295.00</span></div>
-                  </div>
-                </div>
-              </div>
-              <div class="preview hidden-tablet hidden-phone">
-                <div class="wrapper">
-                  <div class="col-1"><a href="#" data-rel="img/preview_big_img1.jpg" class="image"><img src="img/preview_big_img1.jpg" alt="" class="thumb"/></a> <a href="#" data-rel="img/preview_big_img2.jpg" class="image"><img src="img/preview_big_img2.jpg" alt="" class="thumb"/></a> <a href="#" data-rel="img/preview_big_img3.jpg" class="image"><img src="img/preview_big_img3.jpg" alt="" class="thumb"/></a></div>
-                  <div class="col-2">
-                    <div class="big_image"><a href="product.html"><img src="img/preview_big_img1.jpg"  alt="" /></a></div>
-                    <div class="wrapper-hover">
-                      <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
-                      <div class="wrapper"><span class="sort-rating hidden">10</span>
-                        <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
-                        <div class="product-price">$<span class="sort-price">295.00</span></div>
-                      </div>
-                      <div class="product-link"> <a href="#">Add to Favorites</a> <br>
-                        <a href="#">Add to Compare</a> </div>
-                      <div class="rating"> <strong> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> </strong> <a href="#"><i class="icon-star"></i></a> </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="span3 product carousel_item">
-                <div class="product-image-wrapper onhover animate scale"><a href="product.html"><img src="img/product_img-12.jpg" alt=""><img src="img/product1_over.jpg" class="roll_over_img" alt=""></a> </div>
-                <div class="wrapper-hover">
-                  <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
-                  <div class="wrapper"><span class="sort-rating hidden">10</span>
-                    <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
-                    <div class="product-price">$<span class="sort-price">295.00</span></div>
-                  </div>
-                </div>
-              </div>
-              <div class="preview hidden-tablet hidden-phone">
-                <div class="wrapper">
-                  <div class="col-1"><a href="#" data-rel="img/preview_big_img1.jpg" class="image"><img src="img/preview_big_img1.jpg" alt="" class="thumb"/></a> <a href="#" data-rel="img/preview_big_img2.jpg" class="image"><img src="img/preview_big_img2.jpg" alt="" class="thumb"/></a> <a href="#" data-rel="img/preview_big_img3.jpg" class="image"><img src="img/preview_big_img3.jpg" alt="" class="thumb"/></a></div>
-                  <div class="col-2">
-                    <div class="big_image"><a href="product.html"><img src="img/preview_big_img1.jpg"  alt="" /></a></div>
-                    <div class="wrapper-hover">
-                      <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
-                      <div class="wrapper"><span class="sort-rating hidden">10</span>
-                        <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
-                        <div class="product-price">$<span class="sort-price">295.00</span></div>
-                      </div>
-                      <div class="product-link"> <a href="#">Add to Favorites</a> <br>
-                        <a href="#">Add to Compare</a> </div>
-                      <div class="rating"> <strong> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> </strong> <a href="#"><i class="icon-star"></i></a> </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="span3 product carousel_item">
-                <div class="product-image-wrapper onhover animate scale"><a href="product.html"><img src="img/product_img-13.jpg" alt=""><img src="img/product1_over.jpg" class="roll_over_img" alt=""></a> </div>
-                <div class="wrapper-hover">
-                  <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
-                  <div class="wrapper"><span class="sort-rating hidden">10</span>
-                    <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
-                    <div class="product-price">$<span class="sort-price">295.00</span></div>
-                  </div>
-                </div>
-              </div>
-              <div class="preview hidden-tablet hidden-phone">
-                <div class="wrapper">
-                  <div class="col-1"><a href="#" data-rel="img/preview_big_img1.jpg" class="image"><img src="img/preview_big_img1.jpg" alt="" class="thumb"/></a> <a href="#" data-rel="img/preview_big_img2.jpg" class="image"><img src="img/preview_big_img2.jpg" alt="" class="thumb"/></a> <a href="#" data-rel="img/preview_big_img3.jpg" class="image"><img src="img/preview_big_img3.jpg" alt="" class="thumb"/></a></div>
-                  <div class="col-2">
-                    <div class="big_image"><a href="product.html"><img src="img/preview_big_img1.jpg"  alt="" /></a></div>
-                    <div class="wrapper-hover">
-                      <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
-                      <div class="wrapper"><span class="sort-rating hidden">10</span>
-                        <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
-                        <div class="product-price">$<span class="sort-price">295.00</span></div>
-                      </div>
-                      <div class="product-link"> <a href="#">Add to Favorites</a> <br>
-                        <a href="#">Add to Compare</a> </div>
-                      <div class="rating"> <strong> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> </strong> <a href="#"><i class="icon-star"></i></a> </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="span3 product carousel_item">
-                <div class="product-image-wrapper onhover animate scale"><a href="product.html"><img src="img/product_img-14.jpg" alt=""><img src="img/product1_over.jpg" class="roll_over_img" alt=""></a> </div>
-                <div class="wrapper-hover">
-                  <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
-                  <div class="wrapper"><span class="sort-rating hidden">10</span>
-                    <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
-                    <div class="product-price">$<span class="sort-price">295.00</span></div>
-                  </div>
-                </div>
-              </div>
-              <div class="preview hidden-tablet hidden-phone">
-                <div class="wrapper">
-                  <div class="col-1"><a href="#" data-rel="img/preview_big_img1.jpg" class="image"><img src="img/preview_big_img1.jpg" alt="" class="thumb"/></a> <a href="#" data-rel="img/preview_big_img2.jpg" class="image"><img src="img/preview_big_img2.jpg" alt="" class="thumb"/></a> <a href="#" data-rel="img/preview_big_img3.jpg" class="image"><img src="img/preview_big_img3.jpg" alt="" class="thumb"/></a></div>
-                  <div class="col-2">
-                    <div class="big_image"><a href="product.html"><img src="img/preview_big_img1.jpg"  alt="" /></a></div>
-                    <div class="wrapper-hover">
-                      <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
-                      <div class="wrapper"><span class="sort-rating hidden">10</span>
-                        <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
-                        <div class="product-price">$<span class="sort-price">295.00</span></div>
-                      </div>
-                      <div class="product-link"> <a href="#">Add to Favorites</a> <br>
-                        <a href="#">Add to Compare</a> </div>
-                      <div class="rating"> <strong> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> <a href="#"><i class="icon-star"></i></a> </strong> <a href="#"><i class="icon-star"></i></a> </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
   </section>
   <div id="push"></div>
 </div>
@@ -610,7 +354,7 @@
                         <!--<td class="aligncenter 0_margin"><h5>Xiaomi</td>-->
                         <td class="aligncenter 0_margin"><img src="/static/img/{{price['website']}}.jpg"  alt={{price['website']}} height="25px" width="100px"> </td>
 
-                        {%if price["stock status"]|int ==  1%}
+                        {%if price["stock status"]|int == 1%}
                         <td class="aligncenter 0_margin"><h5>Yes</h5></td>
                         {%else%}
                         <td class="aligncenter 0_margin"><h5>No</h5></td>
@@ -629,5 +373,54 @@
               </div>
             </div>
           </div>
+
+    <!-- Email me Modal -->
+    
+    <div class="modal fade" onsubmit="return emailMeWhenAvailable('{{phoneDetails._id}}'); " id="emailMe" style="opacity:.85";>
+      <div class="md-content">
+        <h3 id="productName">{{phoneDetails.Brand}} {{phoneDetails["Model Name"]}}</h3>
+         <div class="main clearfix">
+          <p class="nl-form">Notify me when price drops below </p>
+        <div class="row" style="margin-left:0">
+        <div class="span3">
+        <form id="nl-form" class="nl-form">
+          <p>
+           <input id = "emWPrice" type="text" style="height:60%; border:0" value="" placeholder="any price" data-subline="For example: <em>10000</em> or <em>23437</em>"/>
+         </p>
+         at 
+         <p>
+           <input id = "emWEmail" type="text" style="border:0" value="" placeholder="id@email.com" data-subline="Go for it buddy"/>
+         </p>
+          <div class="nl-submit-wrap">
+            <button class="nl-submit" type="submit">Submit</button>
+          </div>
+          
+        </form>
+      </div>
+      <div class="span3" style="width:35%; margin-left:30px" align="right">
+        <p class="aligncenter" style="font-size:300%; color:#b14943; font-weight: 300; font-family: Oswald, sans-serif;">Best Prices</p><br>
+        <table class="table table-hover" >
+        {% for price in phoneDetails["Prices"] %}
+                {%if price["stock status"]|int !=  0%}
+                    <tr >
+                        <!--<td class="aligncenter 0_margin"><h5>Xiaomi</td>-->
+                        <td class="aligncenter " style="padding:0; padding-right:17px;" height:"1000"><a target="_blank" href={{price['productUrl']}}><img src="http://c223968.r68.cf1.rackcdn.com/{{price['website']}}_store.png"  alt={{price['website']}} height="90px"></a></img></td>
+                        <td class="aligncenter " style="padding:0; margin-left:4px;" height:"100"><a target="_blank" href={{price['productUrl']}}> <button class="btn-mini border">{{price["price"]}}</button></a></td>
+                    </tr>
+                    {%endif%}
+                {%endfor%}
+        </table>
+      </div>
+      </div>
+      <div id="submitsuccess" class="nl-form aligncenter" ></div>
+      </div>
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/nlform.js')}}"></script>
+    <script>
+      var nlform = new NLForm( document.getElementById( 'nl-form' ) );
+  </script>
+    <!-- Email me Modal -->
+    
 
 {% endblock %}
