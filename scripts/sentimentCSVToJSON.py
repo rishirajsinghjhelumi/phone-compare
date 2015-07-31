@@ -46,7 +46,7 @@ def generateSentiments(filename):
 		try:
 			getSentimentJSON(sentiment)
 		except:
-			print "Fault in :", sentiment
+			print "Fault in :", sentiment, filename
 			faults += 1
 
 	print faults

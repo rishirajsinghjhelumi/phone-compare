@@ -5,7 +5,7 @@ import json
 from dbConn import getMongoDBConn
 mongo = getMongoDBConn()
 
-SPECIFICATIONS_FOLDER = "SpecificationScrapper"
+SPECIFICATIONS_FOLDER = "/home/stratdecider/ScrapperOutput/SpecificationScrapper/"
 
 def store(filename):
 
@@ -49,7 +49,7 @@ def storeInDB():
 			store(SPECIFICATIONS_FOLDER + "/" + fil)
 		except:
 			print fil
-			faults += 1
+			faults += 1	
 
 	print faults
 

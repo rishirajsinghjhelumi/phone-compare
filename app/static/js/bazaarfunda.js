@@ -58,6 +58,12 @@ jQuery(document).ready(function(){
     }).on("hidden", function () {
       $("body").removeClass("modal-open")
     });
+    
+    $("#emailMe").on("show", function () {
+      $("body").addClass("modal-open");
+    }).on("hidden", function () {
+      $("body").removeClass("modal-open")
+    });
 
     $("#compare_price").on("show", function () {
       $("body").addClass("modal-open");
@@ -671,10 +677,53 @@ function enable_pref() {
  }
 
  
+//Email me when Available
 
+function emailMeWhenAvailable(id) { 
+  //http://127.0.0.1:8080/users/subscribePrice?email=dude.abhi.chat@gmail.com&productName=productName&productId=productId&priceCutOff=priceCutOff
 
-  
-        
+  productId = id;
+  productName = document.getElementById("productName").innerHTML;
+  priceCutOff = document.getElementsByClassName("nl-field-toggle")[0].innerHTML;
+  email = document.getElementsByClassName("nl-field-toggle")[1].innerHTML;
+  emaiReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+  priceReg = /^[0-9]*$/;
+
+ if (!priceReg.test(priceCutOff)) {
+  $(".nl-field-toggle:eq(0)").text("Invalid Format");
+  $("#submitsuccess").text("**Please provide us a valid number for price.").css({"display":"block", "font-size":"150%","color":"#610B0B", "font-family":"Arial Italic"})
+  return false
+  }
+
+  if (!emaiReg.test(email)) {
+    console.log("Email pass failed")
+    $(".nl-field-toggle:eq(1)").text("Incorrect Id");
+    $("#submitsuccess").text("**Please provide us a valid email address").css({"display":"block", "font-size":"150%","color":"#610B0B"})
+    return false
+  }
+
+  subscribeURL = "/users/subscribePrice?" + "email=" + email + "&productName=" + productName + "&productId=" + productId + "&priceCutOff=" + priceCutOff
+  subscribeURL = window.location.origin + subscribeURL
+  console.log(subscribeURL)
+  jQuery.ajax({
+         url: subscribeURL,
+         success: function(result) {
+                      if (result == false) {
+                        console.log("**We already have this request from you.")
+                        $("#submitsuccess").text("**We already have this request from you. You can place numerous price alerts.").css({"display":"block", "font-size":"150%","color":"#610B0B"})
+                        return false;
+                      }
+                      else {
+                        $("#submitsuccess").text("**Allright!! You will hear from us. You can place numerous price alerts.").css({"display":"block", "font-size":"150%","color":"#610B0B"})
+                        return true;
+                      }
+                  },
+         async:   false
+    });  
+// $("#submitsuccess").textContent.replace("**Allright You will hear from us").css({"display":"block", "font-size":"50%","color":"#610B0B"})
+  return true;
+}
+//Email me when Available        
 
 
             
