@@ -52,8 +52,6 @@ def productDetail(phoneID):
     	phoneName = phoneDetails["Model Name"]
     	phoneBrand = phoneDetails["Brand"]
     	title = "Watch the User Experience of " + phoneBrand + " " + phoneName + " and get the best price"
-    	
-
     	app.logger.info(phoneDetails)
     	for ids in cartDetails:
     		app.logger.info(ids)
@@ -221,9 +219,9 @@ def displaySearchResults(pageType, sortedPhoneList, pageNo, priceRange,keywords,
     else:
         pageNo = int(pageNo[0])
         if items > 15*pageNo:
-            return render_template("listing_usual.html", title = title, phoneDetails = phoneList[15*(pageNo-1):(15*(pageNo))], cartDetails = cartList, scoreList = scoreList[15*(pageNo-1):15*(pageNo)], prev = 1, next = pageNo + 1, totItem = items, page = pageNo, fromItem = 15*(pageNo-1) + 1, toItem = 15*pageNo, currentURL = currentURL, totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords, pageType=pageType, emptyResultsFlag = emptyResultsFlag)
+            return render_template("listing_usual.html", title = title, phoneDetails = phoneList[15*(pageNo-1):(15*(pageNo))], cartDetails = cartList, scoreList = scoreList[15*(pageNo-1):15*(pageNo)], allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18], prev = 1, next = pageNo + 1, totItem = items, page = pageNo, fromItem = 15*(pageNo-1) + 1, toItem = 15*pageNo, currentURL = currentURL, totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords, pageType=pageType, emptyResultsFlag = emptyResultsFlag)
         else:
-            return render_template("listing_usual.html", title = title, phoneDetails = phoneList[(15*(pageNo-1)):items], cartDetails = cartList, scoreList = scoreList[(15*pageNo-1):items], prev = 1, next = 0, totItem = items, page = pageNo, fromItem = 15*(pageNo-1) + 1, toItem = items, currentURL = currentURL, totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords,pageType=pageType, emptyResultsFlag = emptyResultsFlag)
+            return render_template("listing_usual.html", title = title, phoneDetails = phoneList[(15*(pageNo-1)):items], cartDetails = cartList, scoreList = scoreList[(15*pageNo-1):items], allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18], prev = 1, next = 0, totItem = items, page = pageNo, fromItem = 15*(pageNo-1) + 1, toItem = items, currentURL = currentURL, totalPages = totalPages,allBrands = allBrands, allKeywords = allKeywords, priceRange = priceRange, selectedBrands = brands,selectedKeywords = keywords,pageType=pageType, emptyResultsFlag = emptyResultsFlag)
     return render_template("listing_usual.html", title = title, phoneDetails = phoneList, cartDetails = cartList,priceRange = priceRange, scoreList = scoreList,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18], emptyResultsFlag = emptyResultsFlag)
 
 def addBazaarFundaScore(phoneList, keywords, weights):
