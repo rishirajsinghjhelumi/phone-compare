@@ -244,13 +244,13 @@
                   </thead>
                   </table>
 
-                  <div id="toggle" class="toggle">
+                  
                   <div class="span5" style="width: 47%; padding-left: 00%;">
 
-                  
+                  <div class="toggle" id="toggle">
                       <div class="accordion-group">
                       <div class="accordion-heading">
-                         <a class="accordion-toggle-Cons collapsed c" href="#collapseOnePros{{reviews["About"].split()[0]}}" data-parent="#accordion" data-toggle="collapse">
+                         <a class="accordion-toggle" href="#collapseOnePros{{reviews["About"].split()[0]}}" data-parent="#accordion" data-toggle="collapse">
                           <span class="open">
                           <i class="icon-minus"></i>
                           </span>
@@ -259,24 +259,25 @@
                           </span>PROS
                           </a>
                       </div>
-                      <div id="collapseOnePros{{reviews["About"].split()[0]}}" class="accordion-body collapse" style="height: 0px;">
+                      <div id="collapseOnePros{{reviews["About"].split()[0]}}" class="accordion-body in collapse" style="height: auto">
                       <div class="accordion-inner">
-                       <ul class="styled-list arrow">
+                       <ul class="fa-ul dropdown_content phone1" style="z-index: 8; width:100%; align-items:left;">
                         
                         {%for pros in reviews["Positive"]%}
-                           <h4><li style="font-family: Oswald";> {{pros["Review"]}} ({{pros["Users"]}})</li></h4>
+                           <li  class = "phone" style="width:90%;font-size:110%;"><i class="fa-li fa fa-thumbs-o-up" style="color:#044D03"></i>{{pros["Review"]}} ({{pros["Users"]}})</li>
                            {%endfor%}
                         </ul>
                         
                         </div>
                       </div>
                       </div>
+                    </div>
                   </div>
 
                  
                   <div  class="span5" style="width: 47%; padding-right: 00%;align:right;" >
 
-                  
+                  <div class="toggle" id="toggle">
                       <div class="accordion-group">
                       <div class="accordion-heading">
                         <a class="accordion-toggle-Cons " href="#collapseOneCons{{reviews["About"].split()[0]}}" data-parent="#accordion" data-toggle="collapse">
@@ -288,19 +289,21 @@
                           </span>CONS
                           </a>
                       </div>
-                      <div id="collapseOneCons{{reviews["About"].split()[0]}}" class="accordion-body collapse" style="height: 0px;">
+                      <div id="collapseOneCons{{reviews["About"].split()[0]}}" class="accordion-body in collapse" style="height: auto">
                       <div class="accordion-inner"> 
-                        <ul class="styled-list arrow">
+                        <ul class="fa-ul dropdown_content phone1" style="z-index: 8; width:100%; align-items:left;">
 
                         {%for cons in reviews["Negative"]%} 
-                           <h4><li style="font-family: Oswald";> {{cons["Review"]}} ({{cons["Users"]}}) </li></h4>
+                           <li  class = "phone1" style="width:90%;font-size:110%;"><i class="fa-li fa fa-thumbs-down" style="color:#dd4b39"></i>
+                            {{cons["Review"]}} ({{cons["Users"]}}) </li>
                         {%endfor%}
                         </ul>
                        </div>
                       </div>
                       </div>
+                    </div>
                   </div>
-                  </div>
+                 
                   <!--Pros And Cons  -->
                   {%endif%}
                   {% endfor %}
