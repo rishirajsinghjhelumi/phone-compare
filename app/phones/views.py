@@ -72,14 +72,17 @@ def getPhoneInfo(phoneID):
 			starRating = starRating + keyword["Positive"] + keyword["Neutral"] - keyword["Negative"]
 			keywordCount = keywordCount + keyword["Positive"] + keyword["Neutral"] + keyword["Negative"]
 			eComList.extend([eCom])
-		starRating = starRating*100/keywordCount
+		try:
+			starRating = starRating*100/keywordCount
+		except:
+			starRating = 2.5
 		phone["Keywords"] = eComList
 		phone["star"] = starRating
 		
 		
 	except:
 		pass
-		# app.logger.error("Sentiment data not found for phone with ID: ")
+		app.logger.error("Sentiment data not found for phone with ID: ")
   #               app.logger.error(phoneID)
 
 	return phone
