@@ -60,6 +60,8 @@ def getPhoneInfo(phoneID):
 			"Model Name" : phone["Brand"] + " " + phone["Model Name"]
 		})
 		eComList = []
+		starRating = 0
+		keywordCount = 0
 		for keyword in keywords:
 			eCom = {}
 			eCom["Keyword"] = keyword["Keyword"]
@@ -67,8 +69,12 @@ def getPhoneInfo(phoneID):
 			eCom["Positive"] = keyword["Positive"]
 			eCom["Neutral"] = keyword["Neutral"]
 			eCom["Rating"] = keyword["Rating"]
+			starRating = starRating + keyword["Positive"] + keyword["Neutral"] - keyword["Negative"]
+			keywordCount = keywordCount + keyword["Positive"] + keyword["Neutral"] + keyword["Negative"]
 			eComList.extend([eCom])
+		starRating = starRating*100/keywordCount
 		phone["Keywords"] = eComList
+		phone["star"] = starRating
 		
 		
 	except:

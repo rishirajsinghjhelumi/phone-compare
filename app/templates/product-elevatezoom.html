@@ -16,20 +16,21 @@
       </div>
       <div class="product-box" itemscope itemtype="http://schema.org/Product">
         <div class="row">
-          <div class="span5">
+          <div class="span2">
             <div class="product-img-box noselect">
               <div class="row">
-                <div class="span5">
-                  <div class="flip-container1" ontouchstart="this.classList.toggle('hover');" style = "height:480px; width:320px;">
+                <div class="span2">
+                  <div id="zoom-big-image" class="elevate-zoom"> <img style = "width:auto;height:201px" src="/static/img/ImageScrappers/{{phoneDetails["Brand"]}} {{phoneDetails["Model Name"]}}.jpg"  alt="" data-zoom-image="img/product_page_img_big1_zoom.jpg" class="elevatezoom" /></div>
+                  <!-- <div class="flip-container1" ontouchstart="this.classList.toggle('hover');" style = "height:220px; width:110px;">
                     <div class="flipper">
                        <div class="front">
-                           <div id="zoom-big-image" class="elevate-zoom"> <img style = "width:200px;height:100%" src="/static/img/ImageScrappers/{{phoneDetails["Brand"]}} {{phoneDetails["Model Name"]}}.jpg"  alt="" data-zoom-image="img/product_page_img_big1_zoom.jpg" class="elevatezoom" /></div>
+                           <div id="zoom-big-image" class="elevate-zoom"> <img style = "width:auto;height:201px" src="/static/img/ImageScrappers/{{phoneDetails["Brand"]}} {{phoneDetails["Model Name"]}}.jpg"  alt="" data-zoom-image="img/product_page_img_big1_zoom.jpg" class="elevatezoom" /></div>
                         </div>
                     <div class="back">
                          <div id="zoom-big-image" class="elevate-zoom"> <img src={{ url_for('static', filename='img/product_page_img_big1-Recovered_Back.jpg')}}  alt="" data-zoom-image="img/product_page_img_big1_zoom.jpg" class="elevatezoom" /></div>
                     </div>
                    </div>
-                  </div>
+                  </div> -->
                   
                 </div>
               </div>
@@ -38,38 +39,38 @@
           <div class="span7">
             <div class="product-CSS">
               <div class="product_info">
-                <div class="product-name">
-                  
-                  <h1><span itemprop="name" class="color">{{phoneDetails.Brand}} {{phoneDetails["Model Name"]}}</span></h1>
-                  <!-- <div class="star-ratings-css" style="unicode-bidi: bidi-override; color: #c5c5c5; font-size: 25px; height: 5px; width: 100px; margin: 0 auto; position: absolute; padding: 0; text-shadow: 0px 1px 0 #a2a2a2;">
+                <div class="product-name" style="margin-left:30px">
+                  <h3>
+                    <div itemprop="name" style="color:#2E2E2E">{{phoneDetails.Brand}} {{phoneDetails["Model Name"]}} </span></h3>
+                  <div class="star-ratings-css" style="unicode-bidi: bidi-override; color: #c5c5c5; font-size: 25px; height: 5px; width: 100px; margin: 0 auto; position: absolute; padding: 0; text-shadow: 0px 1px 0 #a2a2a2;">
 
-                  <div class="star-ratings-css-top" style="width: 55%; color: #e7711b; padding: 0; text-shadow: 0px 1px 0 #ab5414; position: absolute; z-index: 1; display:block; left: 0px; overflow: hidden;">
+                  <div title = "{{phoneDetails.star/20}} rating" class="star-ratings-css-top" style="width: {{phoneDetails.star + 10}}% ; color: #e7711b; padding: 0; text-shadow: 0px 1px 0 #ab5414; position: absolute; z-index: 1; display:block; left: 0px; overflow: hidden;">
                     <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
 
                   <div class="star-ratings-css-bottom" style="z-index: 0"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
 
                   </div>
-                </div> -->
-                <hr><br>
-
+                
+              </div>
+                <div class="short-description">
                 <span class="row">
                 <div class="span3"><p>
-                  <ul class="styled-list dash">
+                  <ul class="styled-list circle">
                     {%for specs in phoneDetails["specification"]%}
                       {%if specs["GENERAL FEATURES"]%}
                           {%if specs["GENERAL FEATURES"]["SIM Type"]%}
-                              <li><b>SIM Type</b>: {{specs["GENERAL FEATURES"]["SIM Type"]}}</li>
+                              <li style="color:#585858"><b>SIM Type</b>: {{specs["GENERAL FEATURES"]["SIM Type"]}}</li>
                               {%endif%}
                               {%if specs["GENERAL FEATURES"]["Touch Screen"]%}
-                              <li><b>Touch Screen</b>: {{specs["GENERAL FEATURES"]["Touch Screen"]}}</li>
+                              <li style="color:#585858"><b>Touch Screen</b>: {{specs["GENERAL FEATURES"]["Touch Screen"]}}</li>
                               {%endif%}
                     {% endif %}
                     {%if specs["Memory and Storage"]%}
                         {%if specs["Memory and Storage"]["Memory"]%}
-                        <li><b>Memory</b>: {{specs["Memory and Storage"]["Memory"]}}</li>
+                        <li style="color:#585858"><b>Memory</b>: {{specs["Memory and Storage"]["Memory"]}}</li>
                         {%endif%}
                         {%if specs["Memory and Storage"]["Internal"]%}
-                        <li><b>Internal Memory</b>: {{specs["Memory and Storage"]["Internal"]}}</li>
+                        <li style="color:#585858"><b>Internal Memory</b>: {{specs["Memory and Storage"]["Internal"]}}</li>
                         {%endif%}
                     {%endif%}
 
@@ -77,33 +78,30 @@
                   </ul>
                </p></div>
                <div class="span3"><p>
-                  <ul class="styled-list dash">
+                  <ul class="styled-list circle">
                {% for specs in phoneDetails["specification"] %}
                     {%if specs["Camera"]%}
                         {%if specs["Camera"]["Front Facing Camera"]%}
-                        <li><b>Front Camera</b>: {{specs["Camera"]["Front Facing Camera"]}}</li>
+                        <li style="color:#585858"><b>Front Camera</b>: {{specs["Camera"]["Front Facing Camera"]}}</li>
                         {%endif%}
                         {%if specs["Camera"]["Rear Camera"]%}
-                        <li><b>Rear Camera</b>: {{specs["Camera"]["Rear Camera"]}}</li>
+                        <li style="color:#585858"><b>Rear Camera</b>: {{specs["Camera"]["Rear Camera"]}}</li>
                         {%endif%}
                     {%endif%}
                     {%if specs["Platform"]%}
                         {%if specs["Platform"]["Processor"]%}
-                        <li><b>Processor</b>: {{specs["Platform"]["Processor"]}}</li>
+                        <li style="color:#585858"><b>Processor</b>: {{specs["Platform"]["Processor"]}}</li>
                         {%endif%}
                     {%endif%}
                     {%if specs["Dimensions"]%}
                         {%if specs["Dimensions"]["Size"]%}
-                        <li><b>Size</b>: {{specs["Dimensions"]["Size"]}}</li>
+                        <li style="color:#585858"><b>Size</b>: {{specs["Dimensions"]["Size"]}}</li>
                         {%endif%}
                     {%endif%}
                {% endfor %}
              </ul>
            </p></div>
          </span>
-         <hr>
-
-                 <br>
                   {%set counter = 0 %}
                   {%set lowestPrice = [1000000] %}
                   {% set lowestWebsite = ["Out of Stock"] %}
@@ -130,30 +128,24 @@
 
                 
                   
-                  <div class= "product-name" align="left">
+                  
+                    <div class="row" style="margin-left:10px;">
+                      <div class="span3">
                   {%if lowestWebsite[0] == "Out of Stock"  %}
                     <h4><div style="color: #B40404">{{"Not Available in our search"}}</div></h4>
                       {% else %}
                     <h4  itemprop="price"> Lowest Price: ₹&nbsp {{lowestPrice[0]}} &nbsp&nbsp 
-                      <a href={{lowestWebsiteURL[0]}} target="_blank"><button class="btn-mini border" type="hidden"> Buy Now </button></a>
+                      <a href={{lowestWebsiteURL[0]}} target="_blank"><button class="btn-mini border" type="hidden">Buy Now  </button></a>
                     </h4> 
                   {%endif%}
-                  
-
                 </div>
-                <div class="add-to-cart">
-                  <form id="form-add_to_cart">
-                    
-                    <div class="alert alert-success alert-dismissable" style="display: none;">
-                      <button class="close" data-dismiss="alert" type="button">×</button>
-                      <h3>Sorry!</h3>
-                       We can accomodate only 4 mobiles to be compared. Please remove one to add more.
-                    </div>
-                    <button class="button btn-small" title="Add to Compare" type="button" id ="add_to_compare" ><i class="icon-chart-bar"></i>{{" "}}Add to Compare</button>
-                    <button class="button btn-small" title="Compare Prices" type="button" onclick="location.href='#';" href="#compare_price" data-toggle="modal" ><i class="icon-shop"></i>{{" "}}Compare Prices</button>
-                  </form>
+                <div class="span3">
+                  <button class="btn-mini border" title="Add to Compare" type="button" id ="add_to_compare" style="background-color: ; " ><i class="icon-chart-bar"></i>{{" "}}Add to Compare</button>
+                  </div>
                 </div>
-                <div class="add-to-links" >
+                
+                
+                <div class="add-to-links" style="margin-left:7%;">
                   <ul>
                     <li><a href="#" class="small_icon_color"><i class=" icon-mail-1"></i></a><a class= "md-trigger" onclick="location.href='#';" data-toggle="modal" href="#emailMe">Email me when price drops</a></li>
                   </ul>
@@ -163,9 +155,146 @@
             </div>
           </div>
         </div>
+
+        <div class="span3">
+          <div class="priority low"><span>Best Online Prices</span></div>
+          
+            
+            {% for price in phoneDetails["Prices"] %}
+                {%if price["stock status"]|int !=  0%}
+                    
+                      <div class="task high" >
+                        
+                        <div  valign="center" style="">
+
+                          <a target="_blank" href={{price['productUrl']}}>
+                            <img style="margin-left:4px; margin-right:10px; margin-top:10px; margin-bottom:10px" src="http://c223968.r68.cf1.rackcdn.com/{{price['website']}}_store.png"  alt={{price['website']}} ></img></a>
+                            <a target="_blank" href={{price['productUrl']}}> <button class="btn-mini border">{{price["price"]}}</button></a>
+                        </div>
+
+                        <div class="aligncenter date" style="padding:0; margin-left:40px;" height:"100">
+                          
+                        </div>
+                     </div>
+                   
+                    {%endif%}
+                {%endfor%}
+         
+          <!-- <div class="price-table active" style="padding:0px 0px; color:#585858; margin-top:0px; border: 3px solid #e7711b;">
+                <div class="price-table-title" style="overflow-y:auto">Best Online Prices</div>
+                <table class="table table-hover" style="height:200px; overflow-y:scroll">
+                  <tbody>
+                {% for price in phoneDetails["Prices"] %}
+                {%if price["stock status"]|int !=  0%}
+                    <tr style="">
+                        
+                        <td class="aligncenter"  valign="center" style="padding:0; padding-right:17px; " height:"1000"><a target="_blank" href={{price['productUrl']}}><img style = "margin-top:15%" src="http://c223968.r68.cf1.rackcdn.com/{{price['website']}}_store.png"  alt={{price['website']}} height="90px"></a></img></td>
+
+                        <td class="aligncenter " style="padding:0; margin-left:40px;" height:"100"><a target="_blank" href={{price['productUrl']}}> <button class="btn-mini border">{{price["price"]}}</button></a></td>
+                    </tr>
+                    {%endif%}
+                {%endfor%}
+              </tbody>
+            </table>
+                
+                
+              </div> -->
+        </div>  
       </div>
-      <br>
-      <br>
+    </div>
+      <hr>
+      <!-- sentiment chart list -->
+      <!-- <div class="span12">
+          <h3 class="padding">User Experience Details</h3>
+          <div class="carousel es-carousel-wrapper style1">
+            <div class="es-carousel">
+              <div class="row small_with_description">
+                <div class="product_outer carousel_items">
+
+                  <div class="span2 product carousel_item">
+                    <div class="product-image-wrapper onhover animate scale"> <a href="product.html"><img src="img/product_new.jpg" width="160" height="155"  alt=""><img src="img/product1_over.jpg" class="roll_over_img" alt=""></a> </div>
+                    <div class="wrapper-hover">
+                      <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
+                      <div class="wrapper"><span class="sort-rating hidden">10</span>
+                        <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
+                        <div class="product-price">$<span class="sort-price">295.00</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="span2 product carousel_item">
+                    <div class="product-image-wrapper onhover animate scale"><a href="product.html"><img src="img/product_new-02.jpg" alt=""><img src="img/product1_over.jpg" class="roll_over_img" alt=""></a> </div>
+                    <div class="wrapper-hover">
+                      <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
+                      <div class="wrapper"><span class="sort-rating hidden">10</span>
+                        <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
+                        <div class="product-price">$<span class="sort-price">295.00</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="span2 product carousel_item">
+                    <div class="product-image-wrapper onhover animate scale"><a href="product.html"><img src="img/product_new-03.jpg" alt=""><img src="img/product1_over.jpg" class="roll_over_img" alt=""></a> </div>
+                    <div class="wrapper-hover">
+                      <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
+                      <div class="wrapper"><span class="sort-rating hidden">10</span>
+                        <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
+                        <div class="product-price">$<span class="sort-price">295.00</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="span2 product carousel_item">
+                    <div class="product-image-wrapper onhover animate scale"><a href="product.html"><img src="img/product_new.jpg" alt=""><img src="img/product1_over.jpg" class="roll_over_img" alt=""></a> </div>
+                    <div class="wrapper-hover">
+                      <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
+                      <div class="wrapper"><span class="sort-rating hidden">10</span>
+                        <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
+                        <div class="product-price">$<span class="sort-price">295.00</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="span2 product carousel_item">
+                    <div class="product-image-wrapper onhover animate scale"><a href="product.html"><img src="img/product_new-02.jpg" alt=""><img src="img/product1_over.jpg" class="roll_over_img" alt=""></a> </div>
+                    <div class="wrapper-hover">
+                      <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
+                      <div class="wrapper"><span class="sort-rating hidden">10</span>
+                        <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
+                        <div class="product-price">$<span class="sort-price">295.00</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="span2 product carousel_item">
+                    <div class="circleStatsItemBox yellow">
+            <div class="header">Disk Space Usage</div>
+            <span class="percent">percent</span>
+            <div class="circleStat">
+                        <input type="text" value="58" class="whiteCircle" />
+            </div>    
+            <div class="footer">
+              <span class="count">
+                <span class="number">20000</span>
+                <span class="unit">MB</span>
+              </span>
+              <span class="sep"> / </span>
+              <span class="value">
+                <span class="number">50000</span>
+                <span class="unit">MB</span>
+              </span> 
+            </div>
+                  </div>
+                    
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      <!-- sentiment chart list -->
+      <hr>
       <div class="row">
         <div class="span12">
           <ul class="nav-tabs contentTab">

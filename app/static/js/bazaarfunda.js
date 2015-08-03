@@ -2,6 +2,7 @@ var modelModelIDMap = {};
 var prefQueue = [];
 
 jQuery(document).ready(function(){
+  
 
 
 
@@ -725,6 +726,8 @@ function emailMeWhenAvailable(id) {
 }
 //Email me when Available        
 
+
+      
 
             
             
