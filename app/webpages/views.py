@@ -1,7 +1,6 @@
 from flask import Blueprint, request, render_template, flash, g, session, redirect, url_for
 from flask import jsonify
 from bson.objectid import ObjectId
-
 from bson import json_util
 import json
 from app import mongo
@@ -18,6 +17,7 @@ import os.path
 mod = Blueprint('webpage', __name__, url_prefix='')
 allBrands = ['Apple','Blackberry','Xiaomi','OnePlus','A&K','Celkon','Gionee','HTC','Huawei','Karbonn','Lava','Lenovo','LG','Micromax','Motorola','Microsoft','Nokia','Panasonic','Samsung','Sony','Spice','XOLO','Adcom','Agtel','Akai','Acer','Alcatel','AirTyme','AIEK','Alpha','Ambrane','Anand','Andi','AOC','Apollo','Arise','AsiaFone','a-star','Asus','ATOM','Beetel','Best','Beven','Beyond','Binatone','Bingo','Bloom','Blu','BQ','Brillon','Bsnl','BY2','Byond','Camerii','Cfore','Cheers','Chilli','CLOUD','Coolwave','Croma','Cubit','Daimond','Datawind','Devante','iball','YU']
 allKeywords = ['Applications', 'Battery', 'Camera', 'Delivery and service', 'Design and build quality','Earphone', 'Front Camera', 'Gaming', 'Internet and Browsing', 'Less lag', 'Low heating', 'Music', 'Others', 'Price worthiness', 'Screen', 'Sound', 'UI', 'Video']
+allKeyWordsIcon = {'Bluetooth':'','Applications':'fa icon-vcard', 'Battery':'fa fa-battery-1', 'Camera':'fa fa-camera', 'Delivery and service':'fa fa-truck', 'Design and build quality':'fa fa-eye','Earphone':'fa fa-headphones', 'Front Camera':'fa fa-camera-retro', 'Gaming':'fa fa-gamepad', 'Internet and Browsing':'fa fa-wifi', 'Less lag':'fa fa-sort-amount-asc', 'Low heating':'fa fa-fire', 'Music':'fa fa-music', 'Others':'fa fa-th-list', 'Price worthiness':'fa fa-rupee', 'Screen':'fa fa-mobile', 'Sound':'fa fa-bullhorn', 'UI':'fa fa-hand-spock-o', 'Video':'fa fa-youtube-play'}
 formatter = logging.Formatter(
         "[%(asctime)s] {%(pathname)s:%(lineno)d} %(levelname)s - %(message)s")
 handler = RotatingFileHandler("./logs/application.log", maxBytes=10000000, backupCount=5)
@@ -55,9 +55,9 @@ def productDetail(phoneID):
     	app.logger.info(phoneDetails)
     	for ids in cartDetails:
     		app.logger.info(ids)
-    	return render_template("product-elevatezoom.html", title=title, phoneDetails = phoneDetails, cartDetails = cartDetails,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18])
+    	return render_template("product-elevatezoom.html", title=title, phoneDetails = phoneDetails, cartDetails = cartDetails,allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18], allKeyWordsIcon=allKeyWordsIcon)
     except:
-        return render_template("404.html", allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18], title = "Your choice Your Device", cartDetails = cartDetails) 
+        return render_template("404.html", allTopBrands = allBrands[0:7],allNonTopBrands = allBrands[11:18], title = "Your choice Your Device", cartDetails = cartDetails, allKeyWordsIcon=allKeyWordsIcon) 
 @mod.route('/compare', methods=['GET'])
 def compareProducts():
         title = "Compare user experience and prices for"

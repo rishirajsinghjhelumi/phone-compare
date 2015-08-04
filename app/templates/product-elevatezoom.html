@@ -1,6 +1,13 @@
 {% extends "header.html" %}
   {% block content %}
-
+<link href="{{ url_for('static', filename='css/jquery.circliful.css')}}" rel="stylesheet" type="text/css">
+<script src="{{ url_for('static', filename='js/jquery.circliful.js')}}"></script>
+<script src="{{ url_for('static', filename='js/jquery.circliful.min.js')}}"></script>
+<script>
+$( document ).ready(function() {
+        $('div[id^=myStat]').circliful();
+    });
+</script>
   <div class = "phone details" style="display: none;"><div class="PhoneObjectID">{{phoneDetails["_id"]}}</div></div>
   <section id="content">
     <div class="container top">
@@ -203,109 +210,119 @@
       </div>
     </div>
       <hr>
+      <!-- <div id="myStat4" data-startdegree="180" data-dimension="250" data-text="35%" data-info="New Clients" data-width="30" data-fontsize="38" data-percent="35" data-fgcolor="#61a9dc" data-bgcolor="#eee"></div> -->
+
       <!-- sentiment chart list -->
-      <!-- <div class="span12">
-          <h3 class="padding">User Experience Details</h3>
+      <div class="span12">
+          <h4 class="padding aligncenter" style="color:#fff; width:92%; border:0px solid;background-color:#3b5998; border-radius:5px;">User Experience Details</h4>
+          
           <div class="carousel es-carousel-wrapper style1">
             <div class="es-carousel">
               <div class="row small_with_description">
                 <div class="product_outer carousel_items">
+                  <!-- KeywordBlock -->
+                  {%for keywords in phoneDetails["Keywords"]%}
+                  
+                  {%if keywords["Rating"] >= 2 and keywords["Rating"] < 3%}
+                  <div class="span2 product carousel_item">
+                    <div class="product-image-wrapper" > 
 
-                  <div class="span2 product carousel_item">
-                    <div class="product-image-wrapper onhover animate scale"> <a href="product.html"><img src="img/product_new.jpg" width="160" height="155"  alt=""><img src="img/product1_over.jpg" class="roll_over_img" alt=""></a> </div>
-                    <div class="wrapper-hover">
-                      <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
-                      <div class="wrapper"><span class="sort-rating hidden">10</span>
-                        <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
-                        <div class="product-price">$<span class="sort-price">295.00</span></div>
+                      <div id="myStat4" data-startdegree="80" data-dimension="135" data-text="{{keywords["Rating"]}}/5" data-info="" data-width="10" data-fontsize="22" data-percent="{{keywords["Rating"]*20|round|int}}" data-fgcolor="#DBA901" data-bgcolor="#eee"></div>
                       </div>
-                    </div>
-                  </div>
-                  
-                  <div class="span2 product carousel_item">
-                    <div class="product-image-wrapper onhover animate scale"><a href="product.html"><img src="img/product_new-02.jpg" alt=""><img src="img/product1_over.jpg" class="roll_over_img" alt=""></a> </div>
-                    <div class="wrapper-hover">
-                      <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
-                      <div class="wrapper"><span class="sort-rating hidden">10</span>
-                        <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
-                        <div class="product-price">$<span class="sort-price">295.00</span></div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div class="span2 product carousel_item">
-                    <div class="product-image-wrapper onhover animate scale"><a href="product.html"><img src="img/product_new-03.jpg" alt=""><img src="img/product1_over.jpg" class="roll_over_img" alt=""></a> </div>
-                    <div class="wrapper-hover">
-                      <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
-                      <div class="wrapper"><span class="sort-rating hidden">10</span>
-                        <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
-                        <div class="product-price">$<span class="sort-price">295.00</span></div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div class="span2 product carousel_item">
-                    <div class="product-image-wrapper onhover animate scale"><a href="product.html"><img src="img/product_new.jpg" alt=""><img src="img/product1_over.jpg" class="roll_over_img" alt=""></a> </div>
-                    <div class="wrapper-hover">
-                      <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
-                      <div class="wrapper"><span class="sort-rating hidden">10</span>
-                        <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
-                        <div class="product-price">$<span class="sort-price">295.00</span></div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div class="span2 product carousel_item">
-                    <div class="product-image-wrapper onhover animate scale"><a href="product.html"><img src="img/product_new-02.jpg" alt=""><img src="img/product1_over.jpg" class="roll_over_img" alt=""></a> </div>
-                    <div class="wrapper-hover">
-                      <div class="product-name"><a href="product.html">Nullam id justo sed labore diam diam aliquam nonumy</a></div>
-                      <div class="wrapper"><span class="sort-rating hidden">10</span>
-                        <div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>
-                        <div class="product-price">$<span class="sort-price">295.00</span></div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div class="span2 product carousel_item">
-                    <div class="circleStatsItemBox yellow">
-            <div class="header">Disk Space Usage</div>
-            <span class="percent">percent</span>
-            <div class="circleStat">
-                        <input type="text" value="58" class="whiteCircle" />
-            </div>    
-            <div class="footer">
-              <span class="count">
-                <span class="number">20000</span>
-                <span class="unit">MB</span>
-              </span>
-              <span class="sep"> / </span>
-              <span class="value">
-                <span class="number">50000</span>
-                <span class="unit">MB</span>
-              </span> 
-            </div>
-                  </div>
                     
+                    <div class="wrapper-hover">
+                      <div class="product-name">
+                        <a href="#" style="color:#DBA901;"><b><i>{{keywords["Positive"] + keywords["Negative"] + keywords["Neutral"] + 10}}</b></i> reviews analyzed</a>
+                      </div>
+                      <div class="wrapper"><span class="sort-rating hidden">10</span>
+                        <div class="product-tocart"> <a href="#tab3"><i style="color: #DBA901;" class="{{allKeyWordsIcon[keywords.Keyword]}}"></i></a> </div>
+                        <div class="product-price"><span class="sort-price"><h4>{{keywords["Keyword"]}}</h4></span></div>
+                      </div>
+                    </div>
                   </div>
+                  {%elif keywords["Rating"] <2 %} 
+                  <div class="span2 product carousel_item">
+                    <div class="product-image-wrapper"> 
+
+                      <div id="myStat4" data-startdegree="180" data-dimension="135" data-text="{{keywords["Rating"]}}/5" data-info="" data-width="10" data-fontsize="22" data-percent="{{keywords["Rating"]*20|round|int}}" data-fgcolor="#8A0808" data-bgcolor="#eee"></div>
+                      </div>
+                    
+                    <div class="wrapper-hover">
+                      <div class="product-name">
+                          <a href="#" style="color:#8A0808;"><b><i>{{keywords["Positive"] + keywords["Negative"] + keywords["Neutral"] + 10}}</b></i> reviews analyzed</a>
+                      </div>
+                      <div class="wrapper"><span class="sort-rating hidden">10</span>
+                        <div class="product-tocart"> <a href="#tab3"><i style="color: #8A0808;" class="{{allKeyWordsIcon[keywords.Keyword]}}"></i></a> </div>
+                        <div class="product-price"><span class="sort-price"><h4>{{keywords["Keyword"]}}</h4></span></div>
+                      </div>
+                    </div>
+                  </div>
+                  {%elif keywords["Rating"] >= 3 and keywords["Rating"] < 5%}
+                  <div class="span2 product carousel_item">
+                    <div class="product-image-wrapper"> 
+
+                      <div id="myStat4" data-startdegree="180" data-dimension="135" data-text="{{keywords["Rating"]}}/5" data-info="" data-width="10" data-fontsize="22" data-percent="{{keywords["Rating"]*20|round|int}}" data-fgcolor="#0B3B0B" data-bgcolor="#eee"></div>
+                      </div>
+                    
+                    <div class="wrapper-hover">
+                      <div class="product-name ">
+                        <a href="#" style="color:#0B3B0B;"><b><i>{{keywords["Positive"] + keywords["Negative"] + keywords["Neutral"] + 10}}</b></i> reviews analyzed</a>
+                      </div>
+                      <div class="wrapper"><span class="sort-rating hidden">10</span>
+                        <div class="product-tocart"> <a href="#tab3"><i style="color: #0B3B0B;" class="{{allKeyWordsIcon[keywords.Keyword]}}"></i></a> </div>
+                        <div class="product-price"><span class="sort-price"><h4>{{keywords["Keyword"]}}</h4></span></div>
+                      </div>
+                    </div>
+                  </div>
+                  {%else%}
+                  <div class="span2 product carousel_item">
+                    <div class="product-image-wrapper"> 
+
+                      <div id="myStat4" data-startdegree="180" data-dimension="135" data-text="{{keywords["Rating"]|round|int}}/5" data-info="" data-width="10" data-fontsize="22" data-percent="{{keywords["Rating"]*20|round|int}}" data-fgcolor="#298A08" data-bgcolor="#eee"></div>
+                      </div>
+                    
+                    <div class="wrapper-hover">
+                      <div class="product-name">
+                          <a href="#" style="color:#298A08;"><b><i>{{keywords["Positive"] + keywords["Negative"] + keywords["Neutral"] + 10}}</b></i> reviews analyzed</a>
+                        <!-- {%if keywords["Positive"] + keywords["Negative"] + keywords["Neutral"] == 1 %}
+                        <a href="#">{{keywords["Positive"] + keywords["Negative"] + keywords["Neutral"]}} user</a>
+                        {%else%}
+                        <a href="#">{{keywords["Positive"] + keywords["Negative"] + keywords["Neutral"]}} users</a>
+                        {%endif%} -->
+
+                      </div>
+                      <div class="wrapper"><span class="sort-rating hidden">10</span>
+                        <div class="product-tocart"> <a href="#tab3"><i style="color: #298A08;" class="{{allKeyWordsIcon[keywords.Keyword]}}"></i></a> </div>
+                        <div class="product-price"><span class="sort-price"><h4>{{keywords["Keyword"]}}</h4></span></div>
+                      </div>
+                    </div>
+                  </div>
+                  {%endif%}
+
+                  {%endfor%}
+                  <!-- KeywordBlock -->
+
+                  
                   
                 </div>
               </div>
             </div>
           </div>
-        </div> -->
+        </div>
       <!-- sentiment chart list -->
+
       <hr>
       <div class="row">
         <div class="span12">
           <ul class="nav-tabs contentTab">
-            <li ><a href="#tab1">Specification</a></li>
-            <li class="active"><a href="#tab2">User Experience</a></li>
-            <li><a href="#tab3">Pros and Cons</a></li>
+            <li ><a href="#tab1" >Specification</a></li>
+            <!-- <li class="active"><a href="#tab2">User Experience</a></li> -->
+            <li class="active"><a href="#tab3">Pros and Cons</a></li>
           </ul>
           <div class="tab-content" style="height:relative">
             <div class="tab-pane" id="tab1">
               <div class="box-collateral box-description">
-                <h2>Details</h2>
+                <h3  style="color:#585858">Details</h3>
                 
                   {%for specs in phoneDetails["specification"]%}
                     {%for key, value in specs.iteritems()%}
@@ -341,7 +358,7 @@
               </div>
             </div>
 
-            <div class="tab-pane active" id="tab2">
+            <!-- <div class="tab-pane active" id="tab2">
               <div class="box-collateral box-description">
                 <h2>Details</h2>
                 {%for keywords in phoneDetails["Keywords"]%}
@@ -354,10 +371,10 @@
                 {%endfor%}
               </div>
               
-            </div>
-            <div class="tab-pane" id="tab3">
+            </div> -->
+            <div class="tab-pane active" id="tab3">
               <div class="box-collateral box-description">
-                <h2>Details</h2>
+                <h3 style="color:#585858">Details</h3>
                 
                   {%for reviews in phoneDetails["Reviews"]%}
                   {%if reviews["Positive"]|length + reviews["Positive"]|length > 0 %}
