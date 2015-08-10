@@ -9,7 +9,6 @@ jQuery(document).ready(function(){
 		},6000);
 	});
 
-
 	// Increase the count of the compare bucket
 	jQuery("#add_to_compare").click(function() {
 		$phoneID = $("div.PhoneObjectID").eq(0).text();
@@ -278,6 +277,7 @@ $(document).scroll(function() {
                 }, 10, 'linear');
   }
 });
+
 //------------ Bottom Compare List PopUp
 
  $(document).ready(function() {
@@ -288,7 +288,7 @@ $(document).scroll(function() {
 
         function populateAutoComplete() {
           $domain = location.host
-            $url =  "http://" + $domain + "/static/autocomplete.json";
+            $url =  "http://" + $domain + "/phone/autocomplete";
             // data = httpGet($url).results;
             // var jsonData = JSON.parse(data);
             // phoneList = jsonData.results
@@ -305,11 +305,12 @@ $(document).scroll(function() {
                 url: $url
                 }).done(function (data) {
                     $('#main-search-query').autocomplete({
-                        source: data.results,
+                        source: data,
                         minLength: 2
                     }).focus(function() {
                 $(this).autocomplete("search", "");
             });
+                  
                 });
             };
 

@@ -2,7 +2,7 @@ from flask import Blueprint, request, render_template, flash, g, session, redire
 from flask import jsonify
 from bson.objectid import ObjectId
 from bson import json_util
-import json
+import json, os
 from app import mongo
 from app import app
 from app.phones.views import *
@@ -12,6 +12,8 @@ import logging
 from app.util import getArgAsList
 from logging.handlers import RotatingFileHandler
 import jinja2
+from whoosh.qparser import QueryParser
+from whoosh.index import open_dir
 import os.path
 
 mod = Blueprint('webpage', __name__, url_prefix='')
@@ -287,13 +289,20 @@ def addBazaarFundaScore(phoneList, keywords, weights):
 
 @mod.route('/search/query', methods=['GET'])
 def search():
+    curr_dir =  os.path.realpath(os.path.dirname(__file__))
+    whoosh_dir = curr_dir + "/index"
+    productNameIndex = open_dir(whoosh_dir)
 
-    
     queryText = getArgAsList(request, 'queryText')
     queryText = queryText[0]
+    query = QueryParser("productname", schema=productNameIndex.schema).parse(queryText)
+    productSearchList = []
+    with productNameIndex.searcher() as searcher:
+        results = searcher.search(query, limit=None)
+        productSearchList = [result["nid"] for result in results]
     
-    text_results = searchQuery(queryText)
-    phoneList =  [getPhoneInfo(phone) for phone in text_results]
+    
+    phoneList =  [getPhoneInfo(phone) for phone in productSearchList]
     sortedPhoneList = addBazaarFundaScore(phoneList, [], [])
     page = getArgAsList(request, 'page')
     app.logger.info(page)

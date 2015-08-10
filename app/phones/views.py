@@ -118,19 +118,20 @@ def getPhoneIdListFromKeywordPreference(keyword):
 @mod.route('/autocomplete', methods=['GET'])
 @jsonResponse
 def autocomplete1():
-	results = {}
-	session["autoComplete"] = None
-	try:
-		if not session["autoComplete"]:
-			raise Exception()
-		results["results"] = session["autoComplete"]
-		return results
-	except:
-		allPhoneNameCursor = mongo.autoCompletePhones.find()             
-		allPhoneNames = [phone["Name"] for phone in allPhoneNameCursor]
-		session["autoComplete"] = allPhoneNames
-		results["results"] = session["autoComplete"]
-	return results
+	allPhoneNameCursor = mongo.autoCompletePhones.find()             
+	return [phone["Name"] for phone in allPhoneNameCursor]
+	# session["autoComplete"] = None
+	# try:
+	# 	if not session["autoComplete"]:
+	# 		raise Exception()
+	# 	results["results"] = session["autoComplete"]
+	# 	return results
+	# except:
+	# 	allPhoneNameCursor = mongo.autoCompletePhones.find()             
+	# 	return [phone["Name"] for phone in allPhoneNameCursor]
+	# 	session["autoComplete"] = allPhoneNames
+	# 	results["results"] = session["autoComplete"]
+	# return results
 
 
 @mod.route('/brand/<brandName>', methods=['GET'])
