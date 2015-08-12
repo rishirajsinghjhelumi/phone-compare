@@ -2,6 +2,9 @@ var modelModelIDMap = {};
 var prefQueue = [];
 
 jQuery(document).ready(function(){
+  $("img").error(function(){
+        $(this).attr('src', '/static/img/No-Image-Available.jpg');
+    });
   
 	jQuery('.skillbar').each(function(){
 		jQuery(this).find('.skillbar-bar').animate({

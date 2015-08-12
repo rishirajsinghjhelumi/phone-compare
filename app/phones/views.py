@@ -81,6 +81,8 @@ def getPhoneInfo(phoneID):
 		
 		
 	except:
+		phone["Keywords"] = []
+		phone["star"] = 1.2
 		pass
 		app.logger.error("Sentiment data not found for phone with ID: ")
   #               app.logger.error(phoneID)

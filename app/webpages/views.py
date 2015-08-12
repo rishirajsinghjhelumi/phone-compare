@@ -300,7 +300,7 @@ def search():
     with productNameIndex.searcher() as searcher:
         results = searcher.search(query, limit=None)
         productSearchList = [result["nid"] for result in results]
-    
+    productSearchList = list(set(productSearchList))
     
     phoneList =  [getPhoneInfo(phone) for phone in productSearchList]
     sortedPhoneList = addBazaarFundaScore(phoneList, [], [])
