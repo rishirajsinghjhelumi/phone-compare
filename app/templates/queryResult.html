@@ -70,21 +70,33 @@
                     <!--<div class="product-tocart"> <a href="shopping-cart.html"><i class="icon-basket"></i></a> </div>-->
                         <div class="product-price aligncenter" style = "padding-bottom:10px">
                             {%if lowestWebsite[0] == "Out of Stock"  %}
-                            <a class="aligncenter"  href="#" style="color: #B40404">{{"Price Not Available"}}</a>
+                            <a class="aligncenter"  href="#" style="color: #F6CECE">{{"Price Not Available"}}</a>
                             {% else %}
                             {%if lowestPrice[0] == 0 %}
-                                <a class="aligncenter"  href="#" style="color: #B40404">{{"Price Not Available"}}</a>
+                                <a class="aligncenter"  href="#" style="color: #F6CECE">{{"Price Not Available"}}</a>
                             {%endif%}
                             <a class="aligncenter"  href="{{lowestWebsiteURL[0]}}">Lowest Price&nbsp;₹&nbsp{{lowestPrice[0]}}</a>
                             {%endif%}
                         </div>
                     <div class="rating-listing rating"> <strong><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a></strong><a><i class="icon-star-empty"></i></a> </div>
                   </div>
-                    <div class="skillbar clearfix " data-percent={{scoreList[i]}}%>
-                    <div class="skillbar-title" style="background: #3b5998; width:22%;"><span style="color: #FFFFFF">{{scoreList[i]}}/100</span></div>
+
+                  <div class="skillbar clearfix " data-percent={{scoreList[i]}}%>
+                  <!-- <div class="skillbar-title" style="background: #3b5998; width:20%"><span></span></div>  -->
+                  <div class="skillbar-bar" style="background: #3b5998;"></div>
+                  {%if scoreList[i] == 0%}
+                  <div class="skill-bar-percent" >N.A</div>
+                  {%else%}
+                  <div class="skill-bar-percent" style="color:Black">{{scoreList[i]}}/100</div>
+                  {%endif%}
+                </div>
+
+                    <!-- <div class="skillbar clearfix " data-percent={{scoreList[i]}}%>
+                    <div class="skillbar-title" style="background: #3b5998; width:0%;"><span style="color: #FFFFFF">{{scoreList[i]}}/100</span></div>
                     <div class="skillbar-bar" style="background: #8b9dc3 ;"></div>
                     <div class="skill-bar-percent"></div>
-                  </div>
+                  </div> -->
+
                     <div class="add-to-links">
                       <ul>
                         <li style = "padding-bottom:10px;"><a href="#" class="small_icon_color" ><i class="icon-shop"></i></a><a class="small_icon_color" data-toggle="modal" onclick="location.href='#';" href="#compare_price{{i}}">Compare Prices</a></li>

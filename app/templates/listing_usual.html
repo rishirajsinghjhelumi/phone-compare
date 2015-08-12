@@ -80,12 +80,18 @@
                         </div>
                     <div class="rating-listing rating"> <strong><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a><a><i class="icon-star-1"></i></a></strong><a><i class="icon-star-empty"></i></a> </div>
                   </div>
-                    <div class="skillbar clearfix " data-percent={{scoreList[i]}}%>
-                    <div itemprop="aggregateRating"
-    itemscope itemtype="http://schema.org/AggregateRating" class="skillbar-title" style="background: #3b5998; width:22%;"><span itemprop="ratingValue" style="color: #FFFFFF" >{{scoreList[i]}}/100</span></div>
-                    <div class="skillbar-bar" style="background: #8b9dc3;"></div>
-                    <div class="skill-bar-percent"></div>
-                  </div>
+
+                  <div class="skillbar clearfix " data-percent={{scoreList[i]}}%>
+                  <!-- <div class="skillbar-title" style="background: #3b5998; width:20%"><span></span></div>  -->
+                  <div class="skillbar-bar" style="background: #3b5998;"></div>
+                  {%if scoreList[i] == 0%}
+                  <div class="skill-bar-percent" >N.A</div>
+                  {%else%}
+                  <div class="skill-bar-percent" style="color:Black">{{scoreList[i]}}/100</div>
+                  {%endif%}
+                </div>
+
+                    
                     <div class="add-to-links">
                       <ul>
                         <li style = "padding-bottom:10px;"><a href="#" class="small_icon_color" ><i class="icon-shop"></i></a>
